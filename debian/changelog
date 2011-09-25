@@ -1,28 +1,5 @@
-marble (4:4.7.1-0ubuntu2) oneiric; urgency=low
+marble (4:4.7.1-0r0) UNRELEASED; urgency=low
 
-  * No-change rebuild so translations aren't stripped from .desktop
-    files anymore.
+  * Initial release.
 
- -- Felix Geyer <debfx-pkg@fobos.de>  Fri, 16 Sep 2011 01:16:33 +0200
-
-marble (4:4.7.1-0ubuntu1) oneiric; urgency=low
-
-  * New upstream release
-
- -- Jonathan Kolberg <bulldog98@kubuntu-de.org>  Fri, 02 Sep 2011 23:41:05 +0200
-
-marble (4:4.7.0-0ubuntu1) oneiric; urgency=low
-
-  * New upstream release 
-    - remove missing private symbols from libmarblewidget12.symbols and
-      add new symbols.
-
- -- Philip Muškovac <yofel@kubuntu.org>  Fri, 22 Jul 2011 23:08:42 +0200
-
-marble (4:4.6.90+repack-0ubuntu1) oneiric; urgency=low
-
-  * New upstrem release candidate
-  * Update packaging for split tarball
-  * Repack upstream source to include missing license copies
-
- -- Philip Muškovac <yofel@kubuntu.org>  Mon, 11 Jul 2011 15:43:02 +0200
+ -- José Manuel Santamaría Lema <panfaust@gmail.com>  Sun, 25 Sep 2011 19:04:36 +0200
