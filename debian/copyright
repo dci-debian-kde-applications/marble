@@ -1,5 +1,8 @@
 Format: http://anonscm.debian.org/viewvc/dep/web/deps/dep5.mdwn?view=markup&pathrev=174
 Source: ftp.kde.org
+Comment: This package was developed for Ubuntu by the Kubuntu Developers and
+ modified to be included in Debian. See below the copyright holders for debian/*
+ files.
 
 Files: *
 Copyight: 2010-2011 Dennis Nienhüser <earthwings@gentoo.org>
