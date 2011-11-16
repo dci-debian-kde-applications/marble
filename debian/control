@@ -11,7 +11,8 @@ Build-Depends: kde-sc-dev-latest (>= 4:4.7.2),
  pkg-config,
  libgps-dev (>= 2.90),
  libx11-dev,
- libqtwebkit-dev
+ libqtwebkit-dev,
+ qtmobility-dev [linux-any]
 Standards-Version: 3.9.2
 Homepage: http://edu.kde.org/
 Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-sc/marble.git

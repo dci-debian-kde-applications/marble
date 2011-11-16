@@ -24,8 +24,13 @@ override_dh_installdirs:
 	$(overridden_command) -plibmarblewidget$(marble_soversion) $(marble_plugin_path)
 	$(overridden_command) --remaining-packages
 
+pkgs_with_install_linux = $(patsubst debian/%.install.linux,%,$(wildcard debian/*.install.linux))
 override_dh_install:
 	$(overridden_command) -Xusr/share/kde4/apps/marble/data/LICENSE.txt
+ifeq ($(DEB_HOST_ARCH_OS),linux)
+	# Also install common files in place of debian/*.install.linux variants
+	dh_install $(foreach p,$(pkgs_with_install_linux),-p$p --ignore=debian/$p.install.linux)
+endif
 
 override_dh_makeshlibs:
 	$(overridden_command) -V -- -c0
