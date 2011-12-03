@@ -1,5 +1,6 @@
-marble (4:4.7.2-0r1) UNRELEASED; urgency=low
+marble (4:4.7.2-0r1) experimental; urgency=low
 
+  [ José Manuel Santamaría Lema ]
   * Initial release. Start from the Ubuntu packaging, thanks!
 
- -- José Manuel Santamaría Lema <panfaust@gmail.com>  Sun, 25 Sep 2011 19:04:36 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 03 Dec 2011 10:45:50 -0300
