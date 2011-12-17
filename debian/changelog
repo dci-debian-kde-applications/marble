@@ -4,6 +4,7 @@ marble (4:4.7.4-0r0) UNRELEASED; urgency=low
   
   [ José Manuel Santamaría Lema ]
   * Bump kde-sc-dev-latest build dependency to 4.7.4.
+  * Confirm symbols files on more architectures with 4.7.2 build logs.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 08 Dec 2011 00:05:39 +0100
 

@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.7.1 amd64
+# SymbolsHelper-Confirmed: 4:4.7.2 amd64 armel i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc
 libmarblewidget.so.12 libmarblewidget12 #MINVER#
 * Build-Depends-Package: libmarble-dev
  _ZGVZN6Marble11MarbleDebug10nullDeviceEvE6device@Base 4:4.7.1
@@ -840,6 +840,8 @@ libmarblewidget.so.12 libmarblewidget12 #MINVER#
  _ZN6Marble14RoutingProfile7setNameERK7QString@Base 4:4.7.1
  _ZN6Marble14RoutingProfileC1ERK7QString@Base 4:4.7.1
  _ZN6Marble14RoutingProfileC2ERK7QString@Base 4:4.7.1
+ (arch=kfreebsd-amd64 kfreebsd-i386)_ZN6Marble14RoutingProfileD1Ev@Base 4:4.7.2
+ (arch=kfreebsd-amd64 kfreebsd-i386)_ZN6Marble14RoutingProfileD2Ev@Base 4:4.7.2
  _ZN6Marble14TinyWebBrowser11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.7.1
  _ZN6Marble14TinyWebBrowser11qt_metacastEPKc@Base 4:4.7.1
  _ZN6Marble14TinyWebBrowser12createWindowEN8QWebPage13WebWindowTypeE@Base 4:4.7.1
@@ -1021,6 +1023,8 @@ libmarblewidget.so.12 libmarblewidget12 #MINVER#
  _ZN6Marble15RoutingWaypointC1Ev@Base 4:4.7.1
  _ZN6Marble15RoutingWaypointC2ERKNS_12RoutingPointENS0_12JunctionTypeERK7QStringS7_iS7_@Base 4:4.7.1
  _ZN6Marble15RoutingWaypointC2Ev@Base 4:4.7.1
+ (arch=kfreebsd-amd64 kfreebsd-i386)_ZN6Marble15RoutingWaypointD1Ev@Base 4:4.7.2
+ (arch=kfreebsd-amd64 kfreebsd-i386)_ZN6Marble15RoutingWaypointD2Ev@Base 4:4.7.2
  _ZN6Marble16AdjustNavigation11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.7.1
  _ZN6Marble16AdjustNavigation11qt_metacastEPKc@Base 4:4.7.1
  _ZN6Marble16AdjustNavigation11setAutoZoomEb@Base 4:4.7.1
@@ -1558,6 +1562,8 @@ libmarblewidget.so.12 libmarblewidget12 #MINVER#
  _ZN6Marble18RoutingInstruction9successorEv@Base 4:4.7.1
  _ZN6Marble18RoutingInstructionC1ERKNS_15RoutingWaypointE@Base 4:4.7.1
  _ZN6Marble18RoutingInstructionC2ERKNS_15RoutingWaypointE@Base 4:4.7.1
+ (arch=kfreebsd-amd64 kfreebsd-i386)_ZN6Marble18RoutingInstructionD1Ev@Base 4:4.7.2
+ (arch=kfreebsd-amd64 kfreebsd-i386)_ZN6Marble18RoutingInstructionD2Ev@Base 4:4.7.2
  _ZN6Marble18ScreenGraphicsItem11eventFilterEP7QObjectP6QEvent@Base 4:4.7.1
  _ZN6Marble18ScreenGraphicsItem11setPositionERK7QPointF@Base 4:4.7.1
  _ZN6Marble18ScreenGraphicsItem14changeViewportEPNS_14ViewportParamsE@Base 4:4.7.1
@@ -2092,6 +2098,8 @@ libmarblewidget.so.12 libmarblewidget12 #MINVER#
  _ZN6Marble5Route15addRouteSegmentERKNS_12RouteSegmentE@Base 4:4.7.1
  _ZN6Marble5RouteC1Ev@Base 4:4.7.1
  _ZN6Marble5RouteC2Ev@Base 4:4.7.1
+ (arch=kfreebsd-amd64 kfreebsd-i386)_ZN6Marble5RouteD1Ev@Base 4:4.7.2
+ (arch=kfreebsd-amd64 kfreebsd-i386)_ZN6Marble5RouteD2Ev@Base 4:4.7.2
  _ZN6Marble6Planet10planetListEv@Base 4:4.7.1
  _ZN6Marble6Planet10setEpsilonEd@Base 4:4.7.1
  _ZN6Marble6Planet10setTheta_0Ed@Base 4:4.7.1
@@ -2157,6 +2165,8 @@ libmarblewidget.so.12 libmarblewidget12 #MINVER#
  _ZN6Marble8Maneuver18setInstructionTextERK7QString@Base 4:4.7.1
  _ZN6Marble8ManeuverC1Ev@Base 4:4.7.1
  _ZN6Marble8ManeuverC2Ev@Base 4:4.7.1
+ (arch=kfreebsd-amd64 kfreebsd-i386)_ZN6Marble8ManeuverD1Ev@Base 4:4.7.2
+ (arch=kfreebsd-amd64 kfreebsd-i386)_ZN6Marble8ManeuverD2Ev@Base 4:4.7.2
  _ZN6Marble9GeoParser11activeModelEv@Base 4:4.7.1
  _ZN6Marble9GeoParser12raiseWarningERK7QString@Base 4:4.7.1
  _ZN6Marble9GeoParser12releaseModelEv@Base 4:4.7.1
