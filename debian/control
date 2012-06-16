@@ -3,7 +3,7 @@ Section: kde
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: José Manuel Santamaría Lema <panfaust@gmail.com>
-Build-Depends: kde-sc-dev-latest (>= 4:4.7.4),
+Build-Depends: kde-sc-dev-latest (>= 4:4.8.4),
  cmake,
  debhelper (>= 7.3.16),
  pkg-kde-tools (>= 0.12),
@@ -53,7 +53,7 @@ Description: plugins for Marble
  .
  This package is part of the KDE education module.
 
-Package: libmarblewidget12
+Package: libmarblewidget13
 Architecture: any
 Section: libs
 Depends: ${shlibs:Depends}, ${misc:Depends}, marble-data (>= ${source:Version})
