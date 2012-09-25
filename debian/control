@@ -23,6 +23,7 @@ Architecture: any
 Section: misc
 Depends: ${shlibs:Depends}, ${misc:Depends}, marble-data (>= ${source:Version}),
  marble-plugins (= ${binary:Version})
+Suggests: libqt4-sql-sqlite, gosmore, monav-routing-daemon, routino
 Description: globe and map widget
  Marble is a generic geographical map widget and framework for KDE
  applications. The Marble widget shows the earth as a sphere but does not

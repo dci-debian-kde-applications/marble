@@ -5,6 +5,8 @@ marble (4:4.8.4-3) UNRELEASED; urgency=low
     accordingly; patch fix_qmake_fallback.diff. (Closes: #688755)
   * Do not install marble-touch and its qtcomponents, since they require
     libraries not available in Debian.
+  * Add in marble suggests for the various routing services: libqt4-sql-sqlite,
+    gosmore, monav-routing-daemon, routino. (Closes: #677058)
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 25 Sep 2012 16:34:27 +0200
 
