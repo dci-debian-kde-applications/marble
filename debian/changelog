@@ -1,6 +1,6 @@
-marble (4:4.8.4-3) UNRELEASED; urgency=low
+marble (4:4.8.4-3) unstable; urgency=low
 
-  [ Pino Toscano ]
+  * Team upload.
   * Fix the detection of the QML imports directory, and move the QML stuff
     accordingly; patch fix_qmake_fallback.diff. (Closes: #688755)
   * Do not install marble-touch and its qtcomponents, since they require
@@ -8,7 +8,7 @@ marble (4:4.8.4-3) UNRELEASED; urgency=low
   * Add in marble suggests for the various routing services: libqt4-sql-sqlite,
     gosmore, monav-routing-daemon, routino. (Closes: #677058)
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 25 Sep 2012 16:34:27 +0200
+ -- Pino Toscano <pino@debian.org>  Tue, 25 Sep 2012 17:30:22 +0200
 
 marble (4:4.8.4-2) unstable; urgency=low
 
