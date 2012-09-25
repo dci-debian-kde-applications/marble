@@ -1,5 +1,8 @@
 marble (4:4.8.4-3) UNRELEASED; urgency=low
 
+  [ Pino Toscano ]
+  * Fix the detection of the QML imports directory, and move the QML stuff
+    accordingly; patch fix_qmake_fallback.diff. (Closes: #688755)
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 25 Sep 2012 16:34:27 +0200
 
