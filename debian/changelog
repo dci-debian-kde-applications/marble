@@ -1,3 +1,12 @@
+marble (4:4.10.2-1) UNRELEASED; urgency=low
+
+  * New upstream release
+    -  Libmarblewidget changed SONAME => adapt
+  * Update uploaders
+  * Update install files
+
+ -- Sune Vuorela <sune@debian.org>  Wed, 03 Apr 2013 19:39:10 +0000
+
 marble (4:4.8.4-3) unstable; urgency=low
 
   * Team upload.
