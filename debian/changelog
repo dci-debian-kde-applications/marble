@@ -4,6 +4,8 @@ marble (4:4.10.2-1) experimental; urgency=low
     -  Libmarblewidget changed SONAME => adapt
   * Update uploaders
   * Update install files
+  * Add shared-mime-info to build-dep. We apparantly need that as well.
+    Sneaky added by upstream.
 
  -- Sune Vuorela <sune@debian.org>  Wed, 03 Apr 2013 19:39:10 +0000
 
