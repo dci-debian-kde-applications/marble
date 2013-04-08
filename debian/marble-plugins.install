@@ -48,6 +48,7 @@ usr/lib/kde4/plugins/marble/15/RouteSimulationPositionProviderPlugin.so
 usr/lib/kde4/plugins/marble/15/RoutingPlugin.so
 usr/lib/kde4/plugins/marble/15/RoutinoPlugin.so
 usr/lib/kde4/plugins/marble/15/SatellitesPlugin.so
+usr/lib/kde4/plugins/marble/15/ShpPlugin.so
 usr/lib/kde4/plugins/marble/15/Speedometer.so
 usr/lib/kde4/plugins/marble/15/StarsPlugin.so
 usr/lib/kde4/plugins/marble/15/SunPlugin.so

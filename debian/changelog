@@ -2,6 +2,8 @@ marble (4:4.10.2-2) UNRELEASED; urgency=low
 
   [ Pino Toscano ]
   * Bump the kde-sc-dev-latest and kdelibs5-dev build dependencies to 4.10.
+  * Add libshp-dev build dependency for shapefile support.
+  * Update install files.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 08 Apr 2013 12:50:00 +0200
 
