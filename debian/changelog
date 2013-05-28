@@ -2,6 +2,7 @@ marble (4:4.10.3-1) UNRELEASED; urgency=low
 
   * Add watch file.
   * New upstream release.
+  * Avoid deletion of source .orig files.
 
  -- Maximiliano Curia <maxy@debian.org>  Tue, 28 May 2013 15:03:12 +0200
 

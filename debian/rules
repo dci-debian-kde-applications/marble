@@ -44,3 +44,6 @@ override_dh_strip:
 
 override_dh_auto_test:
 	true # test suite is kind of broken. needs the package installed
+
+override_dh_clean:
+	$(overridden_command) -Xdata/mwdbii/PISLAND.PNT.orig -Xdata/mwdbii/PLAKE.PNT.orig
