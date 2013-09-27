@@ -1,10 +1,16 @@
-marble (4:4.11.1-0r0) UNRELEASED; urgency=low
+marble (4:4.11.1-0r1) UNRELEASED; urgency=low
 
   * New upstream release.
+
+  [ Maximiliano Curia ]
   * Bump libmarblewidget package soname.
   * Update install files.
   * Update not-installed.
   * Add symbols for libmarblewidget16.
+
+  [ Pino Toscano ]
+  * Add the libqextserialport-dev build dependency, to bring back serial input
+    in APRS plugin.
 
  -- Maximiliano Curia <maxy@debian.org>  Tue, 03 Sep 2013 20:26:46 +0200
 
