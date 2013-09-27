@@ -88,4 +88,3 @@ Replaces: kdeedu-dbg (<< 4:4.6.80)
 Description: debugging symbols for the KDE education module
  This package contains debugging files used to investigate problems with
  binaries included in the KDE education module.
-

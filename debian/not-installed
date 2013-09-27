@@ -1,8 +1,11 @@
-# extra license file
-./usr/share/kde4/apps/marble/data/LICENSE.txt
-
+# marble-qt
+./usr/bin/marble-qt
 # marble-touch
 ./usr/bin/marble-touch
+# extra license files
+./usr/share/kde4/apps/marble/data/LICENSE.txt
+./usr/share/kde4/apps/marble/data/licenses/lgpl2.txt
+# qtcomponents qml files
 ./usr/lib/*/qt4/imports/org/kde/edu/marble/qtcomponents/FileDialog.qml
 ./usr/lib/*/qt4/imports/org/kde/edu/marble/qtcomponents/FileOpenDialog.qml
 ./usr/lib/*/qt4/imports/org/kde/edu/marble/qtcomponents/FileSaveDialog.qml
