@@ -1,4 +1,4 @@
-marble (4:4.11.1-0r1) UNRELEASED; urgency=low
+marble (4:4.11.2-1) UNRELEASED; urgency=low
 
   * New upstream release.
 
@@ -12,7 +12,7 @@ marble (4:4.11.1-0r1) UNRELEASED; urgency=low
   * Add the libqextserialport-dev build dependency, to bring back serial input
     in APRS plugin.
 
- -- Maximiliano Curia <maxy@debian.org>  Tue, 03 Sep 2013 20:26:46 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 07 Oct 2013 16:01:57 +0200
 
 marble (4:4.10.5-1) unstable; urgency=low
 
