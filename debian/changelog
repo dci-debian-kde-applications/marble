@@ -7,6 +7,7 @@ marble (4:4.11.2-1) experimental; urgency=low
   * Update install files.
   * Update not-installed.
   * Add symbols for libmarblewidget16.
+  * Add libquazip-dev build-dependency.
 
   [ Pino Toscano ]
   * Add the libqextserialport-dev build dependency, to bring back serial input
