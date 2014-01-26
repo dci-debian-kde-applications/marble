@@ -18,7 +18,7 @@ Build-Depends: kde-sc-dev-latest (>= 4:4.11),
  qtmobility-dev [linux-any],
  libquazip-dev,
  shared-mime-info
-Standards-Version: 3.9.4
+Standards-Version: 3.9.5
 Homepage: http://edu.kde.org/
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/marble.git
 Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/marble.git
