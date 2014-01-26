@@ -1,4 +1,8 @@
-marble (4:4.11.3-2) UNRELEASED; urgency=medium
+marble (4:4.11.3+dfsg-1) UNRELEASED; urgency=medium
+
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Repack the source without docs/marble-intro.pdf, we lack the sources for
+    it (Closes: #726573).
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 25 Jan 2014 20:57:01 -0300
 
