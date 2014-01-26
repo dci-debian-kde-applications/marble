@@ -5,6 +5,7 @@ marble (4:4.11.3+dfsg-1) UNRELEASED; urgency=medium
     it (Closes: #726573).
   * Update symbols files with buildd's logs.
   * Bump Standards-Version to 3.9.5, no changes required.
+  * Extend packages descriptions.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 25 Jan 2014 20:57:01 -0300
 
