@@ -1,4 +1,4 @@
-marble (4:4.11.5+dfsg-1) UNRELEASED; urgency=low
+marble (4:4.11.5+dfsg-1) unstable; urgency=low
 
   * New upstream release.
   * Enable build failures on missing symbols.
@@ -6,7 +6,7 @@ marble (4:4.11.5+dfsg-1) UNRELEASED; urgency=low
   * Add abi-compliance-checker info.
   * New patch: do_not_install_private_headers
 
- -- Maximiliano Curia <maxy@debian.org>  Wed, 29 Jan 2014 14:43:41 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 29 Jan 2014 15:56:08 +0100
 
 marble (4:4.11.3+dfsg-1) unstable; urgency=medium
 
