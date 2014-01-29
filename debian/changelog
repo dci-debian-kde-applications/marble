@@ -1,6 +1,7 @@
 marble (4:4.11.5+dfsg-1) UNRELEASED; urgency=low
 
   * New upstream release.
+  * Enable build failures on missing symbols.
 
  -- Maximiliano Curia <maxy@debian.org>  Wed, 29 Jan 2014 14:43:41 +0100
 

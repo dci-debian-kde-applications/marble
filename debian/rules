@@ -33,7 +33,7 @@ ifeq ($(DEB_HOST_ARCH_OS),linux)
 endif
 
 override_dh_makeshlibs:
-	$(overridden_command) -V -- -c0
+	$(overridden_command) -V
 
 override_dh_shlibdeps:
 	$(overridden_command) $(patsubst %,-p%,$(filter lib%,$(shell dh_listpackages))) -- -xkde-runtime
