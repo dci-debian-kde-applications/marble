@@ -1,0 +1,20 @@
+Index: marble/src/lib/CMakeLists.txt
+===================================================================
+--- marble.orig/src/lib/CMakeLists.txt	2014-01-29 14:54:10.441709347 +0100
++++ marble/src/lib/CMakeLists.txt	2014-01-29 15:13:47.099334823 +0100
+@@ -383,7 +383,6 @@
+     geodata/data/GeoDataFeature.h
+     geodata/data/GeoDataFolder.h
+     geodata/data/GeoDataGeometry.h
+-    geodata/data/GeoDataGroundOverlay.h
+     geodata/data/GeoDataHotSpot.h
+     geodata/data/GeoDataIconStyle.h
+     geodata/data/GeoDataItemIcon.h
+@@ -432,7 +431,6 @@
+     RoutingRunner.h
+     SearchRunnerPlugin.h
+     ReverseGeocodingRunnerPlugin.h
+-    RoutingRunnerPlugin.h
+     ParseRunnerPlugin.h
+     LayerInterface.h
+     PluginAboutDialog.h
