@@ -3,6 +3,7 @@ marble (4:4.12.2-1) UNRELEASED; urgency=medium
   * New upstream release.
   * Refresh patches.
   * Update: do_not_install_private_headers.
+  * Bump libmarblewidget so version.
 
  -- Maximiliano Curia <maxy@debian.org>  Wed, 05 Feb 2014 00:16:11 +0100
 

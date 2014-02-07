@@ -71,7 +71,7 @@ Description: plugins for Marble
  .
  This package is part of the KDE education module.
 
-Package: libmarblewidget16
+Package: libmarblewidget17
 Architecture: any
 Section: libs
 Depends: marble-data (>= ${source:Version}), ${misc:Depends}, ${shlibs:Depends}
@@ -89,9 +89,9 @@ Description: Marble globe widget library
 Package: libmarble-dev
 Architecture: any
 Section: libdevel
-Depends: libmarblewidget16 (= ${binary:Version}),
+Depends: libmarblewidget17 (= ${binary:Version}),
          ${misc:Depends},
-         ${sameVersionDep:libqt4-dev:libmarblewidget16},
+         ${sameVersionDep:libqt4-dev:libmarblewidget17},
          ${shlibs:Depends}
 Description: development files for the Marble globe widget library
  Marble is a generic geographical map widget and framework for KDE

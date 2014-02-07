@@ -2,17 +2,12 @@
 <descriptor>
 
 <version>
-    4.11.3
+    4.12.2
 </version>
 
 <headers>
     /usr/include/marble
 </headers>
-
-<skip_headers>
-    /usr/include/marble/GeoDataGroundOverlay.h
-    /usr/include/marble/RoutingRunnerPlugin.h
-</skip_headers>
 
 <libs>
     /usr/lib/libmarblewidget.so
