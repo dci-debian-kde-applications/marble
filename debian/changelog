@@ -1,4 +1,4 @@
-marble (4:4.12.2-1) UNRELEASED; urgency=medium
+marble (4:4.12.2-1) experimental; urgency=medium
 
   * New upstream release.
   * Refresh patches.
@@ -6,7 +6,7 @@ marble (4:4.12.2-1) UNRELEASED; urgency=medium
   * Bump libmarblewidget so version.
   * Bump kde-sc-dev-latest build dependency.
 
- -- Maximiliano Curia <maxy@debian.org>  Wed, 05 Feb 2014 00:16:11 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 10 Feb 2014 11:32:24 +0100
 
 marble (4:4.11.5+dfsg-1) unstable; urgency=low
 
