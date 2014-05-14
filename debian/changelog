@@ -1,8 +1,14 @@
+marble (4:4.12.4-2) unstable; urgency=medium
+
+  * Upload to unstable
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 14 May 2014 09:35:46 +0200
+
 marble (4:4.12.4-1) experimental; urgency=medium
 
   * New upstream release.
 
- -- Maximiliano Curia <maxy@debian.org>  Wed, 14 May 2014 09:35:10 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 14 May 2014 09:35:32 +0200
 
 marble (4:4.12.3-1) experimental; urgency=medium
 
