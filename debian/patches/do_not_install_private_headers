@@ -1,8 +1,8 @@
 Index: marble/src/lib/marble/CMakeLists.txt
 ===================================================================
---- marble.orig/src/lib/marble/CMakeLists.txt	2014-02-07 16:44:30.936152397 +0100
-+++ marble/src/lib/marble/CMakeLists.txt	2014-02-07 18:54:47.352802174 +0100
-@@ -396,7 +396,6 @@
+--- marble.orig/src/lib/marble/CMakeLists.txt	2014-05-21 17:32:16.267090304 +0200
++++ marble/src/lib/marble/CMakeLists.txt	2014-05-21 17:32:16.263090464 +0200
+@@ -417,7 +417,6 @@
      MarbleAboutDialog.h
      MarbleWidgetInputHandler.h
      MarbleWidgetPopupMenu.h
@@ -10,7 +10,7 @@ Index: marble/src/lib/marble/CMakeLists.txt
      TileCoordsPyramid.h
      TileLevelRangeWidget.h
      TinyWebBrowser.h
-@@ -426,7 +425,6 @@
+@@ -447,7 +446,6 @@
      geodata/data/GeoDataFeature.h
      geodata/data/GeoDataFolder.h
      geodata/data/GeoDataGeometry.h
@@ -18,7 +18,7 @@ Index: marble/src/lib/marble/CMakeLists.txt
      geodata/data/GeoDataHotSpot.h
      geodata/data/GeoDataIconStyle.h
      geodata/data/GeoDataItemIcon.h
-@@ -478,7 +476,6 @@
+@@ -501,7 +499,6 @@
      RoutingRunner.h
      SearchRunnerPlugin.h
      ReverseGeocodingRunnerPlugin.h
