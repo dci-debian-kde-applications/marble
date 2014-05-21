@@ -40,6 +40,53 @@ Description: globe and map widget
  .
  This package is part of the KDE education module.
 
+Package: marble-mobile
+Architecture: any
+Section: misc
+Depends: ${shlibs:Depends}, ${misc:Depends}, marble-data (>= ${source:Version}),
+ marble-plugins (= ${binary:Version})
+Suggests: libqt4-sql-sqlite, monav-routing-daemon, routino, gosmore
+Breaks: marble (<< 4:4.13)
+Replaces: marble (<< 4:4.13)
+Description: globe and map widget for mobile form factors
+ Marble is a generic geographical map widget and framework for KDE
+ applications. The Marble widget shows the earth as a sphere but does not
+ require hardware acceleration.  A minimal set of geographical data is
+ included, so it can be used without an internet connection.
+ .
+ This package is part of the KDE education module.
+
+Package: marble-qt
+Architecture: any
+Section: misc
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Breaks: marble (<< 4:4.13)
+Replaces: marble (<< 4:4.13)
+Description: globe and map widget (no KDE dependencies)
+ Marble is a generic geographical map widget and framework for KDE
+ applications. The Marble widget shows the earth as a sphere but does not
+ require hardware acceleration.  A minimal set of geographical data is
+ included, so it can be used without an internet connection.
+ .
+ This package is part of the KDE education module.
+
+Package: marble-touch
+Architecture: any
+Section: misc
+Depends: ${shlibs:Depends}, ${misc:Depends}, marble-data (>= ${source:Version}),
+ marble-plugins (= ${binary:Version})
+Breaks: marble (<< 4:4.13)
+Replaces: marble (<< 4:4.13)
+Description: globe and map widget for tablets
+ Marble is a generic geographical map widget and framework for KDE
+ applications. The Marble widget shows the earth as a sphere but does not
+ require hardware acceleration.  A minimal set of geographical data is
+ included, so it can be used without an internet connection.
+ .
+ This versions of marble is designed for use on tablet computers.
+ .
+ This package is part of the KDE education module.
+
 Package: marble-data
 Architecture: all
 Section: misc
@@ -72,7 +119,7 @@ Description: plugins for Marble
  .
  This package is part of the KDE education module.
 
-Package: libmarblewidget17
+Package: libmarblewidget18
 Architecture: any
 Section: libs
 Depends: marble-data (>= ${source:Version}), ${misc:Depends}, ${shlibs:Depends}
@@ -87,12 +134,27 @@ Description: Marble globe widget library
  .
  This package is part of the KDE education module.
 
+Package: libastro1
+Architecture: any
+Section: libs
+Depends: ${shlibs:Depends}, ${misc:Depends}, marble-data (>= ${source:Version})
+Description: Marble astronomy library
+ Marble is a generic geographical map widget and framework for KDE
+ applications. The Marble widget shows the earth as a sphere but does not
+ require hardware acceleration.  A minimal set of geographical data is
+ included, so it can be used without an internet connection.
+ .
+ This package contains shared libraries for astronomy support in marble.
+ .
+ This package is part of the KDE education module.
+
 Package: libmarble-dev
 Architecture: any
 Section: libdevel
-Depends: libmarblewidget17 (= ${binary:Version}),
+Depends: libmarblewidget18 (= ${binary:Version}),
+         libastro-dev (= ${binary:Version}),
          ${misc:Depends},
-         ${sameVersionDep:libqt4-dev:libmarblewidget17},
+         ${sameVersionDep:libqt4-dev:libmarblewidget18},
          ${shlibs:Depends}
 Description: development files for the Marble globe widget library
  Marble is a generic geographical map widget and framework for KDE
@@ -102,6 +164,21 @@ Description: development files for the Marble globe widget library
  .
  This package contains development files for building software that uses the
  Marble globe widget library.
+ .
+ This package is part of the KDE education module.
+
+Package: libastro-dev
+Architecture: any
+Section: libdevel
+Depends: ${shlibs:Depends}, ${misc:Depends}, libastro1 (= ${binary:Version})
+Description: development files for the Marble astrononmy library
+ Marble is a generic geographical map widget and framework for KDE
+ applications. The Marble widget shows the earth as a sphere but does not
+ require hardware acceleration.  A minimal set of geographical data is
+ included, so it can be used without an internet connection.
+ .
+ This package contains development files for building software that uses the
+ Marble astronomy library
  .
  This package is part of the KDE education module.
 

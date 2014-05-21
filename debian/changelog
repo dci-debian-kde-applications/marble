@@ -3,6 +3,10 @@ marble (4:4.13.1-1) UNRELEASED; urgency=medium
   * New upstream release.
   * Update build-dependencies.
   * Update symbols files with 4:4.12.4-2 build logs.
+  * Split marble, new bin:marble-touch.
+  * Split marble, new bin:marble-qt.
+  * New library package, libastro1, and -dev.
+  * Update libmarblewidget soversion to 18.
 
  -- Maximiliano Curia <maxy@debian.org>  Wed, 21 May 2014 10:54:02 +0200
 
