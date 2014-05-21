@@ -8,6 +8,7 @@ marble (4:4.13.1-1) UNRELEASED; urgency=medium
   * New library package, libastro1, and -dev.
   * Update libmarblewidget soversion to 18.
   * Refresh patches.
+  * Update symbols files.
 
  -- Maximiliano Curia <maxy@debian.org>  Wed, 21 May 2014 10:54:02 +0200
 
