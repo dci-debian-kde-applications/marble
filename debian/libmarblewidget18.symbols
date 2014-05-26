@@ -752,9 +752,9 @@ libmarblewidget.so.18 libmarblewidget18 #MINVER#
  _ZN6Marble12SearchRunner8setModelEPKNS_11MarbleModelE@Base 4:4.10.80
  _ZN6Marble12SearchRunnerC1EP7QObject@Base 4:4.10.80
  _ZN6Marble12SearchRunnerC2EP7QObject@Base 4:4.10.80
- (optional=gccinternal|arch=!amd64)_ZN6Marble12SearchRunnerD0Ev@Base 4:4.10.80
- (optional=gccinternal|arch=!amd64)_ZN6Marble12SearchRunnerD1Ev@Base 4:4.10.80
- (optional=gccinternal|arch=!amd64)_ZN6Marble12SearchRunnerD2Ev@Base 4:4.10.80
+ (optional=gccinternal)_ZN6Marble12SearchRunnerD0Ev@Base 4:4.10.80
+ (optional=gccinternal)_ZN6Marble12SearchRunnerD1Ev@Base 4:4.10.80
+ (optional=gccinternal)_ZN6Marble12SearchRunnerD2Ev@Base 4:4.10.80
  _ZN6Marble12SearchWidget11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.10.80
  _ZN6Marble12SearchWidget11qt_metacastEPKc@Base 4:4.10.80
  _ZN6Marble12SearchWidget15setMarbleWidgetEPNS_12MarbleWidgetE@Base 4:4.10.80
@@ -963,9 +963,9 @@ libmarblewidget.so.18 libmarblewidget18 #MINVER#
  _ZN6Marble13ParsingRunner16staticMetaObjectE@Base 4:4.10.80
  _ZN6Marble13ParsingRunnerC1EP7QObject@Base 4:4.10.80
  _ZN6Marble13ParsingRunnerC2EP7QObject@Base 4:4.10.80
- (optional=gccinternal|arch=!amd64)_ZN6Marble13ParsingRunnerD0Ev@Base 4:4.10.80
- (optional=gccinternal|arch=!amd64)_ZN6Marble13ParsingRunnerD1Ev@Base 4:4.10.80
- (optional=gccinternal|arch=!amd64)_ZN6Marble13ParsingRunnerD2Ev@Base 4:4.10.80
+ (optional=gccinternal)_ZN6Marble13ParsingRunnerD0Ev@Base 4:4.10.80
+ (optional=gccinternal)_ZN6Marble13ParsingRunnerD1Ev@Base 4:4.10.80
+ (optional=gccinternal)_ZN6Marble13ParsingRunnerD2Ev@Base 4:4.10.80
  _ZN6Marble13PluginManager11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.9.90
  _ZN6Marble13PluginManager11qt_metacastEPKc@Base 4:4.9.90
  _ZN6Marble13PluginManager15addRenderPluginEPKNS_12RenderPluginE@Base 4:4.11.80
@@ -993,9 +993,9 @@ libmarblewidget.so.18 libmarblewidget18 #MINVER#
  _ZN6Marble13RoutingRunner8setModelEPKNS_11MarbleModelE@Base 4:4.10.80
  _ZN6Marble13RoutingRunnerC1EP7QObject@Base 4:4.10.80
  _ZN6Marble13RoutingRunnerC2EP7QObject@Base 4:4.10.80
- (optional=gccinternal|arch=!amd64)_ZN6Marble13RoutingRunnerD0Ev@Base 4:4.10.80
- (optional=gccinternal|arch=!amd64)_ZN6Marble13RoutingRunnerD1Ev@Base 4:4.10.80
- (optional=gccinternal|arch=!amd64)_ZN6Marble13RoutingRunnerD2Ev@Base 4:4.10.80
+ (optional=gccinternal)_ZN6Marble13RoutingRunnerD0Ev@Base 4:4.10.80
+ (optional=gccinternal)_ZN6Marble13RoutingRunnerD1Ev@Base 4:4.10.80
+ (optional=gccinternal)_ZN6Marble13RoutingRunnerD2Ev@Base 4:4.10.80
  _ZN6Marble13RoutingWidget11eventFilterEP7QObjectP6QEvent@Base 4:4.10.90
  _ZN6Marble13RoutingWidget11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.9.90
  _ZN6Marble13RoutingWidget11qt_metacastEPKc@Base 4:4.9.90
@@ -2707,9 +2707,9 @@ libmarblewidget.so.18 libmarblewidget18 #MINVER#
  _ZN6Marble20GeoDataTimePrimitiveD1Ev@Base 4:4.9.90
  _ZN6Marble20GeoDataTimePrimitiveD2Ev@Base 4:4.9.90
  _ZN6Marble20GeoDataTimePrimitiveaSERKS0_@Base 4:4.9.90
- (optional=gccinternal|arch=!amd64)_ZN6Marble20GeoDataTourPrimitiveD0Ev@Base 4:4.10.80
- (optional=gccinternal|arch=!amd64)_ZN6Marble20GeoDataTourPrimitiveD1Ev@Base 4:4.10.80
- (optional=gccinternal|arch=!amd64)_ZN6Marble20GeoDataTourPrimitiveD2Ev@Base 4:4.10.80
+ (optional=gccinternal)_ZN6Marble20GeoDataTourPrimitiveD0Ev@Base 4:4.10.80
+ (optional=gccinternal)_ZN6Marble20GeoDataTourPrimitiveD1Ev@Base 4:4.10.80
+ (optional=gccinternal)_ZN6Marble20GeoDataTourPrimitiveD2Ev@Base 4:4.10.80
  _ZN6Marble20GeoPhotoGraphicsItem12setPhotoFileERK7QString@Base 4:4.9.90
  _ZN6Marble20GeoPhotoGraphicsItem5paintEPNS_10GeoPainterEPKNS_14ViewportParamsE@Base 4:4.9.90
  _ZN6Marble20GeoPhotoGraphicsItem8setPhotoERK6QImage@Base 4:4.9.90
@@ -3027,9 +3027,9 @@ libmarblewidget.so.18 libmarblewidget18 #MINVER#
  _ZN6Marble22ReverseGeocodingRunner8setModelEPKNS_11MarbleModelE@Base 4:4.10.80
  _ZN6Marble22ReverseGeocodingRunnerC1EP7QObject@Base 4:4.10.80
  _ZN6Marble22ReverseGeocodingRunnerC2EP7QObject@Base 4:4.10.80
- (optional=gccinternal|arch=!amd64)_ZN6Marble22ReverseGeocodingRunnerD0Ev@Base 4:4.10.80
- (optional=gccinternal|arch=!amd64)_ZN6Marble22ReverseGeocodingRunnerD1Ev@Base 4:4.10.80
- (optional=gccinternal|arch=!amd64)_ZN6Marble22ReverseGeocodingRunnerD2Ev@Base 4:4.10.80
+ (optional=gccinternal)_ZN6Marble22ReverseGeocodingRunnerD0Ev@Base 4:4.10.80
+ (optional=gccinternal)_ZN6Marble22ReverseGeocodingRunnerD1Ev@Base 4:4.10.80
+ (optional=gccinternal)_ZN6Marble22ReverseGeocodingRunnerD2Ev@Base 4:4.10.80
  _ZN6Marble23AbstractDataPluginModel10removeItemEP7QObject@Base 4:4.9.90
  _ZN6Marble23AbstractDataPluginModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.9.90
  _ZN6Marble23AbstractDataPluginModel11qt_metacastEPKc@Base 4:4.9.90
@@ -5717,7 +5717,7 @@ libmarblewidget.so.18 libmarblewidget18 #MINVER#
  (c++)"non-virtual thunk to Marble::GeoDataTimeStamp::~GeoDataTimeStamp()@Base" 4:4.9.90
  (c++)"non-virtual thunk to Marble::GeoDataTour::~GeoDataTour()@Base" 4:4.10.80
  (c++)"non-virtual thunk to Marble::GeoDataTourControl::~GeoDataTourControl()@Base" 4:4.10.80
- (optional=gccinternal|arch=!amd64|c++)"non-virtual thunk to Marble::GeoDataTourPrimitive::~GeoDataTourPrimitive()@Base" 4:4.10.80
+ (optional=gccinternal|c++)"non-virtual thunk to Marble::GeoDataTourPrimitive::~GeoDataTourPrimitive()@Base" 4:4.10.80
  (c++)"non-virtual thunk to Marble::GeoDataTrack::pack(QDataStream&) const@Base" 4:4.9.90
  (c++)"non-virtual thunk to Marble::GeoDataTrack::unpack(QDataStream&)@Base" 4:4.9.90
  (c++)"non-virtual thunk to Marble::GeoDataTrack::~GeoDataTrack()@Base" 4:4.9.90
