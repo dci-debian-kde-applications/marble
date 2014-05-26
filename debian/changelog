@@ -1,4 +1,4 @@
-marble (4:4.13.1-1~) UNRELEASED; urgency=medium
+marble (4:4.13.1-1) experimental; urgency=medium
 
   * New upstream release.
   * Update build-dependencies.
@@ -10,7 +10,7 @@ marble (4:4.13.1-1~) UNRELEASED; urgency=medium
   * Refresh patches.
   * Update symbols files.
 
- -- Maximiliano Curia <maxy@debian.org>  Wed, 21 May 2014 18:28:20 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 26 May 2014 11:25:02 +0200
 
 marble (4:4.12.4-2) unstable; urgency=medium
 
