@@ -3,6 +3,11 @@ marble (4:4.13.1-2) UNRELEASED; urgency=medium
   [ Maximiliano Curia ]
   * Update copyright information.
 
+  [ Pino Toscano ]
+  * Backport upstream commit d74ea1c8f4e983329bdae96b04e6958d207043c4 to fix
+    build when qreal != double; patch
+    upstream_tests-fix-build-when-qreal-double.patch.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 27 May 2014 10:17:54 +0200
 
 marble (4:4.13.1-1) experimental; urgency=medium
