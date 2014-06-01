@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.13.1 amd64
+# SymbolsHelper-Confirmed: 4:4.13.1 amd64 armhf
 libmarblewidget.so.18 libmarblewidget18 #MINVER#
  _ZN13MarbleWebView11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.12.0
  _ZN13MarbleWebView11qt_metacastEPKc@Base 4:4.12.0
@@ -2498,7 +2498,7 @@ libmarblewidget.so.18 libmarblewidget18 #MINVER#
  _ZN6Marble19GeoDataLatLonAltBoxaSERKNS_18GeoDataCoordinatesE@Base 4:4.9.90
  _ZN6Marble19GeoDataLatLonAltBoxaSERKS0_@Base 4:4.9.90
  _ZN6Marble19GeoDataPhotoOverlay10viewVolumeEv@Base 4:4.10.80
- _ZN6Marble19GeoDataPhotoOverlay11setRotationEd@Base 4:4.12.80
+ (subst)_ZN6Marble19GeoDataPhotoOverlay11setRotationE{qreal}@Base 4:4.12.80
  _ZN6Marble19GeoDataPhotoOverlay12imagePyramidEv@Base 4:4.10.80
  _ZN6Marble19GeoDataPhotoOverlay13setViewVolumeERKNS_17GeoDataViewVolumeE@Base 4:4.10.80
  _ZN6Marble19GeoDataPhotoOverlay15setImagePyramidERKNS_19GeoDataImagePyramidE@Base 4:4.10.80
@@ -4018,11 +4018,11 @@ libmarblewidget.so.18 libmarblewidget18 #MINVER#
  _ZNK6Marble13PluginManager23positionProviderPluginsEv@Base 4:4.9.90
  _ZNK6Marble13PluginManager29reverseGeocodingRunnerPluginsEv@Base 4:4.9.90
  _ZNK6Marble13RoutingRunner10metaObjectEv@Base 4:4.10.80
- _ZNK6Marble13RoutingRunner10nameStringERK7QStringRdRK5QTime@Base 4:4.12.80
- _ZNK6Marble13RoutingRunner12lengthStringERd@Base 4:4.12.80
+ (subst)_ZNK6Marble13RoutingRunner10nameStringERK7QStringR{qreal}RK5QTime@Base 4:4.12.80
+ (subst)_ZNK6Marble13RoutingRunner12lengthStringER{qreal}@Base 4:4.12.80
  _ZNK6Marble13RoutingRunner14durationStringERK5QTime@Base 4:4.12.80
  _ZNK6Marble13RoutingRunner5modelEv@Base 4:4.10.80
- _ZNK6Marble13RoutingRunner9routeDataERKdRK5QTime@Base 4:4.12.80
+ (subst)_ZNK6Marble13RoutingRunner9routeDataERK{qreal}RK5QTime@Base 4:4.12.80
  _ZNK6Marble13RoutingWidget10metaObjectEv@Base 4:4.9.90
  _ZNK6Marble13SpeakersModel10metaObjectEv@Base 4:4.9.90
  _ZNK6Marble13SpeakersModel4dataERK11QModelIndexi@Base 4:4.9.90
@@ -4036,7 +4036,7 @@ libmarblewidget.so.18 libmarblewidget18 #MINVER#
  _ZNK6Marble14ConflictDialog10metaObjectEv@Base 4:4.11.80
  _ZNK6Marble14DownloadRegion10metaObjectEv@Base 4:4.9.90
  _ZNK6Marble14DownloadRegion6regionEPKNS_12TextureLayerERKNS_19GeoDataLatLonAltBoxE@Base 4:4.9.90
- _ZNK6Marble14DownloadRegion8fromPathEPKNS_12TextureLayerEdRKNS_17GeoDataLineStringE@Base 4:4.12.80
+ (subst)_ZNK6Marble14DownloadRegion8fromPathEPKNS_12TextureLayerE{qreal}RKNS_17GeoDataLineStringE@Base 4:4.12.80
  _ZNK6Marble14ElevationModel10metaObjectEv@Base 4:4.9.90
  (subst)_ZNK6Marble14ElevationModel13heightProfileE{qreal}{qreal}{qreal}{qreal}@Base 4:4.9.90
  (subst)_ZNK6Marble14ElevationModel6heightE{qreal}{qreal}@Base 4:4.9.90
