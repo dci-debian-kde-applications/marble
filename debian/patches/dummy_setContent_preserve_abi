@@ -1,0 +1,30 @@
+Index: marble/src/lib/marble/layers/PopupLayer.cpp
+===================================================================
+--- marble.orig/src/lib/marble/layers/PopupLayer.cpp	2014-07-27 17:01:40.008809868 +0200
++++ marble/src/lib/marble/layers/PopupLayer.cpp	2014-07-27 17:04:47.793423920 +0200
+@@ -122,6 +122,11 @@
+     m_popupItem->setUrl( url );
+ }
+ 
++void PopupLayer::setContent( const QString &html )
++{
++    setContent(html, QUrl());
++}
++
+ void PopupLayer::setContent( const QString &html, const QUrl &baseUrl )
+ {
+     m_popupItem->setContent( html, baseUrl );
+Index: marble/src/lib/marble/layers/PopupLayer.h
+===================================================================
+--- marble.orig/src/lib/marble/layers/PopupLayer.h	2014-07-27 17:02:57.149775764 +0200
++++ marble/src/lib/marble/layers/PopupLayer.h	2014-07-27 17:05:26.763891129 +0200
+@@ -127,7 +127,8 @@
+      *
+      * @param html content (in html format)
+      */
+-    void setContent( const QString &html, const QUrl & baseUrl = QUrl() );
++    void setContent( const QString &html );
++    void setContent( const QString &html, const QUrl & baseUrl );
+ 
+     /**
+      * @brief Sets style and content of the browser
