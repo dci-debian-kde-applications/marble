@@ -95,7 +95,7 @@ libmarblewidget.so.18 libmarblewidget18 #MINVER#
  _ZN6Marble10MarbleDirs9localPathEv@Base 4:4.9.90
  _ZN6Marble10MarbleDirsC1Ev@Base 4:4.9.90
  _ZN6Marble10MarbleDirsC2Ev@Base 4:4.9.90
-#MISSING: 4:4.13.3# _ZN6Marble10PopupLayer10setContentERK7QString@Base 4:4.10.80
+ _ZN6Marble10PopupLayer10setContentERK7QString@Base 4:4.10.80
  _ZN6Marble10PopupLayer10setContentERK7QStringRK4QUrl@Base 4:4.13.3
  _ZN6Marble10PopupLayer10setVisibleEb@Base 4:4.10.80
  _ZN6Marble10PopupLayer11eventFilterEP7QObjectP6QEvent@Base 4:4.10.80
