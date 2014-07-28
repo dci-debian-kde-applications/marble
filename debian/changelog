@@ -1,4 +1,4 @@
-marble (4:4.13.3-1) UNRELEASED; urgency=medium
+marble (4:4.13.3-1) unstable; urgency=medium
 
   * New upstream release. (Closes: #746880)
   * Remove patch: upstream_tests-fix-build-when-qreal-double.patch
@@ -7,7 +7,7 @@ marble (4:4.13.3-1) UNRELEASED; urgency=medium
   * New patch: dummy_setContent_preserve_abi
   * Update symbols file.
 
- -- Maximiliano Curia <maxy@debian.org>  Wed, 16 Jul 2014 13:15:55 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 28 Jul 2014 14:12:25 +0200
 
 marble (4:4.13.1-2) unstable; urgency=medium
 
