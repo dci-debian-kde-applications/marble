@@ -7,7 +7,7 @@ marble (4:4.13.3-1) unstable; urgency=medium
   * New patch: dummy_setContent_preserve_abi
   * Update symbols file.
 
- -- Maximiliano Curia <maxy@debian.org>  Mon, 28 Jul 2014 14:12:25 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 28 Jul 2014 15:42:19 +0200
 
 marble (4:4.13.1-2) unstable; urgency=medium
 
