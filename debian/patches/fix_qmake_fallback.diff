@@ -8,8 +8,8 @@ Forwarded: no
 
 Index: marble/src/CMakeLists.txt
 ===================================================================
---- marble.orig/src/CMakeLists.txt	2014-02-07 16:12:19.098716609 +0100
-+++ marble/src/CMakeLists.txt	2014-02-07 16:12:19.094716515 +0100
+--- marble.orig/src/CMakeLists.txt	2014-08-20 21:03:46.646897871 +0200
++++ marble/src/CMakeLists.txt	2014-08-20 21:03:46.646897871 +0200
 @@ -9,7 +9,7 @@
  
  if( QT_QTDECLARATIVE_FOUND OR Qt5Quick_FOUND )

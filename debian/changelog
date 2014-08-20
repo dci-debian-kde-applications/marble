@@ -1,6 +1,9 @@
 marble (4:4.14.0-1) UNRELEASED; urgency=medium
 
   * New upstream release.
+  * Refresh patches.
+  * Remove upstream patch: upstream_revert-fix-loading-of-relative-
+    local-resources-in-popup-dialog.patch
 
  -- Maximiliano Curia <maxy@debian.org>  Mon, 18 Aug 2014 18:28:16 +0200
 
