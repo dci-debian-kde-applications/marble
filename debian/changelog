@@ -4,6 +4,7 @@ marble (4:4.14.0-1~) UNRELEASED; urgency=medium
   * Refresh patches.
   * Remove upstream patch: upstream_revert-fix-loading-of-relative-
     local-resources-in-popup-dialog.patch
+  * Update libmarblewidget soversion to 19.
 
  -- Maximiliano Curia <maxy@debian.org>  Wed, 20 Aug 2014 21:08:50 +0200
 
