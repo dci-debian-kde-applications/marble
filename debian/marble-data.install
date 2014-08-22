@@ -1,3 +1,4 @@
+usr/share/appdata/marble.appdata.xml
 usr/share/doc/kde/HTML/*/marble/
 usr/share/icons/hicolor/*/apps/marble.png
 usr/share/kde4/apps/marble/data/*.css
@@ -17,3 +18,8 @@ usr/share/kde4/apps/marble/marble.knsrc
 usr/share/kde4/apps/marble/marble_part.rc
 usr/share/kde4/apps/marble/marbleui.rc
 usr/share/kde4/config.kcfg/marble.kcfg
+usr/share/kde4/services/marble_thumbnail_gpx.desktop
+usr/share/kde4/services/marble_thumbnail_kml.desktop
+usr/share/kde4/services/marble_thumbnail_kmz.desktop
+usr/share/kde4/services/marble_thumbnail_osm.desktop
+usr/share/kde4/services/marble_thumbnail_shp.desktop
