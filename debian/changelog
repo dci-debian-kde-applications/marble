@@ -1,4 +1,4 @@
-marble (4:4.14.0-1~) UNRELEASED; urgency=medium
+marble (4:4.14.0-1) experimental; urgency=medium
 
   * New upstream release.
   * Refresh patches.
@@ -8,7 +8,7 @@ marble (4:4.14.0-1~) UNRELEASED; urgency=medium
   * Reenable the do_not_install_private_headers patch.
   * Update install files.
 
- -- Maximiliano Curia <maxy@debian.org>  Wed, 20 Aug 2014 21:08:50 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 25 Aug 2014 03:13:30 +0200
 
 marble (4:4.13.3-2) unstable; urgency=medium
 
