@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.13.97 armhf
+# SymbolsHelper-Confirmed: 4:4.14.2 amd64
 libmarblewidget.so.19 libmarblewidget19 #MINVER#
  _ZN13MarbleWebView11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.13.90
  _ZN13MarbleWebView11qt_metacastEPKc@Base 4:4.13.90
@@ -849,6 +849,16 @@ libmarblewidget.so.19 libmarblewidget19 #MINVER#
  _ZN6Marble12TourPlaybackD0Ev@Base 4:4.13.90
  _ZN6Marble12TourPlaybackD1Ev@Base 4:4.13.90
  _ZN6Marble12TourPlaybackD2Ev@Base 4:4.13.90
+ _ZN6Marble13DataMigration11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.14.2
+ _ZN6Marble13DataMigration11qt_metacastEPKc@Base 4:4.14.2
+ _ZN6Marble13DataMigration16staticMetaObjectE@Base 4:4.14.2
+ _ZN6Marble13DataMigration4execEv@Base 4:4.14.2
+ _ZN6Marble13DataMigration9moveFilesERK7QStringS3_@Base 4:4.14.2
+ _ZN6Marble13DataMigrationC1EP7QObject@Base 4:4.14.2
+ _ZN6Marble13DataMigrationC2EP7QObject@Base 4:4.14.2
+ _ZN6Marble13DataMigrationD0Ev@Base 4:4.14.2
+ _ZN6Marble13DataMigrationD1Ev@Base 4:4.14.2
+ _ZN6Marble13DataMigrationD2Ev@Base 4:4.14.2
  (subst)_ZN6Marble13GeoDataCamera10setHeadingE{qreal}@Base 4:4.13.90
  (subst)_ZN6Marble13GeoDataCamera11setAltitudeE{qreal}@Base 4:4.13.90
  (subst)_ZN6Marble13GeoDataCamera11setLatitudeE{qreal}NS_18GeoDataCoordinates4UnitE@Base 4:4.13.90
@@ -4140,6 +4150,7 @@ libmarblewidget.so.19 libmarblewidget19 #MINVER#
  _ZNK6Marble12TourPlayback10metaObjectEv@Base 4:4.13.90
  _ZNK6Marble12TourPlayback8durationEv@Base 4:4.13.90
  _ZNK6Marble12TourPlayback9isPlayingEv@Base 4:4.13.90
+ _ZNK6Marble13DataMigration10metaObjectEv@Base 4:4.14.2
  _ZNK6Marble13GeoDataCamera11coordinatesEv@Base 4:4.13.90
  _ZNK6Marble13GeoDataCamera4copyEv@Base 4:4.13.90
  _ZNK6Marble13GeoDataCamera4rollEv@Base 4:4.13.90
@@ -4269,6 +4280,7 @@ libmarblewidget.so.19 libmarblewidget19 #MINVER#
  (subst)_ZNK6Marble14ElevationModel6heightE{qreal}{qreal}@Base 4:4.13.90
  _ZNK6Marble14FileViewWidget10metaObjectEv@Base 4:4.13.90
  _ZNK6Marble14GeoDataFeature10popularityEv@Base 4:4.13.90
+ _ZNK6Marble14GeoDataFeature11customStyleEv@Base 4:4.14.2
  _ZNK6Marble14GeoDataFeature11descriptionEv@Base 4:4.13.90
  _ZNK6Marble14GeoDataFeature11phoneNumberEv@Base 4:4.13.90
  _ZNK6Marble14GeoDataFeature12abstractViewEv@Base 4:4.13.90
@@ -5330,6 +5342,7 @@ libmarblewidget.so.19 libmarblewidget19 #MINVER#
  _ZTIN6Marble12SearchWidgetE@Base 4:4.13.90
  _ZTIN6Marble12TextureLayerE@Base 4:4.13.90
  _ZTIN6Marble12TourPlaybackE@Base 4:4.13.90
+ _ZTIN6Marble13DataMigrationE@Base 4:4.14.2
  _ZTIN6Marble13GeoDataCameraE@Base 4:4.13.90
  _ZTIN6Marble13GeoDataChangeE@Base 4:4.13.90
  _ZTIN6Marble13GeoDataCreateE@Base 4:4.13.90
@@ -5543,6 +5556,7 @@ libmarblewidget.so.19 libmarblewidget19 #MINVER#
  _ZTSN6Marble12SearchWidgetE@Base 4:4.13.90
  _ZTSN6Marble12TextureLayerE@Base 4:4.13.90
  _ZTSN6Marble12TourPlaybackE@Base 4:4.13.90
+ _ZTSN6Marble13DataMigrationE@Base 4:4.14.2
  _ZTSN6Marble13GeoDataCameraE@Base 4:4.13.90
  _ZTSN6Marble13GeoDataChangeE@Base 4:4.13.90
  _ZTSN6Marble13GeoDataCreateE@Base 4:4.13.90
@@ -5756,6 +5770,7 @@ libmarblewidget.so.19 libmarblewidget19 #MINVER#
  _ZTVN6Marble12SearchWidgetE@Base 4:4.13.90
  _ZTVN6Marble12TextureLayerE@Base 4:4.13.90
  _ZTVN6Marble12TourPlaybackE@Base 4:4.13.90
+ _ZTVN6Marble13DataMigrationE@Base 4:4.14.2
  _ZTVN6Marble13GeoDataCameraE@Base 4:4.13.90
  _ZTVN6Marble13GeoDataChangeE@Base 4:4.13.90
  _ZTVN6Marble13GeoDataCreateE@Base 4:4.13.90
