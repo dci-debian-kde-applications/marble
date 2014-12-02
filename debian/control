@@ -1,7 +1,7 @@
 Source: marble
 Section: kde
 Priority: optional
-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Sune Vuorela <sune@debian.org>, Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake,
                debhelper (>= 9),
@@ -14,6 +14,7 @@ Build-Depends: cmake,
                libquazip-dev,
                libshp-dev,
                libx11-dev,
+               libwlocate-dev,
                pkg-config,
                pkg-kde-tools (>= 0.12),
                qtmobility-dev [linux-any],
@@ -21,8 +22,8 @@ Build-Depends: cmake,
 Standards-Version: 3.9.5
 XS-Testsuite: autopkgtest
 Homepage: http://edu.kde.org/
-Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/marble.git
-Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/marble.git
+Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/kde-applications/marble.git/
+Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-applications/marble.git
 
 Package: marble
 Architecture: any
@@ -105,7 +106,7 @@ Description: data files for Marble
 Package: marble-plugins
 Architecture: any
 Section: misc
-Depends: ${misc:Depends}, ${shlibs:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}, libwlocate0
 Replaces: libmarble4
 Breaks: libmarble4
 Description: plugins for Marble
@@ -119,7 +120,7 @@ Description: plugins for Marble
  .
  This package is part of the KDE education module.
 
-Package: libmarblewidget19
+Package: libmarblewidget20
 Architecture: any
 Section: libs
 Depends: marble-data (>= ${source:Version}), ${misc:Depends}, ${shlibs:Depends}
