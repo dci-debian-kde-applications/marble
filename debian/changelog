@@ -1,4 +1,4 @@
-marble (4:14.11.97-0ubuntu1) UNRELEASED; urgency=medium
+marble (4:14.11.97-0ubuntu1~ubuntu15.04~ppa3) vivid; urgency=medium
 
   * New upstream RC release
   * Merge with Debian, remaining changes:
@@ -7,8 +7,9 @@ marble (4:14.11.97-0ubuntu1) UNRELEASED; urgency=medium
    - marble-plugins depends on libwlocate0, runtime dependency
    - fix syntax in debian/copyright
   * libmarblewidget19 now libmarblewidget20
+  * PPA build
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 01 Dec 2014 18:03:51 +0100
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 03 Dec 2014 17:51:20 +0100
 
 marble (4:4.14.2-1) unstable; urgency=medium
 

@@ -152,10 +152,10 @@ Description: Marble astronomy library
 Package: libmarble-dev
 Architecture: any
 Section: libdevel
-Depends: libmarblewidget19 (= ${binary:Version}),
+Depends: libmarblewidget20 (= ${binary:Version}),
          libastro-dev (= ${binary:Version}),
          ${misc:Depends},
-         ${sameVersionDep:libqt4-dev:libmarblewidget19},
+         ${sameVersionDep:libqt4-dev:libmarblewidget20},
          ${shlibs:Depends}
 Description: development files for the Marble globe widget library
  Marble is a generic geographical map widget and framework for KDE
