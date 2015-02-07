@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:14.11.97 amd64 arm64 armhf i386 powerpc ppc64el
+# SymbolsHelper-Confirmed: 4:14.12.2 i386
 libmarblewidget.so.20 libmarblewidget20 #MINVER#
  _ZN13MarbleWebView11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:14.11.97
  _ZN13MarbleWebView11qt_metacastEPKc@Base 4:14.11.97
@@ -152,6 +152,7 @@ libmarblewidget.so.20 libmarblewidget20 #MINVER#
  _ZN6Marble10TourWidget14deleteSelectedEv@Base 4:14.11.97
  _ZN6Marble10TourWidget14featureRemovedEPKNS_14GeoDataFeatureE@Base 4:14.11.97
  _ZN6Marble10TourWidget14featureUpdatedEPNS_14GeoDataFeatureE@Base 4:14.11.97
+ _ZN6Marble10TourWidget14updateDurationEv@Base 4:14.12.2
  _ZN6Marble10TourWidget15setMarbleWidgetEPNS_12MarbleWidgetE@Base 4:14.11.97
  _ZN6Marble10TourWidget16handleSliderMoveEi@Base 4:14.11.97
  _ZN6Marble10TourWidget16staticMetaObjectE@Base 4:14.11.97
@@ -1874,7 +1875,10 @@ libmarblewidget.so.20 libmarblewidget20 #MINVER#
  _ZN6Marble16GeoDataTreeModel14removeDocumentEi@Base 4:14.11.97
  _ZN6Marble16GeoDataTreeModel14selectionModelEv@Base 4:14.11.97
  _ZN6Marble16GeoDataTreeModel15setRootDocumentEPNS_15GeoDataDocumentE@Base 4:14.11.97
+ _ZN6Marble16GeoDataTreeModel16addTourPrimitiveERK11QModelIndexPNS_20GeoDataTourPrimitiveEi@Base 4:14.12.2
  _ZN6Marble16GeoDataTreeModel16staticMetaObjectE@Base 4:14.11.97
+ _ZN6Marble16GeoDataTreeModel18swapTourPrimitivesERK11QModelIndexii@Base 4:14.12.2
+ _ZN6Marble16GeoDataTreeModel19removeTourPrimitiveERK11QModelIndexi@Base 4:14.12.2
  _ZN6Marble16GeoDataTreeModel5addedEPNS_13GeoDataObjectE@Base 4:14.11.97
  _ZN6Marble16GeoDataTreeModel7Private14checkParentingEPNS_13GeoDataObjectE@Base 4:14.11.97
  _ZN6Marble16GeoDataTreeModel7PrivateC1EP18QAbstractItemModel@Base 4:14.11.97
