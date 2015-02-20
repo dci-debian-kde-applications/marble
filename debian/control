@@ -14,7 +14,6 @@ Build-Depends: cmake,
                libquazip-dev,
                libshp-dev,
                libx11-dev,
-               libwlocate-dev,
                pkg-config,
                pkg-kde-tools (>= 0.12),
                qtmobility-dev [linux-any],
@@ -106,7 +105,7 @@ Description: data files for Marble
 Package: marble-plugins
 Architecture: any
 Section: misc
-Depends: ${misc:Depends}, ${shlibs:Depends}, libwlocate0
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Replaces: libmarble4
 Breaks: libmarble4
 Description: plugins for Marble
