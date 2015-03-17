@@ -1,3 +1,9 @@
+marble (4:14.12.3-0ubuntu3) UNRELEASED; urgency=medium
+
+  * Make kubuntu_disable-MarbleRunnerManagerTest.diff apply with policy
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 17 Mar 2015 12:29:01 +0100
+
 marble (4:14.12.3-0ubuntu2) vivid; urgency=medium
 
   * Disable running the MarbleRunnerManagerTest test. Upstream says

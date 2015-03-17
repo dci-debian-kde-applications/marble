@@ -1,3 +1,10 @@
+Description: disable failing test
+Author: doko
+Origin: ubuntu
+Forwarded: no, upstream wants to keep the best but says it doesn't always work
+Last-Update: 2015-03-17
+---
+This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
 Index: b/tests/CMakeLists.txt
 ===================================================================
 --- a/tests/CMakeLists.txt
