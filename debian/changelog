@@ -1,8 +1,12 @@
-marble (4:14.12.3-0ubuntu3) UNRELEASED; urgency=medium
+marble (4:15.04.0-0ubuntu1) UNRELEASED; urgency=medium
 
+  [ Jonathan Riddell ]
   * Make kubuntu_disable-MarbleRunnerManagerTest.diff apply with policy
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 17 Mar 2015 12:29:01 +0100
+  [ Scarlett Clark ]
+  * New upstream release
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 15 Apr 2015 15:00:39 -0700
 
 marble (4:14.12.3-0ubuntu2) vivid; urgency=medium
 
