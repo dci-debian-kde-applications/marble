@@ -7,6 +7,7 @@ marble (4:15.04.2+dfsg-1~) UNRELEASED; urgency=medium
   * Prune CC-BY-SA-2.0 licensed files, (not dfsg compatible license).
   * Refresh patches
   * New patch: debian-avoid_installing_pruned_files.patch
+  * Update library soversion to 21.
 
  -- Maximiliano Curia <maxy@debian.org>  Fri, 12 Jun 2015 16:35:36 +0200
 

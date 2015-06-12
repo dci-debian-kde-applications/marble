@@ -129,7 +129,7 @@ Description: plugins for Marble
  .
  This package is part of the KDE education module.
 
-Package: libmarblewidget20
+Package: libmarblewidget21
 Architecture: any
 Section: libs
 Depends: marble-data (>= ${source:Version}), ${misc:Depends}, ${shlibs:Depends}

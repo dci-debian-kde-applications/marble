@@ -1,5 +1,5 @@
 # SymbolsHelper-Confirmed: 4:14.12.2 i386
-libmarblewidget.so.20 libmarblewidget20 #MINVER#
+libmarblewidget.so.21 libmarblewidget21 #MINVER#
  _ZN13MarbleWebView11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:14.11.97
  _ZN13MarbleWebView11qt_metacastEPKc@Base 4:14.11.97
  _ZN13MarbleWebView13keyPressEventEP9QKeyEvent@Base 4:14.11.97
