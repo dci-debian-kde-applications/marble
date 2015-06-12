@@ -1,8 +1,8 @@
 Index: marble/src/lib/marble/CMakeLists.txt
 ===================================================================
---- marble.orig/src/lib/marble/CMakeLists.txt	2014-08-22 04:20:15.444106317 +0200
-+++ marble/src/lib/marble/CMakeLists.txt	2014-08-22 04:23:49.603482876 +0200
-@@ -436,7 +436,6 @@
+--- marble.orig/src/lib/marble/CMakeLists.txt	2015-06-12 17:20:38.048494600 +0200
++++ marble/src/lib/marble/CMakeLists.txt	2015-06-12 17:20:38.044494760 +0200
+@@ -472,7 +472,6 @@
      MarbleInputHandler.h
      MarbleWidgetInputHandler.h
      MarbleWidgetPopupMenu.h
@@ -10,7 +10,7 @@ Index: marble/src/lib/marble/CMakeLists.txt
      TileCoordsPyramid.h
      TileLevelRangeWidget.h
      TinyWebBrowser.h
-@@ -518,10 +517,8 @@
+@@ -554,10 +553,8 @@
      ParsingRunner.h
      SearchRunner.h
      ReverseGeocodingRunner.h

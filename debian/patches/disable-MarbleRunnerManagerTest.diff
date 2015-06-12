@@ -1,8 +1,8 @@
-Index: b/tests/CMakeLists.txt
+Index: marble/tests/CMakeLists.txt
 ===================================================================
---- a/tests/CMakeLists.txt
-+++ b/tests/CMakeLists.txt
-@@ -73,7 +73,9 @@ marble_add_test( QuaternionTest )
+--- marble.orig/tests/CMakeLists.txt	2015-06-12 17:16:33.022233088 +0200
++++ marble/tests/CMakeLists.txt	2015-06-12 17:16:33.018233248 +0200
+@@ -74,7 +74,9 @@
  marble_add_test( TileIdTest )               # Check TileId arithmetic
  marble_add_test( ViewportParamsTest )
  marble_add_test( PluginManagerTest )        # Check plugin loading
