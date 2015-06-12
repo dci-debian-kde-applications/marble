@@ -1,3 +1,4 @@
 fix_qmake_fallback.diff
 do_not_install_private_headers
 disable-MarbleRunnerManagerTest.diff
+debian-avoid_installing_pruned_files.patch
