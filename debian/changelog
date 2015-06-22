@@ -1,3 +1,9 @@
+marble (4:15.04.2-0ubuntu2) wily; urgency=medium
+
+  * Update symbol file for armhf
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 22 Jun 2015 15:21:44 +0200
+
 marble (4:15.04.2-0ubuntu1) wily; urgency=medium
 
   [ Jonathan Riddell ]
