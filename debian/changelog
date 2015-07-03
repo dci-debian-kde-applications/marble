@@ -1,4 +1,4 @@
-marble (4:15.04.2+dfsg-1~) UNRELEASED; urgency=medium
+marble (4:15.04.3+dfsg-1~) UNRELEASED; urgency=medium
 
   * New upstream release (15.04.0).
   * New upstream release (15.04.1).
@@ -8,8 +8,9 @@ marble (4:15.04.2+dfsg-1~) UNRELEASED; urgency=medium
   * Refresh patches
   * New patch: debian-avoid_installing_pruned_files.patch
   * Update library soversion to 21.
+  * New upstream release (15.04.3+dfsg).
 
- -- Maximiliano Curia <maxy@debian.org>  Fri, 12 Jun 2015 16:35:36 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 03 Jul 2015 16:29:13 +0200
 
 marble (4:14.12.3-1) experimental; urgency=medium
 
