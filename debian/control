@@ -19,6 +19,7 @@ Build-Depends: cmake,
                qtdeclarative5-dev,
                qttools5-dev,
                libqt5webkit5-dev,
+               libqt5opengl5-dev,
                shared-mime-info
 Standards-Version: 3.9.6
 XS-Testsuite: autopkgtest
