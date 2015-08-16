@@ -21,6 +21,7 @@ Build-Depends: cmake,
                libqt5webkit5-dev,
                libqt5opengl5-dev,
                libquazip-qt5-dev,
+               extra-cmake-modules,
                shared-mime-info
 Standards-Version: 3.9.6
 XS-Testsuite: autopkgtest
