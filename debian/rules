@@ -17,8 +17,9 @@ endif
 
 override_dh_auto_configure:
 	$(overridden_command) -- -DWITH_DESIGNER_PLUGIN=ON \
-        -DMARBLE_PLUGIN_PATH=$(marble_plugin_path) \
-        $(conf_args)
+				 -DMARBLE_PLUGIN_PATH=$(marble_plugin_path) \
+				 -DWITH_KF5=TRUE \
+				 $(conf_args)
 
 override_dh_installdirs:
 	$(overridden_command) -plibmarblewidget$(marble_soversion) $(marble_plugin_path)
