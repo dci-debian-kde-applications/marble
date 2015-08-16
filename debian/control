@@ -64,8 +64,9 @@ Description: globe and map widget for mobile form factors
  This package is part of the KDE education module.
 
 Package: marble-qt
-Architecture: any
-Section: misc
+Architecture: all
+Section: oldlibs
+Priority: extra
 Depends: ${misc:Depends}, marble (>= 4:15.07.90~)
 Description: transitional package for marble kf5
  This is a dummy transitional package for marble and can be safely
