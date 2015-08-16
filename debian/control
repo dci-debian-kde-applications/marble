@@ -5,10 +5,14 @@ Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Sune Vuorela <sune@debian.org>, Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake,
                debhelper (>= 9),
+               extra-cmake-modules,
+               kio-dev,
                libgps-dev,
                libkf5runner-dev,
                libphonon4qt5-dev,
+               libqt5opengl5-dev,
                libqt5svg5-dev,
+               libqt5webkit5-dev,
                libquazip-qt5-dev,
                libshp-dev,
                libwlocate-dev,
@@ -18,11 +22,6 @@ Build-Depends: cmake,
                qtbase5-dev,
                qtdeclarative5-dev,
                qttools5-dev,
-               libqt5webkit5-dev,
-               libqt5opengl5-dev,
-               libquazip-qt5-dev,
-               extra-cmake-modules,
-               kio-dev,
                shared-mime-info
 Standards-Version: 3.9.6
 XS-Testsuite: autopkgtest
@@ -68,7 +67,7 @@ Package: marble-qt
 Architecture: all
 Section: oldlibs
 Priority: extra
-Depends: ${misc:Depends}, marble (>= 4:15.07.90~)
+Depends: marble (>= 4:15.07.90~), ${misc:Depends}
 Description: transitional package for marble kf5
  This is a dummy transitional package for marble and can be safely
  removed after the installation is complete.
