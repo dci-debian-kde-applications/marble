@@ -28,7 +28,7 @@ override_dh_auto_configure:
 
 override_dh_auto_build:
 	$(overridden_command)
-	$(overridden_command) --builddirectory=obj-marble-qt4
+	QT_SELECT=qt4 $(overridden_command) --builddirectory=obj-marble-qt4
 
 override_dh_installdirs:
 	$(overridden_command) -plibmarblewidget$(marble_soversion) $(marble_plugin_path)
