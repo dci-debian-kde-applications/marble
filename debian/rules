@@ -20,7 +20,7 @@ override_dh_auto_configure:
 	$(overridden_command) -- -DWITH_DESIGNER_PLUGIN=ON \
 				 -DWITH_KF5=TRUE \
 				 $(conf_args)
-	QT_SELECT=qt4 $(overridden_command) --builddirectory=obj-marble-qt4 -- \
+	QT_SELECT=qt4 $(overridden_command) --buildsystem=kde --builddirectory=obj-marble-qt4 -- \
 				 -DQT5BUILD=FALSE \
 				 -DWITH_DESIGNER_PLUGIN=ON \
 				 -DMARBLE_PLUGIN_PATH=$(marble_plugin_path) \
