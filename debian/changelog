@@ -1,4 +1,4 @@
-marble (4:15.07.90-0ubuntu1) UNRELEASED; urgency=medium
+marble (4:15.08.0-0ubuntu1) UNRELEASED; urgency=medium
 
   [ José Manuel Santamaría Lema ]
   * Update symbols: mark as optional symbols gone after building with
