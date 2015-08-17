@@ -11,6 +11,7 @@ marble (4:15.08.0-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Philip Muškovac ]
   * Add upstream_fix-vtable-linking.diff to fix vtable linking
+  * Double-build kf5 and qt4 to keep libmarblewidget21 package
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 13 Aug 2015 11:44:25 +0100
 
