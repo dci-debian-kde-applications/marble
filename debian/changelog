@@ -9,6 +9,9 @@ marble (4:15.07.90-0ubuntu1) UNRELEASED; urgency=medium
   * Port to frameworks 5
   * new upstream beta release
 
+  [ Philip Muškovac ]
+  * Add upstream_fix-vtable-linking.diff to fix vtable linking
+
  -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 13 Aug 2015 11:44:25 +0100
 
 marble (4:15.04.2-0ubuntu2) wily; urgency=medium
