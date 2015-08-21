@@ -1,3 +1,9 @@
+marble (4:15.08.0-0ubuntu3) wily; urgency=medium
+
+  * Update symbols
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 21 Aug 2015 14:23:43 +0100
+
 marble (4:15.08.0-0ubuntu2) wily; urgency=medium
 
   * Fix .install file
