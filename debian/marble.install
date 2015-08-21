@@ -1,7 +1,7 @@
 usr/bin/marble
-usr/lib/x86_64-linux-gnu/qt5/plugins/libmarble_part.so
-usr/lib/x86_64-linux-gnu/qt5/plugins/libmarblethumbnail.so
-usr/lib/x86_64-linux-gnu/qt5/plugins/plasma_runner_marble.so
+usr/lib/*/qt5/plugins/libmarble_part.so
+usr/lib/*/qt5/plugins/libmarblethumbnail.so
+usr/lib/*/qt5/plugins/plasma_runner_marble.so
 usr/share/applications/marble.desktop
 usr/share/applications/marble_geo.desktop
 usr/share/applications/marble_gpx.desktop
