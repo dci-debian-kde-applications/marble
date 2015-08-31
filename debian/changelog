@@ -1,3 +1,12 @@
+marble (4:15.08.0-0ubuntu4) wily; urgency=medium
+
+  * Renable patches previously disabled in kf5 port
+    + fix_qmake_fallback.diff
+    + do_not_install_private_headers
+    + kubuntu_disable-MarbleRunnerManagerTest.diff
+
+ -- Harald Sitter <sitter@kde.org>  Mon, 31 Aug 2015 14:33:06 +0200
+
 marble (4:15.08.0-0ubuntu3) wily; urgency=medium
 
   * Update symbols
