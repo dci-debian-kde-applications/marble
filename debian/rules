@@ -4,10 +4,6 @@ include /usr/share/pkg-kde-tools/qt-kde-team/3/debian-qt-kde.mk
 libpkgs_gen_strict_local_shlibs = $(libpkgs_all_packages)
 include /usr/share/pkg-kde-tools/qt-kde-team/3/library-packages.mk
 
-#marble_soversion := $(shell dh_listpackages | sed -n '/^libmarblewidget/{s/^libmarblewidget//p}')
-marble_soversion := 21
-marble_plugin_path = /usr/lib/kde4/plugins/marble/$(marble_soversion)
-
 vendor := $(shell dpkg-vendor --query Vendor)
 
 ifeq ($(vendor),Ubuntu)
@@ -21,33 +17,12 @@ override_dh_auto_configure:
 				 -DWITH_KF5=TRUE \
 				 $(conf_args)
 
-override_dh_auto_build:
-	$(overridden_command)
-
-override_dh_installdirs:
-	$(overridden_command) -plibmarblewidget$(marble_soversion) $(marble_plugin_path)
-	$(overridden_command) --remaining-packages
-
-pkgs_with_install_linux = $(patsubst debian/%.install.linux,%,$(wildcard debian/*.install.linux))
-override_dh_install:
-	$(overridden_command) -Xusr/share/kde4/apps/marble/data/LICENSE.txt
-ifeq ($(DEB_HOST_ARCH_OS),linux)
-	# Also install common files in place of debian/*.install.linux variants
-	dh_install $(foreach p,$(pkgs_with_install_linux),-p$p --ignore=debian/$p.install.linux)
-endif
-
-override_dh_makeshlibs:
-	$(overridden_command) -V
-
-override_dh_shlibdeps:
-	$(overridden_command) $(patsubst %,-p%,$(filter lib%,$(shell dh_listpackages))) -- -xkde-runtime
-	$(overridden_command) --remaining-packages
-
 override_dh_strip:
 	$(overridden_command) --dbg-package=marble-dbg
 
 override_dh_auto_test:
-	true # test suite is kind of broken. needs the package installed
+	# Disable the auto tests at build time
+	:
 
 override_dh_clean:
 	$(overridden_command) -Xdata/mwdbii/PISLAND.PNT.orig -Xdata/mwdbii/PLAKE.PNT.orig
