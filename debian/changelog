@@ -13,6 +13,63 @@ marble (4:15.08.0+dfsg-1~) UNRELEASED; urgency=medium
 
  -- Maximiliano Curia <maxy@debian.org>  Thu, 10 Sep 2015 15:22:36 +0200
 
+marble (4:15.08.0-0ubuntu4) wily; urgency=medium
+
+  * Renable patches previously disabled in kf5 port
+    + fix_qmake_fallback.diff
+    + do_not_install_private_headers
+    + kubuntu_disable-MarbleRunnerManagerTest.diff
+
+ -- Harald Sitter <sitter@kde.org>  Mon, 31 Aug 2015 14:33:06 +0200
+
+marble (4:15.08.0-0ubuntu3) wily; urgency=medium
+
+  * Update symbols
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 21 Aug 2015 14:23:43 +0100
+
+marble (4:15.08.0-0ubuntu2) wily; urgency=medium
+
+  * Fix .install file
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 21 Aug 2015 13:28:56 +0100
+
+marble (4:15.08.0-0ubuntu1) wily; urgency=medium
+
+  [ José Manuel Santamaría Lema ]
+  * Update symbols: mark as optional symbols gone after building with
+    GCC 5
+
+  [ Jonathan Riddell ]
+  * New upstream release
+  * Port to frameworks 5
+  * new upstream beta release
+
+  [ Philip Muškovac ]
+  * Add upstream_fix-vtable-linking.diff to fix vtable linking
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 13 Aug 2015 11:44:25 +0100
+
+marble (4:15.04.2-0ubuntu2) wily; urgency=medium
+
+  * Update symbol file for armhf
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 22 Jun 2015 15:21:44 +0200
+
+marble (4:15.04.2-0ubuntu1) wily; urgency=medium
+
+  [ Jonathan Riddell ]
+  * Make kubuntu_disable-MarbleRunnerManagerTest.diff apply with policy
+
+  [ Scarlett Clark ]
+  * New upstream release
+  * wrap-and-sort 
+
+  [ Jonathan Riddell ]
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 09 Jun 2015 22:33:11 +0200
+
 marble (4:14.12.3-1) experimental; urgency=medium
 
   * New upstream release (14.12.3).

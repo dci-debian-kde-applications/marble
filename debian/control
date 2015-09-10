@@ -5,25 +5,39 @@ Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Sune Vuorela <sune@debian.org>, Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake (>= 2.8.12~),
                debhelper (>= 9),
-               kde-sc-dev-latest (>= 4:4.12),
-               kdelibs5-dev,
+               extra-cmake-modules,
+               kdoctools-dev,
+               kio-dev,
                libgps-dev (>= 2.90),
-               libphonon-dev,
+               libkf5config-dev,
+               libkf5coreaddons-dev,
+               libkf5i18n-dev,
+               libkf5newstuff-dev,
+               libkf5parts-dev,
+               libkf5runner-dev,
+               libkf5service-dev,
+               libkf5wallet-dev,
+               libopencv-core-dev,
+               libopencv-highgui-dev,
+               libopencv-imgproc-dev,
+               libphonon4qt5-dev,
+               libprotobuf-dev,
                libqextserialport-dev,
+               libqt5opengl5-dev,
                libqt5svg5-dev (>= 5.4),
                libqt5webkit5-dev (>= 5.4),
-               libqtwebkit-dev,
-               libquazip-dev,
+               libquazip-qt5-dev,
                libshp-dev,
-               libx11-dev,
+               python-dev,
                pkg-config,
                pkg-kde-tools (>= 0.12),
                qtbase5-dev (>= 5.4),
                qtdeclarative5-dev (>= 5.4),
-               qtmobility-dev [linux-any],
                qtscript5-dev (>= 5.4),
                qttools5-dev (>= 5.4),
-               shared-mime-info
+               shared-mime-info,
+               sip-dev,
+               zlib1g-dev
 Standards-Version: 3.9.6
 Homepage: http://edu.kde.org/
 Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/applications/marble.git
@@ -36,7 +50,7 @@ Depends: marble-data (>= ${source:Version}),
          marble-plugins (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
-Suggests: gosmore, libqt4-sql-sqlite, monav-routing-daemon, routino
+Suggests: gosmore, monav-routing-daemon, routino
 Description: globe and map widget
  Marble is a generic geographical map widget and framework for KDE
  applications. The Marble widget shows the earth as a sphere but does not
@@ -52,7 +66,7 @@ Depends: marble-data (>= ${source:Version}),
          marble-plugins (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
-Suggests: gosmore, libqt4-sql-sqlite, monav-routing-daemon, routino
+Suggests: gosmore, monav-routing-daemon, routino
 Breaks: marble (<< 4:4.13)
 Replaces: marble (<< 4:4.13)
 Description: globe and map widget for mobile form factors
@@ -115,8 +129,6 @@ Package: marble-plugins
 Architecture: any
 Section: misc
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Replaces: libmarble4
-Breaks: libmarble4
 Description: plugins for Marble
  Marble is a generic geographical map widget and framework for KDE
  applications. The Marble widget shows the earth as a sphere but does not
@@ -128,7 +140,7 @@ Description: plugins for Marble
  .
  This package is part of the KDE education module.
 
-Package: libmarblewidget21
+Package: libmarblewidget-qt5-22
 Architecture: any
 Section: libs
 Depends: marble-data (>= ${source:Version}), ${misc:Depends}, ${shlibs:Depends}
@@ -161,9 +173,9 @@ Package: libmarble-dev
 Architecture: any
 Section: libdevel
 Depends: libastro-dev (= ${binary:Version}),
-         libmarblewidget21 (= ${binary:Version}),
+         libmarblewidget-qt5-22 (= ${binary:Version}),
          ${misc:Depends},
-         ${sameVersionDep:libqt4-dev:libmarblewidget21},
+         ${sameVersionDep:qtbase5-dev:libmarblewidget-qt5-22},
          ${shlibs:Depends}
 Description: development files for the Marble globe widget library
  Marble is a generic geographical map widget and framework for KDE
@@ -196,8 +208,6 @@ Architecture: any
 Section: debug
 Priority: extra
 Depends: marble (= ${binary:Version}), ${misc:Depends}
-Breaks: kdeedu-dbg (<< 4:4.6.80)
-Replaces: kdeedu-dbg (<< 4:4.6.80)
 Description: debugging symbols for the KDE education module
  Marble is a generic geographical map widget and framework for KDE
  applications. The Marble widget shows the earth as a sphere but does not
