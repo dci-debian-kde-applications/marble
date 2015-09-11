@@ -1,4 +1,4 @@
-marble (4:15.08.0+dfsg-1~) UNRELEASED; urgency=medium
+marble (4:15.08.0+dfsg-1) experimental; urgency=medium
 
   * New upstream release (15.04.0).
   * New upstream release (15.04.1).
@@ -11,7 +11,7 @@ marble (4:15.08.0+dfsg-1~) UNRELEASED; urgency=medium
   * New upstream release (15.04.3+dfsg).
   * New upstream release (15.08.0+dfsg).
 
- -- Maximiliano Curia <maxy@debian.org>  Thu, 10 Sep 2015 15:22:36 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 11 Sep 2015 12:27:42 +0200
 
 marble (4:15.08.0-0ubuntu4) wily; urgency=medium
 
