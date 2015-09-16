@@ -1,3 +1,9 @@
+marble (4:15.08.0-0ubuntu6) UNRELEASED; urgency=medium
+
+  * Add missing marble-qt.install file
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 16 Sep 2015 13:53:51 +0100
+
 marble (4:15.08.0-0ubuntu5) wily; urgency=medium
 
   * Add libqt5extserialport-dev build-depends
