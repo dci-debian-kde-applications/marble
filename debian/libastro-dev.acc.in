@@ -10,7 +10,7 @@
 </headers>
 
 <libs>
-    /usr/lib/libastro.so
+    /usr/lib/@@DEB_HOST_MULTIARCH@@/libastro.so
 </libs>
 
 <gcc_options>

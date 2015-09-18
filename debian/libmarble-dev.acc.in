@@ -10,7 +10,7 @@
 </headers>
 
 <libs>
-    /usr/lib/libmarblewidget-qt5.so
+    /usr/lib/@@DEB_HOST_MULTIARCH@@/libmarblewidget-qt5.so
 </libs>
 
 <gcc_options>
