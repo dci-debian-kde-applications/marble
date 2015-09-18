@@ -10,7 +10,7 @@ marble (4:15.08.1-0ubuntu1) UNRELEASED; urgency=medium
   * Add missing marble-qt.install file
 
   [ Clive Johnston ]
-  * New upstream release (15.18.1)
+  * New upstream release (15.08.1)
 
  -- Clive Johnston <clivejo@aol.com>  Thu, 17 Sep 2015 11:41:17 +0100
 
