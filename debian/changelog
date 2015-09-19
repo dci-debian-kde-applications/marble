@@ -1,6 +1,6 @@
 marble (4:15.08.1+dfsg-2~) UNRELEASED; urgency=medium
 
-  * 
+  * Remove qtlocations build dep, it's not in sid yet.
 
  -- Maximiliano Curia <maxy@debian.org>  Sat, 19 Sep 2015 20:36:54 +0200
 
