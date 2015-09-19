@@ -1,10 +1,10 @@
-marble (4:15.08.1+dfsg-1~) UNRELEASED; urgency=medium
+marble (4:15.08.1+dfsg-1) unstable; urgency=medium
 
   * New upstream release (15.08.1+dfsg).
   * Drop upstream patch: upstream_fix-vtable-linking.diff
   * Update install files.
 
- -- Maximiliano Curia <maxy@debian.org>  Thu, 17 Sep 2015 20:28:50 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 19 Sep 2015 02:45:01 +0200
 
 marble (4:15.08.0+dfsg-1) experimental; urgency=medium
 
