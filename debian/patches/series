@@ -1,3 +1,4 @@
 fix_qmake_fallback.diff
 do_not_install_private_headers
 kubuntu_disable-MarbleRunnerManagerTest.diff
+upstream_find-quazip.diff
