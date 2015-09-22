@@ -8,6 +8,7 @@ marble (4:15.08.1-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Jonathan Riddell ]
   * Add missing marble-qt.install file
+  * Add upstream_find-quazip.diff to fix finding library
 
   [ Clive Johnston ]
   * New upstream release (15.08.1)
