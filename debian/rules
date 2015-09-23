@@ -16,10 +16,11 @@ ifeq ($(vendor),Ubuntu)
 endif
 
 override_dh_auto_configure:
-	$(overridden_command) -- -DWITH_DESIGNER_PLUGIN=ON \
-				 -DWITH_KF5=TRUE \
-				 -DMARBLE_INSTALL_ANDROID_APPS=ON \
-				 $(conf_args)
+	$(overridden_command) -- \
+		-DWITH_DESIGNER_PLUGIN=ON \
+		-DWITH_KF5=TRUE \
+		-DMARBLE_INSTALL_ANDROID_APPS=ON \
+		$(conf_args)
 
 override_dh_auto_build:
 	$(overridden_command)
