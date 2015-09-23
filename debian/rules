@@ -42,10 +42,6 @@ endif
 override_dh_makeshlibs:
 	$(overridden_command) -V
 
-override_dh_shlibdeps:
-	$(overridden_command) $(patsubst %,-p%,$(filter lib%,$(shell dh_listpackages))) -- -xkde-runtime
-	$(overridden_command) --remaining-packages
-
 override_dh_strip:
 	$(overridden_command) --dbg-package=marble-dbg
 
