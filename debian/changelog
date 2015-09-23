@@ -4,7 +4,7 @@ marble (4:15.11.80-0ubuntu1) UNRELEASED; urgency=medium
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 14 Sep 2015 13:20:57 +0100
 
-marble (4:15.08.1-0ubuntu1) UNRELEASED; urgency=medium
+marble (4:15.08.1-0ubuntu1) wily; urgency=medium
 
   [ Jonathan Riddell ]
   * Add missing marble-qt.install file
@@ -13,7 +13,7 @@ marble (4:15.08.1-0ubuntu1) UNRELEASED; urgency=medium
   [ Clive Johnston ]
   * New upstream release (15.08.1)
 
- -- Clive Johnston <clivejo@aol.com>  Thu, 17 Sep 2015 11:41:17 +0100
+ -- Clive Johnston <clivejo@aol.com>  Tue, 22 Sep 2015 17:43:28 +0100
 
 marble (4:15.08.0-0ubuntu5) wily; urgency=medium
 
