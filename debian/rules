@@ -20,6 +20,7 @@ override_dh_auto_configure:
 		-DWITH_DESIGNER_PLUGIN=ON \
 		-DWITH_KF5=TRUE \
 		-DMARBLE_INSTALL_ANDROID_APPS=ON \
+		-DMARBLE_PLUGIN_PATH=$(marble_plugin_path) \
 		$(conf_args)
 
 override_dh_auto_build:
