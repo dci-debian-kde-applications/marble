@@ -6,7 +6,7 @@ include /usr/share/pkg-kde-tools/qt-kde-team/3/library-packages.mk
 
 # Move plugins to a soversion specific directory to ease transitions
 # https://bugs.kde.org/show_bug.cgi?id=353078
-marble_soversion := $(shell dh_listpackages | sed -n '/^libmarblewidget/{s/^libmarblewidget//p}')
+marble_soversion := $(shell dh_listpackages | sed -n '/^libmarblewidget-qt5-/{s/^libmarblewidget-qt5-//p}')
 marble_plugin_path = /usr/lib/${DEB_HOST_MULTIARCH}/marble/plugins/$(marble_soversion)
 
 vendor := $(shell dpkg-vendor --query Vendor)

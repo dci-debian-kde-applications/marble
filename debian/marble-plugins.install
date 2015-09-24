@@ -1,2 +1,2 @@
 usr/lib/*/libmarbledeclarative.so
-usr/lib/*/marble/plugins/lib*
+usr/lib/*/marble/plugins/23/lib*.so
