@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:15.08.0 amd64 arm64 armhf i386 powerpc ppc64el
+# SymbolsHelper-Confirmed: 4:15.11.80+git20150924.0815 amd64 i386
 libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  (optional=templinst)_Z17qRegisterMetaTypeIN6Marble13DownloadUsageEEiPKcPT_N9QtPrivate21MetaTypeDefinedHelperIS4_Xaasr12QMetaTypeId2IS4_E7DefinedntsrS9_9IsBuiltInEE11DefinedTypeE@Base 4:15.08.0
  (optional=templinst)_Z17qRegisterMetaTypeIN6Marble18GeoDataCoordinatesEEiPKcPT_N9QtPrivate21MetaTypeDefinedHelperIS4_Xaasr12QMetaTypeId2IS4_E7DefinedntsrS9_9IsBuiltInEE11DefinedTypeE@Base 4:15.08.0
@@ -16,6 +16,8 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN10QByteArrayD1Ev@Base 4:15.08.0
  _ZN10QByteArrayD2Ev@Base 4:15.08.0
  (optional=templinst)_ZN11QMetaTypeIdIN6Marble18GeoDataCoordinatesEE14qt_metatype_idEv@Base 4:15.08.0
+ _ZN11QStringListD1Ev@Base 4:15.11.80+git20150924.0815
+ _ZN11QStringListD2Ev@Base 4:15.11.80+git20150924.0815
  _ZN12KineticModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:15.08.0
  _ZN12KineticModel11qt_metacastEPKc@Base 4:15.08.0
  _ZN12KineticModel11setDurationEi@Base 4:15.08.0
@@ -64,11 +66,12 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  (optional=templinst)_ZN14QFutureWatcherIvED1Ev@Base 4:15.08.0
  (optional=templinst)_ZN14QFutureWatcherIvED2Ev@Base 4:15.08.0
  (optional=templinst)_ZN14QSharedPointerIN6Marble11TextureTileEE5derefEPN15QtSharedPointer20ExternalRefCountDataE@Base 4:15.08.0
+ (optional=templinst)_ZN14QSharedPointerIN6Marble15VectorTileModel13CacheDocumentEE5derefEPN15QtSharedPointer20ExternalRefCountDataE@Base 4:15.11.80+git20150924.0815
  (optional=templinst)_ZN14QSharedPointerIN6Marble16GeoSceneDocumentEE5derefEPN15QtSharedPointer20ExternalRefCountDataE@Base 4:15.08.0
  (optional=templinst|arch=!amd64 !i386)_ZN14QSharedPointerIN6Marble22MarbleQuickItemPrivateEE5derefEPN15QtSharedPointer20ExternalRefCountDataE@Base 4:15.08.0
  (optional=templinst)_ZN15QtSharedPointer33ExternalRefCountWithCustomDeleterIN6Marble11TextureTileENS_13NormalDeleterEE7deleterEPNS_20ExternalRefCountDataE@Base 4:15.08.0
+ (optional=templinst)_ZN15QtSharedPointer33ExternalRefCountWithCustomDeleterIN6Marble15VectorTileModel13CacheDocumentENS_13NormalDeleterEE7deleterEPNS_20ExternalRefCountDataE@Base 4:15.11.80+git20150924.0815
  (optional=templinst)_ZN15QtSharedPointer33ExternalRefCountWithCustomDeleterIN6Marble16GeoSceneDocumentENS_13NormalDeleterEE7deleterEPNS_20ExternalRefCountDataE@Base 4:15.08.0
- (optional=templinst)_ZN15QtSharedPointer33ExternalRefCountWithCustomDeleterIN6Marble22MarbleQuickItemPrivateENS_13NormalDeleterEE7deleterEPNS_20ExternalRefCountDataE@Base 4:15.08.0
  (optional=templinst)_ZN15QtSharedPointer33ExternalRefCountWithCustomDeleterIN6Marble31MarbleWidgetInputHandlerPrivateENS_13NormalDeleterEE7deleterEPNS_20ExternalRefCountDataE@Base 4:15.08.0
  _ZN15Ui_PrintOptions7setupUiEP7QWidget@Base 4:15.08.0
  (optional=templinst)_ZN16QFutureInterfaceIvED0Ev@Base 4:15.08.0
@@ -80,6 +83,8 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  (optional=templinst)_ZN17QForeachContainerI5QListI7QStringEEC2ERKS2_@Base 4:15.08.0
  (optional=templinst|arch=ppc64el)_ZN17QForeachContainerI5QListIPKN6Marble16GeoDataPlacemarkEEEC1ERKS5_@Base 4:15.08.0
  (optional=templinst|arch=ppc64el)_ZN17QForeachContainerI5QListIPKN6Marble16GeoDataPlacemarkEEEC2ERKS5_@Base 4:15.08.0
+ (optional=templinst)_ZN17QForeachContainerIK7QVectorIN6Marble17GeoDataLinearRingEEEC1ERS4_@Base 4:15.11.80+git20150924.0815
+ (optional=templinst)_ZN17QForeachContainerIK7QVectorIN6Marble17GeoDataLinearRingEEEC2ERS4_@Base 4:15.11.80+git20150924.0815
  (optional=templinst)_ZN17QtMetaTypePrivate19IteratorOwnerCommonIN5QListIdE14const_iteratorEE5equalEPKPvS7_@Base 4:15.08.0
  (optional=templinst)_ZN17QtMetaTypePrivate19IteratorOwnerCommonIN5QListIdE14const_iteratorEE6assignEPPvPKS5_@Base 4:15.08.0
  (optional=templinst)_ZN17QtMetaTypePrivate19IteratorOwnerCommonIN5QListIdE14const_iteratorEE7advanceEPPvi@Base 4:15.08.0
@@ -229,6 +234,7 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN22Ui_FormattedTextWidget13retranslateUiEP7QWidget@Base 4:15.08.0
  _ZN22Ui_FormattedTextWidget7setupUiEP7QWidget@Base 4:15.08.0
  (optional=templinst|arch=ppc64el)_ZN23KBiAssociativeContainerI5QHashI21QPersistentModelIndexiE4QMapIiS1_EE6insertES1_i@Base 4:15.08.0
+ _ZN23Ui_TileLevelRangeWidget7setupUiEP7QWidget@Base 4:15.11.80+git20150924.0815
  _ZN23Ui_UiEditBookmarkDialog7setupUiEP7QDialog@Base 4:15.08.0
  _ZN24Ui_CurrentLocationWidget7setupUiEP7QWidget@Base 4:15.08.0
  _ZN24Ui_UiEditPlacemarkDialog13retranslateUiEP7QDialog@Base 4:15.08.0
@@ -240,6 +246,7 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN27Ui_MarbleViewSettingsWidget7setupUiEP7QWidget@Base 4:15.08.0
  _ZN28Ui_MarbleCacheSettingsWidget13retranslateUiEP7QWidget@Base 4:15.08.0
  _ZN28Ui_MarbleCacheSettingsWidget7setupUiEP7QWidget@Base 4:15.08.0
+ _ZN28Ui_OsmTagEditorWidgetPrivate7setupUiEP7QWidget@Base 4:15.11.80+git20150924.0815
  _ZN29KDescendantsProxyModelPrivate15sourceRowsMovedERK11QModelIndexiiS2_i@Base 4:15.08.0
  _ZN29KDescendantsProxyModelPrivate16sourceModelResetEv@Base 4:15.08.0
  _ZN29KDescendantsProxyModelPrivate17resetInternalDataEv@Base 4:15.08.0
@@ -262,6 +269,10 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN33Ui_MarbleNavigationSettingsWidget13retranslateUiEP7QWidget@Base 4:15.08.0
  _ZN33Ui_MarbleNavigationSettingsWidget7setupUiEP7QWidget@Base 4:15.08.0
  _ZN4QDir4rootEv@Base 4:15.08.0
+ (optional=templinst)_ZN4QMapI5QPairI7QStringS1_EN6Marble14GeoDataFeature21GeoDataVisualCategoryEE13detach_helperEv@Base 4:15.11.80+git20150924.0815
+ (optional=templinst)_ZN4QMapI5QPairI7QStringS1_EN6Marble14GeoDataFeature21GeoDataVisualCategoryEED1Ev@Base 4:15.11.80+git20150924.0815
+ (optional=templinst)_ZN4QMapI5QPairI7QStringS1_EN6Marble14GeoDataFeature21GeoDataVisualCategoryEED2Ev@Base 4:15.11.80+git20150924.0815
+ (optional=templinst)_ZN4QMapI5QPairI7QStringS1_EN6Marble14GeoDataFeature21GeoDataVisualCategoryEEixERKS2_@Base 4:15.11.80+git20150924.0815
  (optional=templinst)_ZN4QMapI7QString5QPairI9QDateTimeyEE13detach_helperEv@Base 4:15.08.0
  (optional=templinst)_ZN4QMapI7QString5QPairI9QDateTimeyEED1Ev@Base 4:15.08.0
  (optional=templinst)_ZN4QMapI7QString5QPairI9QDateTimeyEED2Ev@Base 4:15.08.0
@@ -271,17 +282,13 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  (optional=templinst|arch=!ppc64el)_ZN4QMapI7QStringN6Marble13GeoDataSchemaEE13detach_helperEv@Base 4:15.08.0
  (optional=templinst)_ZN4QMapI7QStringN6Marble13GeoDataSchemaEED1Ev@Base 4:15.08.0
  (optional=templinst)_ZN4QMapI7QStringN6Marble13GeoDataSchemaEED2Ev@Base 4:15.08.0
- (optional=templinst|arch=!ppc64el)_ZN4QMapI7QStringN6Marble14GeoDataFeature21GeoDataVisualCategoryEE13detach_helperEv@Base 4:15.08.0
- (optional=templinst)_ZN4QMapI7QStringN6Marble14GeoDataFeature21GeoDataVisualCategoryEED1Ev@Base 4:15.08.0
- (optional=templinst)_ZN4QMapI7QStringN6Marble14GeoDataFeature21GeoDataVisualCategoryEED2Ev@Base 4:15.08.0
- (optional=templinst|arch=!ppc64el)_ZN4QMapI7QStringN6Marble14GeoDataFeature21GeoDataVisualCategoryEEixERKS0_@Base 4:15.08.0
  (optional=templinst|arch=!ppc64el)_ZN4QMapI7QStringN6Marble15GeoDataStyleMapEE13detach_helperEv@Base 4:15.08.0
  (optional=templinst)_ZN4QMapI7QStringN6Marble15GeoDataStyleMapEED1Ev@Base 4:15.08.0
  (optional=templinst)_ZN4QMapI7QStringN6Marble15GeoDataStyleMapEED2Ev@Base 4:15.08.0
  (optional=templinst|arch=!ppc64el)_ZN4QMapI7QStringN6Marble15RoutingWaypoint12JunctionTypeEE13detach_helperEv@Base 4:15.08.0
- (optional=templinst|arch=!ppc64el)_ZN4QMapI7QStringPN6Marble19GeoSceneTextureTileEE13detach_helperEv@Base 4:15.08.0
- (optional=templinst)_ZN4QMapI7QStringPN6Marble19GeoSceneTextureTileEED1Ev@Base 4:15.08.0
- (optional=templinst)_ZN4QMapI7QStringPN6Marble19GeoSceneTextureTileEED2Ev@Base 4:15.08.0
+ (optional=templinst)_ZN4QMapI7QStringPN6Marble26GeoSceneTextureTileDatasetEE13detach_helperEv@Base 4:15.11.80+git20150924.0815
+ (optional=templinst)_ZN4QMapI7QStringPN6Marble26GeoSceneTextureTileDatasetEED1Ev@Base 4:15.11.80+git20150924.0815
+ (optional=templinst)_ZN4QMapI7QStringPN6Marble26GeoSceneTextureTileDatasetEED2Ev@Base 4:15.11.80+git20150924.0815
  (optional=templinst|arch=!ppc64el)_ZN4QMapI7QStringS0_E13detach_helperEv@Base 4:15.08.0
  (optional=templinst)_ZN4QMapI7QStringS0_ED1Ev@Base 4:15.08.0
  (optional=templinst)_ZN4QMapI7QStringS0_ED2Ev@Base 4:15.08.0
@@ -299,6 +306,8 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  (optional=templinst|arch=!ppc64el)_ZN4QMapIN6Marble14WaypointParser5FieldEiE13detach_helperEv@Base 4:15.08.0
  (optional=templinst|arch=!ppc64el)_ZN4QMapIN6Marble14WaypointParser5FieldEiED1Ev@Base 4:15.08.0
  (optional=templinst|arch=!ppc64el)_ZN4QMapIN6Marble14WaypointParser5FieldEiED2Ev@Base 4:15.08.0
+ (optional=templinst)_ZN4QMapIN6Marble6TileIdE14QSharedPointerINS0_15VectorTileModel13CacheDocumentEEE13detach_helperEv@Base 4:15.11.80+git20150924.0815
+ (optional=templinst)_ZN4QMapIN6Marble6TileIdE14QSharedPointerINS0_15VectorTileModel13CacheDocumentEEE5eraseENS6_8iteratorE@Base 4:15.11.80+git20150924.0815
  (optional=templinst|arch=!ppc64el)_ZN4QMapIN6Marble6TileIdE5QListIPKNS0_16GeoDataPlacemarkEEE13detach_helperEv@Base 4:15.08.0
  (optional=templinst|arch=!ppc64el)_ZN4QMapIN6Marble6TileIdE5QListIPNS0_15GeoGraphicsItemEEE13detach_helperEv@Base 4:15.08.0
  (optional=templinst|arch=!ppc64el)_ZN4QMapIN6Marble8Maneuver9DirectionE7QStringE13detach_helperEv@Base 4:15.08.0
@@ -387,6 +396,7 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  (optional=templinst)_ZN5QHashIN6Marble18GeoDataCoordinatesENS0_16OsmPlacemarkDataEE11deleteNode2EPN9QHashData4NodeE@Base 4:15.08.0
  (optional=templinst|arch=!ppc64el)_ZN5QHashIN6Marble18GeoDataCoordinatesENS0_16OsmPlacemarkDataEE13detach_helperEv@Base 4:15.08.0
  (optional=templinst)_ZN5QHashIN6Marble18GeoDataCoordinatesENS0_16OsmPlacemarkDataEE13duplicateNodeEPN9QHashData4NodeEPv@Base 4:15.08.0
+ (optional=templinst)_ZN5QHashIN6Marble18GeoDataCoordinatesENS0_16OsmPlacemarkDataEE6removeERKS1_@Base 4:15.11.80+git20150924.0815
  (optional=templinst|arch=amd64 armhf i386)_ZN5QHashIN6Marble18GeoDataCoordinatesENS0_16OsmPlacemarkDataEED1Ev@Base 4:15.08.0
  (optional=templinst|arch=amd64 armhf i386)_ZN5QHashIN6Marble18GeoDataCoordinatesENS0_16OsmPlacemarkDataEED2Ev@Base 4:15.08.0
  (optional=templinst)_ZN5QHashIN6Marble6TileIdE15QHashDummyValueE11deleteNode2EPN9QHashData4NodeE@Base 4:15.08.0
@@ -406,10 +416,6 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  (optional=templinst|arch=!ppc64el)_ZN5QHashIN6Marble6TileIdEN6QCacheIS1_NS0_11StackedTileEE4NodeEE13detach_helperEv@Base 4:15.08.0
  (optional=templinst)_ZN5QHashIN6Marble6TileIdEN6QCacheIS1_NS0_11StackedTileEE4NodeEE13duplicateNodeEPN9QHashData4NodeEPv@Base 4:15.08.0
  (optional=templinst|arch=!ppc64el)_ZN5QHashIN6Marble6TileIdEN6QCacheIS1_NS0_11StackedTileEE4NodeEE6removeERKS1_@Base 4:15.08.0
- (optional=templinst)_ZN5QHashIN6Marble6TileIdEN6QCacheIS1_NS0_15VectorTileModel13CacheDocumentEE4NodeEE11deleteNode2EPN9QHashData4NodeE@Base 4:15.08.0
- (optional=templinst|arch=!ppc64el)_ZN5QHashIN6Marble6TileIdEN6QCacheIS1_NS0_15VectorTileModel13CacheDocumentEE4NodeEE13detach_helperEv@Base 4:15.08.0
- (optional=templinst)_ZN5QHashIN6Marble6TileIdEN6QCacheIS1_NS0_15VectorTileModel13CacheDocumentEE4NodeEE13duplicateNodeEPN9QHashData4NodeEPv@Base 4:15.08.0
- (optional=templinst)_ZN5QHashIN6Marble6TileIdEN6QCacheIS1_NS0_15VectorTileModel13CacheDocumentEE4NodeEE6removeERKS1_@Base 4:15.08.0
  (optional=templinst)_ZN5QHashIN6Marble6TileIdEPNS0_11StackedTileEE11deleteNode2EPN9QHashData4NodeE@Base 4:15.08.0
  (optional=templinst|arch=!ppc64el)_ZN5QHashIN6Marble6TileIdEPNS0_11StackedTileEE13detach_helperEv@Base 4:15.08.0
  (optional=templinst)_ZN5QHashIN6Marble6TileIdEPNS0_11StackedTileEE13duplicateNodeEPN9QHashData4NodeEPv@Base 4:15.08.0
@@ -419,9 +425,6 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  (optional=templinst)_ZN5QHashIPKN6Marble14GeoDataFeatureENS0_6TileIdEE11deleteNode2EPN9QHashData4NodeE@Base 4:15.08.0
  (optional=templinst|arch=!ppc64el)_ZN5QHashIPKN6Marble14GeoDataFeatureENS0_6TileIdEE13detach_helperEv@Base 4:15.08.0
  (optional=templinst)_ZN5QHashIPKN6Marble14GeoDataFeatureENS0_6TileIdEE13duplicateNodeEPN9QHashData4NodeEPv@Base 4:15.08.0
- (optional=templinst)_ZN5QHashIPKN6Marble15GeoDataGeometryENS0_16OsmPlacemarkDataEE11deleteNode2EPN9QHashData4NodeE@Base 4:15.08.0
- (optional=templinst|arch=!ppc64el)_ZN5QHashIPKN6Marble15GeoDataGeometryENS0_16OsmPlacemarkDataEE13detach_helperEv@Base 4:15.08.0
- (optional=templinst)_ZN5QHashIPKN6Marble15GeoDataGeometryENS0_16OsmPlacemarkDataEE13duplicateNodeEPN9QHashData4NodeEPv@Base 4:15.08.0
  (optional=templinst)_ZN5QHashIPKN6Marble16GeoDataPlacemarkEPNS0_16VisiblePlacemarkEE11deleteNode2EPN9QHashData4NodeE@Base 4:15.08.0
  (optional=templinst|arch=!ppc64el)_ZN5QHashIPKN6Marble16GeoDataPlacemarkEPNS0_16VisiblePlacemarkEE13detach_helperEv@Base 4:15.08.0
  (optional=templinst)_ZN5QHashIPKN6Marble16GeoDataPlacemarkEPNS0_16VisiblePlacemarkEE13duplicateNodeEPN9QHashData4NodeEPv@Base 4:15.08.0
@@ -445,9 +448,18 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  (optional=templinst)_ZN5QHashIi10QByteArrayEixERKi@Base 4:15.08.0
  (optional=templinst)_ZN5QHashIi21QPersistentModelIndexE11deleteNode2EPN9QHashData4NodeE@Base 4:15.08.0
  (optional=templinst)_ZN5QHashIi21QPersistentModelIndexE13duplicateNodeEPN9QHashData4NodeEPv@Base 4:15.08.0
+ (optional=templinst)_ZN5QHashIiN6Marble16OsmPlacemarkDataEE11deleteNode2EPN9QHashData4NodeE@Base 4:15.11.80+git20150924.0815
+ (optional=templinst)_ZN5QHashIiN6Marble16OsmPlacemarkDataEE13detach_helperEv@Base 4:15.11.80+git20150924.0815
+ (optional=templinst)_ZN5QHashIiN6Marble16OsmPlacemarkDataEE13duplicateNodeEPN9QHashData4NodeEPv@Base 4:15.11.80+git20150924.0815
+ (optional=templinst)_ZN5QHashIiN6Marble16OsmPlacemarkDataEED1Ev@Base 4:15.11.80+git20150924.0815
+ (optional=templinst)_ZN5QHashIiN6Marble16OsmPlacemarkDataEED2Ev@Base 4:15.11.80+git20150924.0815
  (optional=templinst)_ZN5QHashIiiE11deleteNode2EPN9QHashData4NodeE@Base 4:15.08.0
  (optional=templinst)_ZN5QHashIiiE13duplicateNodeEPN9QHashData4NodeEPv@Base 4:15.08.0
  (optional=templinst)_ZN5QHashIiiE6insertERKiS2_@Base 4:15.08.0
+ (optional=templinst)_ZN5QHashIx7QStringE11deleteNode2EPN9QHashData4NodeE@Base 4:15.11.80+git20150924.0815
+ (optional=templinst)_ZN5QHashIx7QStringE13detach_helperEv@Base 4:15.11.80+git20150924.0815
+ (optional=templinst)_ZN5QHashIx7QStringE13duplicateNodeEPN9QHashData4NodeEPv@Base 4:15.11.80+git20150924.0815
+ (optional=templinst|arch=i386)_ZN5QHashIx7QStringE6removeERKx@Base 4:15.11.80+git20150924.0815
  (optional=templinst)_ZN5QListI10QByteArrayED1Ev@Base 4:15.08.0
  (optional=templinst)_ZN5QListI10QByteArrayED2Ev@Base 4:15.08.0
  (optional=templinst)_ZN5QListI11QModelIndexE13detach_helperEi@Base 4:15.08.0
@@ -466,6 +478,12 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  (optional=templinst)_ZN5QListI21QPersistentModelIndexE9removeOneERKS0_@Base 4:15.08.0
  (optional=templinst)_ZN5QListI21QPersistentModelIndexED1Ev@Base 4:15.08.0
  (optional=templinst)_ZN5QListI21QPersistentModelIndexED2Ev@Base 4:15.08.0
+ (optional=templinst)_ZN5QListI5QPairI7QStringS1_EE18detach_helper_growEii@Base 4:15.11.80+git20150924.0815
+ (optional=templinst)_ZN5QListI5QPairI7QStringS1_EE6appendERKS2_@Base 4:15.11.80+git20150924.0815
+ (optional=templinst)_ZN5QListI5QPairI7QStringS1_EEC1ERKS3_@Base 4:15.11.80+git20150924.0815
+ (optional=templinst)_ZN5QListI5QPairI7QStringS1_EEC2ERKS3_@Base 4:15.11.80+git20150924.0815
+ (optional=templinst)_ZN5QListI5QPairI7QStringS1_EED1Ev@Base 4:15.11.80+git20150924.0815
+ (optional=templinst)_ZN5QListI5QPairI7QStringS1_EED2Ev@Base 4:15.11.80+git20150924.0815
  (optional=templinst)_ZN5QListI5QPairIN6Marble17DownloadPolicyKeyEPNS1_16DownloadQueueSetEEE13detach_helperEi@Base 4:15.08.0
  (optional=templinst)_ZN5QListI5QPairIN6Marble17DownloadPolicyKeyEPNS1_16DownloadQueueSetEEE18detach_helper_growEii@Base 4:15.08.0
  (optional=templinst)_ZN5QListI5QPairIN6Marble17DownloadPolicyKeyEPNS1_16DownloadQueueSetEEE6appendERKS5_@Base 4:15.08.0
@@ -594,6 +612,13 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  (optional=templinst)_ZN5QListIN6Marble15GeoSceneGeodataEEC2ERKS2_@Base 4:15.08.0
  (optional=templinst|arch=!ppc64el)_ZN5QListIN6Marble15GeoSceneGeodataEED1Ev@Base 4:15.08.0
  (optional=templinst|arch=!ppc64el)_ZN5QListIN6Marble15GeoSceneGeodataEED2Ev@Base 4:15.08.0
+ (optional=templinst)_ZN5QListIN6Marble16OsmPlacemarkDataEE13detach_helperEi@Base 4:15.11.80+git20150924.0815
+ (optional=templinst)_ZN5QListIN6Marble16OsmPlacemarkDataEE18detach_helper_growEii@Base 4:15.11.80+git20150924.0815
+ (optional=templinst)_ZN5QListIN6Marble16OsmPlacemarkDataEE6appendERKS1_@Base 4:15.11.80+git20150924.0815
+ (optional=templinst)_ZN5QListIN6Marble16OsmPlacemarkDataEEC1ERKS2_@Base 4:15.11.80+git20150924.0815
+ (optional=templinst)_ZN5QListIN6Marble16OsmPlacemarkDataEEC2ERKS2_@Base 4:15.11.80+git20150924.0815
+ (optional=templinst)_ZN5QListIN6Marble16OsmPlacemarkDataEED1Ev@Base 4:15.11.80+git20150924.0815
+ (optional=templinst)_ZN5QListIN6Marble16OsmPlacemarkDataEED2Ev@Base 4:15.11.80+git20150924.0815
  (optional=templinst)_ZN5QListIN6Marble17GeoDataSchemaDataEE13detach_helperEi@Base 4:15.08.0
  (optional=templinst)_ZN5QListIN6Marble17GeoDataSchemaDataEE18detach_helper_growEii@Base 4:15.08.0
  (optional=templinst|arch=!ppc64el)_ZN5QListIN6Marble17GeoDataSchemaDataEE6appendERKS1_@Base 4:15.08.0
@@ -644,6 +669,7 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  (optional=templinst|arch=!ppc64el)_ZN5QListIN6Marble6TileIdEE18detach_helper_growEii@Base 4:15.08.0
  (optional=templinst|arch=!ppc64el)_ZN5QListIN6Marble6TileIdEE6appendERKS1_@Base 4:15.08.0
  (optional=templinst|arch=powerpc ppc64el)_ZN5QListIN6Marble6TileIdEE6detachEv@Base 4:15.08.0
+ (optional=templinst)_ZN5QListIN6Marble6TileIdEE9removeAllERKS1_@Base 4:15.11.80+git20150924.0815
  (optional=templinst)_ZN5QListIN6Marble6TileIdEEC1ERKS2_@Base 4:15.08.0
  (optional=templinst)_ZN5QListIN6Marble6TileIdEEC2ERKS2_@Base 4:15.08.0
  (optional=templinst)_ZN5QListIN6Marble6TileIdEED1Ev@Base 4:15.08.0
@@ -794,6 +820,12 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  (optional=templinst|arch=!ppc64el)_ZN5QListIPN6Marble14LayerInterfaceEEC2ERKS3_@Base 4:15.08.0
  (optional=templinst|arch=!ppc64el)_ZN5QListIPN6Marble14LayerInterfaceEED1Ev@Base 4:15.08.0
  (optional=templinst|arch=!ppc64el)_ZN5QListIPN6Marble14LayerInterfaceEED2Ev@Base 4:15.08.0
+ (optional=templinst)_ZN5QListIPN6Marble15GeoDataDocumentEE13detach_helperEi@Base 4:15.11.80+git20150924.0815
+ (optional=templinst)_ZN5QListIPN6Marble15GeoDataDocumentEE18detach_helper_growEii@Base 4:15.11.80+git20150924.0815
+ (optional=templinst)_ZN5QListIPN6Marble15GeoDataDocumentEE6appendERKS2_@Base 4:15.11.80+git20150924.0815
+ (optional=templinst)_ZN5QListIPN6Marble15GeoDataDocumentEE9removeAllERKS2_@Base 4:15.11.80+git20150924.0815
+ (optional=templinst)_ZN5QListIPN6Marble15GeoDataDocumentEED1Ev@Base 4:15.11.80+git20150924.0815
+ (optional=templinst)_ZN5QListIPN6Marble15GeoDataDocumentEED2Ev@Base 4:15.11.80+git20150924.0815
  (optional=templinst|arch=!ppc64el)_ZN5QListIPN6Marble15GeoGraphicsItemEE13detach_helperEi@Base 4:15.08.0
  (optional=templinst)_ZN5QListIPN6Marble15GeoGraphicsItemEE18detach_helper_growEii@Base 4:15.08.0
  (optional=templinst|arch=!ppc64el)_ZN5QListIPN6Marble15GeoGraphicsItemEE6appendERKS2_@Base 4:15.08.0
@@ -802,6 +834,7 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  (optional=templinst|arch=!ppc64el)_ZN5QListIPN6Marble15GeoGraphicsItemEEC2ERKS3_@Base 4:15.08.0
  (optional=templinst)_ZN5QListIPN6Marble15GeoGraphicsItemEED1Ev@Base 4:15.08.0
  (optional=templinst)_ZN5QListIPN6Marble15GeoGraphicsItemEED2Ev@Base 4:15.08.0
+ (optional=templinst)_ZN5QListIPN6Marble15GeoGraphicsItemEEpLERKS3_@Base 4:15.11.80+git20150924.0815
  (optional=templinst)_ZN5QListIPN6Marble17AbstractFloatItemEE18detach_helper_growEii@Base 4:15.08.0
  (optional=templinst|arch=!ppc64el)_ZN5QListIPN6Marble17AbstractFloatItemEE6appendERKS2_@Base 4:15.08.0
  (optional=templinst)_ZN5QListIPN6Marble17AbstractFloatItemEED1Ev@Base 4:15.08.0
@@ -916,7 +949,7 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble10GeoPainter11drawEllipseERKNS_18GeoDataCoordinatesEddb@Base 4:15.08.0
  _ZN6Marble10GeoPainter11drawPolygonERKNS_14GeoDataPolygonEN2Qt8FillRuleE@Base 4:15.08.0
  _ZN6Marble10GeoPainter11drawPolygonERKNS_17GeoDataLinearRingEN2Qt8FillRuleE@Base 4:15.08.0
- _ZN6Marble10GeoPainter12drawPolylineERKNS_17GeoDataLineStringERK7QString6QFlagsINS_17LabelPositionFlagEE@Base 4:15.08.0
+ _ZN6Marble10GeoPainter12drawPolylineERKNS_17GeoDataLineStringERK7QString6QFlagsINS_17LabelPositionFlagEERK6QColorRK5QFont@Base 4:15.11.80+git20150924.0815
  _ZN6Marble10GeoPainter13drawRoundRectERKNS_18GeoDataCoordinatesEiiii@Base 4:15.08.0
  _ZN6Marble10GeoPainter14drawAnnotationERKNS_18GeoDataCoordinatesERK7QString6QSizeFdddd@Base 4:15.08.0
  _ZN6Marble10GeoPainter8drawRectERKNS_18GeoDataCoordinatesEddb@Base 4:15.08.0
@@ -990,9 +1023,6 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble10PopupLayer5popupEv@Base 4:15.08.0
  _ZN6Marble10PopupLayer6renderEPNS_10GeoPainterEPNS_14ViewportParamsERK7QStringPNS_13GeoSceneLayerE@Base 4:15.08.0
  _ZN6Marble10PopupLayer6setUrlERK4QUrl@Base 4:15.08.0
- _ZN6Marble10PopupLayer7Private18setAppropriateSizeEPKNS_14ViewportParamsE@Base 4:15.08.0
- _ZN6Marble10PopupLayer7PrivateC1EPNS_12MarbleWidgetEPS0_@Base 4:15.08.0
- _ZN6Marble10PopupLayer7PrivateC2EPNS_12MarbleWidgetEPS0_@Base 4:15.08.0
  _ZN6Marble10PopupLayer7setSizeERK6QSizeF@Base 4:15.08.0
  _ZN6Marble10PopupLayerC1EPNS_12MarbleWidgetEP7QObject@Base 4:15.08.0
  _ZN6Marble10PopupLayerC2EPNS_12MarbleWidgetEP7QObject@Base 4:15.08.0
@@ -1049,22 +1079,22 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble10SunLocatorD0Ev@Base 4:15.08.0
  _ZN6Marble10SunLocatorD1Ev@Base 4:15.08.0
  _ZN6Marble10SunLocatorD2Ev@Base 4:15.08.0
- _ZN6Marble10TileLoader10tileStatusEPKNS_13GeoSceneTiledERKNS_6TileIdE@Base 4:15.08.0
+ _ZN6Marble10TileLoader10tileStatusEPKNS_19GeoSceneTileDatasetERKNS_6TileIdE@Base 4:15.11.80+git20150924.0815
  _ZN6Marble10TileLoader10updateTileERK10QByteArrayRK7QString@Base 4:15.08.0
  _ZN6Marble10TileLoader11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:15.08.0
  _ZN6Marble10TileLoader11qt_metacastEPKc@Base 4:15.08.0
- _ZN6Marble10TileLoader12downloadTileEPKNS_13GeoSceneTiledERKNS_6TileIdENS_13DownloadUsageE@Base 4:15.08.0
+ _ZN6Marble10TileLoader12downloadTileEPKNS_19GeoSceneTileDatasetERKNS_6TileIdENS_13DownloadUsageE@Base 4:15.11.80+git20150924.0815
  _ZN6Marble10TileLoader12downloadTileERK4QUrlRK7QStringS6_NS_13DownloadUsageE@Base 4:15.08.0
- _ZN6Marble10TileLoader12tileFileNameEPKNS_13GeoSceneTiledERKNS_6TileIdE@Base 4:15.08.0
- _ZN6Marble10TileLoader13loadTileImageEPKNS_19GeoSceneTextureTileERKNS_6TileIdENS_13DownloadUsageE@Base 4:15.08.0
+ _ZN6Marble10TileLoader12tileFileNameEPKNS_19GeoSceneTileDatasetERKNS_6TileIdE@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble10TileLoader13loadTileImageEPKNS_26GeoSceneTextureTileDatasetERKNS_6TileIdENS_13DownloadUsageE@Base 4:15.11.80+git20150924.0815
  _ZN6Marble10TileLoader13tileCompletedERKNS_6TileIdEPNS_15GeoDataDocumentERK7QString@Base 4:15.08.0
  _ZN6Marble10TileLoader13tileCompletedERKNS_6TileIdERK6QImage@Base 4:15.08.0
- _ZN6Marble10TileLoader15triggerDownloadEPKNS_13GeoSceneTiledERKNS_6TileIdENS_13DownloadUsageE@Base 4:15.08.0
- _ZN6Marble10TileLoader16maximumTileLevelERKNS_13GeoSceneTiledE@Base 4:15.08.0
+ _ZN6Marble10TileLoader15triggerDownloadEPKNS_19GeoSceneTileDatasetERKNS_6TileIdENS_13DownloadUsageE@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble10TileLoader16maximumTileLevelERKNS_19GeoSceneTileDatasetE@Base 4:15.11.80+git20150924.0815
  _ZN6Marble10TileLoader16staticMetaObjectE@Base 4:15.08.0
- _ZN6Marble10TileLoader18baseTilesAvailableERKNS_13GeoSceneTiledE@Base 4:15.08.0
- _ZN6Marble10TileLoader18loadTileVectorDataEPKNS_18GeoSceneVectorTileERKNS_6TileIdENS_13DownloadUsageE@Base 4:15.08.0
- _ZN6Marble10TileLoader20scaledLowerLevelTileEPKNS_19GeoSceneTextureTileERKNS_6TileIdE@Base 4:15.08.0
+ _ZN6Marble10TileLoader18baseTilesAvailableERKNS_19GeoSceneTileDatasetE@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble10TileLoader18loadTileVectorDataEPKNS_25GeoSceneVectorTileDatasetERKNS_6TileIdENS_13DownloadUsageE@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble10TileLoader20scaledLowerLevelTileEPKNS_26GeoSceneTextureTileDatasetERKNS_6TileIdE@Base 4:15.11.80+git20150924.0815
  _ZN6Marble10TileLoaderC1EPNS_19HttpDownloadManagerEPKNS_13PluginManagerE@Base 4:15.08.0
  _ZN6Marble10TileLoaderC2EPNS_19HttpDownloadManagerEPKNS_13PluginManagerE@Base 4:15.08.0
  _ZN6Marble10TileLoaderD0Ev@Base 4:15.08.0
@@ -1075,8 +1105,8 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble10TileRunner14documentLoadedERKNS_6TileIdEPNS_15GeoDataDocumentE@Base 4:15.08.0
  _ZN6Marble10TileRunner16staticMetaObjectE@Base 4:15.08.0
  _ZN6Marble10TileRunner3runEv@Base 4:15.08.0
- _ZN6Marble10TileRunnerC1EPNS_10TileLoaderEPKNS_18GeoSceneVectorTileERKNS_6TileIdE@Base 4:15.08.0
- _ZN6Marble10TileRunnerC2EPNS_10TileLoaderEPKNS_18GeoSceneVectorTileERKNS_6TileIdE@Base 4:15.08.0
+ _ZN6Marble10TileRunnerC1EPNS_10TileLoaderEPKNS_25GeoSceneVectorTileDatasetERKNS_6TileIdE@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble10TileRunnerC2EPNS_10TileLoaderEPKNS_25GeoSceneVectorTileDatasetERKNS_6TileIdE@Base 4:15.11.80+git20150924.0815
  _ZN6Marble10TileRunnerD0Ev@Base 4:15.08.0
  _ZN6Marble10TileRunnerD1Ev@Base 4:15.08.0
  _ZN6Marble10TileRunnerD2Ev@Base 4:15.08.0
@@ -1305,8 +1335,6 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble11ParsingTaskD0Ev@Base 4:15.08.0
  _ZN6Marble11ParsingTaskD1Ev@Base 4:15.08.0
  _ZN6Marble11ParsingTaskD2Ev@Base 4:15.08.0
- _ZN6Marble11RenderState7PrivateC1ERK7QStringNS_12RenderStatusE@Base 4:15.08.0
- _ZN6Marble11RenderState7PrivateC2ERK7QStringNS_12RenderStatusE@Base 4:15.08.0
  _ZN6Marble11RenderState8addChildERKS0_@Base 4:15.08.0
  _ZN6Marble11RenderStateC1ERK7QStringNS_12RenderStatusE@Base 4:15.08.0
  _ZN6Marble11RenderStateC1ERKS0_@Base 4:15.08.0
@@ -1481,10 +1509,10 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble12GeoDataStyle9lineStyleEv@Base 4:15.08.0
  _ZN6Marble12GeoDataStyle9listStyleEv@Base 4:15.08.0
  _ZN6Marble12GeoDataStyle9polyStyleEv@Base 4:15.08.0
- _ZN6Marble12GeoDataStyleC1ERK6QImageRK5QFontRK6QColor@Base 4:15.08.0
+ _ZN6Marble12GeoDataStyleC1ERK7QStringRK5QFontRK6QColor@Base 4:15.11.80+git20150924.0815
  _ZN6Marble12GeoDataStyleC1ERKS0_@Base 4:15.08.0
  _ZN6Marble12GeoDataStyleC1Ev@Base 4:15.08.0
- _ZN6Marble12GeoDataStyleC2ERK6QImageRK5QFontRK6QColor@Base 4:15.08.0
+ _ZN6Marble12GeoDataStyleC2ERK7QStringRK5QFontRK6QColor@Base 4:15.11.80+git20150924.0815
  _ZN6Marble12GeoDataStyleC2ERKS0_@Base 4:15.08.0
  _ZN6Marble12GeoDataStyleC2Ev@Base 4:15.08.0
  _ZN6Marble12GeoDataStyleD0Ev@Base 4:15.08.0
@@ -1643,12 +1671,6 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble12LayerManager19setShowRuntimeTraceEb@Base 4:15.08.0
  _ZN6Marble12LayerManager21pluginSettingsChangedEv@Base 4:15.08.0
  _ZN6Marble12LayerManager23renderPluginInitializedEPNS_12RenderPluginE@Base 4:15.08.0
- _ZN6Marble12LayerManager7Private10addPluginsEv@Base 4:15.08.0
- _ZN6Marble12LayerManager7Private16updateVisibilityEbRK7QString@Base 4:15.08.0
- _ZN6Marble12LayerManager7PrivateC1EPKNS_11MarbleModelEPS0_@Base 4:15.08.0
- _ZN6Marble12LayerManager7PrivateC2EPKNS_11MarbleModelEPS0_@Base 4:15.08.0
- _ZN6Marble12LayerManager7PrivateD1Ev@Base 4:15.08.0
- _ZN6Marble12LayerManager7PrivateD2Ev@Base 4:15.08.0
  _ZN6Marble12LayerManager8addLayerEPNS_14LayerInterfaceE@Base 4:15.08.0
  _ZN6Marble12LayerManagerC1EPKNS_11MarbleModelEP7QObject@Base 4:15.08.0
  _ZN6Marble12LayerManagerC2EPKNS_11MarbleModelEP7QObject@Base 4:15.08.0
@@ -1886,10 +1908,13 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble12RouteRequest16staticMetaObjectE@Base 4:15.08.0
  _ZN6Marble12RouteRequest17setRoutingProfileERKNS_14RoutingProfileE@Base 4:15.08.0
  _ZN6Marble12RouteRequest21routingProfileChangedEv@Base 4:15.08.0
+ _ZN6Marble12RouteRequest4swapEii@Base 4:15.11.80+git20150924.0815
  _ZN6Marble12RouteRequest5clearEv@Base 4:15.08.0
+ _ZN6Marble12RouteRequest6addViaERKNS_16GeoDataPlacemarkE@Base 4:15.11.80+git20150924.0815
  _ZN6Marble12RouteRequest6addViaERKNS_18GeoDataCoordinatesE@Base 4:15.08.0
  _ZN6Marble12RouteRequest6appendERKNS_16GeoDataPlacemarkE@Base 4:15.08.0
  _ZN6Marble12RouteRequest6appendERKNS_18GeoDataCoordinatesERK7QString@Base 4:15.08.0
+ _ZN6Marble12RouteRequest6insertEiRKNS_16GeoDataPlacemarkE@Base 4:15.11.80+git20150924.0815
  _ZN6Marble12RouteRequest6insertEiRKNS_18GeoDataCoordinatesERK7QString@Base 4:15.08.0
  _ZN6Marble12RouteRequest6removeEi@Base 4:15.08.0
  _ZN6Marble12RouteRequest7reverseEv@Base 4:15.08.0
@@ -1963,14 +1988,14 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble12SearchWidgetD0Ev@Base 4:15.08.0
  _ZN6Marble12SearchWidgetD1Ev@Base 4:15.08.0
  _ZN6Marble12SearchWidgetD2Ev@Base 4:15.08.0
- _ZN6Marble12ServerLayoutC1EPNS_13GeoSceneTiledE@Base 4:15.08.0
- _ZN6Marble12ServerLayoutC2EPNS_13GeoSceneTiledE@Base 4:15.08.0
+ _ZN6Marble12ServerLayoutC1EPNS_19GeoSceneTileDatasetE@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble12ServerLayoutC2EPNS_19GeoSceneTileDatasetE@Base 4:15.11.80+git20150924.0815
  _ZN6Marble12ServerLayoutD0Ev@Base 4:15.08.0
  _ZN6Marble12ServerLayoutD1Ev@Base 4:15.08.0
  _ZN6Marble12ServerLayoutD2Ev@Base 4:15.08.0
  _ZN6Marble12TextureLayer11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:15.08.0
  _ZN6Marble12TextureLayer11qt_metacastEPKc@Base 4:15.08.0
- _ZN6Marble12TextureLayer11setMapThemeERK7QVectorIPKNS_19GeoSceneTextureTileEEPKNS_13GeoSceneGroupERK7QStringSD_@Base 4:15.08.0
+ _ZN6Marble12TextureLayer11setMapThemeERK7QVectorIPKNS_26GeoSceneTextureTileDatasetEEPKNS_13GeoSceneGroupERK7QStringSD_@Base 4:15.11.80+git20150924.0815
  _ZN6Marble12TextureLayer13repaintNeededEv@Base 4:15.08.0
  _ZN6Marble12TextureLayer13setProjectionENS_10ProjectionE@Base 4:15.08.0
  _ZN6Marble12TextureLayer13setShowReliefEb@Base 4:15.08.0
@@ -1978,7 +2003,7 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble12TextureLayer14addSeaDocumentEPKNS_15GeoDataDocumentE@Base 4:15.08.0
  _ZN6Marble12TextureLayer14setNeedsUpdateEv@Base 4:15.08.0
  _ZN6Marble12TextureLayer15addLandDocumentEPKNS_15GeoDataDocumentE@Base 4:15.08.0
- _ZN6Marble12TextureLayer15addTextureLayerEPNS_19GeoSceneTextureTileE@Base 4:15.08.0
+ _ZN6Marble12TextureLayer15addTextureLayerEPNS_26GeoSceneTextureTileDatasetE@Base 4:15.11.80+git20150924.0815
  _ZN6Marble12TextureLayer16staticMetaObjectE@Base 4:15.08.0
  _ZN6Marble12TextureLayer16tileLevelChangedEi@Base 4:15.08.0
  _ZN6Marble12TextureLayer17setShowCityLightsEb@Base 4:15.08.0
@@ -1989,17 +2014,6 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble12TextureLayer5resetEv@Base 4:15.08.0
  _ZN6Marble12TextureLayer6reloadEv@Base 4:15.08.0
  _ZN6Marble12TextureLayer6renderEPNS_10GeoPainterEPNS_14ViewportParamsERK7QStringPNS_13GeoSceneLayerE@Base 4:15.08.0
- _ZN6Marble12TextureLayer7Private10updateTileERKNS_6TileIdERK6QImage@Base 4:15.08.0
- _ZN6Marble12TextureLayer7Private17addCustomTexturesEv@Base 4:15.08.0
- _ZN6Marble12TextureLayer7Private17addGroundOverlaysE11QModelIndexii@Base 4:15.08.0
- _ZN6Marble12TextureLayer7Private17drawOrderLessThanEPKNS_20GeoDataGroundOverlayES4_@Base 4:15.08.0
- _ZN6Marble12TextureLayer7Private19updateTextureLayersEv@Base 4:15.08.0
- _ZN6Marble12TextureLayer7Private20removeGroundOverlaysE11QModelIndexii@Base 4:15.08.0
- _ZN6Marble12TextureLayer7Private20updateGroundOverlaysEv@Base 4:15.08.0
- _ZN6Marble12TextureLayer7Private21requestDelayedRepaintEv@Base 4:15.08.0
- _ZN6Marble12TextureLayer7Private24resetGroundOverlaysCacheEv@Base 4:15.08.0
- _ZN6Marble12TextureLayer7PrivateC1EPNS_19HttpDownloadManagerEPKNS_10SunLocatorEP18QAbstractItemModelPS0_@Base 4:15.08.0
- _ZN6Marble12TextureLayer7PrivateC2EPNS_19HttpDownloadManagerEPKNS_10SunLocatorEP18QAbstractItemModelPS0_@Base 4:15.08.0
  _ZN6Marble12TextureLayerC1EPNS_19HttpDownloadManagerEPKNS_10SunLocatorEP18QAbstractItemModel@Base 4:15.08.0
  _ZN6Marble12TextureLayerC2EPNS_19HttpDownloadManagerEPKNS_10SunLocatorEP18QAbstractItemModel@Base 4:15.08.0
  _ZN6Marble12TextureLayerD0Ev@Base 4:15.08.0
@@ -2051,10 +2065,6 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble13AddLinkDialog11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:15.08.0
  _ZN6Marble13AddLinkDialog11qt_metacastEPKc@Base 4:15.08.0
  _ZN6Marble13AddLinkDialog16staticMetaObjectE@Base 4:15.08.0
- _ZN6Marble13AddLinkDialog7PrivateC1Ev@Base 4:15.08.0
- _ZN6Marble13AddLinkDialog7PrivateC2Ev@Base 4:15.08.0
- _ZN6Marble13AddLinkDialog7PrivateD1Ev@Base 4:15.08.0
- _ZN6Marble13AddLinkDialog7PrivateD2Ev@Base 4:15.08.0
  _ZN6Marble13AddLinkDialogC1EP7QWidget@Base 4:15.08.0
  _ZN6Marble13AddLinkDialogC2EP7QWidget@Base 4:15.08.0
  _ZN6Marble13AddLinkDialogD0Ev@Base 4:15.08.0
@@ -2218,22 +2228,6 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble13GeoSceneLayerD0Ev@Base 4:15.08.0
  _ZN6Marble13GeoSceneLayerD1Ev@Base 4:15.08.0
  _ZN6Marble13GeoSceneLayerD2Ev@Base 4:15.08.0
- _ZN6Marble13GeoSceneTiled11setTileSizeERK5QSize@Base 4:15.08.0
- _ZN6Marble13GeoSceneTiled12setSourceDirERK7QString@Base 4:15.08.0
- _ZN6Marble13GeoSceneTiled13setInstallMapERK7QString@Base 4:15.08.0
- _ZN6Marble13GeoSceneTiled13setProjectionENS0_10ProjectionE@Base 4:15.08.0
- _ZN6Marble13GeoSceneTiled14addDownloadUrlERK4QUrl@Base 4:15.08.0
- _ZN6Marble13GeoSceneTiled15setServerLayoutEPKNS_12ServerLayoutE@Base 4:15.08.0
- _ZN6Marble13GeoSceneTiled16setLevelZeroRowsEi@Base 4:15.08.0
- _ZN6Marble13GeoSceneTiled16setStorageLayoutENS0_13StorageLayoutE@Base 4:15.08.0
- _ZN6Marble13GeoSceneTiled17addDownloadPolicyENS_13DownloadUsageEi@Base 4:15.08.0
- _ZN6Marble13GeoSceneTiled19setLevelZeroColumnsEi@Base 4:15.08.0
- _ZN6Marble13GeoSceneTiled19setMaximumTileLevelEi@Base 4:15.08.0
- _ZN6Marble13GeoSceneTiledC1ERK7QString@Base 4:15.08.0
- _ZN6Marble13GeoSceneTiledC2ERK7QString@Base 4:15.08.0
- _ZN6Marble13GeoSceneTiledD0Ev@Base 4:15.08.0
- _ZN6Marble13GeoSceneTiledD1Ev@Base 4:15.08.0
- _ZN6Marble13GeoSceneTiledD2Ev@Base 4:15.08.0
  _ZN6Marble13GeoSceneTypes15GeoSceneMapTypeE@Base 4:15.08.0
  _ZN6Marble13GeoSceneTypes16GeoSceneHeadTypeE@Base 4:15.08.0
  _ZN6Marble13GeoSceneTypes16GeoSceneIconTypeE@Base 4:15.08.0
@@ -2241,7 +2235,6 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble13GeoSceneTypes16GeoSceneZoomTypeE@Base 4:15.08.0
  _ZN6Marble13GeoSceneTypes17GeoSceneGroupTypeE@Base 4:15.08.0
  _ZN6Marble13GeoSceneTypes17GeoSceneLayerTypeE@Base 4:15.08.0
- _ZN6Marble13GeoSceneTypes17GeoSceneTiledTypeE@Base 4:15.08.0
  _ZN6Marble13GeoSceneTypes18GeoSceneFilterTypeE@Base 4:15.08.0
  _ZN6Marble13GeoSceneTypes18GeoSceneLegendTypeE@Base 4:15.08.0
  _ZN6Marble13GeoSceneTypes18GeoSceneVectorTypeE@Base 4:15.08.0
@@ -2253,6 +2246,7 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble13GeoSceneTypes20GeoSceneSettingsTypeE@Base 4:15.08.0
  _ZN6Marble13GeoSceneTypes22GeoSceneVectorTileTypeE@Base 4:15.08.0
  _ZN6Marble13GeoSceneTypes23GeoSceneTextureTileTypeE@Base 4:15.08.0
+ _ZN6Marble13GeoSceneTypes23GeoSceneTileDatasetTypeE@Base 4:15.11.80+git20150924.0815
  _ZN6Marble13GeoSceneTypes25GeoSceneXmlDataSourceTypeE@Base 4:15.08.0
  _ZN6Marble13GeoTagHandler10recognizesERK5QPairI7QStringS2_E@Base 4:15.08.0
  _ZN6Marble13GeoTagHandler14tagHandlerHashEv@Base 4:15.08.0
@@ -2304,16 +2298,6 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble13MapViewWidget29lambertAzimuthalViewRequestedEv@Base 4:15.08.0
  _ZN6Marble13MapViewWidget32verticalPerspectiveViewRequestedEv@Base 4:15.08.0
  _ZN6Marble13MapViewWidget33azimuthalEquidistantViewRequestedEv@Base 4:15.08.0
- _ZN6Marble13MapViewWidget7Private12setupToolBarEv@Base 4:15.08.0
- _ZN6Marble13MapViewWidget7Private14toggleFavoriteEv@Base 4:15.08.0
- _ZN6Marble13MapViewWidget7Private14toggleIconSizeEv@Base 4:15.08.0
- _ZN6Marble13MapViewWidget7Private15showContextMenuERK6QPoint@Base 4:15.08.0
- _ZN6Marble13MapViewWidget7Private16mapThemeSelectedE11QModelIndex@Base 4:15.08.0
- _ZN6Marble13MapViewWidget7Private16mapThemeSelectedEi@Base 4:15.08.0
- _ZN6Marble13MapViewWidget7Private17isCurrentFavoriteEv@Base 4:15.08.0
- _ZN6Marble13MapViewWidget7Private18projectionSelectedEi@Base 4:15.08.0
- _ZN6Marble13MapViewWidget7Private21celestialBodySelectedEi@Base 4:15.08.0
- _ZN6Marble13MapViewWidget7Private9deleteMapEv@Base 4:15.08.0
  _ZN6Marble13MapViewWidgetC1EP7QWidget6QFlagsIN2Qt10WindowTypeEE@Base 4:15.08.0
  _ZN6Marble13MapViewWidgetC2EP7QWidget6QFlagsIN2Qt10WindowTypeEE@Base 4:15.08.0
  _ZN6Marble13MapViewWidgetD0Ev@Base 4:15.08.0
@@ -2477,11 +2461,6 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble14AutoNavigation22inhibitAutoAdjustmentsEv@Base 4:15.08.0
  _ZN6Marble14AutoNavigation6adjustERKNS_18GeoDataCoordinatesEd@Base 4:15.08.0
  _ZN6Marble14AutoNavigation6zoomInENS_9FlyToModeE@Base 4:15.08.0
- _ZN6Marble14AutoNavigation7Private10adjustZoomERKNS_18GeoDataCoordinatesEd@Base 4:15.08.0
- _ZN6Marble14AutoNavigation7Private20moveOnBorderToCenterERKNS_18GeoDataCoordinatesEd@Base 4:15.08.0
- _ZN6Marble14AutoNavigation7Private8centerOnERKNS_18GeoDataCoordinatesE@Base 4:15.08.0
- _ZN6Marble14AutoNavigation7PrivateC1EPNS_11MarbleModelEPKNS_14ViewportParamsEPS0_@Base 4:15.08.0
- _ZN6Marble14AutoNavigation7PrivateC2EPNS_11MarbleModelEPKNS_14ViewportParamsEPS0_@Base 4:15.08.0
  _ZN6Marble14AutoNavigation7zoomOutENS_9FlyToModeE@Base 4:15.08.0
  _ZN6Marble14AutoNavigation8centerOnERKNS_18GeoDataCoordinatesEb@Base 4:15.08.0
  _ZN6Marble14AutoNavigationC1EPNS_11MarbleModelEPKNS_14ViewportParamsEP7QObject@Base 4:15.08.0
@@ -2571,6 +2550,7 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble14GeoDataFeature10setSnippetERKNS_14GeoDataSnippetE@Base 4:15.08.0
  _ZN6Marble14GeoDataFeature10setVisibleEb@Base 4:15.08.0
  _ZN6Marble14GeoDataFeature11defaultFontEv@Base 4:15.08.0
+ _ZN6Marble14GeoDataFeature11presetStyleENS0_21GeoDataVisualCategoryE@Base 4:15.11.80+git20150924.0815
  _ZN6Marble14GeoDataFeature11setStyleMapEPKNS_15GeoDataStyleMapE@Base 4:15.08.0
  _ZN6Marble14GeoDataFeature11setStyleUrlERK7QString@Base 4:15.08.0
  _ZN6Marble14GeoDataFeature11setTimeSpanERKNS_15GeoDataTimeSpanE@Base 4:15.08.0
@@ -2583,7 +2563,6 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble14GeoDataFeature14setPhoneNumberERK7QString@Base 4:15.08.0
  _ZN6Marble14GeoDataFeature15setAbstractViewEPNS_19GeoDataAbstractViewE@Base 4:15.08.0
  _ZN6Marble14GeoDataFeature15setExtendedDataERKNS_19GeoDataExtendedDataE@Base 4:15.08.0
- _ZN6Marble14GeoDataFeature17OsmVisualCategoryERK7QString@Base 4:15.08.0
  _ZN6Marble14GeoDataFeature17defaultLabelColorEv@Base 4:15.08.0
  _ZN6Marble14GeoDataFeature17setVisualCategoryENS0_21GeoDataVisualCategoryE@Base 4:15.08.0
  _ZN6Marble14GeoDataFeature18resetDefaultStylesEv@Base 4:15.08.0
@@ -2845,8 +2824,6 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble15CloudRouteModel14updateProgressExx@Base 4:15.08.0
  _ZN6Marble15CloudRouteModel16staticMetaObjectE@Base 4:15.08.0
  _ZN6Marble15CloudRouteModel18setDownloadingItemERK21QPersistentModelIndex@Base 4:15.08.0
- _ZN6Marble15CloudRouteModel7PrivateC1Ev@Base 4:15.08.0
- _ZN6Marble15CloudRouteModel7PrivateC2Ev@Base 4:15.08.0
  _ZN6Marble15CloudRouteModel8setItemsERK7QVectorINS_9RouteItemEE@Base 4:15.08.0
  _ZN6Marble15CloudRouteModelC1EP7QObject@Base 4:15.08.0
  _ZN6Marble15CloudRouteModelC2EP7QObject@Base 4:15.08.0
@@ -2979,9 +2956,12 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble15GeoDataTimeSpanD2Ev@Base 4:15.08.0
  _ZN6Marble15GeoDataTimeSpanaSERKS0_@Base 4:15.08.0
  _ZN6Marble15GeoGraphicsItem10setVisibleEb@Base 4:15.08.0
+ _ZN6Marble15GeoGraphicsItem11decorationsEv@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble15GeoGraphicsItem13addDecorationEPS0_@Base 4:15.11.80+git20150924.0815
  _ZN6Marble15GeoGraphicsItem14setHighlightedEb@Base 4:15.08.0
  _ZN6Marble15GeoGraphicsItem15setLatLonAltBoxERKNS_19GeoDataLatLonAltBoxE@Base 4:15.08.0
  _ZN6Marble15GeoGraphicsItem15setMinZoomLevelEi@Base 4:15.08.0
+ _ZN6Marble15GeoGraphicsItem17createDecorationsEv@Base 4:15.11.80+git20150924.0815
  _ZN6Marble15GeoGraphicsItem17setHighlightStyleEPNS_12GeoDataStyleE@Base 4:15.08.0
  _ZN6Marble15GeoGraphicsItem1pEv@Base 4:15.08.0
  _ZN6Marble15GeoGraphicsItem7setFlagENS0_19GeoGraphicsItemFlagEb@Base 4:15.08.0
@@ -3042,8 +3022,6 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble15LatLonBoxWidget16staticMetaObjectE@Base 4:15.08.0
  _ZN6Marble15LatLonBoxWidget19updateLatSingleStepEv@Base 4:15.08.0
  _ZN6Marble15LatLonBoxWidget19updateLonSingleStepEv@Base 4:15.08.0
- _ZN6Marble15LatLonBoxWidget7PrivateC1EP7QWidget@Base 4:15.08.0
- _ZN6Marble15LatLonBoxWidget7PrivateC2EP7QWidget@Base 4:15.08.0
  _ZN6Marble15LatLonBoxWidgetC1EP7QWidget6QFlagsIN2Qt10WindowTypeEE@Base 4:15.08.0
  _ZN6Marble15LatLonBoxWidgetC2EP7QWidget6QFlagsIN2Qt10WindowTypeEE@Base 4:15.08.0
  _ZN6Marble15LatLonBoxWidgetD0Ev@Base 4:15.08.0
@@ -3068,21 +3046,6 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble15MapThemeManager16staticMetaObjectE@Base 4:15.08.0
  _ZN6Marble15MapThemeManager20celestialBodiesModelEv@Base 4:15.08.0
  _ZN6Marble15MapThemeManager25createMapThemeFromOverlayEPKNS_19GeoDataPhotoOverlayE@Base 4:15.08.0
- _ZN6Marble15MapThemeManager7Private10watchPathsEv@Base 4:15.08.0
- _ZN6Marble15MapThemeManager7Private11fileChangedERK7QString@Base 4:15.08.0
- _ZN6Marble15MapThemeManager7Private12pathsToWatchEv@Base 4:15.08.0
- _ZN6Marble15MapThemeManager7Private13findMapThemesERK7QString@Base 4:15.08.0
- _ZN6Marble15MapThemeManager7Private13findMapThemesEv@Base 4:15.08.0
- _ZN6Marble15MapThemeManager7Private15deleteDirectoryERK7QString@Base 4:15.08.0
- _ZN6Marble15MapThemeManager7Private16addMapThemePathsERK7QStringR11QStringList@Base 4:15.08.0
- _ZN6Marble15MapThemeManager7Private16directoryChangedERK7QString@Base 4:15.08.0
- _ZN6Marble15MapThemeManager7Private16loadMapThemeFileERK7QString@Base 4:15.08.0
- _ZN6Marble15MapThemeManager7Private17createMapThemeRowERK7QString@Base 4:15.08.0
- _ZN6Marble15MapThemeManager7Private19updateMapThemeModelEv@Base 4:15.08.0
- _ZN6Marble15MapThemeManager7PrivateC1EPS0_@Base 4:15.08.0
- _ZN6Marble15MapThemeManager7PrivateC2EPS0_@Base 4:15.08.0
- _ZN6Marble15MapThemeManager7PrivateD1Ev@Base 4:15.08.0
- _ZN6Marble15MapThemeManager7PrivateD2Ev@Base 4:15.08.0
  _ZN6Marble15MapThemeManagerC1EP7QObject@Base 4:15.08.0
  _ZN6Marble15MapThemeManagerC2EP7QObject@Base 4:15.08.0
  _ZN6Marble15MapThemeManagerD0Ev@Base 4:15.08.0
@@ -3106,59 +3069,8 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble15MarbleNavigatorD0Ev@Base 4:15.08.0
  _ZN6Marble15MarbleNavigatorD1Ev@Base 4:15.08.0
  _ZN6Marble15MarbleNavigatorD2Ev@Base 4:15.08.0
- _ZN6Marble15MarbleQuickItem10classBeginEv@Base 4:15.08.0
- _ZN6Marble15MarbleQuickItem11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:15.08.0
- _ZN6Marble15MarbleQuickItem11qt_metacastEPKc@Base 4:15.08.0
- _ZN6Marble15MarbleQuickItem11setMapWidthEi@Base 4:15.08.0
- _ZN6Marble15MarbleQuickItem11setShowGridEb@Base 4:15.08.0
- _ZN6Marble15MarbleQuickItem12inputHandlerEv@Base 4:15.08.0
- _ZN6Marble15MarbleQuickItem12setMapHeightEi@Base 4:15.08.0
- _ZN6Marble15MarbleQuickItem13setMapThemeIdE7QString@Base 4:15.08.0
- _ZN6Marble15MarbleQuickItem13setProjectionENS0_10ProjectionE@Base 4:15.08.0
- _ZN6Marble15MarbleQuickItem13setShowCloudsEb@Base 4:15.08.0
- _ZN6Marble15MarbleQuickItem14setShowCompassEb@Base 4:15.08.0
- _ZN6Marble15MarbleQuickItem15mapWidthChangedEi@Base 4:15.08.0
- _ZN6Marble15MarbleQuickItem15setShowScaleBarEb@Base 4:15.08.0
- _ZN6Marble15MarbleQuickItem15showGridChangedEb@Base 4:15.08.0
- _ZN6Marble15MarbleQuickItem16mapHeightChangedEi@Base 4:15.08.0
- _ZN6Marble15MarbleQuickItem16setShowFrameRateEb@Base 4:15.08.0
- _ZN6Marble15MarbleQuickItem16staticMetaObjectE@Base 4:15.08.0
- _ZN6Marble15MarbleQuickItem17componentCompleteEv@Base 4:15.08.0
- _ZN6Marble15MarbleQuickItem17layersEventFilterEP7QObjectP6QEvent@Base 4:15.08.0
- _ZN6Marble15MarbleQuickItem17mapThemeIdChangedE7QString@Base 4:15.08.0
- _ZN6Marble15MarbleQuickItem17projectionChangedENS0_10ProjectionE@Base 4:15.08.0
- _ZN6Marble15MarbleQuickItem17setShowAtmosphereEb@Base 4:15.08.0
- _ZN6Marble15MarbleQuickItem17setShowBackgroundEb@Base 4:15.08.0
- _ZN6Marble15MarbleQuickItem17setShowCrosshairsEb@Base 4:15.08.0
- _ZN6Marble15MarbleQuickItem17showCloudsChangedEb@Base 4:15.08.0
- _ZN6Marble15MarbleQuickItem18setShowOtherPlacesEb@Base 4:15.08.0
- _ZN6Marble15MarbleQuickItem18setShowOverviewMapEb@Base 4:15.08.0
- _ZN6Marble15MarbleQuickItem18showCompassChangedEb@Base 4:15.08.0
- _ZN6Marble15MarbleQuickItem19showScaleBarChangedEb@Base 4:15.08.0
- _ZN6Marble15MarbleQuickItem20showFrameRateChangedEb@Base 4:15.08.0
- _ZN6Marble15MarbleQuickItem21showAtmosphereChangedEb@Base 4:15.08.0
- _ZN6Marble15MarbleQuickItem21showBackgroundChangedEb@Base 4:15.08.0
- _ZN6Marble15MarbleQuickItem21showCrosshairsChangedEb@Base 4:15.08.0
- _ZN6Marble15MarbleQuickItem22showOtherPlacesChangedEb@Base 4:15.08.0
- _ZN6Marble15MarbleQuickItem22showOverviewMapChangedEb@Base 4:15.08.0
- _ZN6Marble15MarbleQuickItem3mapEv@Base 4:15.08.0
- _ZN6Marble15MarbleQuickItem5modelEv@Base 4:15.08.0
- _ZN6Marble15MarbleQuickItem5paintEP8QPainter@Base 4:15.08.0
- _ZN6Marble15MarbleQuickItem5pinchE7QPointFdN2Qt12GestureStateE@Base 4:15.08.0
- _ZN6Marble15MarbleQuickItem6goHomeEv@Base 4:15.08.0
- _ZN6Marble15MarbleQuickItem6zoomInENS_9FlyToModeE@Base 4:15.08.0
- _ZN6Marble15MarbleQuickItem7setZoomEiNS_9FlyToModeE@Base 4:15.08.0
- _ZN6Marble15MarbleQuickItem7zoomOutENS_9FlyToModeE@Base 4:15.08.0
- _ZN6Marble15MarbleQuickItem8centerOnERKNS_16GeoDataLatLonBoxEb@Base 4:15.08.0
- _ZN6Marble15MarbleQuickItem8centerOnERKNS_16GeoDataPlacemarkEb@Base 4:15.08.0
- _ZN6Marble15MarbleQuickItem9resizeMapEv@Base 4:15.08.0
- _ZN6Marble15MarbleQuickItemC1EP10QQuickItem@Base 4:15.08.0
- _ZN6Marble15MarbleQuickItemC2EP10QQuickItem@Base 4:15.08.0
- _ZN6Marble15MarbleQuickItemD0Ev@Base 4:15.08.0
- _ZN6Marble15MarbleQuickItemD1Ev@Base 4:15.08.0
- _ZN6Marble15MarbleQuickItemD2Ev@Base 4:15.08.0
- _ZN6Marble15OsmServerLayoutC1EPNS_13GeoSceneTiledE@Base 4:15.08.0
- _ZN6Marble15OsmServerLayoutC2EPNS_13GeoSceneTiledE@Base 4:15.08.0
+ _ZN6Marble15OsmServerLayoutC1EPNS_19GeoSceneTileDatasetE@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble15OsmServerLayoutC2EPNS_19GeoSceneTileDatasetE@Base 4:15.11.80+git20150924.0815
  _ZN6Marble15OsmServerLayoutD0Ev@Base 4:15.08.0
  _ZN6Marble15OsmServerLayoutD1Ev@Base 4:15.08.0
  _ZN6Marble15OsmServerLayoutD2Ev@Base 4:15.08.0
@@ -3202,48 +3114,49 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble15TextureBlendingD0Ev@Base 4:15.08.0
  _ZN6Marble15TextureBlendingD1Ev@Base 4:15.08.0
  _ZN6Marble15TextureBlendingD2Ev@Base 4:15.08.0
- _ZN6Marble15TmsServerLayoutC1EPNS_13GeoSceneTiledE@Base 4:15.08.0
- _ZN6Marble15TmsServerLayoutC2EPNS_13GeoSceneTiledE@Base 4:15.08.0
+ _ZN6Marble15TmsServerLayoutC1EPNS_19GeoSceneTileDatasetE@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble15TmsServerLayoutC2EPNS_19GeoSceneTileDatasetE@Base 4:15.11.80+git20150924.0815
  _ZN6Marble15TmsServerLayoutD0Ev@Base 4:15.08.0
  _ZN6Marble15TmsServerLayoutD1Ev@Base 4:15.08.0
  _ZN6Marble15TmsServerLayoutD2Ev@Base 4:15.08.0
  _ZN6Marble15VectorTileLayer11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:15.08.0
  _ZN6Marble15VectorTileLayer11qt_metacastEPKc@Base 4:15.08.0
- _ZN6Marble15VectorTileLayer11setMapThemeERK7QVectorIPKNS_18GeoSceneVectorTileEEPKNS_13GeoSceneGroupE@Base 4:15.08.0
+ _ZN6Marble15VectorTileLayer11setMapThemeERK7QVectorIPKNS_25GeoSceneVectorTileDatasetEEPKNS_13GeoSceneGroupE@Base 4:15.11.80+git20150924.0815
  _ZN6Marble15VectorTileLayer16staticMetaObjectE@Base 4:15.08.0
+ _ZN6Marble15VectorTileLayer16tileLevelChangedEi@Base 4:15.11.80+git20150924.0815
  _ZN6Marble15VectorTileLayer5resetEv@Base 4:15.08.0
  _ZN6Marble15VectorTileLayer6renderEPNS_10GeoPainterEPNS_14ViewportParamsERK7QStringPNS_13GeoSceneLayerE@Base 4:15.08.0
- _ZN6Marble15VectorTileLayer7Private19updateTextureLayersEv@Base 4:15.08.0
- _ZN6Marble15VectorTileLayer7PrivateC1EPNS_19HttpDownloadManagerEPKNS_13PluginManagerEPS0_PNS_16GeoDataTreeModelE@Base 4:15.08.0
- _ZN6Marble15VectorTileLayer7PrivateC2EPNS_19HttpDownloadManagerEPKNS_13PluginManagerEPS0_PNS_16GeoDataTreeModelE@Base 4:15.08.0
- _ZN6Marble15VectorTileLayer7PrivateD1Ev@Base 4:15.08.0
- _ZN6Marble15VectorTileLayer7PrivateD2Ev@Base 4:15.08.0
  _ZN6Marble15VectorTileLayerC1EPNS_19HttpDownloadManagerEPKNS_13PluginManagerEPNS_16GeoDataTreeModelE@Base 4:15.08.0
  _ZN6Marble15VectorTileLayerC2EPNS_19HttpDownloadManagerEPKNS_13PluginManagerEPNS_16GeoDataTreeModelE@Base 4:15.08.0
  _ZN6Marble15VectorTileLayerD0Ev@Base 4:15.08.0
  _ZN6Marble15VectorTileLayerD1Ev@Base 4:15.08.0
  _ZN6Marble15VectorTileLayerD2Ev@Base 4:15.08.0
+ _ZN6Marble15VectorTileModel10removeTileEPNS_15GeoDataDocumentE@Base 4:15.11.80+git20150924.0815
  _ZN6Marble15VectorTileModel10updateTileERKNS_6TileIdEPNS_15GeoDataDocumentE@Base 4:15.08.0
+ _ZN6Marble15VectorTileModel11cleanupTileEPNS_13GeoDataObjectE@Base 4:15.11.80+git20150924.0815
  _ZN6Marble15VectorTileModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:15.08.0
  _ZN6Marble15VectorTileModel11qt_metacastEPKc@Base 4:15.08.0
  _ZN6Marble15VectorTileModel11setViewportERKNS_16GeoDataLatLonBoxEi@Base 4:15.08.0
  _ZN6Marble15VectorTileModel11setViewportEijjjj@Base 4:15.08.0
- _ZN6Marble15VectorTileModel13CacheDocumentC1EPNS_15GeoDataDocumentEPNS_16GeoDataTreeModelE@Base 4:15.08.0
- _ZN6Marble15VectorTileModel13CacheDocumentC2EPNS_15GeoDataDocumentEPNS_16GeoDataTreeModelE@Base 4:15.08.0
+ _ZN6Marble15VectorTileModel11tileRemovedEPNS_15GeoDataDocumentE@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble15VectorTileModel13CacheDocumentC1EPNS_15GeoDataDocumentEPS0_RKNS_16GeoDataLatLonBoxE@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble15VectorTileModel13CacheDocumentC2EPNS_15GeoDataDocumentEPS0_RKNS_16GeoDataLatLonBoxE@Base 4:15.11.80+git20150924.0815
  _ZN6Marble15VectorTileModel13CacheDocumentD1Ev@Base 4:15.08.0
  _ZN6Marble15VectorTileModel13CacheDocumentD2Ev@Base 4:15.08.0
  _ZN6Marble15VectorTileModel13tileCompletedERKNS_6TileIdE@Base 4:15.08.0
  _ZN6Marble15VectorTileModel16staticMetaObjectE@Base 4:15.08.0
+ _ZN6Marble15VectorTileModel20removeTilesOutOfViewERKNS_16GeoDataLatLonBoxE@Base 4:15.11.80+git20150924.0815
  _ZN6Marble15VectorTileModel5clearEv@Base 4:15.08.0
  _ZN6Marble15VectorTileModel9lat2tileYEdj@Base 4:15.08.0
  _ZN6Marble15VectorTileModel9lon2tileXEdj@Base 4:15.08.0
- _ZN6Marble15VectorTileModelC1EPNS_10TileLoaderEPKNS_18GeoSceneVectorTileEPNS_16GeoDataTreeModelEP11QThreadPool@Base 4:15.08.0
- _ZN6Marble15VectorTileModelC2EPNS_10TileLoaderEPKNS_18GeoSceneVectorTileEPNS_16GeoDataTreeModelEP11QThreadPool@Base 4:15.08.0
+ _ZN6Marble15VectorTileModel9tileAddedEPNS_15GeoDataDocumentE@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble15VectorTileModelC1EPNS_10TileLoaderEPKNS_25GeoSceneVectorTileDatasetEPNS_16GeoDataTreeModelEP11QThreadPool@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble15VectorTileModelC2EPNS_10TileLoaderEPKNS_25GeoSceneVectorTileDatasetEPNS_16GeoDataTreeModelEP11QThreadPool@Base 4:15.11.80+git20150924.0815
  _ZN6Marble15VectorTileModelD0Ev@Base 4:15.08.0
  _ZN6Marble15VectorTileModelD1Ev@Base 4:15.08.0
  _ZN6Marble15VectorTileModelD2Ev@Base 4:15.08.0
- _ZN6Marble15WmsServerLayoutC1EPNS_13GeoSceneTiledE@Base 4:15.08.0
- _ZN6Marble15WmsServerLayoutC2EPNS_13GeoSceneTiledE@Base 4:15.08.0
+ _ZN6Marble15WmsServerLayoutC1EPNS_19GeoSceneTileDatasetE@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble15WmsServerLayoutC2EPNS_19GeoSceneTileDatasetE@Base 4:15.11.80+git20150924.0815
  _ZN6Marble15WmsServerLayoutD0Ev@Base 4:15.08.0
  _ZN6Marble15WmsServerLayoutD1Ev@Base 4:15.08.0
  _ZN6Marble15WmsServerLayoutD2Ev@Base 4:15.08.0
@@ -3271,10 +3184,6 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble16CloudSyncManager23owncloudUsernameChangedERK7QString@Base 4:15.08.0
  _ZN6Marble16CloudSyncManager23routeSyncManagerChangedEv@Base 4:15.08.0
  _ZN6Marble16CloudSyncManager26bookmarkSyncManagerChangedEv@Base 4:15.08.0
- _ZN6Marble16CloudSyncManager7PrivateC1Ev@Base 4:15.08.0
- _ZN6Marble16CloudSyncManager7PrivateC2Ev@Base 4:15.08.0
- _ZN6Marble16CloudSyncManager7PrivateD1Ev@Base 4:15.08.0
- _ZN6Marble16CloudSyncManager7PrivateD2Ev@Base 4:15.08.0
  _ZN6Marble16CloudSyncManager9setStatusERK7QStringNS0_6StatusE@Base 4:15.08.0
  _ZN6Marble16CloudSyncManagerC1EP7QObject@Base 4:15.08.0
  _ZN6Marble16CloudSyncManagerC2EP7QObject@Base 4:15.08.0
@@ -3338,10 +3247,10 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble16GeoDataIconStyle6unpackER11QDataStream@Base 4:15.08.0
  _ZN6Marble16GeoDataIconStyle7setIconERK6QImage@Base 4:15.08.0
  _ZN6Marble16GeoDataIconStyle8setScaleERKf@Base 4:15.08.0
- _ZN6Marble16GeoDataIconStyleC1ERK6QImageRK7QPointF@Base 4:15.08.0
+ _ZN6Marble16GeoDataIconStyleC1ERK7QStringRK7QPointF@Base 4:15.11.80+git20150924.0815
  _ZN6Marble16GeoDataIconStyleC1ERKS0_@Base 4:15.08.0
  _ZN6Marble16GeoDataIconStyleC1Ev@Base 4:15.08.0
- _ZN6Marble16GeoDataIconStyleC2ERK6QImageRK7QPointF@Base 4:15.08.0
+ _ZN6Marble16GeoDataIconStyleC2ERK7QStringRK7QPointF@Base 4:15.11.80+git20150924.0815
  _ZN6Marble16GeoDataIconStyleC2ERKS0_@Base 4:15.08.0
  _ZN6Marble16GeoDataIconStyleC2Ev@Base 4:15.08.0
  _ZN6Marble16GeoDataIconStyleD0Ev@Base 4:15.08.0
@@ -3409,6 +3318,7 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble16GeoDataListStyleD1Ev@Base 4:15.08.0
  _ZN6Marble16GeoDataListStyleD2Ev@Base 4:15.08.0
  _ZN6Marble16GeoDataListStyleaSERKS0_@Base 4:15.08.0
+ _ZN6Marble16GeoDataPlacemark10setOsmDataERKNS_16OsmPlacemarkDataE@Base 4:15.11.80+git20150924.0815
  _ZN6Marble16GeoDataPlacemark11setGeometryEPNS_15GeoDataGeometryE@Base 4:15.08.0
  _ZN6Marble16GeoDataPlacemark13setCoordinateERKNS_12GeoDataPointE@Base 4:15.08.0
  _ZN6Marble16GeoDataPlacemark13setCoordinateERKNS_18GeoDataCoordinatesE@Base 4:15.08.0
@@ -3436,6 +3346,7 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble16GeoDataPolyStyle10setOutlineERKb@Base 4:15.08.0
  _ZN6Marble16GeoDataPolyStyle13setBrushStyleEN2Qt10BrushStyleE@Base 4:15.08.0
  _ZN6Marble16GeoDataPolyStyle13setColorIndexEh@Base 4:15.08.0
+ _ZN6Marble16GeoDataPolyStyle14setTexturePathERK7QString@Base 4:15.11.80+git20150924.0815
  _ZN6Marble16GeoDataPolyStyle6unpackER11QDataStream@Base 4:15.08.0
  _ZN6Marble16GeoDataPolyStyle7setFillERKb@Base 4:15.08.0
  _ZN6Marble16GeoDataPolyStyleC1ERK6QColor@Base 4:15.08.0
@@ -3476,11 +3387,6 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble16GeoDataTreeModel18swapTourPrimitivesERK11QModelIndexii@Base 4:15.08.0
  _ZN6Marble16GeoDataTreeModel19removeTourPrimitiveERK11QModelIndexi@Base 4:15.08.0
  _ZN6Marble16GeoDataTreeModel5addedEPNS_13GeoDataObjectE@Base 4:15.08.0
- _ZN6Marble16GeoDataTreeModel7Private14checkParentingEPNS_13GeoDataObjectE@Base 4:15.08.0
- _ZN6Marble16GeoDataTreeModel7PrivateC1EP18QAbstractItemModel@Base 4:15.08.0
- _ZN6Marble16GeoDataTreeModel7PrivateC2EP18QAbstractItemModel@Base 4:15.08.0
- _ZN6Marble16GeoDataTreeModel7PrivateD1Ev@Base 4:15.08.0
- _ZN6Marble16GeoDataTreeModel7PrivateD2Ev@Base 4:15.08.0
  _ZN6Marble16GeoDataTreeModel7removedEPNS_13GeoDataObjectE@Base 4:15.08.0
  _ZN6Marble16GeoDataTreeModel7setDataERK11QModelIndexRK8QVarianti@Base 4:15.08.0
  _ZN6Marble16GeoDataTreeModelC1EP7QObject@Base 4:15.08.0
@@ -3582,6 +3488,7 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble16MarbleMapPrivate11setDocumentE7QString@Base 4:15.08.0
  _ZN6Marble16MarbleMapPrivate14updateMapThemeEv@Base 4:15.08.0
  _ZN6Marble16MarbleMapPrivate14updatePropertyERK7QStringb@Base 4:15.08.0
+ _ZN6Marble16MarbleMapPrivate15updateTileLevelEv@Base 4:15.11.80+git20150924.0815
  _ZN6Marble16MarbleMapPrivateC1EPNS_9MarbleMapEPNS_11MarbleModelE@Base 4:15.08.0
  _ZN6Marble16MarbleMapPrivateC2EPNS_9MarbleMapEPNS_11MarbleModelE@Base 4:15.08.0
  _ZN6Marble16MultiplyBlendingD0Ev@Base 4:15.08.0
@@ -3610,25 +3517,49 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble16NavigationWidgetD0Ev@Base 4:15.08.0
  _ZN6Marble16NavigationWidgetD1Ev@Base 4:15.08.0
  _ZN6Marble16NavigationWidgetD2Ev@Base 4:15.08.0
+ _ZN6Marble16OsmObjectManager10registerIdEx@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble16OsmObjectManager17initializeOsmDataEPNS_16GeoDataPlacemarkE@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble16OsmObjectManager7m_minIdE@Base 4:15.11.80+git20150924.0815
  _ZN6Marble16OsmPlacemarkData10osmDataKeyE@Base 4:15.08.0
  _ZN6Marble16OsmPlacemarkData10osmHashKeyEv@Base 4:15.08.0
  _ZN6Marble16OsmPlacemarkData10setVersionERK7QString@Base 4:15.08.0
  _ZN6Marble16OsmPlacemarkData10setVisibleERK7QString@Base 4:15.08.0
- _ZN6Marble16OsmPlacemarkData12addReferenceEPKNS_15GeoDataGeometryERKS0_@Base 4:15.08.0
- _ZN6Marble16OsmPlacemarkData12addReferenceERKNS_18GeoDataCoordinatesERKS0_@Base 4:15.08.0
+ _ZN6Marble16OsmPlacemarkData11addRelationExRK7QString@Base 4:15.11.80+git20150924.0815
  _ZN6Marble16OsmPlacemarkData12setChangesetERK7QString@Base 4:15.08.0
  _ZN6Marble16OsmPlacemarkData12setTimestampERK7QString@Base 4:15.08.0
+ _ZN6Marble16OsmPlacemarkData13nodeReferenceERKNS_18GeoDataCoordinatesE@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble16OsmPlacemarkData14removeRelationEx@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble16OsmPlacemarkData15memberReferenceEi@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble16OsmPlacemarkData16addNodeReferenceERKNS_18GeoDataCoordinatesERKS0_@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble16OsmPlacemarkData18addMemberReferenceEiRKS0_@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble16OsmPlacemarkData19changeNodeReferenceERKNS_18GeoDataCoordinatesES3_@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble16OsmPlacemarkData19removeNodeReferenceERKNS_18GeoDataCoordinatesE@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble16OsmPlacemarkData20fromParserAttributesERK20QXmlStreamAttributes@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble16OsmPlacemarkData20osmPlacemarkDataTypeE@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble16OsmPlacemarkData21removeMemberReferenceEi@Base 4:15.11.80+git20150924.0815
  _ZN6Marble16OsmPlacemarkData5setIdEx@Base 4:15.08.0
  _ZN6Marble16OsmPlacemarkData6addTagERK7QStringS3_@Base 4:15.08.0
  _ZN6Marble16OsmPlacemarkData6setUidERK7QString@Base 4:15.08.0
  _ZN6Marble16OsmPlacemarkData7setUserERK7QString@Base 4:15.08.0
- _ZN6Marble16OsmPlacemarkData9referenceEPKNS_15GeoDataGeometryE@Base 4:15.08.0
- _ZN6Marble16OsmPlacemarkData9referenceERKNS_18GeoDataCoordinatesE@Base 4:15.08.0
+ _ZN6Marble16OsmPlacemarkData9removeTagERK7QString@Base 4:15.11.80+git20150924.0815
  _ZN6Marble16OsmPlacemarkData9setActionERK7QString@Base 4:15.08.0
  _ZN6Marble16OsmPlacemarkDataC1Ev@Base 4:15.08.0
  _ZN6Marble16OsmPlacemarkDataC2Ev@Base 4:15.08.0
+ _ZN6Marble16OsmPlacemarkDataD0Ev@Base 4:15.11.80+git20150924.0815
  _ZN6Marble16OsmPlacemarkDataD1Ev@Base 4:15.08.0
  _ZN6Marble16OsmPlacemarkDataD2Ev@Base 4:15.08.0
+ _ZN6Marble16OsmPresetLibrary11presetStyleERK5QPairI7QStringS2_E@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble16OsmPresetLibrary14buildingValuesEv@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble16OsmPresetLibrary17OsmVisualCategoryERK7QString@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble16OsmPresetLibrary17additionalTagsEndEv@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble16OsmPresetLibrary17hasVisualCategoryERK5QPairI7QStringS2_E@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble16OsmPresetLibrary18s_visualCategoriesE@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble16OsmPresetLibrary19additionalTagsBeginEv@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble16OsmPresetLibrary19s_additionalOsmTagsE@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble16OsmPresetLibrary27initializeAdditionalOsmTagsEv@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble16OsmPresetLibrary29initializeOsmVisualCategoriesEv@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble16OsmPresetLibrary3endEv@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble16OsmPresetLibrary5beginEv@Base 4:15.11.80+git20150924.0815
  _ZN6Marble16ParallelBlendingD0Ev@Base 4:15.08.0
  _ZN6Marble16ParallelBlendingD1Ev@Base 4:15.08.0
  _ZN6Marble16ParallelBlendingD2Ev@Base 4:15.08.0
@@ -3694,8 +3625,6 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble16RouteSyncManager23updateUploadProgressbarExx@Base 4:15.08.0
  _ZN6Marble16RouteSyncManager25routeListDownloadProgressExx@Base 4:15.08.0
  _ZN6Marble16RouteSyncManager5modelEv@Base 4:15.08.0
- _ZN6Marble16RouteSyncManager7PrivateC1EPNS_16CloudSyncManagerE@Base 4:15.08.0
- _ZN6Marble16RouteSyncManager7PrivateC2EPNS_16CloudSyncManagerE@Base 4:15.08.0
  _ZN6Marble16RouteSyncManager9openRouteERK7QString@Base 4:15.08.0
  _ZN6Marble16RouteSyncManagerC1EPNS_16CloudSyncManagerE@Base 4:15.08.0
  _ZN6Marble16RouteSyncManagerC2EPNS_16CloudSyncManagerE@Base 4:15.08.0
@@ -3815,8 +3744,6 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble17CloudRoutesDialog28removeFromCacheButtonClickedE7QString@Base 4:15.08.0
  _ZN6Marble17CloudRoutesDialog29updateListDownloadProgressbarExx@Base 4:15.08.0
  _ZN6Marble17CloudRoutesDialog5modelEv@Base 4:15.08.0
- _ZN6Marble17CloudRoutesDialog7PrivateC1EPNS_15CloudRouteModelE@Base 4:15.08.0
- _ZN6Marble17CloudRoutesDialog7PrivateC2EPNS_15CloudRouteModelE@Base 4:15.08.0
  _ZN6Marble17CloudRoutesDialogC1EPNS_15CloudRouteModelEP7QWidget@Base 4:15.08.0
  _ZN6Marble17CloudRoutesDialogC2EPNS_15CloudRouteModelEP7QWidget@Base 4:15.08.0
  _ZN6Marble17CloudRoutesDialogD0Ev@Base 4:15.08.0
@@ -4013,11 +3940,13 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble17GeoDataViewVolumeD1Ev@Base 4:15.08.0
  _ZN6Marble17GeoDataViewVolumeD2Ev@Base 4:15.08.0
  _ZN6Marble17GeoDataViewVolumeaSERKS0_@Base 4:15.08.0
+ _ZN6Marble17GeoPainterPrivate14normalizeAngleEd@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble17GeoPainterPrivate15drawTextRotatedERK7QPointFdRK7QString@Base 4:15.11.80+git20150924.0815
  _ZN6Marble17GeoPainterPrivate22createAnnotationLayoutEdd6QSizeFddddR12QPainterPathR6QRectF@Base 4:15.08.0
  _ZN6Marble17GeoPainterPrivate27createLinearRingFromGeoRectERKNS_18GeoDataCoordinatesEdd@Base 4:15.08.0
  _ZN6Marble17GeoPainterPrivate6doClipEPKNS_14ViewportParamsE@Base 4:15.08.0
- _ZN6Marble17GeoPainterPrivateC1EPKNS_14ViewportParamsENS_10MapQualityE@Base 4:15.08.0
- _ZN6Marble17GeoPainterPrivateC2EPKNS_14ViewportParamsENS_10MapQualityE@Base 4:15.08.0
+ _ZN6Marble17GeoPainterPrivateC1EPNS_10GeoPainterEPKNS_14ViewportParamsENS_10MapQualityE@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble17GeoPainterPrivateC2EPNS_10GeoPainterEPKNS_14ViewportParamsENS_10MapQualityE@Base 4:15.11.80+git20150924.0815
  _ZN6Marble17GeoPainterPrivateD1Ev@Base 4:15.08.0
  _ZN6Marble17GeoPainterPrivateD2Ev@Base 4:15.08.0
  _ZN6Marble17GoToDialogPrivate11startSearchEv@Base 4:15.08.0
@@ -4090,8 +4019,6 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble17ParseRunnerPlugin11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:15.08.0
  _ZN6Marble17ParseRunnerPlugin11qt_metacastEPKc@Base 4:15.08.0
  _ZN6Marble17ParseRunnerPlugin16staticMetaObjectE@Base 4:15.08.0
- _ZN6Marble17ParseRunnerPlugin7PrivateC1Ev@Base 4:15.08.0
- _ZN6Marble17ParseRunnerPlugin7PrivateC2Ev@Base 4:15.08.0
  _ZN6Marble17ParseRunnerPluginC1EP7QObject@Base 4:15.08.0
  _ZN6Marble17ParseRunnerPluginC2EP7QObject@Base 4:15.08.0
  _ZN6Marble17ParseRunnerPluginD0Ev@Base 4:15.08.0
@@ -4138,9 +4065,6 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble17RenderPluginModel16staticMetaObjectE@Base 4:15.08.0
  _ZN6Marble17RenderPluginModel19retrievePluginStateEv@Base 4:15.08.0
  _ZN6Marble17RenderPluginModel34pluginDialogConfigurationInterfaceERK11QModelIndex@Base 4:15.08.0
- _ZN6Marble17RenderPluginModel7Private29renderPluginGuiStringLessThanEPNS_12RenderPluginES3_@Base 4:15.08.0
- _ZN6Marble17RenderPluginModel7PrivateC1Ev@Base 4:15.08.0
- _ZN6Marble17RenderPluginModel7PrivateC2Ev@Base 4:15.08.0
  _ZN6Marble17RenderPluginModelC1EP7QObject@Base 4:15.08.0
  _ZN6Marble17RenderPluginModelC2EP7QObject@Base 4:15.08.0
  _ZN6Marble17RenderPluginModelD0Ev@Base 4:15.08.0
@@ -4203,8 +4127,6 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble17StackedTileLoaderD2Ev@Base 4:15.08.0
  _ZN6Marble17TileCoordsPyramid20setBottomLevelCoordsERK5QRect@Base 4:15.08.0
  _ZN6Marble17TileCoordsPyramid4swapERS0_@Base 4:15.08.0
- _ZN6Marble17TileCoordsPyramid7PrivateC1Eii@Base 4:15.08.0
- _ZN6Marble17TileCoordsPyramid7PrivateC2Eii@Base 4:15.08.0
  _ZN6Marble17TileCoordsPyramidC1ERKS0_@Base 4:15.08.0
  _ZN6Marble17TileCoordsPyramidC1Eii@Base 4:15.08.0
  _ZN6Marble17TileCoordsPyramidC1Ev@Base 4:15.08.0
@@ -4287,7 +4209,7 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble17ViewParamsPrivateD2Ev@Base 4:15.08.0
  _ZN6Marble18AbstractDataPlugin11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:15.08.0
  _ZN6Marble18AbstractDataPlugin11qt_metacastEPKc@Base 4:15.08.0
- _ZN6Marble18AbstractDataPlugin11setDelegateEP13QQmlComponentP13QGraphicsItem@Base 4:15.08.0
+ _ZN6Marble18AbstractDataPlugin11setDelegateEP13QQmlComponentP10QQuickItem@Base 4:15.11.80+git20150924.0815
  _ZN6Marble18AbstractDataPlugin11whichItemAtERK6QPoint@Base 4:15.08.0
  _ZN6Marble18AbstractDataPlugin13delayedUpdateEv@Base 4:15.08.0
  _ZN6Marble18AbstractDataPlugin14favoritesModelEv@Base 4:15.08.0
@@ -4338,8 +4260,8 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble18ColorDodgeBlendingD0Ev@Base 4:15.08.0
  _ZN6Marble18ColorDodgeBlendingD1Ev@Base 4:15.08.0
  _ZN6Marble18ColorDodgeBlendingD2Ev@Base 4:15.08.0
- _ZN6Marble18CustomServerLayoutC1EPNS_13GeoSceneTiledE@Base 4:15.08.0
- _ZN6Marble18CustomServerLayoutC2EPNS_13GeoSceneTiledE@Base 4:15.08.0
+ _ZN6Marble18CustomServerLayoutC1EPNS_19GeoSceneTileDatasetE@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble18CustomServerLayoutC2EPNS_19GeoSceneTileDatasetE@Base 4:15.11.80+git20150924.0815
  _ZN6Marble18CustomServerLayoutD0Ev@Base 4:15.08.0
  _ZN6Marble18CustomServerLayoutD1Ev@Base 4:15.08.0
  _ZN6Marble18CustomServerLayoutD2Ev@Base 4:15.08.0
@@ -4480,11 +4402,6 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble18GeoDataVec2Private10parseUnitsERK7QString@Base 4:15.08.0
  _ZN6Marble18GeoDataVec2PrivateC1Ev@Base 4:15.08.0
  _ZN6Marble18GeoDataVec2PrivateC2Ev@Base 4:15.08.0
- _ZN6Marble18GeoSceneVectorTileC1ERK7QString@Base 4:15.08.0
- _ZN6Marble18GeoSceneVectorTileC2ERK7QString@Base 4:15.08.0
- _ZN6Marble18GeoSceneVectorTileD0Ev@Base 4:15.08.0
- _ZN6Marble18GeoSceneVectorTileD1Ev@Base 4:15.08.0
- _ZN6Marble18GeoSceneVectorTileD2Ev@Base 4:15.08.0
  _ZN6Marble18GnomonicProjectionC1EPNS_25GnomonicProjectionPrivateE@Base 4:15.08.0
  _ZN6Marble18GnomonicProjectionC1Ev@Base 4:15.08.0
  _ZN6Marble18GnomonicProjectionC2EPNS_25GnomonicProjectionPrivateE@Base 4:15.08.0
@@ -4553,8 +4470,6 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble18MarbleInputHandler26setMouseButtonPopupEnabledEN2Qt11MouseButtonEb@Base 4:15.08.0
  _ZN6Marble18MarbleInputHandler26setPositionSignalConnectedEb@Base 4:15.08.0
  _ZN6Marble18MarbleInputHandler31setInertialEarthRotationEnabledEb@Base 4:15.08.0
- _ZN6Marble18MarbleInputHandler9ProtectedC1EPNS_23MarbleAbstractPresenterE@Base 4:15.08.0
- _ZN6Marble18MarbleInputHandler9ProtectedC2EPNS_23MarbleAbstractPresenterE@Base 4:15.08.0
  _ZN6Marble18MarbleInputHandlerC1EPNS_23MarbleAbstractPresenterE@Base 4:15.08.0
  _ZN6Marble18MarbleInputHandlerC2EPNS_23MarbleAbstractPresenterE@Base 4:15.08.0
  _ZN6Marble18MarbleInputHandlerD0Ev@Base 4:15.08.0
@@ -4563,8 +4478,8 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble18MarbleModelPrivate14assignNewStyleERK7QStringRKNS_12GeoDataStyleE@Base 4:15.08.0
  _ZN6Marble18MarbleModelPrivate16assignFillColorsERK7QString@Base 4:15.08.0
  _ZN6Marble18MarbleModelPrivate17addHighlightStyleEPNS_15GeoDataDocumentE@Base 4:15.08.0
- _ZN6Marble18MarbleServerLayoutC1EPNS_13GeoSceneTiledE@Base 4:15.08.0
- _ZN6Marble18MarbleServerLayoutC2EPNS_13GeoSceneTiledE@Base 4:15.08.0
+ _ZN6Marble18MarbleServerLayoutC1EPNS_19GeoSceneTileDatasetE@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble18MarbleServerLayoutC2EPNS_19GeoSceneTileDatasetE@Base 4:15.11.80+git20150924.0815
  _ZN6Marble18MarbleServerLayoutD0Ev@Base 4:15.08.0
  _ZN6Marble18MarbleServerLayoutD1Ev@Base 4:15.08.0
  _ZN6Marble18MarbleServerLayoutD2Ev@Base 4:15.08.0
@@ -4585,6 +4500,21 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble18MovieCaptureDialogD0Ev@Base 4:15.08.0
  _ZN6Marble18MovieCaptureDialogD1Ev@Base 4:15.08.0
  _ZN6Marble18MovieCaptureDialogD2Ev@Base 4:15.08.0
+ _ZN6Marble18OsmTagEditorWidget11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble18OsmTagEditorWidget11qt_metacastEPKc@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble18OsmTagEditorWidget11suitableTagEv@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble18OsmTagEditorWidget14addSelectedTagEv@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble18OsmTagEditorWidget16placemarkChangedEPNS_14GeoDataFeatureE@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble18OsmTagEditorWidget16staticMetaObjectE@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble18OsmTagEditorWidget17handleDoubleClickEP15QTreeWidgetItemi@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble18OsmTagEditorWidget17handleItemChangedEP15QTreeWidgetItemi@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble18OsmTagEditorWidget17removeSelectedTagEv@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble18OsmTagEditorWidget6updateEv@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble18OsmTagEditorWidgetC1EPNS_16GeoDataPlacemarkEP7QWidget@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble18OsmTagEditorWidgetC2EPNS_16GeoDataPlacemarkEP7QWidget@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble18OsmTagEditorWidgetD0Ev@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble18OsmTagEditorWidgetD1Ev@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble18OsmTagEditorWidgetD2Ev@Base 4:15.11.80+git20150924.0815
  _ZN6Marble18PluginItemDelegate11editorEventEP6QEventP18QAbstractItemModelRK20QStyleOptionViewItemRK11QModelIndex@Base 4:15.08.0
  _ZN6Marble18PluginItemDelegate11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:15.08.0
  _ZN6Marble18PluginItemDelegate11qt_metacastEPKc@Base 4:15.08.0
@@ -4682,8 +4612,6 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble18SearchRunnerPlugin16staticMetaObjectE@Base 4:15.08.0
  _ZN6Marble18SearchRunnerPlugin17setCanWorkOfflineEb@Base 4:15.08.0
  _ZN6Marble18SearchRunnerPlugin27setSupportedCelestialBodiesERK11QStringList@Base 4:15.08.0
- _ZN6Marble18SearchRunnerPlugin7PrivateC1Ev@Base 4:15.08.0
- _ZN6Marble18SearchRunnerPlugin7PrivateC2Ev@Base 4:15.08.0
  _ZN6Marble18SearchRunnerPluginC1EP7QObject@Base 4:15.08.0
  _ZN6Marble18SearchRunnerPluginC2EP7QObject@Base 4:15.08.0
  _ZN6Marble18SearchRunnerPluginD0Ev@Base 4:15.08.0
@@ -4750,28 +4678,6 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble19BookmarkSyncManager18setBookmarkManagerEPNS_15BookmarkManagerE@Base 4:15.08.0
  _ZN6Marble19BookmarkSyncManager22setBookmarkSyncEnabledEb@Base 4:15.08.0
  _ZN6Marble19BookmarkSyncManager26bookmarkSyncEnabledChangedEb@Base 4:15.08.0
- _ZN6Marble19BookmarkSyncManager7Private10clearCacheEv@Base 4:15.08.0
- _ZN6Marble19BookmarkSyncManager7Private13completeMergeEv@Base 4:15.08.0
- _ZN6Marble19BookmarkSyncManager7Private13createFoldersEPNS_16GeoDataContainerER11QStringList@Base 4:15.08.0
- _ZN6Marble19BookmarkSyncManager7Private13getPlacemarksEPNS_13GeoDataFolderER7QStringPNS_15GeoDataDocumentENS_8DiffItem6StatusE@Base 4:15.08.0
- _ZN6Marble19BookmarkSyncManager7Private13getPlacemarksEPNS_15GeoDataDocumentES3_NS_8DiffItem6StatusE@Base 4:15.08.0
- _ZN6Marble19BookmarkSyncManager7Private14completeUploadEv@Base 4:15.08.0
- _ZN6Marble19BookmarkSyncManager7Private14parseTimestampEv@Base 4:15.08.0
- _ZN6Marble19BookmarkSyncManager7Private15uploadBookmarksEv@Base 4:15.08.0
- _ZN6Marble19BookmarkSyncManager7Private16copyLocalToCacheEv@Base 4:15.08.0
- _ZN6Marble19BookmarkSyncManager7Private17constructDocumentERK5QListINS_8DiffItemEE@Base 4:15.08.0
- _ZN6Marble19BookmarkSyncManager7Private17downloadBookmarksEv@Base 4:15.08.0
- _ZN6Marble19BookmarkSyncManager7Private17downloadTimestampEv@Base 4:15.08.0
- _ZN6Marble19BookmarkSyncManager7Private21saveDownloadedToCacheERK10QByteArray@Base 4:15.08.0
- _ZN6Marble19BookmarkSyncManager7Private23completeSynchronizationEv@Base 4:15.08.0
- _ZN6Marble19BookmarkSyncManager7Private23continueSynchronizationEv@Base 4:15.08.0
- _ZN6Marble19BookmarkSyncManager7Private4diffEP9QIODeviceR7QString@Base 4:15.08.0
- _ZN6Marble19BookmarkSyncManager7Private4diffEP9QIODeviceS3_@Base 4:15.08.0
- _ZN6Marble19BookmarkSyncManager7Private4diffER7QStringP9QIODevice@Base 4:15.08.0
- _ZN6Marble19BookmarkSyncManager7Private4diffER7QStringS3_@Base 4:15.08.0
- _ZN6Marble19BookmarkSyncManager7Private5mergeEv@Base 4:15.08.0
- _ZN6Marble19BookmarkSyncManager7PrivateC1EPS0_PNS_16CloudSyncManagerE@Base 4:15.08.0
- _ZN6Marble19BookmarkSyncManager7PrivateC2EPS0_PNS_16CloudSyncManagerE@Base 4:15.08.0
  _ZN6Marble19BookmarkSyncManagerC1EPNS_16CloudSyncManagerE@Base 4:15.08.0
  _ZN6Marble19BookmarkSyncManagerC2EPNS_16CloudSyncManagerE@Base 4:15.08.0
  _ZN6Marble19BookmarkSyncManagerD0Ev@Base 4:15.08.0
@@ -4800,6 +4706,7 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble19EditPlacemarkDialog12setTargetIdsERK11QStringList@Base 4:15.08.0
  _ZN6Marble19EditPlacemarkDialog13setLabelColorERK6QColor@Base 4:15.08.0
  _ZN6Marble19EditPlacemarkDialog14restoreInitialEi@Base 4:15.08.0
+ _ZN6Marble19EditPlacemarkDialog15relationCreatedERKNS_16OsmPlacemarkDataE@Base 4:15.11.80+git20150924.0815
  _ZN6Marble19EditPlacemarkDialog16staticMetaObjectE@Base 4:15.08.0
  _ZN6Marble19EditPlacemarkDialog16updateIconDialogERK6QColor@Base 4:15.08.0
  _ZN6Marble19EditPlacemarkDialog17setIdFieldVisibleEb@Base 4:15.08.0
@@ -4809,12 +4716,8 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble19EditPlacemarkDialog21textAnnotationUpdatedEPNS_14GeoDataFeatureE@Base 4:15.08.0
  _ZN6Marble19EditPlacemarkDialog23setTargetIdFieldVisibleEb@Base 4:15.08.0
  _ZN6Marble19EditPlacemarkDialog23updatePlacemarkAltitudeEv@Base 4:15.08.0
- _ZN6Marble19EditPlacemarkDialog7PrivateC1EPNS_16GeoDataPlacemarkE@Base 4:15.08.0
- _ZN6Marble19EditPlacemarkDialog7PrivateC2EPNS_16GeoDataPlacemarkE@Base 4:15.08.0
- _ZN6Marble19EditPlacemarkDialog7PrivateD1Ev@Base 4:15.08.0
- _ZN6Marble19EditPlacemarkDialog7PrivateD2Ev@Base 4:15.08.0
- _ZN6Marble19EditPlacemarkDialogC1EPNS_16GeoDataPlacemarkEP7QWidget@Base 4:15.08.0
- _ZN6Marble19EditPlacemarkDialogC2EPNS_16GeoDataPlacemarkEP7QWidget@Base 4:15.08.0
+ _ZN6Marble19EditPlacemarkDialogC1EPNS_16GeoDataPlacemarkEPK5QHashIxNS_16OsmPlacemarkDataEEP7QWidget@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble19EditPlacemarkDialogC2EPNS_16GeoDataPlacemarkEPK5QHashIxNS_16OsmPlacemarkDataEEP7QWidget@Base 4:15.11.80+git20150924.0815
  _ZN6Marble19EditPlacemarkDialogD0Ev@Base 4:15.08.0
  _ZN6Marble19EditPlacemarkDialogD1Ev@Base 4:15.08.0
  _ZN6Marble19EditPlacemarkDialogD2Ev@Base 4:15.08.0
@@ -4837,10 +4740,6 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble19FormattedTextWidget25toggleDescriptionEditModeEb@Base 4:15.08.0
  _ZN6Marble19FormattedTextWidget28updateDescriptionEditButtonsEv@Base 4:15.08.0
  _ZN6Marble19FormattedTextWidget4textEv@Base 4:15.08.0
- _ZN6Marble19FormattedTextWidget7PrivateC1Ev@Base 4:15.08.0
- _ZN6Marble19FormattedTextWidget7PrivateC2Ev@Base 4:15.08.0
- _ZN6Marble19FormattedTextWidget7PrivateD1Ev@Base 4:15.08.0
- _ZN6Marble19FormattedTextWidget7PrivateD2Ev@Base 4:15.08.0
  _ZN6Marble19FormattedTextWidget7setTextERK7QString@Base 4:15.08.0
  _ZN6Marble19FormattedTextWidgetC1EP7QWidget@Base 4:15.08.0
  _ZN6Marble19FormattedTextWidgetC2EP7QWidget@Base 4:15.08.0
@@ -4955,12 +4854,23 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble19GeoDataTrackPrivateD0Ev@Base 4:15.08.0
  _ZN6Marble19GeoDataTrackPrivateD1Ev@Base 4:15.08.0
  _ZN6Marble19GeoDataTrackPrivateD2Ev@Base 4:15.08.0
- _ZN6Marble19GeoSceneTextureTile12setLatLonBoxERKNS_16GeoDataLatLonBoxE@Base 4:15.08.0
- _ZN6Marble19GeoSceneTextureTileC1ERK7QString@Base 4:15.08.0
- _ZN6Marble19GeoSceneTextureTileC2ERK7QString@Base 4:15.08.0
- _ZN6Marble19GeoSceneTextureTileD0Ev@Base 4:15.08.0
- _ZN6Marble19GeoSceneTextureTileD1Ev@Base 4:15.08.0
- _ZN6Marble19GeoSceneTextureTileD2Ev@Base 4:15.08.0
+ _ZN6Marble19GeoSceneTileDataset11setTileSizeERK5QSize@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble19GeoSceneTileDataset12setSourceDirERK7QString@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble19GeoSceneTileDataset13setInstallMapERK7QString@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble19GeoSceneTileDataset13setProjectionENS0_10ProjectionE@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble19GeoSceneTileDataset14addDownloadUrlERK4QUrl@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble19GeoSceneTileDataset15setServerLayoutEPKNS_12ServerLayoutE@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble19GeoSceneTileDataset16setLevelZeroRowsEi@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble19GeoSceneTileDataset16setStorageLayoutENS0_13StorageLayoutE@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble19GeoSceneTileDataset17addDownloadPolicyENS_13DownloadUsageEi@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble19GeoSceneTileDataset19setLevelZeroColumnsEi@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble19GeoSceneTileDataset19setMaximumTileLevelEi@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble19GeoSceneTileDataset19setMinimumTileLevelEi@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble19GeoSceneTileDatasetC1ERK7QString@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble19GeoSceneTileDatasetC2ERK7QString@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble19GeoSceneTileDatasetD0Ev@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble19GeoSceneTileDatasetD1Ev@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble19GeoSceneTileDatasetD2Ev@Base 4:15.11.80+git20150924.0815
  _ZN6Marble19HttpDownloadManager10jobRemovedEv@Base 4:15.08.0
  _ZN6Marble19HttpDownloadManager11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:15.08.0
  _ZN6Marble19HttpDownloadManager11qt_metacastEPKc@Base 4:15.08.0
@@ -4971,16 +4881,6 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble19HttpDownloadManager17addDownloadPolicyERKNS_14DownloadPolicyE@Base 4:15.08.0
  _ZN6Marble19HttpDownloadManager18setDownloadEnabledEb@Base 4:15.08.0
  _ZN6Marble19HttpDownloadManager6addJobERK4QUrlRK7QStringS6_NS_13DownloadUsageE@Base 4:15.08.0
- _ZN6Marble19HttpDownloadManager7Private10findQueuesERK7QStringNS_13DownloadUsageE@Base 4:15.08.0
- _ZN6Marble19HttpDownloadManager7Private15connectQueueSetEPNS_16DownloadQueueSetE@Base 4:15.08.0
- _ZN6Marble19HttpDownloadManager7Private15startRetryTimerEv@Base 4:15.08.0
- _ZN6Marble19HttpDownloadManager7Private23connectDefaultQueueSetsEv@Base 4:15.08.0
- _ZN6Marble19HttpDownloadManager7Private7requeueEv@Base 4:15.08.0
- _ZN6Marble19HttpDownloadManager7Private9finishJobERK10QByteArrayRK7QStringS7_@Base 4:15.08.0
- _ZN6Marble19HttpDownloadManager7PrivateC1EPS0_PNS_13StoragePolicyE@Base 4:15.08.0
- _ZN6Marble19HttpDownloadManager7PrivateC2EPS0_PNS_13StoragePolicyE@Base 4:15.08.0
- _ZN6Marble19HttpDownloadManager7PrivateD1Ev@Base 4:15.08.0
- _ZN6Marble19HttpDownloadManager7PrivateD2Ev@Base 4:15.08.0
  _ZN6Marble19HttpDownloadManager8jobAddedEv@Base 4:15.08.0
  _ZN6Marble19HttpDownloadManager9userAgentERK7QStringS3_@Base 4:15.08.0
  _ZN6Marble19HttpDownloadManagerC1EPNS_13StoragePolicyE@Base 4:15.08.0
@@ -5023,8 +4923,6 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble19MarbleDBusInterface16tileLevelChangedEi@Base 4:15.08.0
  _ZN6Marble19MarbleDBusInterface18setPropertyEnabledERK7QStringb@Base 4:15.08.0
  _ZN6Marble19MarbleDBusInterface31handleVisibleLatLonAltBoxChangeEv@Base 4:15.08.0
- _ZN6Marble19MarbleDBusInterface7PrivateC1EPNS_12MarbleWidgetE@Base 4:15.08.0
- _ZN6Marble19MarbleDBusInterface7PrivateC2EPNS_12MarbleWidgetE@Base 4:15.08.0
  _ZN6Marble19MarbleDBusInterface7setZoomEi@Base 4:15.08.0
  _ZN6Marble19MarbleDBusInterfaceC1EPNS_12MarbleWidgetE@Base 4:15.08.0
  _ZN6Marble19MarbleDBusInterfaceC2EPNS_12MarbleWidgetE@Base 4:15.08.0
@@ -5092,8 +4990,6 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble19OwncloudSyncBackend19saveDownloadedRouteEv@Base 4:15.08.0
  _ZN6Marble19OwncloudSyncBackend21routeDownloadProgressExx@Base 4:15.08.0
  _ZN6Marble19OwncloudSyncBackend25routeListDownloadProgressExx@Base 4:15.08.0
- _ZN6Marble19OwncloudSyncBackend7PrivateC1EPNS_16CloudSyncManagerE@Base 4:15.08.0
- _ZN6Marble19OwncloudSyncBackend7PrivateC2EPNS_16CloudSyncManagerE@Base 4:15.08.0
  _ZN6Marble19OwncloudSyncBackendC1EPNS_16CloudSyncManagerE@Base 4:15.08.0
  _ZN6Marble19OwncloudSyncBackendC2EPNS_16CloudSyncManagerE@Base 4:15.08.0
  _ZN6Marble19OwncloudSyncBackendD0Ev@Base 4:15.08.0
@@ -5140,8 +5036,6 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble19RoutingRunnerPlugin16staticMetaObjectE@Base 4:15.08.0
  _ZN6Marble19RoutingRunnerPlugin17setCanWorkOfflineEb@Base 4:15.08.0
  _ZN6Marble19RoutingRunnerPlugin27setSupportedCelestialBodiesERK11QStringList@Base 4:15.08.0
- _ZN6Marble19RoutingRunnerPlugin7PrivateC1Ev@Base 4:15.08.0
- _ZN6Marble19RoutingRunnerPlugin7PrivateC2Ev@Base 4:15.08.0
  _ZN6Marble19RoutingRunnerPluginC1EP7QObject@Base 4:15.08.0
  _ZN6Marble19RoutingRunnerPluginC2EP7QObject@Base 4:15.08.0
  _ZN6Marble19RoutingRunnerPluginD0Ev@Base 4:15.08.0
@@ -5156,10 +5050,6 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble19SearchRunnerManager19searchResultChangedEP18QAbstractItemModel@Base 4:15.08.0
  _ZN6Marble19SearchRunnerManager19searchResultChangedERK7QVectorIPNS_16GeoDataPlacemarkEE@Base 4:15.08.0
  _ZN6Marble19SearchRunnerManager23placemarkSearchFinishedEv@Base 4:15.08.0
- _ZN6Marble19SearchRunnerManager7Private15addSearchResultERK7QVectorIPNS_16GeoDataPlacemarkEE@Base 4:15.08.0
- _ZN6Marble19SearchRunnerManager7Private17cleanupSearchTaskEPNS_10SearchTaskE@Base 4:15.08.0
- _ZN6Marble19SearchRunnerManager7PrivateC1EPS0_PKNS_11MarbleModelE@Base 4:15.08.0
- _ZN6Marble19SearchRunnerManager7PrivateC2EPS0_PKNS_11MarbleModelE@Base 4:15.08.0
  _ZN6Marble19SearchRunnerManagerC1EPKNS_11MarbleModelEP7QObject@Base 4:15.08.0
  _ZN6Marble19SearchRunnerManagerC2EPKNS_11MarbleModelEP7QObject@Base 4:15.08.0
  _ZN6Marble19SearchRunnerManagerD0Ev@Base 4:15.08.0
@@ -5222,11 +5112,6 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble20DownloadRegionDialog24setSpecifiedLatLonAltBoxERKNS_19GeoDataLatLonAltBoxE@Base 4:15.08.0
  _ZN6Marble20DownloadRegionDialog5shownEv@Base 4:15.08.0
  _ZN6Marble20DownloadRegionDialog6hiddenEv@Base 4:15.08.0
- _ZN6Marble20DownloadRegionDialog7Private18createTilesCounterEv@Base 4:15.08.0
- _ZN6Marble20DownloadRegionDialog7Private23createOkCancelButtonBoxEv@Base 4:15.08.0
- _ZN6Marble20DownloadRegionDialog7Private24createSelectionMethodBoxEv@Base 4:15.08.0
- _ZN6Marble20DownloadRegionDialog7PrivateC1EPNS_12MarbleWidgetEP7QDialog@Base 4:15.08.0
- _ZN6Marble20DownloadRegionDialog7PrivateC2EPNS_12MarbleWidgetEP7QDialog@Base 4:15.08.0
  _ZN6Marble20DownloadRegionDialog7appliedEv@Base 4:15.08.0
  _ZN6Marble20DownloadRegionDialog9hideEventEP10QHideEvent@Base 4:15.08.0
  _ZN6Marble20DownloadRegionDialog9showEventEP10QShowEvent@Base 4:15.08.0
@@ -5387,15 +5272,11 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble20MarblePlacemarkModelD2Ev@Base 4:15.08.0
  _ZN6Marble20MergedLayerDecorator10updateTileERKNS_11StackedTileERKNS_6TileIdERK6QImage@Base 4:15.08.0
  _ZN6Marble20MergedLayerDecorator13setShowTileIdEb@Base 4:15.08.0
- _ZN6Marble20MergedLayerDecorator16setTextureLayersERK7QVectorIPKNS_19GeoSceneTextureTileEE@Base 4:15.08.0
+ _ZN6Marble20MergedLayerDecorator16setTextureLayersERK7QVectorIPKNS_26GeoSceneTextureTileDatasetEE@Base 4:15.11.80+git20150924.0815
  _ZN6Marble20MergedLayerDecorator17setShowCityLightsEb@Base 4:15.08.0
  _ZN6Marble20MergedLayerDecorator17setShowSunShadingEb@Base 4:15.08.0
  _ZN6Marble20MergedLayerDecorator19downloadStackedTileERKNS_6TileIdENS_13DownloadUsageE@Base 4:15.08.0
  _ZN6Marble20MergedLayerDecorator20updateGroundOverlaysERK5QListIPKNS_20GeoDataGroundOverlayEE@Base 4:15.08.0
- _ZN6Marble20MergedLayerDecorator7Private10maxDivisorEii@Base 4:15.08.0
- _ZN6Marble20MergedLayerDecorator7Private18detectMaxTileLevelEv@Base 4:15.08.0
- _ZN6Marble20MergedLayerDecorator7PrivateC1EPNS_10TileLoaderEPKNS_10SunLocatorE@Base 4:15.08.0
- _ZN6Marble20MergedLayerDecorator7PrivateC2EPNS_10TileLoaderEPKNS_10SunLocatorE@Base 4:15.08.0
  _ZN6Marble20MergedLayerDecorator8loadTileERKNS_6TileIdE@Base 4:15.08.0
  _ZN6Marble20MergedLayerDecoratorC1EPNS_10TileLoaderEPKNS_10SunLocatorE@Base 4:15.08.0
  _ZN6Marble20MergedLayerDecoratorC2EPNS_10TileLoaderEPKNS_10SunLocatorE@Base 4:15.08.0
@@ -5422,12 +5303,6 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble20ParsingRunnerManager15parsingFinishedEPNS_15GeoDataDocumentERK7QString@Base 4:15.08.0
  _ZN6Marble20ParsingRunnerManager15parsingFinishedEv@Base 4:15.08.0
  _ZN6Marble20ParsingRunnerManager16staticMetaObjectE@Base 4:15.08.0
- _ZN6Marble20ParsingRunnerManager7Private16addParsingResultEPNS_15GeoDataDocumentERK7QString@Base 4:15.08.0
- _ZN6Marble20ParsingRunnerManager7Private18cleanupParsingTaskEPNS_11ParsingTaskE@Base 4:15.08.0
- _ZN6Marble20ParsingRunnerManager7PrivateC1EPS0_PKNS_13PluginManagerE@Base 4:15.08.0
- _ZN6Marble20ParsingRunnerManager7PrivateC2EPS0_PKNS_13PluginManagerE@Base 4:15.08.0
- _ZN6Marble20ParsingRunnerManager7PrivateD1Ev@Base 4:15.08.0
- _ZN6Marble20ParsingRunnerManager7PrivateD2Ev@Base 4:15.08.0
  _ZN6Marble20ParsingRunnerManager8openFileERK7QStringNS_12DocumentRoleEi@Base 4:15.08.0
  _ZN6Marble20ParsingRunnerManager9parseFileERK7QStringNS_12DocumentRoleE@Base 4:15.08.0
  _ZN6Marble20ParsingRunnerManagerC1EPKNS_13PluginManagerEP7QObject@Base 4:15.08.0
@@ -5453,6 +5328,7 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble20QtMarbleConfigDialog11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:15.08.0
  _ZN6Marble20QtMarbleConfigDialog11qt_metacastEPKc@Base 4:15.08.0
  _ZN6Marble20QtMarbleConfigDialog12readSettingsEv@Base 4:15.08.0
+ _ZN6Marble20QtMarbleConfigDialog12setAngleUnitENS_9AngleUnitE@Base 4:15.11.80+git20150924.0815
  _ZN6Marble20QtMarbleConfigDialog12syncSettingsEv@Base 4:15.08.0
  _ZN6Marble20QtMarbleConfigDialog13enableSyncNowEv@Base 4:15.08.0
  _ZN6Marble20QtMarbleConfigDialog13writeSettingsEv@Base 4:15.08.0
@@ -5472,8 +5348,8 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble20QtMarbleConfigDialogD1Ev@Base 4:15.08.0
  _ZN6Marble20QtMarbleConfigDialogD2Ev@Base 4:15.08.0
  _ZN6Marble20QuadTreeServerLayout14encodeQuadTreeERKNS_6TileIdE@Base 4:15.08.0
- _ZN6Marble20QuadTreeServerLayoutC1EPNS_13GeoSceneTiledE@Base 4:15.08.0
- _ZN6Marble20QuadTreeServerLayoutC2EPNS_13GeoSceneTiledE@Base 4:15.08.0
+ _ZN6Marble20QuadTreeServerLayoutC1EPNS_19GeoSceneTileDatasetE@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble20QuadTreeServerLayoutC2EPNS_19GeoSceneTileDatasetE@Base 4:15.11.80+git20150924.0815
  _ZN6Marble20QuadTreeServerLayoutD0Ev@Base 4:15.08.0
  _ZN6Marble20QuadTreeServerLayoutD1Ev@Base 4:15.08.0
  _ZN6Marble20QuadTreeServerLayoutD2Ev@Base 4:15.08.0
@@ -5530,12 +5406,6 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble20RoutingRunnerManager14routeRetrievedEPNS_15GeoDataDocumentE@Base 4:15.08.0
  _ZN6Marble20RoutingRunnerManager15routingFinishedEv@Base 4:15.08.0
  _ZN6Marble20RoutingRunnerManager16staticMetaObjectE@Base 4:15.08.0
- _ZN6Marble20RoutingRunnerManager7Private16addRoutingResultEPNS_15GeoDataDocumentE@Base 4:15.08.0
- _ZN6Marble20RoutingRunnerManager7Private18cleanupRoutingTaskEPNS_11RoutingTaskE@Base 4:15.08.0
- _ZN6Marble20RoutingRunnerManager7PrivateC1EPS0_PKNS_11MarbleModelE@Base 4:15.08.0
- _ZN6Marble20RoutingRunnerManager7PrivateC2EPS0_PKNS_11MarbleModelE@Base 4:15.08.0
- _ZN6Marble20RoutingRunnerManager7PrivateD1Ev@Base 4:15.08.0
- _ZN6Marble20RoutingRunnerManager7PrivateD2Ev@Base 4:15.08.0
  _ZN6Marble20RoutingRunnerManagerC1EPKNS_11MarbleModelEP7QObject@Base 4:15.08.0
  _ZN6Marble20RoutingRunnerManagerC2EPKNS_11MarbleModelEP7QObject@Base 4:15.08.0
  _ZN6Marble20RoutingRunnerManagerD0Ev@Base 4:15.08.0
@@ -5562,8 +5432,6 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble20TileLevelRangeWidget18setMaximumTopLevelEi@Base 4:15.08.0
  _ZN6Marble20TileLevelRangeWidget20setAllowedLevelRangeEii@Base 4:15.08.0
  _ZN6Marble20TileLevelRangeWidget21setMinimumBottomLevelEi@Base 4:15.08.0
- _ZN6Marble20TileLevelRangeWidget7PrivateC1EP7QWidget@Base 4:15.08.0
- _ZN6Marble20TileLevelRangeWidget7PrivateC2EP7QWidget@Base 4:15.08.0
  _ZN6Marble20TileLevelRangeWidgetC1EP7QWidget6QFlagsIN2Qt10WindowTypeEE@Base 4:15.08.0
  _ZN6Marble20TileLevelRangeWidgetC2EP7QWidget6QFlagsIN2Qt10WindowTypeEE@Base 4:15.08.0
  _ZN6Marble20TileLevelRangeWidgetD0Ev@Base 4:15.08.0
@@ -5589,10 +5457,6 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble21BillboardGraphicsItem12setAlignmentE6QFlagsIN2Qt13AlignmentFlagEE@Base 4:15.08.0
  _ZN6Marble21BillboardGraphicsItem13setCoordinateERKNS_18GeoDataCoordinatesE@Base 4:15.08.0
  _ZN6Marble21BillboardGraphicsItem1pEv@Base 4:15.08.0
- _ZN6Marble21BillboardGraphicsItem7Private13setProjectionEPKNS_14ViewportParamsE@Base 4:15.08.0
- _ZN6Marble21BillboardGraphicsItem7PrivateD0Ev@Base 4:15.08.0
- _ZN6Marble21BillboardGraphicsItem7PrivateD1Ev@Base 4:15.08.0
- _ZN6Marble21BillboardGraphicsItem7PrivateD2Ev@Base 4:15.08.0
  _ZN6Marble21BillboardGraphicsItemC1Ev@Base 4:15.08.0
  _ZN6Marble21BillboardGraphicsItemC2Ev@Base 4:15.08.0
  _ZN6Marble21BillboardGraphicsItemD0Ev@Base 4:15.08.0
@@ -5661,17 +5525,15 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble21GeoDataAnimatedUpdateD1Ev@Base 4:15.08.0
  _ZN6Marble21GeoDataAnimatedUpdateD2Ev@Base 4:15.08.0
  _ZN6Marble21GeoDataAnimatedUpdateaSERKS0_@Base 4:15.08.0
- _ZN6Marble21GeoDataFeaturePrivate11createStyleEddRK6QColorS3_bbN2Qt10BrushStyleENS4_8PenStyleENS4_11PenCapStyleEbRK7QVectorIdE@Base 4:15.08.0
+ _ZN6Marble21GeoDataFeaturePrivate11createStyleEddRK6QColorS3_bbN2Qt10BrushStyleENS4_8PenStyleENS4_11PenCapStyleEbRK7QVectorIdERK5QFontS3_RK7QString@Base 4:15.11.80+git20150924.0815
  _ZN6Marble21GeoDataFeaturePrivate13s_defaultFontE@Base 4:15.08.0
- (arch=!ppc64el)_ZN6Marble21GeoDataFeaturePrivate14createWayStyleERK6QColorS3_bbN2Qt10BrushStyleE@Base 4:15.08.0
+ _ZN6Marble21GeoDataFeaturePrivate14createWayStyleERK6QColorS3_bbN2Qt10BrushStyleERK7QString@Base 4:15.11.80+git20150924.0815
  _ZN6Marble21GeoDataFeaturePrivate14s_defaultStyleE@Base 4:15.08.0
- _ZN6Marble21GeoDataFeaturePrivate17createOsmPOIStyleERK5QFontRK7QStringRK6QColorS9_@Base 4:15.08.0
- _ZN6Marble21GeoDataFeaturePrivate18createHighwayStyleERK7QStringRK6QColorddN2Qt8PenStyleENS7_11PenCapStyleE@Base 4:15.08.0
- _ZN6Marble21GeoDataFeaturePrivate18s_visualCategoriesE@Base 4:15.08.0
+ _ZN6Marble21GeoDataFeaturePrivate17createOsmPOIStyleERK5QFontRK7QStringRK6QColorS9_S9_@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble21GeoDataFeaturePrivate18createHighwayStyleERK7QStringRK6QColorS6_RK5QFontS6_ddN2Qt8PenStyleENSA_11PenCapStyleEb@Base 4:15.11.80+git20150924.0815
  _ZN6Marble21GeoDataFeaturePrivate19s_defaultLabelColorE@Base 4:15.08.0
  _ZN6Marble21GeoDataFeaturePrivate23initializeDefaultStylesEv@Base 4:15.08.0
  _ZN6Marble21GeoDataFeaturePrivate25s_defaultStyleInitializedE@Base 4:15.08.0
- _ZN6Marble21GeoDataFeaturePrivate29initializeOsmVisualCategoriesEv@Base 4:15.08.0
  _ZN6Marble21GeoDataFeaturePrivate4copyEv@Base 4:15.08.0
  _ZN6Marble21GeoDataFeaturePrivateD0Ev@Base 4:15.08.0
  _ZN6Marble21GeoDataFeaturePrivateD1Ev@Base 4:15.08.0
@@ -5740,16 +5602,6 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble21MarbleWidgetPopupMenu19slotCopyCoordinatesEv@Base 4:15.08.0
  _ZN6Marble21MarbleWidgetPopupMenu21startReverseGeocodingEv@Base 4:15.08.0
  _ZN6Marble21MarbleWidgetPopupMenu22showAddressInformationERKNS_18GeoDataCoordinatesERKNS_16GeoDataPlacemarkE@Base 4:15.08.0
- _ZN6Marble21MarbleWidgetPopupMenu7Private15setupDialogCityEPNS_10PopupLayerEPKNS_16GeoDataPlacemarkE@Base 4:15.08.0
- _ZN6Marble21MarbleWidgetPopupMenu7Private17createInfoBoxMenuEv@Base 4:15.08.0
- _ZN6Marble21MarbleWidgetPopupMenu7Private17setupDialogNationEPNS_10PopupLayerEPKNS_16GeoDataPlacemarkE@Base 4:15.08.0
- _ZN6Marble21MarbleWidgetPopupMenu7Private20setupDialogGeoPlacesEPNS_10PopupLayerEPKNS_16GeoDataPlacemarkE@Base 4:15.08.0
- _ZN6Marble21MarbleWidgetPopupMenu7Private20setupDialogSatelliteEPKNS_16GeoDataPlacemarkE@Base 4:15.08.0
- _ZN6Marble21MarbleWidgetPopupMenu7Private20setupDialogSkyPlacesEPNS_10PopupLayerEPKNS_16GeoDataPlacemarkE@Base 4:15.08.0
- _ZN6Marble21MarbleWidgetPopupMenu7Private23setupDialogPhotoOverlayEPNS_10PopupLayerEPKNS_19GeoDataPhotoOverlayE@Base 4:15.08.0
- _ZN6Marble21MarbleWidgetPopupMenu7Private27filterEmptyShortDescriptionERK7QString@Base 4:15.08.0
- _ZN6Marble21MarbleWidgetPopupMenu7PrivateC1EPNS_12MarbleWidgetEPKNS_11MarbleModelEPS0_@Base 4:15.08.0
- _ZN6Marble21MarbleWidgetPopupMenu7PrivateC2EPNS_12MarbleWidgetEPKNS_11MarbleModelEPS0_@Base 4:15.08.0
  _ZN6Marble21MarbleWidgetPopupMenu9addActionEN2Qt11MouseButtonEP7QAction@Base 4:15.08.0
  _ZN6Marble21MarbleWidgetPopupMenu9resetMenuEv@Base 4:15.08.0
  _ZN6Marble21MarbleWidgetPopupMenuC1EPNS_12MarbleWidgetEPKNS_11MarbleModelE@Base 4:15.08.0
@@ -5773,14 +5625,6 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble21RoutingProfilesWidget11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:15.08.0
  _ZN6Marble21RoutingProfilesWidget11qt_metacastEPKc@Base 4:15.08.0
  _ZN6Marble21RoutingProfilesWidget16staticMetaObjectE@Base 4:15.08.0
- _ZN6Marble21RoutingProfilesWidget7Private13updateButtonsEv@Base 4:15.08.0
- _ZN6Marble21RoutingProfilesWidget7Private3addEv@Base 4:15.08.0
- _ZN6Marble21RoutingProfilesWidget7Private6moveUpEv@Base 4:15.08.0
- _ZN6Marble21RoutingProfilesWidget7Private6removeEv@Base 4:15.08.0
- _ZN6Marble21RoutingProfilesWidget7Private8moveDownEv@Base 4:15.08.0
- _ZN6Marble21RoutingProfilesWidget7Private9configureEv@Base 4:15.08.0
- _ZN6Marble21RoutingProfilesWidget7PrivateC1EPNS_11MarbleModelEPS0_@Base 4:15.08.0
- _ZN6Marble21RoutingProfilesWidget7PrivateC2EPNS_11MarbleModelEPS0_@Base 4:15.08.0
  _ZN6Marble21RoutingProfilesWidgetC1EPNS_11MarbleModelE@Base 4:15.08.0
  _ZN6Marble21RoutingProfilesWidgetC2EPNS_11MarbleModelE@Base 4:15.08.0
  _ZN6Marble21RoutingProfilesWidgetD0Ev@Base 4:15.08.0
@@ -5842,19 +5686,6 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble22AlternativeRoutesModel19currentRouteChangedEi@Base 4:15.08.0
  _ZN6Marble22AlternativeRoutesModel5clearEv@Base 4:15.08.0
  _ZN6Marble22AlternativeRoutesModel5routeEi@Base 4:15.08.0
- _ZN6Marble22AlternativeRoutesModel7Private10similarityEPKNS_15GeoDataDocumentES4_@Base 4:15.08.0
- _ZN6Marble22AlternativeRoutesModel7Private11coordinatesERKNS_18GeoDataCoordinatesEdd@Base 4:15.08.0
- _ZN6Marble22AlternativeRoutesModel7Private11higherScoreEPKNS_15GeoDataDocumentES4_@Base 4:15.08.0
- _ZN6Marble22AlternativeRoutesModel7Private16instructionScoreEPKNS_15GeoDataDocumentE@Base 4:15.08.0
- _ZN6Marble22AlternativeRoutesModel7Private24unidirectionalSimilarityEPKNS_15GeoDataDocumentES4_@Base 4:15.08.0
- _ZN6Marble22AlternativeRoutesModel7Private7bearingERKNS_18GeoDataCoordinatesES4_@Base 4:15.08.0
- _ZN6Marble22AlternativeRoutesModel7Private7nonZeroERK6QImage@Base 4:15.08.0
- _ZN6Marble22AlternativeRoutesModel7Private7polygonERKNS_17GeoDataLineStringEdddd@Base 4:15.08.0
- _ZN6Marble22AlternativeRoutesModel7Private8distanceERKNS_17GeoDataLineStringERKNS_18GeoDataCoordinatesE@Base 4:15.08.0
- _ZN6Marble22AlternativeRoutesModel7Private8distanceERKNS_18GeoDataCoordinatesES4_S4_@Base 4:15.08.0
- _ZN6Marble22AlternativeRoutesModel7Private9waypointsEPKNS_15GeoDataDocumentE@Base 4:15.08.0
- _ZN6Marble22AlternativeRoutesModel7PrivateC1Ev@Base 4:15.08.0
- _ZN6Marble22AlternativeRoutesModel7PrivateC2Ev@Base 4:15.08.0
  _ZN6Marble22AlternativeRoutesModel8addRouteEPNS_15GeoDataDocumentENS0_11WritePolicyE@Base 4:15.08.0
  _ZN6Marble22AlternativeRoutesModel9waypointsEPKNS_15GeoDataDocumentE@Base 4:15.08.0
  _ZN6Marble22AlternativeRoutesModelC1EP7QObject@Base 4:15.08.0
@@ -5898,6 +5729,8 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble22GeoGraphicsItemPrivateD0Ev@Base 4:15.08.0
  _ZN6Marble22GeoGraphicsItemPrivateD1Ev@Base 4:15.08.0
  _ZN6Marble22GeoGraphicsItemPrivateD2Ev@Base 4:15.08.0
+ _ZN6Marble22GeoPolygonGraphicsItem17createDecorationsEv@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble22GeoPolygonGraphicsItem18s_decorationZValueE@Base 4:15.11.80+git20150924.0815
  _ZN6Marble22GeoPolygonGraphicsItem5paintEPNS_10GeoPainterEPKNS_14ViewportParamsE@Base 4:15.08.0
  _ZN6Marble22GeoPolygonGraphicsItemC1EPKNS_14GeoDataFeatureEPKNS_14GeoDataPolygonE@Base 4:15.08.0
  _ZN6Marble22GeoPolygonGraphicsItemC1EPKNS_14GeoDataFeatureEPKNS_17GeoDataLinearRingE@Base 4:15.08.0
@@ -5958,9 +5791,6 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble22MapThemeDownloadDialogD0Ev@Base 4:15.08.0
  _ZN6Marble22MapThemeDownloadDialogD1Ev@Base 4:15.08.0
  _ZN6Marble22MapThemeDownloadDialogD2Ev@Base 4:15.08.0
- _ZN6Marble22MarbleQuickItemPrivateD0Ev@Base 4:15.08.0
- _ZN6Marble22MarbleQuickItemPrivateD1Ev@Base 4:15.08.0
- _ZN6Marble22MarbleQuickItemPrivateD2Ev@Base 4:15.08.0
  _ZN6Marble22PositionProviderPlugin11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:15.08.0
  _ZN6Marble22PositionProviderPlugin11qt_metacastEPKc@Base 4:15.08.0
  _ZN6Marble22PositionProviderPlugin16staticMetaObjectE@Base 4:15.08.0
@@ -6099,19 +5929,6 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble23MarbleAbstractPresenterD2Ev@Base 4:15.08.0
  _ZN6Marble23MarbleControlBoxPrivateC1Ev@Base 4:15.08.0
  _ZN6Marble23MarbleControlBoxPrivateC2Ev@Base 4:15.08.0
- _ZN6Marble23MarbleQuickInputHandler11acceptMouseEv@Base 4:15.08.0
- _ZN6Marble23MarbleQuickInputHandler11handleTouchEP11QTouchEvent@Base 4:15.08.0
- _ZN6Marble23MarbleQuickInputHandler11showLmbMenuEii@Base 4:15.08.0
- _ZN6Marble23MarbleQuickInputHandler11showRmbMenuEii@Base 4:15.08.0
- _ZN6Marble23MarbleQuickInputHandler15openItemToolTipEv@Base 4:15.08.0
- _ZN6Marble23MarbleQuickInputHandler15selectionRubberEv@Base 4:15.08.0
- _ZN6Marble23MarbleQuickInputHandler17checkReleasedMoveEP11QMouseEvent@Base 4:15.08.0
- _ZN6Marble23MarbleQuickInputHandler17layersEventFilterEP7QObjectP6QEvent@Base 4:15.08.0
- _ZN6Marble23MarbleQuickInputHandler24installPluginEventFilterEPNS_12RenderPluginE@Base 4:15.08.0
- _ZN6Marble23MarbleQuickInputHandler9setCursorERK7QCursor@Base 4:15.08.0
- _ZN6Marble23MarbleQuickInputHandlerD0Ev@Base 4:15.08.0
- _ZN6Marble23MarbleQuickInputHandlerD1Ev@Base 4:15.08.0
- _ZN6Marble23MarbleQuickInputHandlerD2Ev@Base 4:15.08.0
  _ZN6Marble23NavigationWidgetPrivate13updateButtonsEi@Base 4:15.08.0
  _ZN6Marble23NavigationWidgetPrivate14adjustForStillEv@Base 4:15.08.0
  _ZN6Marble23NavigationWidgetPrivate15setSearchResultE7QVectorIPNS_16GeoDataPlacemarkEE@Base 4:15.08.0
@@ -6128,6 +5945,16 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble23NewBookmarkFolderDialogD0Ev@Base 4:15.08.0
  _ZN6Marble23NewBookmarkFolderDialogD1Ev@Base 4:15.08.0
  _ZN6Marble23NewBookmarkFolderDialogD2Ev@Base 4:15.08.0
+ _ZN6Marble23OsmRelationEditorDialog11checkFieldsEv@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble23OsmRelationEditorDialog11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble23OsmRelationEditorDialog11qt_metacastEPKc@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble23OsmRelationEditorDialog16staticMetaObjectE@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble23OsmRelationEditorDialog6finishEv@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble23OsmRelationEditorDialogC1EPNS_16OsmPlacemarkDataEP7QWidget@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble23OsmRelationEditorDialogC2EPNS_16OsmPlacemarkDataEP7QWidget@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble23OsmRelationEditorDialogD0Ev@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble23OsmRelationEditorDialogD1Ev@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble23OsmRelationEditorDialogD2Ev@Base 4:15.11.80+git20150924.0815
  _ZN6Marble23PlaybackTourControlItem4playEv@Base 4:15.08.0
  _ZN6Marble23PlaybackTourControlItem4seekEd@Base 4:15.08.0
  _ZN6Marble23PlaybackTourControlItem4stopEv@Base 4:15.08.0
@@ -6221,12 +6048,20 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble24MarbleWidgetInputHandlerD0Ev@Base 4:15.08.0
  _ZN6Marble24MarbleWidgetInputHandlerD1Ev@Base 4:15.08.0
  _ZN6Marble24MarbleWidgetInputHandlerD2Ev@Base 4:15.08.0
- _ZN6Marble24QuickItemSelectionRubber11setGeometryERK5QRect@Base 4:15.08.0
- _ZN6Marble24QuickItemSelectionRubber4hideEv@Base 4:15.08.0
- _ZN6Marble24QuickItemSelectionRubber4showEv@Base 4:15.08.0
- _ZN6Marble24QuickItemSelectionRubberD0Ev@Base 4:15.08.0
- _ZN6Marble24QuickItemSelectionRubberD1Ev@Base 4:15.08.0
- _ZN6Marble24QuickItemSelectionRubberD2Ev@Base 4:15.08.0
+ _ZN6Marble24OsmRelationManagerWidget11addRelationEP7QAction@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble24OsmRelationManagerWidget11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble24OsmRelationManagerWidget11qt_metacastEPKc@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble24OsmRelationManagerWidget15relationCreatedERKNS_16OsmPlacemarkDataE@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble24OsmRelationManagerWidget16handleItemChangeEP15QTreeWidgetItemi@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble24OsmRelationManagerWidget16staticMetaObjectE@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble24OsmRelationManagerWidget17handleDoubleClickEP15QTreeWidgetItemi@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble24OsmRelationManagerWidget32handleRelationContextMenuRequestE6QPoint@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble24OsmRelationManagerWidget6updateEv@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble24OsmRelationManagerWidgetC1EPNS_16GeoDataPlacemarkEPK5QHashIxNS_16OsmPlacemarkDataEEP7QWidget@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble24OsmRelationManagerWidgetC2EPNS_16GeoDataPlacemarkEPK5QHashIxNS_16OsmPlacemarkDataEEP7QWidget@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble24OsmRelationManagerWidgetD0Ev@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble24OsmRelationManagerWidgetD1Ev@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble24OsmRelationManagerWidgetD2Ev@Base 4:15.11.80+git20150924.0815
  _ZN6Marble24TileScalingTextureMapper10mapTextureEPNS_10GeoPainterEPKNS_14ViewportParamsEiPNS_16TextureColorizerE@Base 4:15.08.0
  _ZN6Marble24TileScalingTextureMapper10mapTextureEPNS_10GeoPainterEPKNS_14ViewportParamsEiRK5QRectPNS_16TextureColorizerE@Base 4:15.08.0
  _ZN6Marble24TileScalingTextureMapper11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:15.08.0
@@ -6293,12 +6128,19 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble25GeoDataResourceMapPrivateC1Ev@Base 4:15.08.0
  _ZN6Marble25GeoDataResourceMapPrivateC2Ev@Base 4:15.08.0
  _ZN6Marble25GeoLineStringGraphicsItem13setLineStringEPKNS_17GeoDataLineStringE@Base 4:15.08.0
+ _ZN6Marble25GeoLineStringGraphicsItem15s_outlineZValueE@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble25GeoLineStringGraphicsItem17createDecorationsEv@Base 4:15.11.80+git20150924.0815
  _ZN6Marble25GeoLineStringGraphicsItem5paintEPNS_10GeoPainterEPKNS_14ViewportParamsE@Base 4:15.08.0
  _ZN6Marble25GeoLineStringGraphicsItemC1EPKNS_14GeoDataFeatureEPKNS_17GeoDataLineStringE@Base 4:15.08.0
  _ZN6Marble25GeoLineStringGraphicsItemC2EPKNS_14GeoDataFeatureEPKNS_17GeoDataLineStringE@Base 4:15.08.0
  _ZN6Marble25GeoLineStringGraphicsItemD0Ev@Base 4:15.08.0
  _ZN6Marble25GeoLineStringGraphicsItemD1Ev@Base 4:15.08.0
  _ZN6Marble25GeoLineStringGraphicsItemD2Ev@Base 4:15.08.0
+ _ZN6Marble25GeoSceneVectorTileDatasetC1ERK7QString@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble25GeoSceneVectorTileDatasetC2ERK7QString@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble25GeoSceneVectorTileDatasetD0Ev@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble25GeoSceneVectorTileDatasetD1Ev@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble25GeoSceneVectorTileDatasetD2Ev@Base 4:15.11.80+git20150924.0815
  _ZN6Marble25GnomonicProjectionPrivateC1EPNS_18GnomonicProjectionE@Base 4:15.08.0
  _ZN6Marble25GnomonicProjectionPrivateC2EPNS_18GnomonicProjectionE@Base 4:15.08.0
  _ZN6Marble25GnomonicProjectionPrivateD0Ev@Base 4:15.08.0
@@ -6334,10 +6176,6 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble25MarbleDefaultInputHandler27handleRightMouseButtonPressEP11QMouseEvent@Base 4:15.08.0
  _ZN6Marble25MarbleDefaultInputHandler27hideSelectionIfCtrlReleasedEP6QEvent@Base 4:15.08.0
  _ZN6Marble25MarbleDefaultInputHandler28handleMiddleMouseButtonPressEP11QMouseEvent@Base 4:15.08.0
- _ZN6Marble25MarbleDefaultInputHandler7PrivateC1Ev@Base 4:15.08.0
- _ZN6Marble25MarbleDefaultInputHandler7PrivateC2Ev@Base 4:15.08.0
- _ZN6Marble25MarbleDefaultInputHandler7PrivateD1Ev@Base 4:15.08.0
- _ZN6Marble25MarbleDefaultInputHandler7PrivateD2Ev@Base 4:15.08.0
  _ZN6Marble25MarbleDefaultInputHandlerC1EPNS_23MarbleAbstractPresenterE@Base 4:15.08.0
  _ZN6Marble25MarbleDefaultInputHandlerC2EPNS_23MarbleAbstractPresenterE@Base 4:15.08.0
  _ZN6Marble25MarbleDefaultInputHandlerD0Ev@Base 4:15.08.0
@@ -6347,6 +6185,14 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble25MarbleGraphicsItemPrivateD0Ev@Base 4:15.08.0
  _ZN6Marble25MarbleGraphicsItemPrivateD1Ev@Base 4:15.08.0
  _ZN6Marble25MarbleGraphicsItemPrivateD2Ev@Base 4:15.08.0
+ _ZN6Marble25OsmTagEditorWidgetPrivate20m_customTagAdderTextE@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble25OsmTagEditorWidgetPrivate22populatePresetTagsListEv@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble25OsmTagEditorWidgetPrivate23populateCurrentTagsListEv@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble25OsmTagEditorWidgetPrivate4initEP7QWidget@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble25OsmTagEditorWidgetPrivateC1EPNS_18OsmTagEditorWidgetE@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble25OsmTagEditorWidgetPrivateC2EPNS_18OsmTagEditorWidgetE@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble25OsmTagEditorWidgetPrivateD1Ev@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble25OsmTagEditorWidgetPrivateD2Ev@Base 4:15.11.80+git20150924.0815
  _ZN6Marble25RoutingInputWidgetPrivate10adjustTextEv@Base 4:15.08.0
  _ZN6Marble25RoutingInputWidgetPrivate10createMenuEPNS_18RoutingInputWidgetE@Base 4:15.08.0
  _ZN6Marble25RoutingInputWidgetPrivate17updateDescriptionEv@Base 4:15.08.0
@@ -6382,6 +6228,12 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble26GeoDataImagePyramidPrivateC2Ev@Base 4:15.08.0
  _ZN6Marble26GeoDataPhotoOverlayPrivateC1Ev@Base 4:15.08.0
  _ZN6Marble26GeoDataPhotoOverlayPrivateC2Ev@Base 4:15.08.0
+ _ZN6Marble26GeoSceneTextureTileDataset12setLatLonBoxERKNS_16GeoDataLatLonBoxE@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble26GeoSceneTextureTileDatasetC1ERK7QString@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble26GeoSceneTextureTileDatasetC2ERK7QString@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble26GeoSceneTextureTileDatasetD0Ev@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble26GeoSceneTextureTileDatasetD1Ev@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble26GeoSceneTextureTileDatasetD2Ev@Base 4:15.11.80+git20150924.0815
  _ZN6Marble26KmlAnimatedUpdateTagWriterD0Ev@Base 4:15.08.0
  _ZN6Marble26KmlAnimatedUpdateTagWriterD1Ev@Base 4:15.08.0
  _ZN6Marble26KmlAnimatedUpdateTagWriterD2Ev@Base 4:15.08.0
@@ -6519,6 +6371,8 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble28GenericScanlineTextureMapperD2Ev@Base 4:15.08.0
  _ZN6Marble28GeoDataAnimatedUpdatePrivateC1Ev@Base 4:15.08.0
  _ZN6Marble28GeoDataAnimatedUpdatePrivateC2Ev@Base 4:15.08.0
+ _ZN6Marble28KmlOsmPlacemarkDataTagWriter12writeOsmDataEPKNS_15GeoDataGeometryERKNS_16OsmPlacemarkDataERNS_9GeoWriterE@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble28KmlOsmPlacemarkDataTagWriter5writeEPKNS_14GeoDataFeatureERNS_9GeoWriterE@Base 4:15.11.80+git20150924.0815
  _ZN6Marble28MapThemeSortFilterProxyModel10isFavoriteERK11QModelIndex@Base 4:15.08.0
  _ZN6Marble28MapThemeSortFilterProxyModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:15.08.0
  _ZN6Marble28MapThemeSortFilterProxyModel11qt_metacastEPKc@Base 4:15.08.0
@@ -6534,8 +6388,6 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble28ReverseGeocodingRunnerPlugin16staticMetaObjectE@Base 4:15.08.0
  _ZN6Marble28ReverseGeocodingRunnerPlugin17setCanWorkOfflineEb@Base 4:15.08.0
  _ZN6Marble28ReverseGeocodingRunnerPlugin27setSupportedCelestialBodiesERK11QStringList@Base 4:15.08.0
- _ZN6Marble28ReverseGeocodingRunnerPlugin7PrivateC1Ev@Base 4:15.08.0
- _ZN6Marble28ReverseGeocodingRunnerPlugin7PrivateC2Ev@Base 4:15.08.0
  _ZN6Marble28ReverseGeocodingRunnerPluginC1EP7QObject@Base 4:15.08.0
  _ZN6Marble28ReverseGeocodingRunnerPluginC2EP7QObject@Base 4:15.08.0
  _ZN6Marble28ReverseGeocodingRunnerPluginD0Ev@Base 4:15.08.0
@@ -6608,10 +6460,6 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble29ReverseGeocodingRunnerManager22searchReverseGeocodingERKNS_18GeoDataCoordinatesEi@Base 4:15.08.0
  _ZN6Marble29ReverseGeocodingRunnerManager24reverseGeocodingFinishedERKNS_18GeoDataCoordinatesERKNS_16GeoDataPlacemarkE@Base 4:15.08.0
  _ZN6Marble29ReverseGeocodingRunnerManager24reverseGeocodingFinishedEv@Base 4:15.08.0
- _ZN6Marble29ReverseGeocodingRunnerManager7Private25addReverseGeocodingResultERKNS_18GeoDataCoordinatesERKNS_16GeoDataPlacemarkE@Base 4:15.08.0
- _ZN6Marble29ReverseGeocodingRunnerManager7Private27cleanupReverseGeocodingTaskEPNS_20ReverseGeocodingTaskE@Base 4:15.08.0
- _ZN6Marble29ReverseGeocodingRunnerManager7PrivateC1EPS0_PKNS_11MarbleModelE@Base 4:15.08.0
- _ZN6Marble29ReverseGeocodingRunnerManager7PrivateC2EPS0_PKNS_11MarbleModelE@Base 4:15.08.0
  _ZN6Marble29ReverseGeocodingRunnerManagerC1EPKNS_11MarbleModelEP7QObject@Base 4:15.08.0
  _ZN6Marble29ReverseGeocodingRunnerManagerC2EPKNS_11MarbleModelEP7QObject@Base 4:15.08.0
  _ZN6Marble29ReverseGeocodingRunnerManagerD0Ev@Base 4:15.08.0
@@ -6663,6 +6511,13 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble31MarbleWidgetInputHandlerPrivate27MarbleWidgetSelectionRubberD0Ev@Base 4:15.08.0
  _ZN6Marble31MarbleWidgetInputHandlerPrivate27MarbleWidgetSelectionRubberD1Ev@Base 4:15.08.0
  _ZN6Marble31MarbleWidgetInputHandlerPrivate27MarbleWidgetSelectionRubberD2Ev@Base 4:15.08.0
+ _ZN6Marble31OsmRelationManagerWidgetPrivate16populateDropMenuEv@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble31OsmRelationManagerWidgetPrivate21populateRelationsListEv@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble31OsmRelationManagerWidgetPrivate4initEP7QWidget@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble31OsmRelationManagerWidgetPrivateC1EPNS_24OsmRelationManagerWidgetE@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble31OsmRelationManagerWidgetPrivateC2EPNS_24OsmRelationManagerWidgetE@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble31OsmRelationManagerWidgetPrivateD1Ev@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble31OsmRelationManagerWidgetPrivateD2Ev@Base 4:15.11.80+git20150924.0815
  _ZN6Marble31PlacemarkPositionProviderPlugin10initializeEv@Base 4:15.08.0
  _ZN6Marble31PlacemarkPositionProviderPlugin11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:15.08.0
  _ZN6Marble31PlacemarkPositionProviderPlugin11qt_metacastEPKc@Base 4:15.08.0
@@ -6714,6 +6569,7 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble3kml10kmlTag_keyE@Base 4:15.08.0
  _ZN6Marble3kml10kmlTag_kmlE@Base 4:15.08.0
  _ZN6Marble3kml10kmlTag_popE@Base 4:15.08.0
+ _ZN6Marble3kml10kmlTag_tagE@Base 4:15.11.80+git20150924.0815
  _ZN6Marble3kml11kmlTag_DataE@Base 4:15.08.0
  _ZN6Marble3kml11kmlTag_IconE@Base 4:15.08.0
  _ZN6Marble3kml11kmlTag_LinkE@Base 4:15.08.0
@@ -6765,6 +6621,7 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble3kml13kmlTag_StatusE@Base 4:15.08.0
  _ZN6Marble3kml13kmlTag_UpdateE@Base 4:15.08.0
  _ZN6Marble3kml13kmlTag_cookieE@Base 4:15.08.0
+ _ZN6Marble3kml13kmlTag_memberE@Base 4:15.11.80+git20150924.0815
  _ZN6Marble3kml13kmlTag_topFovE@Base 4:15.08.0
  _ZN6Marble3kml14KmlxTagHandlerD0Ev@Base 4:15.08.0
  _ZN6Marble3kml14KmlxTagHandlerD1Ev@Base 4:15.08.0
@@ -6789,6 +6646,9 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble3kml14kmlTag_messageE@Base 4:15.08.0
  _ZN6Marble3kml14kmlTag_outlineE@Base 4:15.08.0
  _ZN6Marble3kml14kmlTag_requestE@Base 4:15.08.0
+ _ZN6Marble3kml15KmlndTagHandlerD0Ev@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble3kml15KmlndTagHandlerD1Ev@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble3kml15KmlndTagHandlerD2Ev@Base 4:15.11.80+git20150924.0815
  _ZN6Marble3kml15kmlTag_DocumentE@Base 4:15.08.0
  _ZN6Marble3kml15kmlTag_GeometryE@Base 4:15.08.0
  _ZN6Marble3kml15kmlTag_ItemIconE@Base 4:15.08.0
@@ -6823,6 +6683,9 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble3kml16KmlpopTagHandlerD0Ev@Base 4:15.08.0
  _ZN6Marble3kml16KmlpopTagHandlerD1Ev@Base 4:15.08.0
  _ZN6Marble3kml16KmlpopTagHandlerD2Ev@Base 4:15.08.0
+ _ZN6Marble3kml16KmltagTagHandlerD0Ev@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble3kml16KmltagTagHandlerD1Ev@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble3kml16KmltagTagHandlerD2Ev@Base 4:15.11.80+git20150924.0815
  _ZN6Marble3kml16kmlTag_ContainerE@Base 4:15.08.0
  _ZN6Marble3kml16kmlTag_IconStyleE@Base 4:15.08.0
  _ZN6Marble3kml16kmlTag_LatLonBoxE@Base 4:15.08.0
@@ -6992,6 +6855,7 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble3kml18kmlTag_nameSpace20E@Base 4:15.08.0
  _ZN6Marble3kml18kmlTag_nameSpace21E@Base 4:15.08.0
  _ZN6Marble3kml18kmlTag_nameSpace22E@Base 4:15.08.0
+ _ZN6Marble3kml18kmlTag_nameSpaceMxE@Base 4:15.11.80+git20150924.0815
  _ZN6Marble3kml18kmlTag_phoneNumberE@Base 4:15.08.0
  _ZN6Marble3kml18kmlTag_refreshModeE@Base 4:15.08.0
  _ZN6Marble3kml19KmlCameraTagHandlerD0Ev@Base 4:15.08.0
@@ -7024,6 +6888,9 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble3kml19KmlcookieTagHandlerD0Ev@Base 4:15.08.0
  _ZN6Marble3kml19KmlcookieTagHandlerD1Ev@Base 4:15.08.0
  _ZN6Marble3kml19KmlcookieTagHandlerD2Ev@Base 4:15.08.0
+ _ZN6Marble3kml19KmlmemberTagHandlerD0Ev@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble3kml19KmlmemberTagHandlerD1Ev@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble3kml19KmlmemberTagHandlerD2Ev@Base 4:15.11.80+git20150924.0815
  _ZN6Marble3kml19KmltopFovTagHandlerD0Ev@Base 4:15.08.0
  _ZN6Marble3kml19KmltopFovTagHandlerD1Ev@Base 4:15.08.0
  _ZN6Marble3kml19KmltopFovTagHandlerD2Ev@Base 4:15.08.0
@@ -7238,6 +7105,7 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble3kml23KmlvisibilityTagHandlerD0Ev@Base 4:15.08.0
  _ZN6Marble3kml23KmlvisibilityTagHandlerD1Ev@Base 4:15.08.0
  _ZN6Marble3kml23KmlvisibilityTagHandlerD2Ev@Base 4:15.08.0
+ _ZN6Marble3kml23kmlTag_OsmPlacemarkDataE@Base 4:15.11.80+git20150924.0815
  _ZN6Marble3kml23kmlTag_SimpleArrayFieldE@Base 4:15.08.0
  _ZN6Marble3kml23kmlTag_maxSessionLengthE@Base 4:15.08.0
  _ZN6Marble3kml23kmlTag_minRefreshPeriodE@Base 4:15.08.0
@@ -7363,6 +7231,9 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble3kml28KmlviewRefreshTimeTagHandlerD0Ev@Base 4:15.08.0
  _ZN6Marble3kml28KmlviewRefreshTimeTagHandlerD1Ev@Base 4:15.08.0
  _ZN6Marble3kml28KmlviewRefreshTimeTagHandlerD2Ev@Base 4:15.08.0
+ _ZN6Marble3kml29KmlOsmPlacemarkDataTagHandlerD0Ev@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble3kml29KmlOsmPlacemarkDataTagHandlerD1Ev@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble3kml29KmlOsmPlacemarkDataTagHandlerD2Ev@Base 4:15.11.80+git20150924.0815
  _ZN6Marble3kml29KmlmaxSessionLengthTagHandlerD0Ev@Base 4:15.08.0
  _ZN6Marble3kml29KmlmaxSessionLengthTagHandlerD1Ev@Base 4:15.08.0
  _ZN6Marble3kml29KmlmaxSessionLengthTagHandlerD2Ev@Base 4:15.08.0
@@ -7395,6 +7266,7 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble3kml8kmlTag_xE@Base 4:15.08.0
  _ZN6Marble3kml8kmlTag_yE@Base 4:15.08.0
  _ZN6Marble3kml8kmlTag_zE@Base 4:15.08.0
+ _ZN6Marble3kml9kmlTag_ndE@Base 4:15.11.80+git20150924.0815
  _ZN6Marble4TileC1ERKNS_6TileIdE@Base 4:15.08.0
  _ZN6Marble4TileC2ERKNS_6TileIdE@Base 4:15.08.0
  _ZN6Marble4TileD0Ev@Base 4:15.08.0
@@ -7614,6 +7486,7 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble4dgml25DgmlDownloadUrlTagHandlerD2Ev@Base 4:15.08.0
  _ZN6Marble4dgml25dgmlAttr_levelZeroColumnsE@Base 4:15.08.0
  _ZN6Marble4dgml25dgmlAttr_maximumTileLevelE@Base 4:15.08.0
+ _ZN6Marble4dgml25dgmlAttr_minimumTileLevelE@Base 4:15.11.80+git20150924.0815
  _ZN6Marble4dgml27DgmlStorageLayoutTagHandlerD0Ev@Base 4:15.08.0
  _ZN6Marble4dgml27DgmlStorageLayoutTagHandlerD1Ev@Base 4:15.08.0
  _ZN6Marble4dgml27DgmlStorageLayoutTagHandlerD2Ev@Base 4:15.08.0
@@ -7866,7 +7739,7 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble9MarbleMap14setShowCompassEb@Base 4:15.08.0
  _ZN6Marble9MarbleMap14setShowTerrainEb@Base 4:15.08.0
  _ZN6Marble9MarbleMap14setViewContextENS_11ViewContextE@Base 4:15.08.0
- _ZN6Marble9MarbleMap15addTextureLayerEPNS_19GeoSceneTextureTileE@Base 4:15.08.0
+ _ZN6Marble9MarbleMap15addTextureLayerEPNS_26GeoSceneTextureTileDatasetE@Base 4:15.11.80+git20150924.0815
  _ZN6Marble9MarbleMap15framesPerSecondEd@Base 4:15.08.0
  _ZN6Marble9MarbleMap15setShowIceLayerEb@Base 4:15.08.0
  _ZN6Marble9MarbleMap15setShowScaleBarEb@Base 4:15.08.0
@@ -7891,6 +7764,7 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble9MarbleMap18setCenterLongitudeEd@Base 4:15.08.0
  _ZN6Marble9MarbleMap18setShowOtherPlacesEb@Base 4:15.08.0
  _ZN6Marble9MarbleMap18setShowOverviewMapEb@Base 4:15.08.0
+ _ZN6Marble9MarbleMap18viewContextChangedENS_11ViewContextE@Base 4:15.11.80+git20150924.0815
  _ZN6Marble9MarbleMap19preferredRadiusCeilEi@Base 4:15.08.0
  _ZN6Marble9MarbleMap19renderStatusChangedENS_12RenderStatusE@Base 4:15.08.0
  _ZN6Marble9MarbleMap19setDefaultAngleUnitENS_9AngleUnitE@Base 4:15.08.0
@@ -7995,7 +7869,6 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  (optional=templinst)_ZN6QCacheIN6Marble6TileIdEK6QImageE6insertERKS1_PS3_i@Base 4:15.08.0
  (optional=templinst|arch=!amd64 !i386)_ZN6QCacheIN6Marble6TileIdEK7QPixmapE5clearEv@Base 4:15.08.0
  (optional=templinst|arch=!amd64 !i386)_ZN6QCacheIN6Marble6TileIdENS0_11StackedTileEE5clearEv@Base 4:15.08.0
- (optional=templinst|arch=!ppc64el)_ZN6QCacheIN6Marble6TileIdENS0_15VectorTileModel13CacheDocumentEE6insertERKS1_PS3_i@Base 4:15.08.0
  _ZN6QColorC1EPKc@Base 4:15.08.0
  _ZN6QColorC2EPKc@Base 4:15.08.0
  _ZN6QDebuglsEPKc@Base 4:15.08.0
@@ -8093,8 +7966,8 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  (optional=templinst)_ZN7QVectorIN6Marble16GeoDataPlacemarkEED2Ev@Base 4:15.08.0
  (optional=templinst)_ZN7QVectorIN6Marble17GeoDataLinearRingEE11reallocDataEii6QFlagsIN10QArrayData16AllocationOptionEE@Base 4:15.08.0
  (optional=templinst|arch=!ppc64el)_ZN7QVectorIN6Marble17GeoDataLinearRingEE6appendERKS1_@Base 4:15.08.0
- (optional=templinst|arch=ppc64el)_ZN7QVectorIN6Marble17GeoDataLinearRingEED1Ev@Base 4:15.08.0
- (optional=templinst|arch=ppc64el)_ZN7QVectorIN6Marble17GeoDataLinearRingEED2Ev@Base 4:15.08.0
+ (optional=templinst)_ZN7QVectorIN6Marble17GeoDataLinearRingEED1Ev@Base 4:15.08.0
+ (optional=templinst)_ZN7QVectorIN6Marble17GeoDataLinearRingEED2Ev@Base 4:15.08.0
  (optional=templinst)_ZN7QVectorIN6Marble17TileCoordsPyramidEE11reallocDataEii6QFlagsIN10QArrayData16AllocationOptionEE@Base 4:15.08.0
  (optional=templinst)_ZN7QVectorIN6Marble17TileCoordsPyramidEE6appendERKS1_@Base 4:15.08.0
  (optional=templinst)_ZN7QVectorIN6Marble17TileCoordsPyramidEED1Ev@Base 4:15.08.0
@@ -8133,15 +8006,15 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  (optional=templinst)_ZN7QVectorIPKN6Marble16GeoScenePropertyEED1Ev@Base 4:15.08.0
  (optional=templinst)_ZN7QVectorIPKN6Marble16GeoScenePropertyEED2Ev@Base 4:15.08.0
  (optional=templinst)_ZN7QVectorIPKN6Marble16GeoScenePropertyEEpLERKS4_@Base 4:15.08.0
- (optional=templinst)_ZN7QVectorIPKN6Marble18GeoSceneVectorTileEE11reallocDataEii6QFlagsIN10QArrayData16AllocationOptionEE@Base 4:15.08.0
  (optional=templinst|arch=arm64 powerpc)_ZN7QVectorIPKN6Marble18GeoSceneVectorTileEE6appendERKS3_@Base 4:15.08.0
- (optional=templinst|arch=amd64 armhf i386)_ZN7QVectorIPKN6Marble18GeoSceneVectorTileEED1Ev@Base 4:15.08.0
- (optional=templinst|arch=amd64 armhf i386)_ZN7QVectorIPKN6Marble18GeoSceneVectorTileEED2Ev@Base 4:15.08.0
- (optional=templinst)_ZN7QVectorIPKN6Marble19GeoSceneTextureTileEE11reallocDataEii6QFlagsIN10QArrayData16AllocationOptionEE@Base 4:15.08.0
- (optional=templinst)_ZN7QVectorIPKN6Marble19GeoSceneTextureTileEE5eraseEPS3_S5_@Base 4:15.08.0
- (optional=templinst|arch=!ppc64el)_ZN7QVectorIPKN6Marble19GeoSceneTextureTileEE6appendERKS3_@Base 4:15.08.0
- (optional=templinst)_ZN7QVectorIPKN6Marble19GeoSceneTextureTileEED1Ev@Base 4:15.08.0
- (optional=templinst)_ZN7QVectorIPKN6Marble19GeoSceneTextureTileEED2Ev@Base 4:15.08.0
+ (optional=templinst)_ZN7QVectorIPKN6Marble25GeoSceneVectorTileDatasetEE11reallocDataEii6QFlagsIN10QArrayData16AllocationOptionEE@Base 4:15.11.80+git20150924.0815
+ (optional=templinst)_ZN7QVectorIPKN6Marble25GeoSceneVectorTileDatasetEED1Ev@Base 4:15.11.80+git20150924.0815
+ (optional=templinst)_ZN7QVectorIPKN6Marble25GeoSceneVectorTileDatasetEED2Ev@Base 4:15.11.80+git20150924.0815
+ (optional=templinst)_ZN7QVectorIPKN6Marble26GeoSceneTextureTileDatasetEE11reallocDataEii6QFlagsIN10QArrayData16AllocationOptionEE@Base 4:15.11.80+git20150924.0815
+ (optional=templinst)_ZN7QVectorIPKN6Marble26GeoSceneTextureTileDatasetEE5eraseEPS3_S5_@Base 4:15.11.80+git20150924.0815
+ (optional=templinst)_ZN7QVectorIPKN6Marble26GeoSceneTextureTileDatasetEE6appendERKS3_@Base 4:15.11.80+git20150924.0815
+ (optional=templinst)_ZN7QVectorIPKN6Marble26GeoSceneTextureTileDatasetEED1Ev@Base 4:15.11.80+git20150924.0815
+ (optional=templinst)_ZN7QVectorIPKN6Marble26GeoSceneTextureTileDatasetEED2Ev@Base 4:15.11.80+git20150924.0815
  (optional=templinst)_ZN7QVectorIPN6Marble12GeoDataTrackEE11reallocDataEii6QFlagsIN10QArrayData16AllocationOptionEE@Base 4:15.08.0
  (optional=templinst|arch=!ppc64el)_ZN7QVectorIPN6Marble12GeoDataTrackEE6appendERKS2_@Base 4:15.08.0
  (optional=templinst)_ZN7QVectorIPN6Marble12GeoSceneItemEE11reallocDataEii6QFlagsIN10QArrayData16AllocationOptionEE@Base 4:15.08.0
@@ -8220,20 +8093,21 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  (optional=templinst)_ZN7QVectorIjED1Ev@Base 4:15.08.0
  (optional=templinst)_ZN7QVectorIjED2Ev@Base 4:15.08.0
  _ZN7Ui_GoTo7setupUiEP7QDialog@Base 4:15.08.0
+ (optional=templinst)_ZN8QMapNodeI5QPairI7QStringS1_EN6Marble14GeoDataFeature21GeoDataVisualCategoryEE14destroySubTreeEv@Base 4:15.11.80+git20150924.0815
  (optional=templinst)_ZN8QMapNodeI7QString5QPairI9QDateTimeyEE14destroySubTreeEv@Base 4:15.08.0
  (optional=templinst)_ZN8QMapNodeI7QString7QPixmapE14destroySubTreeEv@Base 4:15.08.0
  (optional=templinst)_ZN8QMapNodeI7QStringN6Marble12GeoDataStyleEE14destroySubTreeEv@Base 4:15.08.0
  (optional=templinst)_ZN8QMapNodeI7QStringN6Marble13GeoDataSchemaEE14destroySubTreeEv@Base 4:15.08.0
- (optional=templinst)_ZN8QMapNodeI7QStringN6Marble14GeoDataFeature21GeoDataVisualCategoryEE14destroySubTreeEv@Base 4:15.08.0
  (optional=templinst)_ZN8QMapNodeI7QStringN6Marble15GeoDataStyleMapEE14destroySubTreeEv@Base 4:15.08.0
  (optional=templinst)_ZN8QMapNodeI7QStringN6Marble15RoutingWaypoint12JunctionTypeEE14destroySubTreeEv@Base 4:15.08.0
- (optional=templinst)_ZN8QMapNodeI7QStringPN6Marble19GeoSceneTextureTileEE14destroySubTreeEv@Base 4:15.08.0
+ (optional=templinst)_ZN8QMapNodeI7QStringPN6Marble26GeoSceneTextureTileDatasetEE14destroySubTreeEv@Base 4:15.11.80+git20150924.0815
  (optional=templinst)_ZN8QMapNodeI7QStringS0_E14destroySubTreeEv@Base 4:15.08.0
  (optional=templinst)_ZN8QMapNodeI7QStringbE14destroySubTreeEv@Base 4:15.08.0
  (optional=templinst)_ZN8QMapNodeI7QStringiE14destroySubTreeEv@Base 4:15.08.0
  (optional=templinst)_ZN8QMapNodeI9QDateTime7QStringE14destroySubTreeEv@Base 4:15.08.0
  (optional=templinst)_ZN8QMapNodeI9QDateTimeN6Marble18GeoDataCoordinatesEE14destroySubTreeEv@Base 4:15.08.0
  (optional=templinst)_ZN8QMapNodeIN6Marble13PixmapElementE7QPixmapE14destroySubTreeEv@Base 4:15.08.0
+ (optional=templinst)_ZN8QMapNodeIN6Marble6TileIdE14QSharedPointerINS0_15VectorTileModel13CacheDocumentEEE14destroySubTreeEv@Base 4:15.11.80+git20150924.0815
  (optional=templinst)_ZN8QMapNodeIN6Marble6TileIdE5QListIPKNS0_16GeoDataPlacemarkEEE14destroySubTreeEv@Base 4:15.08.0
  (optional=templinst)_ZN8QMapNodeIN6Marble6TileIdE5QListIPNS0_15GeoGraphicsItemEEE14destroySubTreeEv@Base 4:15.08.0
  (optional=templinst)_ZN8QMapNodeIN6Marble8Maneuver9DirectionE7QStringE14destroySubTreeEv@Base 4:15.08.0
@@ -8243,6 +8117,7 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  (optional=templinst)_ZN9QtPrivate16ConverterFunctorI5QListIdEN17QtMetaTypePrivate23QSequentialIterableImplENS3_33QSequentialIterableConvertFunctorIS2_EEED2Ev@Base 4:15.08.0
  (arch=arm64 powerpc ppc64el)_ZN9QtPrivate8RefCount3refEv@Base 4:15.08.0
  (arch=arm64 powerpc ppc64el)_ZN9QtPrivate8RefCount5derefEv@Base 4:15.08.0
+ _ZNK10QStringRefeqEPKc@Base 4:15.11.80+git20150924.0815
  _ZNK12KineticModel10metaObjectEv@Base 4:15.08.0
  _ZNK12KineticModel11hasVelocityEv@Base 4:15.08.0
  _ZNK12KineticModel14updateIntervalEv@Base 4:15.08.0
@@ -8305,18 +8180,19 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  (optional=templinst)_ZNK5QHashIN6Marble6TileIdEN6QCacheIS1_K6QImageE4NodeEE8findNodeERKS1_Pj@Base 4:15.08.0
  (optional=templinst)_ZNK5QHashIN6Marble6TileIdEN6QCacheIS1_K7QPixmapE4NodeEE8findNodeERKS1_Pj@Base 4:15.08.0
  (optional=templinst)_ZNK5QHashIN6Marble6TileIdEN6QCacheIS1_NS0_11StackedTileEE4NodeEE8findNodeERKS1_Pj@Base 4:15.08.0
- (optional=templinst)_ZNK5QHashIN6Marble6TileIdEN6QCacheIS1_NS0_15VectorTileModel13CacheDocumentEE4NodeEE8findNodeERKS1_Pj@Base 4:15.08.0
  (optional=templinst)_ZNK5QHashIN6Marble6TileIdEPNS0_11StackedTileEE8findNodeERKS1_Pj@Base 4:15.08.0
  (optional=templinst)_ZNK5QHashIPKN6Marble14GeoDataFeatureENS0_6TileIdEE6valuesERKS3_@Base 4:15.08.0
  (optional=templinst|arch=!ppc64el)_ZNK5QHashIPKN6Marble14GeoDataFeatureENS0_6TileIdEE8findNodeERKS3_Pj@Base 4:15.08.0
- (optional=templinst|arch=!ppc64el)_ZNK5QHashIPKN6Marble15GeoDataGeometryENS0_16OsmPlacemarkDataEE8findNodeERKS3_Pj@Base 4:15.08.0
  (optional=templinst|arch=!ppc64el)_ZNK5QHashIPKN6Marble16GeoDataPlacemarkEPNS0_16VisiblePlacemarkEE8findNodeERKS3_Pj@Base 4:15.08.0
  (optional=templinst|arch=!ppc64el)_ZNK5QHashIPN6Marble18MarbleGraphicsItemE15QHashDummyValueE8findNodeERKS2_Pj@Base 4:15.08.0
  (optional=templinst|arch=!ppc64el)_ZNK5QHashIPN6Marble18ScreenGraphicsItemE6QFlagsIN2Qt13AlignmentFlagEEE8findNodeERKS2_Pj@Base 4:15.08.0
  (optional=templinst|arch=!ppc64el)_ZNK5QHashIPN6Marble19RoutingRunnerPluginEPNS1_12ConfigWidgetEE8findNodeERKS2_Pj@Base 4:15.08.0
  (optional=templinst|arch=!ppc64el)_ZNK5QHashIi10QByteArrayE8findNodeERKiPj@Base 4:15.08.0
  (optional=templinst|arch=!ppc64el)_ZNK5QHashIi21QPersistentModelIndexE8findNodeERKiPj@Base 4:15.08.0
+ (optional=templinst)_ZNK5QHashIiN6Marble16OsmPlacemarkDataEE8findNodeERKiPj@Base 4:15.11.80+git20150924.0815
  (optional=templinst|arch=!ppc64el)_ZNK5QHashIiiE8findNodeERKiPj@Base 4:15.08.0
+ (optional=templinst)_ZNK5QHashIx7QStringE8findNodeERKxPj@Base 4:15.11.80+git20150924.0815
+ (optional=templinst)_ZNK5QHashIxN6Marble16OsmPlacemarkDataEE8findNodeERKxPj@Base 4:15.11.80+git20150924.0815
  (optional=templinst|arch=!ppc64el)_ZNK5QListI21QPersistentModelIndexE8containsERKS0_@Base 4:15.08.0
  (optional=templinst|arch=!ppc64el)_ZNK5QListI5QPairIiN6Marble20NewstuffModelPrivate10UserActionEEE8containsERKS4_@Base 4:15.08.0
  (optional=templinst)_ZNK5QListI7QStringE5toSetEv@Base 4:15.08.0
@@ -8468,9 +8344,6 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZNK6Marble11ParsingTask10metaObjectEv@Base 4:15.08.0
  _ZNK6Marble11RenderState4nameEv@Base 4:15.08.0
  _ZNK6Marble11RenderState6statusEv@Base 4:15.08.0
- _ZNK6Marble11RenderState7Private13minimumStatusENS_12RenderStatusES2_@Base 4:15.08.0
- _ZNK6Marble11RenderState7Private6statusEv@Base 4:15.08.0
- _ZNK6Marble11RenderState7Private8toStringERKS0_i@Base 4:15.08.0
  _ZNK6Marble11RenderState7childAtEi@Base 4:15.08.0
  _ZNK6Marble11RenderState8childrenEv@Base 4:15.08.0
  _ZNK6Marble11RenderStatecv7QStringEv@Base 4:15.08.0
@@ -8645,6 +8518,7 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZNK6Marble12MarbleWidget15showOtherPlacesEv@Base 4:15.08.0
  _ZNK6Marble12MarbleWidget15showOverviewMapEv@Base 4:15.08.0
  _ZNK6Marble12MarbleWidget16CustomPaintLayer11renderStateEv@Base 4:15.08.0
+ _ZNK6Marble12MarbleWidget16CustomPaintLayer12runtimeTraceEv@Base 4:15.11.80+git20150924.0815
  _ZNK6Marble12MarbleWidget16CustomPaintLayer14renderPositionEv@Base 4:15.08.0
  _ZNK6Marble12MarbleWidget16CustomPaintLayer6zValueEv@Base 4:15.08.0
  _ZNK6Marble12MarbleWidget16defaultAngleUnitEv@Base 4:15.08.0
@@ -8716,6 +8590,7 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZNK6Marble12RouteSegmentneERKS0_@Base 4:15.08.0
  _ZNK6Marble12RoutingLayer10metaObjectEv@Base 4:15.08.0
  _ZNK6Marble12RoutingLayer11renderStateEv@Base 4:15.08.0
+ _ZNK6Marble12RoutingLayer12runtimeTraceEv@Base 4:15.11.80+git20150924.0815
  _ZNK6Marble12RoutingLayer13isInteractiveEv@Base 4:15.08.0
  _ZNK6Marble12RoutingLayer14renderPositionEv@Base 4:15.08.0
  _ZNK6Marble12RoutingLayer6zValueEv@Base 4:15.08.0
@@ -8745,6 +8620,7 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZNK6Marble12TextureLayer14showSunShadingEv@Base 4:15.08.0
  _ZNK6Marble12TextureLayer14tileProjectionEv@Base 4:15.08.0
  _ZNK6Marble12TextureLayer15tileColumnCountEi@Base 4:15.08.0
+ _ZNK6Marble12TextureLayer17textureLayerCountEv@Base 4:15.11.80+git20150924.0815
  _ZNK6Marble12TextureLayer18volatileCacheLimitEv@Base 4:15.08.0
  _ZNK6Marble12TextureLayer19preferredRadiusCeilEi@Base 4:15.08.0
  _ZNK6Marble12TextureLayer20preferredRadiusFloorEi@Base 4:15.08.0
@@ -8833,30 +8709,12 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZNK6Marble13GeoSceneLayer7isTiledEv@Base 4:15.08.0
  _ZNK6Marble13GeoSceneLayer8datasetsEv@Base 4:15.08.0
  _ZNK6Marble13GeoSceneLayer8nodeTypeEv@Base 4:15.08.0
- _ZNK6Marble13GeoSceneTiled10installMapEv@Base 4:15.08.0
- _ZNK6Marble13GeoSceneTiled10projectionEv@Base 4:15.08.0
- _ZNK6Marble13GeoSceneTiled11downloadUrlERKNS_6TileIdE@Base 4:15.08.0
- _ZNK6Marble13GeoSceneTiled12downloadUrlsEv@Base 4:15.08.0
- _ZNK6Marble13GeoSceneTiled12serverLayoutEv@Base 4:15.08.0
- _ZNK6Marble13GeoSceneTiled13levelZeroRowsEv@Base 4:15.08.0
- _ZNK6Marble13GeoSceneTiled13storageLayoutEv@Base 4:15.08.0
- _ZNK6Marble13GeoSceneTiled16downloadPoliciesEv@Base 4:15.08.0
- _ZNK6Marble13GeoSceneTiled16levelZeroColumnsEv@Base 4:15.08.0
- _ZNK6Marble13GeoSceneTiled16maximumTileLevelEv@Base 4:15.08.0
- _ZNK6Marble13GeoSceneTiled20relativeTileFileNameERKNS_6TileIdE@Base 4:15.08.0
- _ZNK6Marble13GeoSceneTiled8nodeTypeEv@Base 4:15.08.0
- _ZNK6Marble13GeoSceneTiled8themeStrEv@Base 4:15.08.0
- _ZNK6Marble13GeoSceneTiled8tileSizeEv@Base 4:15.08.0
- _ZNK6Marble13GeoSceneTiled9hostNamesEv@Base 4:15.08.0
- _ZNK6Marble13GeoSceneTiled9sourceDirEv@Base 4:15.08.0
  _ZNK6Marble13GeometryLayer10metaObjectEv@Base 4:15.08.0
  _ZNK6Marble13GeometryLayer11renderStateEv@Base 4:15.08.0
  _ZNK6Marble13GeometryLayer12runtimeTraceEv@Base 4:15.08.0
  _ZNK6Marble13GeometryLayer14renderPositionEv@Base 4:15.08.0
  _ZNK6Marble13LightBlending12blendChannelEdd@Base 4:15.08.0
  _ZNK6Marble13MapViewWidget10metaObjectEv@Base 4:15.08.0
- _ZNK6Marble13MapViewWidget7Private16currentThemeNameEv@Base 4:15.08.0
- _ZNK6Marble13MapViewWidget7Private16currentThemePathEv@Base 4:15.08.0
  _ZNK6Marble13MarblePhysics10metaObjectEv@Base 4:15.08.0
  _ZNK6Marble13NewstuffModel10metaObjectEv@Base 4:15.08.0
  _ZNK6Marble13NewstuffModel12registryFileEv@Base 4:15.08.0
@@ -8891,7 +8749,6 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZNK6Marble13StoragePolicy10metaObjectEv@Base 4:15.08.0
  _ZNK6Marble14AutoNavigation10metaObjectEv@Base 4:15.08.0
  _ZNK6Marble14AutoNavigation12recenterModeEv@Base 4:15.08.0
- _ZNK6Marble14AutoNavigation7Private16findIntersectionEdd@Base 4:15.08.0
  _ZNK6Marble14AutoNavigation8autoZoomEv@Base 4:15.08.0
  _ZNK6Marble14BleachBlending12blendChannelEdd@Base 4:15.08.0
  _ZNK6Marble14CloudsBlending5blendEP6QImagePKNS_11TextureTileE@Base 4:15.08.0
@@ -9113,6 +8970,7 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZNK6Marble15GeoDataTimeSpan8nodeTypeEv@Base 4:15.08.0
  _ZNK6Marble15GeoDataTimeSpaneqERKS0_@Base 4:15.08.0
  _ZNK6Marble15GeoDataTimeSpanneERKS0_@Base 4:15.08.0
+ _ZNK6Marble15GeoGraphicsItem12isDecorationEv@Base 4:15.11.80+git20150924.0815
  _ZNK6Marble15GeoGraphicsItem12latLonAltBoxEv@Base 4:15.08.0
  _ZNK6Marble15GeoGraphicsItem12minZoomLevelEv@Base 4:15.08.0
  _ZNK6Marble15GeoGraphicsItem13isHighlightedEv@Base 4:15.08.0
@@ -9158,25 +9016,6 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZNK6Marble15MapThemeManager11mapThemeIdsEv@Base 4:15.08.0
  _ZNK6Marble15MarbleNavigator10metaObjectEv@Base 4:15.08.0
  _ZNK6Marble15MarbleNavigator11minimumZoomEv@Base 4:15.08.0
- _ZNK6Marble15MarbleQuickItem10mapThemeIdEv@Base 4:15.08.0
- _ZNK6Marble15MarbleQuickItem10metaObjectEv@Base 4:15.08.0
- _ZNK6Marble15MarbleQuickItem10projectionEv@Base 4:15.08.0
- _ZNK6Marble15MarbleQuickItem10showCloudsEv@Base 4:15.08.0
- _ZNK6Marble15MarbleQuickItem11showCompassEv@Base 4:15.08.0
- _ZNK6Marble15MarbleQuickItem12showScaleBarEv@Base 4:15.08.0
- _ZNK6Marble15MarbleQuickItem13showFrameRateEv@Base 4:15.08.0
- _ZNK6Marble15MarbleQuickItem14getEventFilterEv@Base 4:15.08.0
- _ZNK6Marble15MarbleQuickItem14showAtmosphereEv@Base 4:15.08.0
- _ZNK6Marble15MarbleQuickItem14showBackgroundEv@Base 4:15.08.0
- _ZNK6Marble15MarbleQuickItem14showCrosshairsEv@Base 4:15.08.0
- _ZNK6Marble15MarbleQuickItem15showOtherPlacesEv@Base 4:15.08.0
- _ZNK6Marble15MarbleQuickItem15showOverviewMapEv@Base 4:15.08.0
- _ZNK6Marble15MarbleQuickItem3mapEv@Base 4:15.08.0
- _ZNK6Marble15MarbleQuickItem4zoomEv@Base 4:15.08.0
- _ZNK6Marble15MarbleQuickItem5modelEv@Base 4:15.08.0
- _ZNK6Marble15MarbleQuickItem8mapWidthEv@Base 4:15.08.0
- _ZNK6Marble15MarbleQuickItem8showGridEv@Base 4:15.08.0
- _ZNK6Marble15MarbleQuickItem9mapHeightEv@Base 4:15.08.0
  _ZNK6Marble15OsmServerLayout11downloadUrlERK4QUrlRKNS_6TileIdE@Base 4:15.08.0
  _ZNK6Marble15OsmServerLayout4nameEv@Base 4:15.08.0
  _ZNK6Marble15OverlayBlending12blendChannelEdd@Base 4:15.08.0
@@ -9198,8 +9037,12 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZNK6Marble15TmsServerLayout4nameEv@Base 4:15.08.0
  _ZNK6Marble15VectorTileLayer10metaObjectEv@Base 4:15.08.0
  _ZNK6Marble15VectorTileLayer11renderStateEv@Base 4:15.08.0
+ _ZNK6Marble15VectorTileLayer12runtimeTraceEv@Base 4:15.11.80+git20150924.0815
+ _ZNK6Marble15VectorTileLayer13tileZoomLevelEv@Base 4:15.11.80+git20150924.0815
  _ZNK6Marble15VectorTileLayer14renderPositionEv@Base 4:15.08.0
  _ZNK6Marble15VectorTileModel10metaObjectEv@Base 4:15.08.0
+ _ZNK6Marble15VectorTileModel13tileZoomLevelEv@Base 4:15.11.80+git20150924.0815
+ _ZNK6Marble15VectorTileModel15cachedDocumentsEv@Base 4:15.11.80+git20150924.0815
  _ZNK6Marble15VectorTileModel4nameEv@Base 4:15.08.0
  _ZNK6Marble15WmsServerLayout11downloadUrlERK4QUrlRKNS_6TileIdE@Base 4:15.08.0
  _ZNK6Marble15WmsServerLayout4nameEv@Base 4:15.08.0
@@ -9257,11 +9100,13 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZNK6Marble16GeoDataLatLonBox4packER11QDataStream@Base 4:15.08.0
  _ZNK6Marble16GeoDataLatLonBox4westENS_18GeoDataCoordinates4UnitE@Base 4:15.08.0
  _ZNK6Marble16GeoDataLatLonBox5northENS_18GeoDataCoordinates4UnitE@Base 4:15.08.0
+ _ZNK6Marble16GeoDataLatLonBox5scaleEdd@Base 4:15.11.80+git20150924.0815
  _ZNK6Marble16GeoDataLatLonBox5southENS_18GeoDataCoordinates4UnitE@Base 4:15.08.0
  _ZNK6Marble16GeoDataLatLonBox5widthENS_18GeoDataCoordinates4UnitE@Base 4:15.08.0
  _ZNK6Marble16GeoDataLatLonBox6centerEv@Base 4:15.08.0
  _ZNK6Marble16GeoDataLatLonBox6heightENS_18GeoDataCoordinates4UnitE@Base 4:15.08.0
  _ZNK6Marble16GeoDataLatLonBox6isNullEv@Base 4:15.08.0
+ _ZNK6Marble16GeoDataLatLonBox6scaledEdd@Base 4:15.11.80+git20150924.0815
  _ZNK6Marble16GeoDataLatLonBox6unitedERKS0_@Base 4:15.08.0
  _ZNK6Marble16GeoDataLatLonBox7isEmptyEv@Base 4:15.08.0
  _ZNK6Marble16GeoDataLatLonBox8containsERKNS_18GeoDataCoordinatesE@Base 4:15.08.0
@@ -9315,6 +9160,8 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZNK6Marble16GeoDataPlacemarkneERKS0_@Base 4:15.08.0
  _ZNK6Marble16GeoDataPolyStyle10brushStyleEv@Base 4:15.08.0
  _ZNK6Marble16GeoDataPolyStyle10colorIndexEv@Base 4:15.08.0
+ _ZNK6Marble16GeoDataPolyStyle11texturePathEv@Base 4:15.11.80+git20150924.0815
+ _ZNK6Marble16GeoDataPolyStyle12textureImageEv@Base 4:15.11.80+git20150924.0815
  _ZNK6Marble16GeoDataPolyStyle4fillEv@Base 4:15.08.0
  _ZNK6Marble16GeoDataPolyStyle4packER11QDataStream@Base 4:15.08.0
  _ZNK6Marble16GeoDataPolyStyle7outlineEv@Base 4:15.08.0
@@ -9366,20 +9213,30 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZNK6Marble16MarbleControlBox10metaObjectEv@Base 4:15.08.0
  _ZNK6Marble16MultiplyBlending12blendChannelEdd@Base 4:15.08.0
  _ZNK6Marble16NavigationWidget10metaObjectEv@Base 4:15.08.0
+ _ZNK6Marble16OsmPlacemarkData11containsTagERK7QStringS3_@Base 4:15.11.80+git20150924.0815
+ _ZNK6Marble16OsmPlacemarkData13nodeReferenceERKNS_18GeoDataCoordinatesE@Base 4:15.11.80+git20150924.0815
+ _ZNK6Marble16OsmPlacemarkData14containsTagKeyERK7QString@Base 4:15.11.80+git20150924.0815
+ _ZNK6Marble16OsmPlacemarkData15memberReferenceEi@Base 4:15.11.80+git20150924.0815
+ _ZNK6Marble16OsmPlacemarkData16containsRelationEx@Base 4:15.11.80+git20150924.0815
  _ZNK6Marble16OsmPlacemarkData17nodeReferencesEndEv@Base 4:15.08.0
  _ZNK6Marble16OsmPlacemarkData19memberReferencesEndEv@Base 4:15.08.0
  _ZNK6Marble16OsmPlacemarkData19nodeReferencesBeginEv@Base 4:15.08.0
+ _ZNK6Marble16OsmPlacemarkData21containsNodeReferenceERKNS_18GeoDataCoordinatesE@Base 4:15.11.80+git20150924.0815
  _ZNK6Marble16OsmPlacemarkData21memberReferencesBeginEv@Base 4:15.08.0
+ _ZNK6Marble16OsmPlacemarkData21relationReferencesEndEv@Base 4:15.11.80+git20150924.0815
+ _ZNK6Marble16OsmPlacemarkData23containsMemberReferenceEi@Base 4:15.11.80+git20150924.0815
+ _ZNK6Marble16OsmPlacemarkData23relationReferencesBeginEv@Base 4:15.11.80+git20150924.0815
  _ZNK6Marble16OsmPlacemarkData2idEv@Base 4:15.08.0
  _ZNK6Marble16OsmPlacemarkData3uidEv@Base 4:15.08.0
  _ZNK6Marble16OsmPlacemarkData4userEv@Base 4:15.08.0
  _ZNK6Marble16OsmPlacemarkData6actionEv@Base 4:15.08.0
+ _ZNK6Marble16OsmPlacemarkData6isNullEv@Base 4:15.11.80+git20150924.0815
  _ZNK6Marble16OsmPlacemarkData7tagsEndEv@Base 4:15.08.0
  _ZNK6Marble16OsmPlacemarkData7versionEv@Base 4:15.08.0
+ _ZNK6Marble16OsmPlacemarkData8nodeTypeEv@Base 4:15.11.80+git20150924.0815
+ _ZNK6Marble16OsmPlacemarkData8tagValueERK7QString@Base 4:15.11.80+git20150924.0815
  _ZNK6Marble16OsmPlacemarkData9changesetEv@Base 4:15.08.0
  _ZNK6Marble16OsmPlacemarkData9isVisibleEv@Base 4:15.08.0
- _ZNK6Marble16OsmPlacemarkData9referenceEPKNS_15GeoDataGeometryE@Base 4:15.08.0
- _ZNK6Marble16OsmPlacemarkData9referenceERKNS_18GeoDataCoordinatesE@Base 4:15.08.0
  _ZNK6Marble16OsmPlacemarkData9tagsBeginEv@Base 4:15.08.0
  _ZNK6Marble16OsmPlacemarkData9timestampEv@Base 4:15.08.0
  _ZNK6Marble16ParallelBlending12blendChannelEdd@Base 4:15.08.0
@@ -9719,7 +9576,6 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZNK6Marble18GeoDataTourControleqERKS0_@Base 4:15.08.0
  _ZNK6Marble18GeoDataTourControlneERKS0_@Base 4:15.08.0
  _ZNK6Marble18GeoDataTourPrivate8nodeTypeEv@Base 4:15.08.0
- _ZNK6Marble18GeoSceneVectorTile8nodeTypeEv@Base 4:15.08.0
  _ZNK6Marble18GnomonicProjection11descriptionEv@Base 4:15.08.0
  _ZNK6Marble18GnomonicProjection14clippingRadiusEv@Base 4:15.08.0
  _ZNK6Marble18GnomonicProjection14geoCoordinatesEiiPKNS_14ViewportParamsERdS4_NS_18GeoDataCoordinates4UnitE@Base 4:15.08.0
@@ -9762,6 +9618,7 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZNK6Marble18MercatorProjection4iconEv@Base 4:15.08.0
  _ZNK6Marble18MercatorProjection4nameEv@Base 4:15.08.0
  _ZNK6Marble18MovieCaptureDialog10metaObjectEv@Base 4:15.08.0
+ _ZNK6Marble18OsmTagEditorWidget10metaObjectEv@Base 4:15.11.80+git20150924.0815
  _ZNK6Marble18PluginItemDelegate10metaObjectEv@Base 4:15.08.0
  _ZNK6Marble18PluginItemDelegate12buttonOptionERK20QStyleOptionViewItemRK11QModelIndexNS0_10ButtonTypeEiN2Qt13AlignmentFlagE@Base 4:15.08.0
  _ZNK6Marble18PluginItemDelegate5paintEP8QPainterRK20QStyleOptionViewItemRK11QModelIndex@Base 4:15.08.0
@@ -9825,11 +9682,6 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZNK6Marble19AzimuthalProjection8mapShapeEPKNS_14ViewportParamsE@Base 4:15.08.0
  _ZNK6Marble19BookmarkSyncManager10metaObjectEv@Base 4:15.08.0
  _ZNK6Marble19BookmarkSyncManager21isBookmarkSyncEnabledEv@Base 4:15.08.0
- _ZNK6Marble19BookmarkSyncManager7Private11endpointUrlERK7QString@Base 4:15.08.0
- _ZNK6Marble19BookmarkSyncManager7Private13findPlacemarkEPNS_16GeoDataContainerERKNS_16GeoDataPlacemarkE@Base 4:15.08.0
- _ZNK6Marble19BookmarkSyncManager7Private17lastSyncedKmlPathEv@Base 4:15.08.0
- _ZNK6Marble19BookmarkSyncManager7Private19determineDiffStatusERNS_8DiffItemEPNS_15GeoDataDocumentE@Base 4:15.08.0
- _ZNK6Marble19BookmarkSyncManager7Private22cloudBookmarksModifiedERK7QString@Base 4:15.08.0
  _ZNK6Marble19BookmarkSyncManager8lastSyncEv@Base 4:15.08.0
  _ZNK6Marble19DecimalInputHandler14calculateValueEv@Base 4:15.08.0
  _ZNK6Marble19DgmlLegendTagWriter5writeEPKNS_7GeoNodeERNS_9GeoWriterE@Base 4:15.08.0
@@ -9897,10 +9749,24 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZNK6Marble19GeoDataPointPrivate10geometryIdEv@Base 4:15.08.0
  _ZNK6Marble19GeoDataTrackPrivate10geometryIdEv@Base 4:15.08.0
  _ZNK6Marble19GeoDataTrackPrivate8nodeTypeEv@Base 4:15.08.0
- _ZNK6Marble19GeoSceneTextureTile8nodeTypeEv@Base 4:15.08.0
- _ZNK6Marble19GeoSceneTextureTile9latLonBoxEv@Base 4:15.08.0
+ _ZNK6Marble19GeoSceneTileDataset10installMapEv@Base 4:15.11.80+git20150924.0815
+ _ZNK6Marble19GeoSceneTileDataset10projectionEv@Base 4:15.11.80+git20150924.0815
+ _ZNK6Marble19GeoSceneTileDataset11downloadUrlERKNS_6TileIdE@Base 4:15.11.80+git20150924.0815
+ _ZNK6Marble19GeoSceneTileDataset12downloadUrlsEv@Base 4:15.11.80+git20150924.0815
+ _ZNK6Marble19GeoSceneTileDataset12serverLayoutEv@Base 4:15.11.80+git20150924.0815
+ _ZNK6Marble19GeoSceneTileDataset13levelZeroRowsEv@Base 4:15.11.80+git20150924.0815
+ _ZNK6Marble19GeoSceneTileDataset13storageLayoutEv@Base 4:15.11.80+git20150924.0815
+ _ZNK6Marble19GeoSceneTileDataset16downloadPoliciesEv@Base 4:15.11.80+git20150924.0815
+ _ZNK6Marble19GeoSceneTileDataset16levelZeroColumnsEv@Base 4:15.11.80+git20150924.0815
+ _ZNK6Marble19GeoSceneTileDataset16maximumTileLevelEv@Base 4:15.11.80+git20150924.0815
+ _ZNK6Marble19GeoSceneTileDataset16minimumTileLevelEv@Base 4:15.11.80+git20150924.0815
+ _ZNK6Marble19GeoSceneTileDataset20relativeTileFileNameERKNS_6TileIdE@Base 4:15.11.80+git20150924.0815
+ _ZNK6Marble19GeoSceneTileDataset8nodeTypeEv@Base 4:15.11.80+git20150924.0815
+ _ZNK6Marble19GeoSceneTileDataset8themeStrEv@Base 4:15.11.80+git20150924.0815
+ _ZNK6Marble19GeoSceneTileDataset8tileSizeEv@Base 4:15.11.80+git20150924.0815
+ _ZNK6Marble19GeoSceneTileDataset9hostNamesEv@Base 4:15.11.80+git20150924.0815
+ _ZNK6Marble19GeoSceneTileDataset9sourceDirEv@Base 4:15.11.80+git20150924.0815
  _ZNK6Marble19HttpDownloadManager10metaObjectEv@Base 4:15.08.0
- _ZNK6Marble19HttpDownloadManager7Private17hasDownloadPolicyERKNS_14DownloadPolicyE@Base 4:15.08.0
  _ZNK6Marble19KmlFeatureTagWriter5writeEPKNS_7GeoNodeERNS_9GeoWriterE@Base 4:15.08.0
  _ZNK6Marble19KmlLatLonQuadWriter5writeEPKNS_7GeoNodeERNS_9GeoWriterE@Base 4:15.08.0
  _ZNK6Marble19KmlOverlayTagWriter8writeMidEPKNS_7GeoNodeERNS_9GeoWriterE@Base 4:15.08.0
@@ -9949,7 +9815,6 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZNK6Marble19RoutingRunnerPlugin4iconEv@Base 4:15.08.0
  _ZNK6Marble19RoutingRunnerPlugin7canWorkEv@Base 4:15.08.0
  _ZNK6Marble19SearchRunnerManager10metaObjectEv@Base 4:15.08.0
- (optional=templinst)_ZNK6Marble19SearchRunnerManager7Private7pluginsIKNS_18SearchRunnerPluginEEE5QListIPT_ERKS8_@Base 4:15.08.0
  _ZNK6Marble19SphericalProjection11descriptionEv@Base 4:15.08.0
  _ZNK6Marble19SphericalProjection14geoCoordinatesEiiPKNS_14ViewportParamsERdS4_NS_18GeoDataCoordinates4UnitE@Base 4:15.08.0
  _ZNK6Marble19SphericalProjection17screenCoordinatesERKNS_18GeoDataCoordinatesEPKNS_14ViewportParamsEPdRdRiRK6QSizeFRb@Base 4:15.08.0
@@ -9964,8 +9829,6 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZNK6Marble20DgmlTextureTagWriter5writeEPKNS_7GeoNodeERNS_9GeoWriterE@Base 4:15.08.0
  _ZNK6Marble20DownloadRegionDialog10metaObjectEv@Base 4:15.08.0
  _ZNK6Marble20DownloadRegionDialog6regionEv@Base 4:15.08.0
- _ZNK6Marble20DownloadRegionDialog7Private15hasTextureLayerEv@Base 4:15.08.0
- _ZNK6Marble20DownloadRegionDialog7Private8hasRouteEv@Base 4:15.08.0
  _ZNK6Marble20ExternalEditorDialog10metaObjectEv@Base 4:15.08.0
  _ZNK6Marble20ExternalEditorDialog11saveDefaultEv@Base 4:15.08.0
  _ZNK6Marble20ExternalEditorDialog14externalEditorEv@Base 4:15.08.0
@@ -10025,11 +9888,6 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZNK6Marble20MergedLayerDecorator15tileColumnCountEi@Base 4:15.08.0
  _ZNK6Marble20MergedLayerDecorator16maximumTileLevelEv@Base 4:15.08.0
  _ZNK6Marble20MergedLayerDecorator17textureLayersSizeEv@Base 4:15.08.0
- _ZNK6Marble20MergedLayerDecorator7Private10createTileERK7QVectorI14QSharedPointerINS_11TextureTileEEE@Base 4:15.08.0
- _ZNK6Marble20MergedLayerDecorator7Private11paintTileIdEP6QImageRKNS_6TileIdE@Base 4:15.08.0
- _ZNK6Marble20MergedLayerDecorator7Private15paintSunShadingEP6QImageRKNS_6TileIdE@Base 4:15.08.0
- _ZNK6Marble20MergedLayerDecorator7Private20renderGroundOverlaysEP6QImageRK7QVectorI14QSharedPointerINS_11TextureTileEEE@Base 4:15.08.0
- _ZNK6Marble20MergedLayerDecorator7Private25findRelevantTextureLayersERKNS_6TileIdE@Base 4:15.08.0
  _ZNK6Marble20MergedLayerDecorator8tileSizeEv@Base 4:15.08.0
  _ZNK6Marble20NewstuffModelPrivate15isTransitioningEi@Base 4:15.08.0
  _ZNK6Marble20ParsingRunnerManager10metaObjectEv@Base 4:15.08.0
@@ -10078,7 +9936,6 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZNK6Marble20RoutingProfilesModel8profilesEv@Base 4:15.08.0
  _ZNK6Marble20RoutingProfilesModel8rowCountERK11QModelIndex@Base 4:15.08.0
  _ZNK6Marble20RoutingRunnerManager10metaObjectEv@Base 4:15.08.0
- (optional=templinst)_ZNK6Marble20RoutingRunnerManager7Private7pluginsINS_19RoutingRunnerPluginEEE5QListIPT_ERKS7_@Base 4:15.08.0
  _ZNK6Marble20TileLevelRangeWidget10metaObjectEv@Base 4:15.08.0
  _ZNK6Marble20TileLevelRangeWidget11bottomLevelEv@Base 4:15.08.0
  _ZNK6Marble20TileLevelRangeWidget8sizeHintEv@Base 4:15.08.0
@@ -10092,8 +9949,6 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZNK6Marble21BillboardGraphicsItem12containsRectERK7QPointF@Base 4:15.08.0
  _ZNK6Marble21BillboardGraphicsItem13boundingRectsEv@Base 4:15.08.0
  _ZNK6Marble21BillboardGraphicsItem1pEv@Base 4:15.08.0
- _ZNK6Marble21BillboardGraphicsItem7Private17absolutePositionsEv@Base 4:15.08.0
- _ZNK6Marble21BillboardGraphicsItem7Private9positionsEv@Base 4:15.08.0
  _ZNK6Marble21BillboardGraphicsItem9alignmentEv@Base 4:15.08.0
  _ZNK6Marble21BillboardGraphicsItem9positionsEv@Base 4:15.08.0
  _ZNK6Marble21BookmarkManagerDialog10metaObjectEv@Base 4:15.08.0
@@ -10137,7 +9992,6 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZNK6Marble21KmlTimeStampTagWriter5writeEPKNS_7GeoNodeERNS_9GeoWriterE@Base 4:15.08.0
  _ZNK6Marble21MarbleWidgetPopupMenu10metaObjectEv@Base 4:15.08.0
  _ZNK6Marble21MarbleWidgetPopupMenu13mousePositionEv@Base 4:15.08.0
- _ZNK6Marble21MarbleWidgetPopupMenu7Private16mouseCoordinatesEP7QAction@Base 4:15.08.0
  _ZNK6Marble21RoutingManagerPrivate12routeRequestEv@Base 4:15.08.0
  _ZNK6Marble21RoutingProfilesWidget10metaObjectEv@Base 4:15.08.0
  _ZNK6Marble21TourControlEditWidget10metaObjectEv@Base 4:15.08.0
@@ -10151,7 +10005,6 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZNK6Marble22AlternativeRoutesModel10headerDataEiN2Qt11OrientationEi@Base 4:15.08.0
  _ZNK6Marble22AlternativeRoutesModel10metaObjectEv@Base 4:15.08.0
  _ZNK6Marble22AlternativeRoutesModel4dataERK11QModelIndexi@Base 4:15.08.0
- _ZNK6Marble22AlternativeRoutesModel7Private6filterEPKNS_15GeoDataDocumentE@Base 4:15.08.0
  _ZNK6Marble22AlternativeRoutesModel8rowCountERK11QModelIndex@Base 4:15.08.0
  _ZNK6Marble22BranchFilterProxyModel16filterAcceptsRowEiRK11QModelIndex@Base 4:15.08.0
  _ZNK6Marble22GeoDataDocumentPrivate8nodeTypeEv@Base 4:15.08.0
@@ -10166,6 +10019,8 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZNK6Marble22GeoDataSimpleArrayDataeqERKS0_@Base 4:15.08.0
  _ZNK6Marble22GeoDataSimpleArrayDataneERKS0_@Base 4:15.08.0
  _ZNK6Marble22GeoPolygonGraphicsItem12latLonAltBoxEv@Base 4:15.08.0
+ _ZNK6Marble22GeoPolygonGraphicsItem14buildingOffsetERK7QPointFPKNS_14ViewportParamsEPb@Base 4:15.11.80+git20150924.0815
+ _ZNK6Marble22GeoPolygonGraphicsItem21extractBuildingHeightEd@Base 4:15.11.80+git20150924.0815
  _ZNK6Marble22HalfDifferenceBlending12blendChannelEdd@Base 4:15.08.0
  _ZNK6Marble22KmlColorStyleTagWriter12defaultColorEv@Base 4:15.08.0
  _ZNK6Marble22KmlColorStyleTagWriter5writeEPKNS_7GeoNodeERNS_9GeoWriterE@Base 4:15.08.0
@@ -10232,6 +10087,7 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZNK6Marble23MarbleAbstractPresenter9viewAngleEv@Base 4:15.08.0
  _ZNK6Marble23NewBookmarkFolderDialog10folderNameEv@Base 4:15.08.0
  _ZNK6Marble23NewBookmarkFolderDialog10metaObjectEv@Base 4:15.08.0
+ _ZNK6Marble23OsmRelationEditorDialog10metaObjectEv@Base 4:15.11.80+git20150924.0815
  _ZNK6Marble23PlaybackTourControlItem11tourControlEv@Base 4:15.08.0
  _ZNK6Marble23PlaybackTourControlItem8durationEv@Base 4:15.08.0
  _ZNK6Marble23RemoteIconLoaderPrivate10cachedIconERK7QString@Base 4:15.08.0
@@ -10262,8 +10118,7 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZNK6Marble24MarbleGraphicsGridLayout9alignmentEPNS_18ScreenGraphicsItemE@Base 4:15.08.0
  _ZNK6Marble24MarbleGraphicsGridLayout9alignmentEv@Base 4:15.08.0
  _ZNK6Marble24MarbleWidgetInputHandler10metaObjectEv@Base 4:15.08.0
- _ZNK6Marble24QuickItemSelectionRubber8geometryEv@Base 4:15.08.0
- _ZNK6Marble24QuickItemSelectionRubber9isVisibleEv@Base 4:15.08.0
+ _ZNK6Marble24OsmRelationManagerWidget10metaObjectEv@Base 4:15.11.80+git20150924.0815
  _ZNK6Marble24TileScalingTextureMapper10metaObjectEv@Base 4:15.08.0
  _ZNK6Marble25GeoDataNetworkLinkControl11linkSnippetEv@Base 4:15.08.0
  _ZNK6Marble25GeoDataNetworkLinkControl12abstractViewEv@Base 4:15.08.0
@@ -10280,9 +10135,15 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZNK6Marble25GeoDataNetworkLinkControleqERKS0_@Base 4:15.08.0
  _ZNK6Marble25GeoDataNetworkLinkControlneERKS0_@Base 4:15.08.0
  _ZNK6Marble25GeoLineStringGraphicsItem12latLonAltBoxEv@Base 4:15.08.0
+ _ZNK6Marble25GeoSceneVectorTileDataset8nodeTypeEv@Base 4:15.11.80+git20150924.0815
  _ZNK6Marble25KmlMultiGeometryTagWriter5writeEPKNS_7GeoNodeERNS_9GeoWriterE@Base 4:15.08.0
  _ZNK6Marble25MarbleDefaultInputHandler10metaObjectEv@Base 4:15.08.0
  _ZNK6Marble25MarbleGraphicsItemPrivate13boundingRectsEv@Base 4:15.08.0
+ _ZNK6Marble25OsmTagEditorWidgetPrivate10addPatternER11QStringListRKNS_16OsmPlacemarkDataERKS1_@Base 4:15.11.80+git20150924.0815
+ _ZNK6Marble25OsmTagEditorWidgetPrivate11containsAnyERKNS_16OsmPlacemarkDataERK11QStringList@Base 4:15.11.80+git20150924.0815
+ _ZNK6Marble25OsmTagEditorWidgetPrivate13tagWidgetItemERK5QPairI7QStringS2_E@Base 4:15.11.80+git20150924.0815
+ _ZNK6Marble25OsmTagEditorWidgetPrivate15recommendedTagsEv@Base 4:15.11.80+git20150924.0815
+ _ZNK6Marble25OsmTagEditorWidgetPrivate17generateTagFilterEv@Base 4:15.11.80+git20150924.0815
  _ZNK6Marble25ScreenGraphicsItemPrivate17absolutePositionsEv@Base 4:15.08.0
  _ZNK6Marble25ScreenGraphicsItemPrivate9positionsEv@Base 4:15.08.0
  _ZNK6Marble25ScreenOverlayGraphicsItem13screenOverlayEv@Base 4:15.08.0
@@ -10293,6 +10154,8 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZNK6Marble26AzimuthalProjectionPrivate19lineStringToPolygonERKNS_17GeoDataLineStringEPKNS_14ViewportParamsER7QVectorIP9QPolygonFE@Base 4:15.08.0
  _ZNK6Marble26AzimuthalProjectionPrivate19processTessellationERKNS_18GeoDataCoordinatesES3_iR7QVectorIP9QPolygonFEPKNS_14ViewportParamsE6QFlagsINS_16TessellationFlagEEb@Base 4:15.08.0
  _ZNK6Marble26AzimuthalProjectionPrivate21tessellateLineSegmentERKNS_18GeoDataCoordinatesEddS3_ddR7QVectorIP9QPolygonFEPKNS_14ViewportParamsE6QFlagsINS_16TessellationFlagEEb@Base 4:15.08.0
+ _ZNK6Marble26GeoSceneTextureTileDataset8nodeTypeEv@Base 4:15.11.80+git20150924.0815
+ _ZNK6Marble26GeoSceneTextureTileDataset9latLonBoxEv@Base 4:15.11.80+git20150924.0815
  _ZNK6Marble26IndependentChannelBlending5blendEP6QImagePKNS_11TextureTileE@Base 4:15.08.0
  _ZNK6Marble26KmlAnimatedUpdateTagWriter5writeEPKNS_7GeoNodeERNS_9GeoWriterE@Base 4:15.08.0
  _ZNK6Marble26LambertAzimuthalProjection11descriptionEv@Base 4:15.08.0
@@ -10349,7 +10212,6 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZNK6Marble29CelestialSortFilterProxyModel4dataERK11QModelIndexi@Base 4:15.08.0
  _ZNK6Marble29CelestialSortFilterProxyModel8lessThanERK11QModelIndexS3_@Base 4:15.08.0
  _ZNK6Marble29ReverseGeocodingRunnerManager10metaObjectEv@Base 4:15.08.0
- _ZNK6Marble29ReverseGeocodingRunnerManager7Private7pluginsERK5QListIPKNS_28ReverseGeocodingRunnerPluginEE@Base 4:15.08.0
  _ZNK6Marble29VerticalPerspectiveProjection11descriptionEv@Base 4:15.08.0
  _ZNK6Marble29VerticalPerspectiveProjection14clippingRadiusEv@Base 4:15.08.0
  _ZNK6Marble29VerticalPerspectiveProjection14geoCoordinatesEiiPKNS_14ViewportParamsERdS4_NS_18GeoDataCoordinates4UnitE@Base 4:15.08.0
@@ -10408,10 +10270,12 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZNK6Marble3kml14KmlxTagHandler5parseERNS_9GeoParserE@Base 4:15.08.0
  _ZNK6Marble3kml14KmlyTagHandler5parseERNS_9GeoParserE@Base 4:15.08.0
  _ZNK6Marble3kml14KmlzTagHandler5parseERNS_9GeoParserE@Base 4:15.08.0
+ _ZNK6Marble3kml15KmlndTagHandler5parseERNS_9GeoParserE@Base 4:15.11.80+git20150924.0815
  _ZNK6Marble3kml16KmlLodTagHandler5parseERNS_9GeoParserE@Base 4:15.08.0
  _ZNK6Marble3kml16KmlendTagHandler5parseERNS_9GeoParserE@Base 4:15.08.0
  _ZNK6Marble3kml16KmlkeyTagHandler5parseERNS_9GeoParserE@Base 4:15.08.0
  _ZNK6Marble3kml16KmlpopTagHandler5parseERNS_9GeoParserE@Base 4:15.08.0
+ _ZNK6Marble3kml16KmltagTagHandler5parseERNS_9GeoParserE@Base 4:15.11.80+git20150924.0815
  _ZNK6Marble3kml17KmlDataTagHandler5parseERNS_9GeoParserE@Base 4:15.08.0
  _ZNK6Marble3kml17KmlIconTagHandler5parseERNS_9GeoParserE@Base 4:15.08.0
  _ZNK6Marble3kml17KmlLinkTagHandler5parseERNS_9GeoParserE@Base 4:15.08.0
@@ -10459,6 +10323,7 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZNK6Marble3kml19KmlSchemaTagHandler5parseERNS_9GeoParserE@Base 4:15.08.0
  _ZNK6Marble3kml19KmlUpdateTagHandler5parseERNS_9GeoParserE@Base 4:15.08.0
  _ZNK6Marble3kml19KmlcookieTagHandler5parseERNS_9GeoParserE@Base 4:15.08.0
+ _ZNK6Marble3kml19KmlmemberTagHandler5parseERNS_9GeoParserE@Base 4:15.11.80+git20150924.0815
  _ZNK6Marble3kml19KmltopFovTagHandler5parseERNS_9GeoParserE@Base 4:15.08.0
  _ZNK6Marble3kml20KmlPolygonTagHandler5parseERNS_9GeoParserE@Base 4:15.08.0
  _ZNK6Marble3kml20KmlSnippetTagHandler5parseERNS_9GeoParserE@Base 4:15.08.0
@@ -10559,6 +10424,7 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZNK6Marble3kml28KmlrefreshIntervalTagHandler5parseERNS_9GeoParserE@Base 4:15.08.0
  _ZNK6Marble3kml28KmlviewRefreshModeTagHandler5parseERNS_9GeoParserE@Base 4:15.08.0
  _ZNK6Marble3kml28KmlviewRefreshTimeTagHandler5parseERNS_9GeoParserE@Base 4:15.08.0
+ _ZNK6Marble3kml29KmlOsmPlacemarkDataTagHandler5parseERNS_9GeoParserE@Base 4:15.11.80+git20150924.0815
  _ZNK6Marble3kml29KmlmaxSessionLengthTagHandler5parseERNS_9GeoParserE@Base 4:15.08.0
  _ZNK6Marble3kml29KmlminRefreshPeriodTagHandler5parseERNS_9GeoParserE@Base 4:15.08.0
  _ZNK6Marble3kml2gx21KmlTimeSpanTagHandler5parseERNS_9GeoParserE@Base 4:15.08.0
@@ -10640,7 +10506,7 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZNK6Marble6Planet7epsilonEv@Base 4:15.08.0
  _ZNK6Marble6Planet7theta_0Ev@Base 4:15.08.0
  _ZNK6Marble6Planet7theta_1Ev@Base 4:15.08.0
- _ZNK6Marble6TileId11toLatLonBoxEPKNS_13GeoSceneTiledE@Base 4:15.08.0
+ _ZNK6Marble6TileId11toLatLonBoxEPKNS_19GeoSceneTileDatasetE@Base 4:15.11.80+git20150924.0815
  _ZNK6Marble7GeoNode8nodeTypeEv@Base 4:15.08.0
  _ZNK6Marble7HttpJob10metaObjectEv@Base 4:15.08.0
  _ZNK6Marble7HttpJob11initiatorIdEv@Base 4:15.08.0
@@ -10757,25 +10623,26 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZNK6Marble9RouteItemeqERKS0_@Base 4:15.08.0
  _ZNK7QPointF7toPointEv@Base 4:15.08.0
  _ZNK7QStringeqEPKc@Base 4:15.08.0
+ (optional=templinst)_ZNK8QMapDataI5QPairI7QStringS1_EN6Marble14GeoDataFeature21GeoDataVisualCategoryEE8findNodeERKS2_@Base 4:15.11.80+git20150924.0815
  (optional=templinst|arch=!ppc64el)_ZNK8QMapDataI7QString5QPairI9QDateTimeyEE8findNodeERKS0_@Base 4:15.08.0
  (optional=templinst|arch=!ppc64el)_ZNK8QMapDataI7QStringN6Marble12GeoDataStyleEE8findNodeERKS0_@Base 4:15.08.0
  (optional=templinst|arch=!ppc64el)_ZNK8QMapDataI7QStringN6Marble13GeoDataSchemaEE8findNodeERKS0_@Base 4:15.08.0
- (optional=templinst|arch=!ppc64el)_ZNK8QMapDataI7QStringN6Marble14GeoDataFeature21GeoDataVisualCategoryEE8findNodeERKS0_@Base 4:15.08.0
  (optional=templinst|arch=!ppc64el)_ZNK8QMapDataI7QStringN6Marble15GeoDataStyleMapEE8findNodeERKS0_@Base 4:15.08.0
  (optional=templinst|arch=!ppc64el)_ZNK8QMapDataI7QStringN6Marble15RoutingWaypoint12JunctionTypeEE8findNodeERKS0_@Base 4:15.08.0
- (optional=templinst|arch=!ppc64el)_ZNK8QMapDataI7QStringPN6Marble19GeoSceneTextureTileEE8findNodeERKS0_@Base 4:15.08.0
+ (optional=templinst)_ZNK8QMapDataI7QStringPN6Marble26GeoSceneTextureTileDatasetEE8findNodeERKS0_@Base 4:15.11.80+git20150924.0815
  (optional=templinst|arch=arm64 powerpc)_ZNK8QMapDataI7QStringS0_E8findNodeERKS0_@Base 4:15.08.0
  (optional=templinst|arch=!ppc64el)_ZNK8QMapDataI7QStringiE8findNodeERKS0_@Base 4:15.08.0
  (optional=templinst|arch=!ppc64el)_ZNK8QMapDataIN6Marble13PixmapElementE7QPixmapE8findNodeERKS1_@Base 4:15.08.0
+ (optional=templinst)_ZNK8QMapDataIN6Marble6TileIdE14QSharedPointerINS0_15VectorTileModel13CacheDocumentEEE8findNodeERKS1_@Base 4:15.11.80+git20150924.0815
  (optional=templinst|arch=!ppc64el)_ZNK8QMapDataIN6Marble6TileIdE5QListIPKNS0_16GeoDataPlacemarkEEE8findNodeERKS1_@Base 4:15.08.0
  (optional=templinst)_ZNK8QMapDataIN6Marble6TileIdE5QListIPNS0_15GeoGraphicsItemEEE8findNodeERKS1_@Base 4:15.08.0
+ (optional=templinst)_ZNK8QMapNodeI5QPairI7QStringS1_EN6Marble14GeoDataFeature21GeoDataVisualCategoryEE4copyEP8QMapDataIS2_S5_E@Base 4:15.11.80+git20150924.0815
  (optional=templinst)_ZNK8QMapNodeI7QString5QPairI9QDateTimeyEE4copyEP8QMapDataIS0_S3_E@Base 4:15.08.0
  (optional=templinst)_ZNK8QMapNodeI7QStringN6Marble12GeoDataStyleEE4copyEP8QMapDataIS0_S2_E@Base 4:15.08.0
  (optional=templinst)_ZNK8QMapNodeI7QStringN6Marble13GeoDataSchemaEE4copyEP8QMapDataIS0_S2_E@Base 4:15.08.0
- (optional=templinst)_ZNK8QMapNodeI7QStringN6Marble14GeoDataFeature21GeoDataVisualCategoryEE4copyEP8QMapDataIS0_S3_E@Base 4:15.08.0
  (optional=templinst)_ZNK8QMapNodeI7QStringN6Marble15GeoDataStyleMapEE4copyEP8QMapDataIS0_S2_E@Base 4:15.08.0
  (optional=templinst)_ZNK8QMapNodeI7QStringN6Marble15RoutingWaypoint12JunctionTypeEE4copyEP8QMapDataIS0_S3_E@Base 4:15.08.0
- (optional=templinst)_ZNK8QMapNodeI7QStringPN6Marble19GeoSceneTextureTileEE4copyEP8QMapDataIS0_S3_E@Base 4:15.08.0
+ (optional=templinst)_ZNK8QMapNodeI7QStringPN6Marble26GeoSceneTextureTileDatasetEE4copyEP8QMapDataIS0_S3_E@Base 4:15.11.80+git20150924.0815
  (optional=templinst)_ZNK8QMapNodeI7QStringS0_E4copyEP8QMapDataIS0_S0_E@Base 4:15.08.0
  (optional=templinst)_ZNK8QMapNodeI7QStringbE4copyEP8QMapDataIS0_bE@Base 4:15.08.0
  (optional=templinst)_ZNK8QMapNodeI7QStringiE4copyEP8QMapDataIS0_iE@Base 4:15.08.0
@@ -10784,6 +10651,7 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  (optional=templinst)_ZNK8QMapNodeIN6Marble13DownloadUsageEPNS0_16DownloadQueueSetEE4copyEP8QMapDataIS1_S3_E@Base 4:15.08.0
  (optional=templinst)_ZNK8QMapNodeIN6Marble13PixmapElementE7QPixmapE4copyEP8QMapDataIS1_S2_E@Base 4:15.08.0
  (optional=templinst)_ZNK8QMapNodeIN6Marble14WaypointParser5FieldEiE4copyEP8QMapDataIS2_iE@Base 4:15.08.0
+ (optional=templinst)_ZNK8QMapNodeIN6Marble6TileIdE14QSharedPointerINS0_15VectorTileModel13CacheDocumentEEE4copyEP8QMapDataIS1_S5_E@Base 4:15.11.80+git20150924.0815
  (optional=templinst)_ZNK8QMapNodeIN6Marble6TileIdE5QListIPKNS0_16GeoDataPlacemarkEEE4copyEP8QMapDataIS1_S6_E@Base 4:15.08.0
  (optional=templinst)_ZNK8QMapNodeIN6Marble6TileIdE5QListIPNS0_15GeoGraphicsItemEEE4copyEP8QMapDataIS1_S5_E@Base 4:15.08.0
  (optional=templinst)_ZNK8QMapNodeIN6Marble8Maneuver9DirectionE7QStringE4copyEP8QMapDataIS2_S3_E@Base 4:15.08.0
@@ -10887,7 +10755,6 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZTIN6Marble13GeoDataUpdateE@Base 4:15.08.0
  _ZTIN6Marble13GeoSceneGroupE@Base 4:15.08.0
  _ZTIN6Marble13GeoSceneLayerE@Base 4:15.08.0
- _ZTIN6Marble13GeoSceneTiledE@Base 4:15.08.0
  _ZTIN6Marble13GeoTagHandlerE@Base 4:15.08.0
  _ZTIN6Marble13GeometryLayerE@Base 4:15.08.0
  _ZTIN6Marble13LightBlendingE@Base 4:15.08.0
@@ -10952,7 +10819,6 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZTIN6Marble15MapItemDelegateE@Base 4:15.08.0
  _ZTIN6Marble15MapThemeManagerE@Base 4:15.08.0
  _ZTIN6Marble15MarbleNavigatorE@Base 4:15.08.0
- _ZTIN6Marble15MarbleQuickItemE@Base 4:15.08.0
  _ZTIN6Marble15OsmServerLayoutE@Base 4:15.08.0
  _ZTIN6Marble15OverlayBlendingE@Base 4:15.08.0
  _ZTIN6Marble15PlacemarkLayoutE@Base 4:15.08.0
@@ -10985,6 +10851,7 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZTIN6Marble16MarbleControlBoxE@Base 4:15.08.0
  _ZTIN6Marble16MultiplyBlendingE@Base 4:15.08.0
  _ZTIN6Marble16NavigationWidgetE@Base 4:15.08.0
+ _ZTIN6Marble16OsmPlacemarkDataE@Base 4:15.11.80+git20150924.0815
  _ZTIN6Marble16ParallelBlendingE@Base 4:15.08.0
  _ZTIN6Marble16PinLightBlendingE@Base 4:15.08.0
  _ZTIN6Marble16PlaybackWaitItemE@Base 4:15.08.0
@@ -11054,7 +10921,6 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZTIN6Marble18GeoDataSimpleFieldE@Base 4:15.08.0
  _ZTIN6Marble18GeoDataTourControlE@Base 4:15.08.0
  _ZTIN6Marble18GeoDataTourPrivateE@Base 4:15.08.0
- _ZTIN6Marble18GeoSceneVectorTileE@Base 4:15.08.0
  _ZTIN6Marble18GnomonicProjectionE@Base 4:15.08.0
  _ZTIN6Marble18KmlCameraTagWriterE@Base 4:15.08.0
  _ZTIN6Marble18KmlFolderTagWriterE@Base 4:15.08.0
@@ -11069,6 +10935,7 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZTIN6Marble18MarbleServerLayoutE@Base 4:15.08.0
  _ZTIN6Marble18MercatorProjectionE@Base 4:15.08.0
  _ZTIN6Marble18MovieCaptureDialogE@Base 4:15.08.0
+ _ZTIN6Marble18OsmTagEditorWidgetE@Base 4:15.11.80+git20150924.0815
  _ZTIN6Marble18PluginItemDelegateE@Base 4:15.08.0
  _ZTIN6Marble18PrintOptionsWidgetE@Base 4:15.08.0
  _ZTIN6Marble18RoutingInputWidgetE@Base 4:15.08.0
@@ -11095,7 +10962,7 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZTIN6Marble19GeoDataPhotoOverlayE@Base 4:15.08.0
  _ZTIN6Marble19GeoDataPointPrivateE@Base 4:15.08.0
  _ZTIN6Marble19GeoDataTrackPrivateE@Base 4:15.08.0
- _ZTIN6Marble19GeoSceneTextureTileE@Base 4:15.08.0
+ _ZTIN6Marble19GeoSceneTileDatasetE@Base 4:15.11.80+git20150924.0815
  _ZTIN6Marble19HttpDownloadManagerE@Base 4:15.08.0
  _ZTIN6Marble19KmlFeatureTagWriterE@Base 4:15.08.0
  _ZTIN6Marble19KmlLatLonQuadWriterE@Base 4:15.08.0
@@ -11148,7 +11015,6 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZTIN6Marble20RoutingRunnerManagerE@Base 4:15.08.0
  _ZTIN6Marble20TileLevelRangeWidgetE@Base 4:15.08.0
  _ZTIN6Marble20VoiceNavigationModelE@Base 4:15.08.0
- _ZTIN6Marble21BillboardGraphicsItem7PrivateE@Base 4:15.08.0
  _ZTIN6Marble21BillboardGraphicsItemE@Base 4:15.08.0
  _ZTIN6Marble21BookmarkManagerDialogE@Base 4:15.08.0
  _ZTIN6Marble21CurrentLocationWidgetE@Base 4:15.08.0
@@ -11190,7 +11056,6 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZTIN6Marble22KmlScreenOverlayWriterE@Base 4:15.08.0
  _ZTIN6Marble22KmlSimpleDataTagWriterE@Base 4:15.08.0
  _ZTIN6Marble22MapThemeDownloadDialogE@Base 4:15.08.0
- _ZTIN6Marble22MarbleQuickItemPrivateE@Base 4:15.08.0
  _ZTIN6Marble22PositionProviderPluginE@Base 4:15.08.0
  _ZTIN6Marble22ReverseGeocodingRunnerE@Base 4:15.08.0
  _ZTIN6Marble22TextureMapperInterfaceE@Base 4:15.08.0
@@ -11204,8 +11069,8 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZTIN6Marble23KmlNetworkLinkTagWriterE@Base 4:15.08.0
  _ZTIN6Marble23KmlSimpleFieldTagWriterE@Base 4:15.08.0
  _ZTIN6Marble23MarbleAbstractPresenterE@Base 4:15.08.0
- _ZTIN6Marble23MarbleQuickInputHandlerE@Base 4:15.08.0
  _ZTIN6Marble23NewBookmarkFolderDialogE@Base 4:15.08.0
+ _ZTIN6Marble23OsmRelationEditorDialogE@Base 4:15.11.80+git20150924.0815
  _ZTIN6Marble23PlaybackTourControlItemE@Base 4:15.08.0
  _ZTIN6Marble23StereographicProjectionE@Base 4:15.08.0
  _ZTIN6Marble24FileStorageWatcherThreadE@Base 4:15.08.0
@@ -11216,12 +11081,13 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZTIN6Marble24KmlExtendedDataTagWriterE@Base 4:15.08.0
  _ZTIN6Marble24MarbleGraphicsGridLayoutE@Base 4:15.08.0
  _ZTIN6Marble24MarbleWidgetInputHandlerE@Base 4:15.08.0
- _ZTIN6Marble24QuickItemSelectionRubberE@Base 4:15.08.0
+ _ZTIN6Marble24OsmRelationManagerWidgetE@Base 4:15.11.80+git20150924.0815
  _ZTIN6Marble24TileScalingTextureMapperE@Base 4:15.08.0
  _ZTIN6Marble25AbstractProjectionPrivateE@Base 4:15.08.0
  _ZTIN6Marble25GeoDataCoordinatesPrivateE@Base 4:15.08.0
  _ZTIN6Marble25GeoDataNetworkLinkControlE@Base 4:15.08.0
  _ZTIN6Marble25GeoLineStringGraphicsItemE@Base 4:15.08.0
+ _ZTIN6Marble25GeoSceneVectorTileDatasetE@Base 4:15.11.80+git20150924.0815
  _ZTIN6Marble25GnomonicProjectionPrivateE@Base 4:15.08.0
  _ZTIN6Marble25KmlMultiGeometryTagWriterE@Base 4:15.08.0
  _ZTIN6Marble25MarbleDefaultInputHandlerE@Base 4:15.08.0
@@ -11229,6 +11095,7 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZTIN6Marble25ScreenGraphicsItemPrivateE@Base 4:15.08.0
  _ZTIN6Marble25ScreenOverlayGraphicsItemE@Base 4:15.08.0
  _ZTIN6Marble26AzimuthalProjectionPrivateE@Base 4:15.08.0
+ _ZTIN6Marble26GeoSceneTextureTileDatasetE@Base 4:15.11.80+git20150924.0815
  _ZTIN6Marble26IndependentChannelBlendingE@Base 4:15.08.0
  _ZTIN6Marble26KmlAnimatedUpdateTagWriterE@Base 4:15.08.0
  _ZTIN6Marble26LambertAzimuthalProjectionE@Base 4:15.08.0
@@ -11267,10 +11134,12 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZTIN6Marble3kml14KmlxTagHandlerE@Base 4:15.08.0
  _ZTIN6Marble3kml14KmlyTagHandlerE@Base 4:15.08.0
  _ZTIN6Marble3kml14KmlzTagHandlerE@Base 4:15.08.0
+ _ZTIN6Marble3kml15KmlndTagHandlerE@Base 4:15.11.80+git20150924.0815
  _ZTIN6Marble3kml16KmlLodTagHandlerE@Base 4:15.08.0
  _ZTIN6Marble3kml16KmlendTagHandlerE@Base 4:15.08.0
  _ZTIN6Marble3kml16KmlkeyTagHandlerE@Base 4:15.08.0
  _ZTIN6Marble3kml16KmlpopTagHandlerE@Base 4:15.08.0
+ _ZTIN6Marble3kml16KmltagTagHandlerE@Base 4:15.11.80+git20150924.0815
  _ZTIN6Marble3kml17KmlDataTagHandlerE@Base 4:15.08.0
  _ZTIN6Marble3kml17KmlIconTagHandlerE@Base 4:15.08.0
  _ZTIN6Marble3kml17KmlLinkTagHandlerE@Base 4:15.08.0
@@ -11318,6 +11187,7 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZTIN6Marble3kml19KmlSchemaTagHandlerE@Base 4:15.08.0
  _ZTIN6Marble3kml19KmlUpdateTagHandlerE@Base 4:15.08.0
  _ZTIN6Marble3kml19KmlcookieTagHandlerE@Base 4:15.08.0
+ _ZTIN6Marble3kml19KmlmemberTagHandlerE@Base 4:15.11.80+git20150924.0815
  _ZTIN6Marble3kml19KmltopFovTagHandlerE@Base 4:15.08.0
  _ZTIN6Marble3kml20KmlPolygonTagHandlerE@Base 4:15.08.0
  _ZTIN6Marble3kml20KmlSnippetTagHandlerE@Base 4:15.08.0
@@ -11418,6 +11288,7 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZTIN6Marble3kml28KmlrefreshIntervalTagHandlerE@Base 4:15.08.0
  _ZTIN6Marble3kml28KmlviewRefreshModeTagHandlerE@Base 4:15.08.0
  _ZTIN6Marble3kml28KmlviewRefreshTimeTagHandlerE@Base 4:15.08.0
+ _ZTIN6Marble3kml29KmlOsmPlacemarkDataTagHandlerE@Base 4:15.11.80+git20150924.0815
  _ZTIN6Marble3kml29KmlmaxSessionLengthTagHandlerE@Base 4:15.08.0
  _ZTIN6Marble3kml29KmlminRefreshPeriodTagHandlerE@Base 4:15.08.0
  _ZTIN6Marble3kml2gx21KmlTimeSpanTagHandlerE@Base 4:15.08.0
@@ -11575,7 +11446,6 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZTSN6Marble13GeoDataUpdateE@Base 4:15.08.0
  _ZTSN6Marble13GeoSceneGroupE@Base 4:15.08.0
  _ZTSN6Marble13GeoSceneLayerE@Base 4:15.08.0
- _ZTSN6Marble13GeoSceneTiledE@Base 4:15.08.0
  _ZTSN6Marble13GeoTagHandlerE@Base 4:15.08.0
  _ZTSN6Marble13GeometryLayerE@Base 4:15.08.0
  _ZTSN6Marble13LightBlendingE@Base 4:15.08.0
@@ -11640,7 +11510,6 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZTSN6Marble15MapItemDelegateE@Base 4:15.08.0
  _ZTSN6Marble15MapThemeManagerE@Base 4:15.08.0
  _ZTSN6Marble15MarbleNavigatorE@Base 4:15.08.0
- _ZTSN6Marble15MarbleQuickItemE@Base 4:15.08.0
  _ZTSN6Marble15OsmServerLayoutE@Base 4:15.08.0
  _ZTSN6Marble15OverlayBlendingE@Base 4:15.08.0
  _ZTSN6Marble15PlacemarkLayoutE@Base 4:15.08.0
@@ -11673,6 +11542,7 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZTSN6Marble16MarbleControlBoxE@Base 4:15.08.0
  _ZTSN6Marble16MultiplyBlendingE@Base 4:15.08.0
  _ZTSN6Marble16NavigationWidgetE@Base 4:15.08.0
+ _ZTSN6Marble16OsmPlacemarkDataE@Base 4:15.11.80+git20150924.0815
  _ZTSN6Marble16ParallelBlendingE@Base 4:15.08.0
  _ZTSN6Marble16PinLightBlendingE@Base 4:15.08.0
  _ZTSN6Marble16PlaybackWaitItemE@Base 4:15.08.0
@@ -11742,7 +11612,6 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZTSN6Marble18GeoDataSimpleFieldE@Base 4:15.08.0
  _ZTSN6Marble18GeoDataTourControlE@Base 4:15.08.0
  _ZTSN6Marble18GeoDataTourPrivateE@Base 4:15.08.0
- _ZTSN6Marble18GeoSceneVectorTileE@Base 4:15.08.0
  _ZTSN6Marble18GnomonicProjectionE@Base 4:15.08.0
  _ZTSN6Marble18KmlCameraTagWriterE@Base 4:15.08.0
  _ZTSN6Marble18KmlFolderTagWriterE@Base 4:15.08.0
@@ -11757,6 +11626,7 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZTSN6Marble18MarbleServerLayoutE@Base 4:15.08.0
  _ZTSN6Marble18MercatorProjectionE@Base 4:15.08.0
  _ZTSN6Marble18MovieCaptureDialogE@Base 4:15.08.0
+ _ZTSN6Marble18OsmTagEditorWidgetE@Base 4:15.11.80+git20150924.0815
  _ZTSN6Marble18PluginItemDelegateE@Base 4:15.08.0
  _ZTSN6Marble18PrintOptionsWidgetE@Base 4:15.08.0
  _ZTSN6Marble18RoutingInputWidgetE@Base 4:15.08.0
@@ -11783,7 +11653,7 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZTSN6Marble19GeoDataPhotoOverlayE@Base 4:15.08.0
  _ZTSN6Marble19GeoDataPointPrivateE@Base 4:15.08.0
  _ZTSN6Marble19GeoDataTrackPrivateE@Base 4:15.08.0
- _ZTSN6Marble19GeoSceneTextureTileE@Base 4:15.08.0
+ _ZTSN6Marble19GeoSceneTileDatasetE@Base 4:15.11.80+git20150924.0815
  _ZTSN6Marble19HttpDownloadManagerE@Base 4:15.08.0
  _ZTSN6Marble19KmlFeatureTagWriterE@Base 4:15.08.0
  _ZTSN6Marble19KmlLatLonQuadWriterE@Base 4:15.08.0
@@ -11836,7 +11706,6 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZTSN6Marble20RoutingRunnerManagerE@Base 4:15.08.0
  _ZTSN6Marble20TileLevelRangeWidgetE@Base 4:15.08.0
  _ZTSN6Marble20VoiceNavigationModelE@Base 4:15.08.0
- _ZTSN6Marble21BillboardGraphicsItem7PrivateE@Base 4:15.08.0
  _ZTSN6Marble21BillboardGraphicsItemE@Base 4:15.08.0
  _ZTSN6Marble21BookmarkManagerDialogE@Base 4:15.08.0
  _ZTSN6Marble21CurrentLocationWidgetE@Base 4:15.08.0
@@ -11878,7 +11747,6 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZTSN6Marble22KmlScreenOverlayWriterE@Base 4:15.08.0
  _ZTSN6Marble22KmlSimpleDataTagWriterE@Base 4:15.08.0
  _ZTSN6Marble22MapThemeDownloadDialogE@Base 4:15.08.0
- _ZTSN6Marble22MarbleQuickItemPrivateE@Base 4:15.08.0
  _ZTSN6Marble22PositionProviderPluginE@Base 4:15.08.0
  _ZTSN6Marble22ReverseGeocodingRunnerE@Base 4:15.08.0
  _ZTSN6Marble22TextureMapperInterfaceE@Base 4:15.08.0
@@ -11892,8 +11760,8 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZTSN6Marble23KmlNetworkLinkTagWriterE@Base 4:15.08.0
  _ZTSN6Marble23KmlSimpleFieldTagWriterE@Base 4:15.08.0
  _ZTSN6Marble23MarbleAbstractPresenterE@Base 4:15.08.0
- _ZTSN6Marble23MarbleQuickInputHandlerE@Base 4:15.08.0
  _ZTSN6Marble23NewBookmarkFolderDialogE@Base 4:15.08.0
+ _ZTSN6Marble23OsmRelationEditorDialogE@Base 4:15.11.80+git20150924.0815
  _ZTSN6Marble23PlaybackTourControlItemE@Base 4:15.08.0
  _ZTSN6Marble23StereographicProjectionE@Base 4:15.08.0
  _ZTSN6Marble24FileStorageWatcherThreadE@Base 4:15.08.0
@@ -11904,12 +11772,13 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZTSN6Marble24KmlExtendedDataTagWriterE@Base 4:15.08.0
  _ZTSN6Marble24MarbleGraphicsGridLayoutE@Base 4:15.08.0
  _ZTSN6Marble24MarbleWidgetInputHandlerE@Base 4:15.08.0
- _ZTSN6Marble24QuickItemSelectionRubberE@Base 4:15.08.0
+ _ZTSN6Marble24OsmRelationManagerWidgetE@Base 4:15.11.80+git20150924.0815
  _ZTSN6Marble24TileScalingTextureMapperE@Base 4:15.08.0
  _ZTSN6Marble25AbstractProjectionPrivateE@Base 4:15.08.0
  _ZTSN6Marble25GeoDataCoordinatesPrivateE@Base 4:15.08.0
  _ZTSN6Marble25GeoDataNetworkLinkControlE@Base 4:15.08.0
  _ZTSN6Marble25GeoLineStringGraphicsItemE@Base 4:15.08.0
+ _ZTSN6Marble25GeoSceneVectorTileDatasetE@Base 4:15.11.80+git20150924.0815
  _ZTSN6Marble25GnomonicProjectionPrivateE@Base 4:15.08.0
  _ZTSN6Marble25KmlMultiGeometryTagWriterE@Base 4:15.08.0
  _ZTSN6Marble25MarbleDefaultInputHandlerE@Base 4:15.08.0
@@ -11917,6 +11786,7 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZTSN6Marble25ScreenGraphicsItemPrivateE@Base 4:15.08.0
  _ZTSN6Marble25ScreenOverlayGraphicsItemE@Base 4:15.08.0
  _ZTSN6Marble26AzimuthalProjectionPrivateE@Base 4:15.08.0
+ _ZTSN6Marble26GeoSceneTextureTileDatasetE@Base 4:15.11.80+git20150924.0815
  _ZTSN6Marble26IndependentChannelBlendingE@Base 4:15.08.0
  _ZTSN6Marble26KmlAnimatedUpdateTagWriterE@Base 4:15.08.0
  _ZTSN6Marble26LambertAzimuthalProjectionE@Base 4:15.08.0
@@ -11955,10 +11825,12 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZTSN6Marble3kml14KmlxTagHandlerE@Base 4:15.08.0
  _ZTSN6Marble3kml14KmlyTagHandlerE@Base 4:15.08.0
  _ZTSN6Marble3kml14KmlzTagHandlerE@Base 4:15.08.0
+ _ZTSN6Marble3kml15KmlndTagHandlerE@Base 4:15.11.80+git20150924.0815
  _ZTSN6Marble3kml16KmlLodTagHandlerE@Base 4:15.08.0
  _ZTSN6Marble3kml16KmlendTagHandlerE@Base 4:15.08.0
  _ZTSN6Marble3kml16KmlkeyTagHandlerE@Base 4:15.08.0
  _ZTSN6Marble3kml16KmlpopTagHandlerE@Base 4:15.08.0
+ _ZTSN6Marble3kml16KmltagTagHandlerE@Base 4:15.11.80+git20150924.0815
  _ZTSN6Marble3kml17KmlDataTagHandlerE@Base 4:15.08.0
  _ZTSN6Marble3kml17KmlIconTagHandlerE@Base 4:15.08.0
  _ZTSN6Marble3kml17KmlLinkTagHandlerE@Base 4:15.08.0
@@ -12006,6 +11878,7 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZTSN6Marble3kml19KmlSchemaTagHandlerE@Base 4:15.08.0
  _ZTSN6Marble3kml19KmlUpdateTagHandlerE@Base 4:15.08.0
  _ZTSN6Marble3kml19KmlcookieTagHandlerE@Base 4:15.08.0
+ _ZTSN6Marble3kml19KmlmemberTagHandlerE@Base 4:15.11.80+git20150924.0815
  _ZTSN6Marble3kml19KmltopFovTagHandlerE@Base 4:15.08.0
  _ZTSN6Marble3kml20KmlPolygonTagHandlerE@Base 4:15.08.0
  _ZTSN6Marble3kml20KmlSnippetTagHandlerE@Base 4:15.08.0
@@ -12106,6 +11979,7 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZTSN6Marble3kml28KmlrefreshIntervalTagHandlerE@Base 4:15.08.0
  _ZTSN6Marble3kml28KmlviewRefreshModeTagHandlerE@Base 4:15.08.0
  _ZTSN6Marble3kml28KmlviewRefreshTimeTagHandlerE@Base 4:15.08.0
+ _ZTSN6Marble3kml29KmlOsmPlacemarkDataTagHandlerE@Base 4:15.11.80+git20150924.0815
  _ZTSN6Marble3kml29KmlmaxSessionLengthTagHandlerE@Base 4:15.08.0
  _ZTSN6Marble3kml29KmlminRefreshPeriodTagHandlerE@Base 4:15.08.0
  _ZTSN6Marble3kml2gx21KmlTimeSpanTagHandlerE@Base 4:15.08.0
@@ -12249,7 +12123,6 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZTVN6Marble13GeoDataUpdateE@Base 4:15.08.0
  _ZTVN6Marble13GeoSceneGroupE@Base 4:15.08.0
  _ZTVN6Marble13GeoSceneLayerE@Base 4:15.08.0
- _ZTVN6Marble13GeoSceneTiledE@Base 4:15.08.0
  _ZTVN6Marble13GeoTagHandlerE@Base 4:15.08.0
  _ZTVN6Marble13GeometryLayerE@Base 4:15.08.0
  _ZTVN6Marble13LightBlendingE@Base 4:15.08.0
@@ -12314,7 +12187,6 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZTVN6Marble15MapItemDelegateE@Base 4:15.08.0
  _ZTVN6Marble15MapThemeManagerE@Base 4:15.08.0
  _ZTVN6Marble15MarbleNavigatorE@Base 4:15.08.0
- _ZTVN6Marble15MarbleQuickItemE@Base 4:15.08.0
  _ZTVN6Marble15OsmServerLayoutE@Base 4:15.08.0
  _ZTVN6Marble15OverlayBlendingE@Base 4:15.08.0
  _ZTVN6Marble15PlacemarkLayoutE@Base 4:15.08.0
@@ -12347,6 +12219,7 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZTVN6Marble16MarbleControlBoxE@Base 4:15.08.0
  _ZTVN6Marble16MultiplyBlendingE@Base 4:15.08.0
  _ZTVN6Marble16NavigationWidgetE@Base 4:15.08.0
+ _ZTVN6Marble16OsmPlacemarkDataE@Base 4:15.11.80+git20150924.0815
  _ZTVN6Marble16ParallelBlendingE@Base 4:15.08.0
  _ZTVN6Marble16PinLightBlendingE@Base 4:15.08.0
  _ZTVN6Marble16PlaybackWaitItemE@Base 4:15.08.0
@@ -12415,7 +12288,6 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZTVN6Marble18GeoDataSimpleFieldE@Base 4:15.08.0
  _ZTVN6Marble18GeoDataTourControlE@Base 4:15.08.0
  _ZTVN6Marble18GeoDataTourPrivateE@Base 4:15.08.0
- _ZTVN6Marble18GeoSceneVectorTileE@Base 4:15.08.0
  _ZTVN6Marble18GnomonicProjectionE@Base 4:15.08.0
  _ZTVN6Marble18KmlCameraTagWriterE@Base 4:15.08.0
  _ZTVN6Marble18KmlFolderTagWriterE@Base 4:15.08.0
@@ -12430,6 +12302,7 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZTVN6Marble18MarbleServerLayoutE@Base 4:15.08.0
  _ZTVN6Marble18MercatorProjectionE@Base 4:15.08.0
  _ZTVN6Marble18MovieCaptureDialogE@Base 4:15.08.0
+ _ZTVN6Marble18OsmTagEditorWidgetE@Base 4:15.11.80+git20150924.0815
  _ZTVN6Marble18PluginItemDelegateE@Base 4:15.08.0
  _ZTVN6Marble18PrintOptionsWidgetE@Base 4:15.08.0
  _ZTVN6Marble18RoutingInputWidgetE@Base 4:15.08.0
@@ -12456,7 +12329,7 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZTVN6Marble19GeoDataPhotoOverlayE@Base 4:15.08.0
  _ZTVN6Marble19GeoDataPointPrivateE@Base 4:15.08.0
  _ZTVN6Marble19GeoDataTrackPrivateE@Base 4:15.08.0
- _ZTVN6Marble19GeoSceneTextureTileE@Base 4:15.08.0
+ _ZTVN6Marble19GeoSceneTileDatasetE@Base 4:15.11.80+git20150924.0815
  _ZTVN6Marble19HttpDownloadManagerE@Base 4:15.08.0
  _ZTVN6Marble19KmlFeatureTagWriterE@Base 4:15.08.0
  _ZTVN6Marble19KmlLatLonQuadWriterE@Base 4:15.08.0
@@ -12508,7 +12381,6 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZTVN6Marble20RoutingRunnerManagerE@Base 4:15.08.0
  _ZTVN6Marble20TileLevelRangeWidgetE@Base 4:15.08.0
  _ZTVN6Marble20VoiceNavigationModelE@Base 4:15.08.0
- _ZTVN6Marble21BillboardGraphicsItem7PrivateE@Base 4:15.08.0
  _ZTVN6Marble21BillboardGraphicsItemE@Base 4:15.08.0
  _ZTVN6Marble21BookmarkManagerDialogE@Base 4:15.08.0
  _ZTVN6Marble21CurrentLocationWidgetE@Base 4:15.08.0
@@ -12550,7 +12422,6 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZTVN6Marble22KmlScreenOverlayWriterE@Base 4:15.08.0
  _ZTVN6Marble22KmlSimpleDataTagWriterE@Base 4:15.08.0
  _ZTVN6Marble22MapThemeDownloadDialogE@Base 4:15.08.0
- _ZTVN6Marble22MarbleQuickItemPrivateE@Base 4:15.08.0
  _ZTVN6Marble22PositionProviderPluginE@Base 4:15.08.0
  _ZTVN6Marble22ReverseGeocodingRunnerE@Base 4:15.08.0
  _ZTVN6Marble22TextureMapperInterfaceE@Base 4:15.08.0
@@ -12563,8 +12434,8 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZTVN6Marble23KmlNetworkLinkTagWriterE@Base 4:15.08.0
  _ZTVN6Marble23KmlSimpleFieldTagWriterE@Base 4:15.08.0
  _ZTVN6Marble23MarbleAbstractPresenterE@Base 4:15.08.0
- _ZTVN6Marble23MarbleQuickInputHandlerE@Base 4:15.08.0
  _ZTVN6Marble23NewBookmarkFolderDialogE@Base 4:15.08.0
+ _ZTVN6Marble23OsmRelationEditorDialogE@Base 4:15.11.80+git20150924.0815
  _ZTVN6Marble23PlaybackTourControlItemE@Base 4:15.08.0
  _ZTVN6Marble23StereographicProjectionE@Base 4:15.08.0
  _ZTVN6Marble24FileStorageWatcherThreadE@Base 4:15.08.0
@@ -12575,11 +12446,12 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZTVN6Marble24KmlExtendedDataTagWriterE@Base 4:15.08.0
  _ZTVN6Marble24MarbleGraphicsGridLayoutE@Base 4:15.08.0
  _ZTVN6Marble24MarbleWidgetInputHandlerE@Base 4:15.08.0
- _ZTVN6Marble24QuickItemSelectionRubberE@Base 4:15.08.0
+ _ZTVN6Marble24OsmRelationManagerWidgetE@Base 4:15.11.80+git20150924.0815
  _ZTVN6Marble24TileScalingTextureMapperE@Base 4:15.08.0
  _ZTVN6Marble25AbstractProjectionPrivateE@Base 4:15.08.0
  _ZTVN6Marble25GeoDataNetworkLinkControlE@Base 4:15.08.0
  _ZTVN6Marble25GeoLineStringGraphicsItemE@Base 4:15.08.0
+ _ZTVN6Marble25GeoSceneVectorTileDatasetE@Base 4:15.11.80+git20150924.0815
  _ZTVN6Marble25GnomonicProjectionPrivateE@Base 4:15.08.0
  _ZTVN6Marble25KmlMultiGeometryTagWriterE@Base 4:15.08.0
  _ZTVN6Marble25MarbleDefaultInputHandlerE@Base 4:15.08.0
@@ -12587,6 +12459,7 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZTVN6Marble25ScreenGraphicsItemPrivateE@Base 4:15.08.0
  _ZTVN6Marble25ScreenOverlayGraphicsItemE@Base 4:15.08.0
  _ZTVN6Marble26AzimuthalProjectionPrivateE@Base 4:15.08.0
+ _ZTVN6Marble26GeoSceneTextureTileDatasetE@Base 4:15.11.80+git20150924.0815
  _ZTVN6Marble26IndependentChannelBlendingE@Base 4:15.08.0
  _ZTVN6Marble26KmlAnimatedUpdateTagWriterE@Base 4:15.08.0
  _ZTVN6Marble26LambertAzimuthalProjectionE@Base 4:15.08.0
@@ -12625,10 +12498,12 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZTVN6Marble3kml14KmlxTagHandlerE@Base 4:15.08.0
  _ZTVN6Marble3kml14KmlyTagHandlerE@Base 4:15.08.0
  _ZTVN6Marble3kml14KmlzTagHandlerE@Base 4:15.08.0
+ _ZTVN6Marble3kml15KmlndTagHandlerE@Base 4:15.11.80+git20150924.0815
  _ZTVN6Marble3kml16KmlLodTagHandlerE@Base 4:15.08.0
  _ZTVN6Marble3kml16KmlendTagHandlerE@Base 4:15.08.0
  _ZTVN6Marble3kml16KmlkeyTagHandlerE@Base 4:15.08.0
  _ZTVN6Marble3kml16KmlpopTagHandlerE@Base 4:15.08.0
+ _ZTVN6Marble3kml16KmltagTagHandlerE@Base 4:15.11.80+git20150924.0815
  _ZTVN6Marble3kml17KmlDataTagHandlerE@Base 4:15.08.0
  _ZTVN6Marble3kml17KmlIconTagHandlerE@Base 4:15.08.0
  _ZTVN6Marble3kml17KmlLinkTagHandlerE@Base 4:15.08.0
@@ -12676,6 +12551,7 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZTVN6Marble3kml19KmlSchemaTagHandlerE@Base 4:15.08.0
  _ZTVN6Marble3kml19KmlUpdateTagHandlerE@Base 4:15.08.0
  _ZTVN6Marble3kml19KmlcookieTagHandlerE@Base 4:15.08.0
+ _ZTVN6Marble3kml19KmlmemberTagHandlerE@Base 4:15.11.80+git20150924.0815
  _ZTVN6Marble3kml19KmltopFovTagHandlerE@Base 4:15.08.0
  _ZTVN6Marble3kml20KmlPolygonTagHandlerE@Base 4:15.08.0
  _ZTVN6Marble3kml20KmlSnippetTagHandlerE@Base 4:15.08.0
@@ -12776,6 +12652,7 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZTVN6Marble3kml28KmlrefreshIntervalTagHandlerE@Base 4:15.08.0
  _ZTVN6Marble3kml28KmlviewRefreshModeTagHandlerE@Base 4:15.08.0
  _ZTVN6Marble3kml28KmlviewRefreshTimeTagHandlerE@Base 4:15.08.0
+ _ZTVN6Marble3kml29KmlOsmPlacemarkDataTagHandlerE@Base 4:15.11.80+git20150924.0815
  _ZTVN6Marble3kml29KmlmaxSessionLengthTagHandlerE@Base 4:15.08.0
  _ZTVN6Marble3kml29KmlminRefreshPeriodTagHandlerE@Base 4:15.08.0
  _ZTVN6Marble3kml2gx21KmlTimeSpanTagHandlerE@Base 4:15.08.0
@@ -13395,6 +13272,18 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZZZN28Ui_MarbleCacheSettingsWidget7setupUiEP7QWidgetENKUlvE8_clEvE15qstring_literal@Base 4:15.08.0
  _ZZZN28Ui_MarbleCacheSettingsWidget7setupUiEP7QWidgetENKUlvE9_clEvE15qstring_literal@Base 4:15.08.0
  _ZZZN28Ui_MarbleCacheSettingsWidget7setupUiEP7QWidgetENKUlvE_clEvE15qstring_literal@Base 4:15.08.0
+ _ZZZN28Ui_OsmTagEditorWidgetPrivate7setupUiEP7QWidgetENKUlvE0_clEvE15qstring_literal@Base 4:15.11.80+git20150924.0815
+ _ZZZN28Ui_OsmTagEditorWidgetPrivate7setupUiEP7QWidgetENKUlvE10_clEvE15qstring_literal@Base 4:15.11.80+git20150924.0815
+ _ZZZN28Ui_OsmTagEditorWidgetPrivate7setupUiEP7QWidgetENKUlvE1_clEvE15qstring_literal@Base 4:15.11.80+git20150924.0815
+ _ZZZN28Ui_OsmTagEditorWidgetPrivate7setupUiEP7QWidgetENKUlvE2_clEvE15qstring_literal@Base 4:15.11.80+git20150924.0815
+ _ZZZN28Ui_OsmTagEditorWidgetPrivate7setupUiEP7QWidgetENKUlvE3_clEvE15qstring_literal@Base 4:15.11.80+git20150924.0815
+ _ZZZN28Ui_OsmTagEditorWidgetPrivate7setupUiEP7QWidgetENKUlvE4_clEvE15qstring_literal@Base 4:15.11.80+git20150924.0815
+ _ZZZN28Ui_OsmTagEditorWidgetPrivate7setupUiEP7QWidgetENKUlvE5_clEvE15qstring_literal@Base 4:15.11.80+git20150924.0815
+ _ZZZN28Ui_OsmTagEditorWidgetPrivate7setupUiEP7QWidgetENKUlvE6_clEvE15qstring_literal@Base 4:15.11.80+git20150924.0815
+ _ZZZN28Ui_OsmTagEditorWidgetPrivate7setupUiEP7QWidgetENKUlvE7_clEvE15qstring_literal@Base 4:15.11.80+git20150924.0815
+ _ZZZN28Ui_OsmTagEditorWidgetPrivate7setupUiEP7QWidgetENKUlvE8_clEvE15qstring_literal@Base 4:15.11.80+git20150924.0815
+ _ZZZN28Ui_OsmTagEditorWidgetPrivate7setupUiEP7QWidgetENKUlvE9_clEvE15qstring_literal@Base 4:15.11.80+git20150924.0815
+ _ZZZN28Ui_OsmTagEditorWidgetPrivate7setupUiEP7QWidgetENKUlvE_clEvE15qstring_literal@Base 4:15.11.80+git20150924.0815
  _ZZZN28Ui_UiNewBookmarkFolderDialog7setupUiEP7QDialogENKUlvE0_clEvE15qstring_literal@Base 4:15.08.0
  _ZZZN28Ui_UiNewBookmarkFolderDialog7setupUiEP7QDialogENKUlvE1_clEvE15qstring_literal@Base 4:15.08.0
  _ZZZN28Ui_UiNewBookmarkFolderDialog7setupUiEP7QDialogENKUlvE2_clEvE15qstring_literal@Base 4:15.08.0
@@ -13483,6 +13372,16 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZZZN33Ui_MarbleNavigationSettingsWidget7setupUiEP7QWidgetENKUlvE8_clEvE15qstring_literal@Base 4:15.08.0
  _ZZZN33Ui_MarbleNavigationSettingsWidget7setupUiEP7QWidgetENKUlvE9_clEvE15qstring_literal@Base 4:15.08.0
  _ZZZN33Ui_MarbleNavigationSettingsWidget7setupUiEP7QWidgetENKUlvE_clEvE15qstring_literal@Base 4:15.08.0
+ _ZZZN34Ui_OsmRelationManagerWidgetPrivate7setupUiEP7QWidgetENKUlvE0_clEvE15qstring_literal@Base 4:15.11.80+git20150924.0815
+ _ZZZN34Ui_OsmRelationManagerWidgetPrivate7setupUiEP7QWidgetENKUlvE1_clEvE15qstring_literal@Base 4:15.11.80+git20150924.0815
+ _ZZZN34Ui_OsmRelationManagerWidgetPrivate7setupUiEP7QWidgetENKUlvE2_clEvE15qstring_literal@Base 4:15.11.80+git20150924.0815
+ _ZZZN34Ui_OsmRelationManagerWidgetPrivate7setupUiEP7QWidgetENKUlvE3_clEvE15qstring_literal@Base 4:15.11.80+git20150924.0815
+ _ZZZN34Ui_OsmRelationManagerWidgetPrivate7setupUiEP7QWidgetENKUlvE4_clEvE15qstring_literal@Base 4:15.11.80+git20150924.0815
+ _ZZZN34Ui_OsmRelationManagerWidgetPrivate7setupUiEP7QWidgetENKUlvE5_clEvE15qstring_literal@Base 4:15.11.80+git20150924.0815
+ _ZZZN34Ui_OsmRelationManagerWidgetPrivate7setupUiEP7QWidgetENKUlvE_clEvE15qstring_literal@Base 4:15.11.80+git20150924.0815
+ _ZZZN6Marble10GeoPainter12drawPolylineERKNS_17GeoDataLineStringERK7QString6QFlagsINS_17LabelPositionFlagEERK6QColorRK5QFontEd_NKUlvE_clEvE15qstring_literal@Base 4:15.11.80+git20150924.0815
+ _ZZZN6Marble21GeoDataFeaturePrivate11createStyleEddRK6QColorS3_bbN2Qt10BrushStyleENS4_8PenStyleENS4_11PenCapStyleEbRK7QVectorIdERK5QFontS3_RK7QStringEd1_NKUlvE_clEvE15qstring_literal@Base 4:15.11.80+git20150924.0815
+ _ZZZN6Marble24GeoDataLabelStylePrivateC4EvENKUlvE_clEvE15qstring_literal@Base 4:15.11.80+git20150924.0815
  _ZZZN7Ui_GoTo7setupUiEP7QDialogENKUlvE0_clEvE15qstring_literal@Base 4:15.08.0
  _ZZZN7Ui_GoTo7setupUiEP7QDialogENKUlvE1_clEvE15qstring_literal@Base 4:15.08.0
  _ZZZN7Ui_GoTo7setupUiEP7QDialogENKUlvE2_clEvE15qstring_literal@Base 4:15.08.0
@@ -13688,13 +13587,13 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  (c++)"non-virtual thunk to Marble::MarbleLineEdit::~MarbleLineEdit()@Base" 4:15.08.0
  (c++)"non-virtual thunk to Marble::MarbleNavigator::~MarbleNavigator()@Base" 4:15.08.0
  (c++)"non-virtual thunk to Marble::MarblePluginSettingsWidget::~MarblePluginSettingsWidget()@Base" 4:15.08.0
- (c++)"non-virtual thunk to Marble::MarbleQuickItem::classBegin()@Base" 4:15.08.0
- (c++)"non-virtual thunk to Marble::MarbleQuickItem::componentComplete()@Base" 4:15.08.0
- (c++)"non-virtual thunk to Marble::MarbleQuickItem::~MarbleQuickItem()@Base" 4:15.08.0
  (c++)"non-virtual thunk to Marble::MarbleWidget::~MarbleWidget()@Base" 4:15.08.0
  (c++)"non-virtual thunk to Marble::MovieCaptureDialog::~MovieCaptureDialog()@Base" 4:15.08.0
  (c++)"non-virtual thunk to Marble::NavigationWidget::~NavigationWidget()@Base" 4:15.08.0
  (c++)"non-virtual thunk to Marble::NewBookmarkFolderDialog::~NewBookmarkFolderDialog()@Base" 4:15.08.0
+ (c++)"non-virtual thunk to Marble::OsmRelationEditorDialog::~OsmRelationEditorDialog()@Base" 4:15.11.80+git20150924.0815
+ (c++)"non-virtual thunk to Marble::OsmRelationManagerWidget::~OsmRelationManagerWidget()@Base" 4:15.11.80+git20150924.0815
+ (c++)"non-virtual thunk to Marble::OsmTagEditorWidget::~OsmTagEditorWidget()@Base" 4:15.11.80+git20150924.0815
  (c++)"non-virtual thunk to Marble::ParseRunnerPlugin::icon() const@Base" 4:15.08.0
  (c++)"non-virtual thunk to Marble::ParseRunnerPlugin::~ParseRunnerPlugin()@Base" 4:15.08.0
  (c++)"non-virtual thunk to Marble::ParsingTask::run()@Base" 4:15.08.0
@@ -13766,6 +13665,7 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  (c++)"non-virtual thunk to Marble::RoutingLayer::render(Marble::GeoPainter*, Marble::ViewportParams*, QString const&, Marble::GeoSceneLayer*)@Base" 4:15.08.0
  (c++)"non-virtual thunk to Marble::RoutingLayer::renderPosition() const@Base" 4:15.08.0
  (c++)"non-virtual thunk to Marble::RoutingLayer::renderState() const@Base" 4:15.08.0
+ (c++)"non-virtual thunk to Marble::RoutingLayer::runtimeTrace() const@Base" 4:15.11.80+git20150924.0815
  (c++)"non-virtual thunk to Marble::RoutingLayer::zValue() const@Base" 4:15.08.0
  (c++)"non-virtual thunk to Marble::RoutingLayer::~RoutingLayer()@Base" 4:15.08.0
  (c++)"non-virtual thunk to Marble::RoutingProfileSettingsDialog::~RoutingProfileSettingsDialog()@Base" 4:15.08.0
@@ -13802,6 +13702,7 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  (c++)"non-virtual thunk to Marble::VectorTileLayer::render(Marble::GeoPainter*, Marble::ViewportParams*, QString const&, Marble::GeoSceneLayer*)@Base" 4:15.08.0
  (c++)"non-virtual thunk to Marble::VectorTileLayer::renderPosition() const@Base" 4:15.08.0
  (c++)"non-virtual thunk to Marble::VectorTileLayer::renderState() const@Base" 4:15.08.0
+ (c++)"non-virtual thunk to Marble::VectorTileLayer::runtimeTrace() const@Base" 4:15.11.80+git20150924.0815
  (c++)"non-virtual thunk to Marble::VectorTileLayer::~VectorTileLayer()@Base" 4:15.08.0
  (c++)"non-virtual thunk to Marble::WaitEditWidget::~WaitEditWidget()@Base" 4:15.08.0
  (c++)"non-virtual thunk to MarbleWebView::~MarbleWebView()@Base" 4:15.08.0
