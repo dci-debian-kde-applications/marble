@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:15.11.80+git20150924.0815 amd64 i386
+# SymbolsHelper-Confirmed: 4:15.11.80+git20150926.0314+15.10 amd64 i386
 libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  (optional=templinst)_Z17qRegisterMetaTypeIN6Marble13DownloadUsageEEiPKcPT_N9QtPrivate21MetaTypeDefinedHelperIS4_Xaasr12QMetaTypeId2IS4_E7DefinedntsrS9_9IsBuiltInEE11DefinedTypeE@Base 4:15.08.0
  (optional=templinst)_Z17qRegisterMetaTypeIN6Marble18GeoDataCoordinatesEEiPKcPT_N9QtPrivate21MetaTypeDefinedHelperIS4_Xaasr12QMetaTypeId2IS4_E7DefinedntsrS9_9IsBuiltInEE11DefinedTypeE@Base 4:15.08.0
@@ -13177,6 +13177,8 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZZZN24Ui_UiEditPlacemarkDialog7setupUiEP7QDialogENKUlvE32_clEvE15qstring_literal@Base 4:15.08.0
  _ZZZN24Ui_UiEditPlacemarkDialog7setupUiEP7QDialogENKUlvE33_clEvE15qstring_literal@Base 4:15.08.0
  _ZZZN24Ui_UiEditPlacemarkDialog7setupUiEP7QDialogENKUlvE34_clEvE15qstring_literal@Base 4:15.08.0
+ _ZZZN24Ui_UiEditPlacemarkDialog7setupUiEP7QDialogENKUlvE35_clEvE15qstring_literal@Base 4:15.11.80+git20150926.0314+15.10
+ _ZZZN24Ui_UiEditPlacemarkDialog7setupUiEP7QDialogENKUlvE36_clEvE15qstring_literal@Base 4:15.11.80+git20150926.0314+15.10
  _ZZZN24Ui_UiEditPlacemarkDialog7setupUiEP7QDialogENKUlvE3_clEvE15qstring_literal@Base 4:15.08.0
  _ZZZN24Ui_UiEditPlacemarkDialog7setupUiEP7QDialogENKUlvE4_clEvE15qstring_literal@Base 4:15.08.0
  _ZZZN24Ui_UiEditPlacemarkDialog7setupUiEP7QDialogENKUlvE5_clEvE15qstring_literal@Base 4:15.08.0
