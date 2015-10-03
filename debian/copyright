@@ -5,7 +5,7 @@ Comment: This package was developed for Ubuntu by the Kubuntu Developers and
  modified to be included in Debian. See below the copyright holders for debian/*
  files.
 Files-Excluded: data/maps/earth/openstreetmap/openstreetmap.dgml
-                data/maps/earth/temp-july/temp-july.dgml
+                data/maps/earth/vectorosm/vectorosm.dgml
 
 Files: *
 Copyright: 2012, Ander Pijoan <ander.pijoan@deusto.es>
