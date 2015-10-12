@@ -1,6 +1,2 @@
 version=3
-version=3
-opts="repacksuffix=+dfsg" \
- http://download.kde.org/stable/applications/([\d.]+)/src/marble-([\d.]+).tar.xz
-opts="repacksuffix=+dfsg" \
- http://download.kde.org/unstable/applications/([\d.]+)/src/marble-([\d.]+).tar.xz
+http://download.kde.org/stable/applications/([\d.]+)/src/marble-([\d.]+).tar.xz
