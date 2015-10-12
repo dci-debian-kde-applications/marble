@@ -2,6 +2,9 @@ marble (4:15.08.2-1~) UNRELEASED; urgency=medium
 
   * New upstream release (15.08.2).
   * New upstream patch: upstream_clarify_license_of_the_dgml_files.diff
+  * Drop patch: debian-avoid_installing_pruned_files.patch
+  * Remove the excluded files rule. (Closes: #799382) Thanks to Torsten
+    Rahn
 
  -- Maximiliano Curia <maxy@debian.org>  Mon, 12 Oct 2015 17:31:36 +0200
 
