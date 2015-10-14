@@ -6,6 +6,7 @@ marble (4:15.08.2-1~) UNRELEASED; urgency=medium
   * Remove the excluded files rule. (Closes: #799382) Thanks to Torsten
     Rahn
   * Refresh patches.
+  * Update install files.
 
  -- Maximiliano Curia <maxy@debian.org>  Mon, 12 Oct 2015 17:31:36 +0200
 
