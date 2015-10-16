@@ -7,6 +7,7 @@ marble (4:15.08.2-1~) UNRELEASED; urgency=medium
     Rahn
   * Refresh patches.
   * Update install files.
+  * Update symbols files from buildds logs (4:15.08.1+dfsg-2).
 
  -- Maximiliano Curia <maxy@debian.org>  Mon, 12 Oct 2015 17:31:36 +0200
 
