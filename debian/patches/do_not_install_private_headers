@@ -2,7 +2,7 @@ Index: marble/src/lib/marble/CMakeLists.txt
 ===================================================================
 --- marble.orig/src/lib/marble/CMakeLists.txt
 +++ marble/src/lib/marble/CMakeLists.txt
-@@ -495,7 +495,6 @@ install( FILES
+@@ -469,7 +469,6 @@ install( FILES
      MarbleInputHandler.h
      MarbleWidgetInputHandler.h
      MarbleWidgetPopupMenu.h
@@ -10,7 +10,7 @@ Index: marble/src/lib/marble/CMakeLists.txt
      TileCoordsPyramid.h
      TileLevelRangeWidget.h
      QtMarbleConfigDialog.h
-@@ -577,10 +576,8 @@ install( FILES
+@@ -551,10 +550,8 @@ install( FILES
      ParsingRunner.h
      SearchRunner.h
      ReverseGeocodingRunner.h
