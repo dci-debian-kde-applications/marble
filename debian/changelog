@@ -1,6 +1,10 @@
 marble (4:15.11.80-0ubuntu1) UNRELEASED; urgency=medium
 
+  [ Jonathan Riddell ]
   * Build with MARBLE_INSTALL_ANDROID_APPS
+
+  [ Scarlett Clark ]
+  * Refresh fix_qmake_fallback.diff patch. 
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 14 Sep 2015 13:20:57 +0100
 
