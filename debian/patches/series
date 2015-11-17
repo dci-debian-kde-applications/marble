@@ -1,4 +1,3 @@
 fix_qmake_fallback.diff
 do_not_install_private_headers
 kubuntu_disable-MarbleRunnerManagerTest.diff
-upstream_clarify_license_of_the_dgml_files.diff
