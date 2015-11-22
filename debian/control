@@ -28,6 +28,7 @@ Build-Depends: cmake,
                qtdeclarative5-dev,
                qtlocation5-dev,
                qtpositioning5-dev,
+               qtscript5-dev,
                qttools5-dev,
                shared-mime-info
 Standards-Version: 3.9.6
