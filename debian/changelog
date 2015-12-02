@@ -1,10 +1,10 @@
-marble (4:15.08.3-1~) UNRELEASED; urgency=medium
+marble (4:15.08.3-1) unstable; urgency=medium
 
   * New upstream release (15.08.3).
   * Drop upstream patch: upstream_clarify_license_of_the_dgml_files.dif
   * Update symbols files.
 
- -- Maximiliano Curia <maxy@debian.org>  Mon, 09 Nov 2015 09:41:22 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 02 Dec 2015 12:39:40 +0100
 
 marble (4:15.08.2-1) unstable; urgency=medium
 
