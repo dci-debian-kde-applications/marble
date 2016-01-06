@@ -1,5 +1,6 @@
-# SymbolsHelper-Confirmed: 4:15.11.80+git20150926.0314+15.10 amd64 i386
+# SymbolsHelper-Confirmed: 4:15.12.0 amd64 i386
 libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
+ (optional=templinst)_Z17qRegisterMetaTypeIN13QNetworkReply12NetworkErrorEEiPKcPT_N9QtPrivate21MetaTypeDefinedHelperIS4_Xaasr12QMetaTypeId2IS4_E7DefinedntsrS9_9IsBuiltInEE11DefinedTypeE@Base 4:15.12.0
  (optional=templinst)_Z17qRegisterMetaTypeIN6Marble13DownloadUsageEEiPKcPT_N9QtPrivate21MetaTypeDefinedHelperIS4_Xaasr12QMetaTypeId2IS4_E7DefinedntsrS9_9IsBuiltInEE11DefinedTypeE@Base 4:15.08.0
  (optional=templinst)_Z17qRegisterMetaTypeIN6Marble18GeoDataCoordinatesEEiPKcPT_N9QtPrivate21MetaTypeDefinedHelperIS4_Xaasr12QMetaTypeId2IS4_E7DefinedntsrS9_9IsBuiltInEE11DefinedTypeE@Base 4:15.08.0
  (optional=templinst|arch=!ppc64el)_Z17qRegisterMetaTypeIPN6Marble13GeoDataFolderEEiPKcPT_N9QtPrivate21MetaTypeDefinedHelperIS5_Xaasr12QMetaTypeId2IS5_E7DefinedntsrSA_9IsBuiltInEE11DefinedTypeE@Base 4:15.08.0
@@ -65,11 +66,14 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  (optional=templinst)_ZN14QFutureWatcherIvED0Ev@Base 4:15.08.0
  (optional=templinst)_ZN14QFutureWatcherIvED1Ev@Base 4:15.08.0
  (optional=templinst)_ZN14QFutureWatcherIvED2Ev@Base 4:15.08.0
+ (optional=templinst)_ZN14QSharedPointerIKN6Marble12GeoDataStyleEE5derefEPN15QtSharedPointer20ExternalRefCountDataE@Base 4:15.12.0
  (optional=templinst)_ZN14QSharedPointerIN6Marble11TextureTileEE5derefEPN15QtSharedPointer20ExternalRefCountDataE@Base 4:15.08.0
+ (optional=templinst)_ZN14QSharedPointerIN6Marble12GeoDataStyleEE5derefEPN15QtSharedPointer20ExternalRefCountDataE@Base 4:15.12.0
  (optional=templinst)_ZN14QSharedPointerIN6Marble15VectorTileModel13CacheDocumentEE5derefEPN15QtSharedPointer20ExternalRefCountDataE@Base 4:15.11.80+git20150924.0815
  (optional=templinst)_ZN14QSharedPointerIN6Marble16GeoSceneDocumentEE5derefEPN15QtSharedPointer20ExternalRefCountDataE@Base 4:15.08.0
  (optional=templinst|arch=!amd64 !i386)_ZN14QSharedPointerIN6Marble22MarbleQuickItemPrivateEE5derefEPN15QtSharedPointer20ExternalRefCountDataE@Base 4:15.08.0
  (optional=templinst)_ZN15QtSharedPointer33ExternalRefCountWithCustomDeleterIN6Marble11TextureTileENS_13NormalDeleterEE7deleterEPNS_20ExternalRefCountDataE@Base 4:15.08.0
+ (optional=templinst)_ZN15QtSharedPointer33ExternalRefCountWithCustomDeleterIN6Marble12GeoDataStyleENS_13NormalDeleterEE7deleterEPNS_20ExternalRefCountDataE@Base 4:15.12.0
  (optional=templinst)_ZN15QtSharedPointer33ExternalRefCountWithCustomDeleterIN6Marble15VectorTileModel13CacheDocumentENS_13NormalDeleterEE7deleterEPNS_20ExternalRefCountDataE@Base 4:15.11.80+git20150924.0815
  (optional=templinst)_ZN15QtSharedPointer33ExternalRefCountWithCustomDeleterIN6Marble16GeoSceneDocumentENS_13NormalDeleterEE7deleterEPNS_20ExternalRefCountDataE@Base 4:15.08.0
  (optional=templinst)_ZN15QtSharedPointer33ExternalRefCountWithCustomDeleterIN6Marble31MarbleWidgetInputHandlerPrivateENS_13NormalDeleterEE7deleterEPNS_20ExternalRefCountDataE@Base 4:15.08.0
@@ -89,96 +93,96 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  (optional=templinst)_ZN17QtMetaTypePrivate19IteratorOwnerCommonIN5QListIdE14const_iteratorEE6assignEPPvPKS5_@Base 4:15.08.0
  (optional=templinst)_ZN17QtMetaTypePrivate19IteratorOwnerCommonIN5QListIdE14const_iteratorEE7advanceEPPvi@Base 4:15.08.0
  (optional=templinst)_ZN17QtMetaTypePrivate19IteratorOwnerCommonIN5QListIdE14const_iteratorEE7destroyEPPv@Base 4:15.08.0
- (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperI5QListIdELb1EE6CreateEPKv@Base 4:15.08.0
- (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperI5QListIdELb1EE6DeleteEPv@Base 4:15.08.0
+#MISSING: 4:15.12.0# (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperI5QListIdELb1EE6CreateEPKv@Base 4:15.08.0
+#MISSING: 4:15.12.0# (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperI5QListIdELb1EE6DeleteEPv@Base 4:15.08.0
  (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperI5QListIdELb1EE8DestructEPv@Base 4:15.08.0
  (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperI5QListIdELb1EE9ConstructEPvPKv@Base 4:15.08.0
- (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperI7QVectorIPN6Marble16GeoDataPlacemarkEELb1EE6CreateEPKv@Base 4:15.08.0
- (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperI7QVectorIPN6Marble16GeoDataPlacemarkEELb1EE6DeleteEPv@Base 4:15.08.0
+#MISSING: 4:15.12.0# (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperI7QVectorIPN6Marble16GeoDataPlacemarkEELb1EE6CreateEPKv@Base 4:15.08.0
+#MISSING: 4:15.12.0# (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperI7QVectorIPN6Marble16GeoDataPlacemarkEELb1EE6DeleteEPv@Base 4:15.08.0
  (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperI7QVectorIPN6Marble16GeoDataPlacemarkEELb1EE8DestructEPv@Base 4:15.08.0
  (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperI7QVectorIPN6Marble16GeoDataPlacemarkEELb1EE9ConstructEPvPKv@Base 4:15.08.0
- (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIN13QNetworkReply12NetworkErrorELb1EE6CreateEPKv@Base 4:15.08.0
- (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIN13QNetworkReply12NetworkErrorELb1EE6DeleteEPv@Base 4:15.08.0
+#MISSING: 4:15.12.0# (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIN13QNetworkReply12NetworkErrorELb1EE6CreateEPKv@Base 4:15.08.0
+#MISSING: 4:15.12.0# (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIN13QNetworkReply12NetworkErrorELb1EE6DeleteEPv@Base 4:15.08.0
  (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIN13QNetworkReply12NetworkErrorELb1EE8DestructEPv@Base 4:15.08.0
  (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIN13QNetworkReply12NetworkErrorELb1EE9ConstructEPvPKv@Base 4:15.08.0
- (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIN6Marble13DownloadUsageELb1EE6CreateEPKv@Base 4:15.08.0
- (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIN6Marble13DownloadUsageELb1EE6DeleteEPv@Base 4:15.08.0
+#MISSING: 4:15.12.0# (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIN6Marble13DownloadUsageELb1EE6CreateEPKv@Base 4:15.08.0
+#MISSING: 4:15.12.0# (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIN6Marble13DownloadUsageELb1EE6DeleteEPv@Base 4:15.08.0
  (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIN6Marble13DownloadUsageELb1EE8DestructEPv@Base 4:15.08.0
  (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIN6Marble13DownloadUsageELb1EE9ConstructEPvPKv@Base 4:15.08.0
- (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIN6Marble16GeoDataPlacemarkELb1EE6CreateEPKv@Base 4:15.08.0
- (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIN6Marble16GeoDataPlacemarkELb1EE6DeleteEPv@Base 4:15.08.0
+#MISSING: 4:15.12.0# (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIN6Marble16GeoDataPlacemarkELb1EE6CreateEPKv@Base 4:15.08.0
+#MISSING: 4:15.12.0# (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIN6Marble16GeoDataPlacemarkELb1EE6DeleteEPv@Base 4:15.08.0
  (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIN6Marble16GeoDataPlacemarkELb1EE8DestructEPv@Base 4:15.08.0
  (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIN6Marble16GeoDataPlacemarkELb1EE9ConstructEPvPKv@Base 4:15.08.0
- (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIN6Marble16OsmPlacemarkDataELb1EE6CreateEPKv@Base 4:15.08.0
- (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIN6Marble16OsmPlacemarkDataELb1EE6DeleteEPv@Base 4:15.08.0
+#MISSING: 4:15.12.0# (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIN6Marble16OsmPlacemarkDataELb1EE6CreateEPKv@Base 4:15.08.0
+#MISSING: 4:15.12.0# (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIN6Marble16OsmPlacemarkDataELb1EE6DeleteEPv@Base 4:15.08.0
  (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIN6Marble16OsmPlacemarkDataELb1EE8DestructEPv@Base 4:15.08.0
  (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIN6Marble16OsmPlacemarkDataELb1EE9ConstructEPvPKv@Base 4:15.08.0
- (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIN6Marble18GeoDataCoordinatesELb1EE6CreateEPKv@Base 4:15.08.0
- (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIN6Marble18GeoDataCoordinatesELb1EE6DeleteEPv@Base 4:15.08.0
+#MISSING: 4:15.12.0# (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIN6Marble18GeoDataCoordinatesELb1EE6CreateEPKv@Base 4:15.08.0
+#MISSING: 4:15.12.0# (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIN6Marble18GeoDataCoordinatesELb1EE6DeleteEPv@Base 4:15.08.0
  (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIN6Marble18GeoDataCoordinatesELb1EE8DestructEPv@Base 4:15.08.0
  (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIN6Marble18GeoDataCoordinatesELb1EE9ConstructEPvPKv@Base 4:15.08.0
- (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIN6Marble6TileIdELb1EE6CreateEPKv@Base 4:15.08.0
- (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIN6Marble6TileIdELb1EE6DeleteEPv@Base 4:15.08.0
+#MISSING: 4:15.12.0# (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIN6Marble6TileIdELb1EE6CreateEPKv@Base 4:15.08.0
+#MISSING: 4:15.12.0# (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIN6Marble6TileIdELb1EE6DeleteEPv@Base 4:15.08.0
  (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIN6Marble6TileIdELb1EE8DestructEPv@Base 4:15.08.0
  (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIN6Marble6TileIdELb1EE9ConstructEPvPKv@Base 4:15.08.0
- (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperINS_23QSequentialIterableImplELb1EE6CreateEPKv@Base 4:15.08.0
- (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperINS_23QSequentialIterableImplELb1EE6DeleteEPv@Base 4:15.08.0
+#MISSING: 4:15.12.0# (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperINS_23QSequentialIterableImplELb1EE6CreateEPKv@Base 4:15.08.0
+#MISSING: 4:15.12.0# (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperINS_23QSequentialIterableImplELb1EE6DeleteEPv@Base 4:15.08.0
  (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperINS_23QSequentialIterableImplELb1EE8DestructEPv@Base 4:15.08.0
  (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperINS_23QSequentialIterableImplELb1EE9ConstructEPvPKv@Base 4:15.08.0
- (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIP13QNetworkReplyLb1EE6CreateEPKv@Base 4:15.08.0
- (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIP13QNetworkReplyLb1EE6DeleteEPv@Base 4:15.08.0
+#MISSING: 4:15.12.0# (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIP13QNetworkReplyLb1EE6CreateEPKv@Base 4:15.08.0
+#MISSING: 4:15.12.0# (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIP13QNetworkReplyLb1EE6DeleteEPv@Base 4:15.08.0
  (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIP13QNetworkReplyLb1EE8DestructEPv@Base 4:15.08.0
  (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIP13QNetworkReplyLb1EE9ConstructEPvPKv@Base 4:15.08.0
- (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIPKN6Marble12GeoDataStyleELb1EE6CreateEPKv@Base 4:15.08.0
- (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIPKN6Marble12GeoDataStyleELb1EE6DeleteEPv@Base 4:15.08.0
+#MISSING: 4:15.12.0# (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIPKN6Marble12GeoDataStyleELb1EE6CreateEPKv@Base 4:15.08.0
+#MISSING: 4:15.12.0# (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIPKN6Marble12GeoDataStyleELb1EE6DeleteEPv@Base 4:15.08.0
  (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIPKN6Marble12GeoDataStyleELb1EE8DestructEPv@Base 4:15.08.0
  (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIPKN6Marble12GeoDataStyleELb1EE9ConstructEPvPKv@Base 4:15.08.0
- (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIPN6Marble10FileLoaderELb1EE6CreateEPKv@Base 4:15.08.0
- (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIPN6Marble10FileLoaderELb1EE6DeleteEPv@Base 4:15.08.0
+#MISSING: 4:15.12.0# (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIPN6Marble10FileLoaderELb1EE6CreateEPKv@Base 4:15.08.0
+#MISSING: 4:15.12.0# (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIPN6Marble10FileLoaderELb1EE6DeleteEPv@Base 4:15.08.0
  (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIPN6Marble10FileLoaderELb1EE8DestructEPv@Base 4:15.08.0
  (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIPN6Marble10FileLoaderELb1EE9ConstructEPvPKv@Base 4:15.08.0
- (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIPN6Marble10SearchTaskELb1EE6CreateEPKv@Base 4:15.08.0
- (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIPN6Marble10SearchTaskELb1EE6DeleteEPv@Base 4:15.08.0
+#MISSING: 4:15.12.0# (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIPN6Marble10SearchTaskELb1EE6CreateEPKv@Base 4:15.08.0
+#MISSING: 4:15.12.0# (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIPN6Marble10SearchTaskELb1EE6DeleteEPv@Base 4:15.08.0
  (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIPN6Marble10SearchTaskELb1EE8DestructEPv@Base 4:15.08.0
  (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIPN6Marble10SearchTaskELb1EE9ConstructEPvPKv@Base 4:15.08.0
- (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIPN6Marble11ParsingTaskELb1EE6CreateEPKv@Base 4:15.08.0
- (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIPN6Marble11ParsingTaskELb1EE6DeleteEPv@Base 4:15.08.0
+#MISSING: 4:15.12.0# (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIPN6Marble11ParsingTaskELb1EE6CreateEPKv@Base 4:15.08.0
+#MISSING: 4:15.12.0# (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIPN6Marble11ParsingTaskELb1EE6DeleteEPv@Base 4:15.08.0
  (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIPN6Marble11ParsingTaskELb1EE8DestructEPv@Base 4:15.08.0
  (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIPN6Marble11ParsingTaskELb1EE9ConstructEPvPKv@Base 4:15.08.0
- (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIPN6Marble11RoutingTaskELb1EE6CreateEPKv@Base 4:15.08.0
- (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIPN6Marble11RoutingTaskELb1EE6DeleteEPv@Base 4:15.08.0
+#MISSING: 4:15.12.0# (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIPN6Marble11RoutingTaskELb1EE6CreateEPKv@Base 4:15.08.0
+#MISSING: 4:15.12.0# (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIPN6Marble11RoutingTaskELb1EE6DeleteEPv@Base 4:15.08.0
  (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIPN6Marble11RoutingTaskELb1EE8DestructEPv@Base 4:15.08.0
  (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIPN6Marble11RoutingTaskELb1EE9ConstructEPvPKv@Base 4:15.08.0
- (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIPN6Marble13GeoDataFolderELb1EE6CreateEPKv@Base 4:15.08.0
- (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIPN6Marble13GeoDataFolderELb1EE6DeleteEPv@Base 4:15.08.0
+#MISSING: 4:15.12.0# (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIPN6Marble13GeoDataFolderELb1EE6CreateEPKv@Base 4:15.08.0
+#MISSING: 4:15.12.0# (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIPN6Marble13GeoDataFolderELb1EE6DeleteEPv@Base 4:15.08.0
  (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIPN6Marble13GeoDataFolderELb1EE8DestructEPv@Base 4:15.08.0
  (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIPN6Marble13GeoDataFolderELb1EE9ConstructEPvPKv@Base 4:15.08.0
- (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIPN6Marble13GeoDataObjectELb1EE6CreateEPKv@Base 4:15.08.0
- (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIPN6Marble13GeoDataObjectELb1EE6DeleteEPv@Base 4:15.08.0
+#MISSING: 4:15.12.0# (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIPN6Marble13GeoDataObjectELb1EE6CreateEPKv@Base 4:15.08.0
+#MISSING: 4:15.12.0# (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIPN6Marble13GeoDataObjectELb1EE6DeleteEPv@Base 4:15.08.0
  (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIPN6Marble13GeoDataObjectELb1EE8DestructEPv@Base 4:15.08.0
  (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIPN6Marble13GeoDataObjectELb1EE9ConstructEPvPKv@Base 4:15.08.0
- (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIPN6Marble15GeoDataDocumentELb1EE6CreateEPKv@Base 4:15.08.0
- (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIPN6Marble15GeoDataDocumentELb1EE6DeleteEPv@Base 4:15.08.0
+#MISSING: 4:15.12.0# (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIPN6Marble15GeoDataDocumentELb1EE6CreateEPKv@Base 4:15.08.0
+#MISSING: 4:15.12.0# (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIPN6Marble15GeoDataDocumentELb1EE6DeleteEPv@Base 4:15.08.0
  (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIPN6Marble15GeoDataDocumentELb1EE8DestructEPv@Base 4:15.08.0
  (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIPN6Marble15GeoDataDocumentELb1EE9ConstructEPvPKv@Base 4:15.08.0
- (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIPN6Marble15GeoDataGeometryELb1EE6CreateEPKv@Base 4:15.08.0
- (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIPN6Marble15GeoDataGeometryELb1EE6DeleteEPv@Base 4:15.08.0
+#MISSING: 4:15.12.0# (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIPN6Marble15GeoDataGeometryELb1EE6CreateEPKv@Base 4:15.08.0
+#MISSING: 4:15.12.0# (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIPN6Marble15GeoDataGeometryELb1EE6DeleteEPv@Base 4:15.08.0
  (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIPN6Marble15GeoDataGeometryELb1EE8DestructEPv@Base 4:15.08.0
  (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIPN6Marble15GeoDataGeometryELb1EE9ConstructEPvPKv@Base 4:15.08.0
- (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIPN6Marble18RoutingInputWidgetELb1EE6CreateEPKv@Base 4:15.08.0
- (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIPN6Marble18RoutingInputWidgetELb1EE6DeleteEPv@Base 4:15.08.0
+#MISSING: 4:15.12.0# (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIPN6Marble18RoutingInputWidgetELb1EE6CreateEPKv@Base 4:15.08.0
+#MISSING: 4:15.12.0# (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIPN6Marble18RoutingInputWidgetELb1EE6DeleteEPv@Base 4:15.08.0
  (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIPN6Marble18RoutingInputWidgetELb1EE8DestructEPv@Base 4:15.08.0
  (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIPN6Marble18RoutingInputWidgetELb1EE9ConstructEPvPKv@Base 4:15.08.0
- (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIPN6Marble20ReverseGeocodingTaskELb1EE6CreateEPKv@Base 4:15.08.0
- (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIPN6Marble20ReverseGeocodingTaskELb1EE6DeleteEPv@Base 4:15.08.0
+#MISSING: 4:15.12.0# (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIPN6Marble20ReverseGeocodingTaskELb1EE6CreateEPKv@Base 4:15.08.0
+#MISSING: 4:15.12.0# (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIPN6Marble20ReverseGeocodingTaskELb1EE6DeleteEPv@Base 4:15.08.0
  (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIPN6Marble20ReverseGeocodingTaskELb1EE8DestructEPv@Base 4:15.08.0
  (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIPN6Marble20ReverseGeocodingTaskELb1EE9ConstructEPvPKv@Base 4:15.08.0
- (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIPN6Marble7HttpJobELb1EE6CreateEPKv@Base 4:15.08.0
- (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIPN6Marble7HttpJobELb1EE6DeleteEPv@Base 4:15.08.0
+#MISSING: 4:15.12.0# (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIPN6Marble7HttpJobELb1EE6CreateEPKv@Base 4:15.08.0
+#MISSING: 4:15.12.0# (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIPN6Marble7HttpJobELb1EE6DeleteEPv@Base 4:15.08.0
  (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIPN6Marble7HttpJobELb1EE8DestructEPv@Base 4:15.08.0
  (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIPN6Marble7HttpJobELb1EE9ConstructEPvPKv@Base 4:15.08.0
- (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIPN6Marble9MergeItemELb1EE6CreateEPKv@Base 4:15.08.0
- (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIPN6Marble9MergeItemELb1EE6DeleteEPv@Base 4:15.08.0
+#MISSING: 4:15.12.0# (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIPN6Marble9MergeItemELb1EE6CreateEPKv@Base 4:15.08.0
+#MISSING: 4:15.12.0# (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIPN6Marble9MergeItemELb1EE6DeleteEPv@Base 4:15.08.0
  (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIPN6Marble9MergeItemELb1EE8DestructEPv@Base 4:15.08.0
  (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIPN6Marble9MergeItemELb1EE9ConstructEPvPKv@Base 4:15.08.0
  (optional=templinst)_ZN17QtMetaTypePrivate23QSequentialIterableImpl13moveToEndImplI5QListIdEEEvPKvPPv@Base 4:15.08.0
@@ -191,13 +195,16 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  (optional=templinst)_ZN18QAlgorithmsPrivate11qSortHelperIN5QListI11QModelIndexE8iteratorES2_8qGreaterIS2_EEEvT_S7_RKT0_T1_@Base 4:15.08.0
  (optional=templinst|arch=!ppc64el)_ZN18QAlgorithmsPrivate11qSortHelperIN5QListI7QStringE8iteratorES2_PFbRKS2_S6_EEEvT_S9_RKT0_T1_@Base 4:15.08.0
  (optional=templinst|arch=!ppc64el)_ZN18QAlgorithmsPrivate11qSortHelperIN5QListIN6Marble17SpeakersModelItemEE8iteratorES3_PFbRKS3_S7_EEEvT_SA_RKT0_T1_@Base 4:15.08.0
- (optional=templinst)_ZN18QAlgorithmsPrivate11qSortHelperIN5QListIN6Marble6TileIdEE8iteratorES3_5qLessIS3_EEEvT_S8_RKT0_T1_@Base 4:15.08.0
+#MISSING: 4:15.12.0# (optional=templinst)_ZN18QAlgorithmsPrivate11qSortHelperIN5QListIN6Marble6TileIdEE8iteratorES3_5qLessIS3_EEEvT_S8_RKT0_T1_@Base 4:15.08.0
  (optional=templinst)_ZN18QAlgorithmsPrivate11qSortHelperIN5QListIPKN6Marble16GeoDataPlacemarkEE8iteratorES5_PFbS5_S5_EEEvT_SA_RKT0_T1_@Base 4:15.08.0
  (optional=templinst|arch=!ppc64el)_ZN18QAlgorithmsPrivate11qSortHelperIN5QListIPN6Marble12RenderPluginEE8iteratorES4_PFbS4_S4_EEEvT_S9_RKT0_T1_@Base 4:15.08.0
  (optional=templinst|arch=!ppc64el)_ZN18QAlgorithmsPrivate11qSortHelperIN5QListIPN6Marble22AbstractDataPluginItemEE8iteratorES4_PFbPKS3_S8_EEEvT_SB_RKT0_T1_@Base 4:15.08.0
- (optional=templinst)_ZN18QAlgorithmsPrivate11qSortHelperIPN6Marble14GeoDataFeature21GeoDataVisualCategoryES3_5qLessIS3_EEEvT_S7_RKT0_T1_@Base 4:15.08.0
+#MISSING: 4:15.12.0# (optional=templinst)_ZN18QAlgorithmsPrivate11qSortHelperIPN6Marble14GeoDataFeature21GeoDataVisualCategoryES3_5qLessIS3_EEEvT_S7_RKT0_T1_@Base 4:15.08.0
  (optional=templinst|arch=!ppc64el)_ZN18QAlgorithmsPrivate11qSortHelperIPPN6Marble15GeoDataDocumentES3_PFbPKS2_S6_EEEvT_S9_RKT0_T1_@Base 4:15.08.0
+ (optional=templinst)_ZN18QAlgorithmsPrivate11qSortHelperIPii5qLessIiEEEvT_S4_RKT0_T1_@Base 4:15.12.0
  (optional=templinst|arch=!ppc64el)_ZN18QAlgorithmsPrivate17qLowerBoundHelperIN5QListIPKN6Marble20GeoDataGroundOverlayEE8iteratorES5_PFbS5_S5_EEET_SA_SA_RKT0_T1_@Base 4:15.08.0
+ (optional=templinst)_ZN18QAlgorithmsPrivate17qStableSortHelperIN5QListIPN6Marble15GeoGraphicsItemEE8iteratorES4_PFbS4_S4_EEEvT_S9_RKT0_T1_@Base 4:15.12.0
+ (optional=templinst)_ZN18QAlgorithmsPrivate6qMergeIN5QListIPN6Marble15GeoGraphicsItemEE8iteratorEKS4_PFbS4_S4_EEEvT_SA_SA_RT0_T1_@Base 4:15.12.0
  (optional=templinst|arch=ppc64el)_ZN18QMetaTypeIdQObjectIP13QNetworkReplyLb1EE14qt_metatype_idEv@Base 4:15.08.0
  (optional=templinst|arch=ppc64el)_ZN18QMetaTypeIdQObjectIPN6Marble10SearchTaskELb1EE14qt_metatype_idEv@Base 4:15.08.0
  (optional=templinst|arch=ppc64el)_ZN18QMetaTypeIdQObjectIPN6Marble11ParsingTaskELb1EE14qt_metatype_idEv@Base 4:15.08.0
@@ -273,12 +280,15 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  (optional=templinst)_ZN4QMapI5QPairI7QStringS1_EN6Marble14GeoDataFeature21GeoDataVisualCategoryEED1Ev@Base 4:15.11.80+git20150924.0815
  (optional=templinst)_ZN4QMapI5QPairI7QStringS1_EN6Marble14GeoDataFeature21GeoDataVisualCategoryEED2Ev@Base 4:15.11.80+git20150924.0815
  (optional=templinst)_ZN4QMapI5QPairI7QStringS1_EN6Marble14GeoDataFeature21GeoDataVisualCategoryEEixERKS2_@Base 4:15.11.80+git20150924.0815
+ (optional=templinst)_ZN4QMapI7QString14QSharedPointerIN6Marble12GeoDataStyleEEE13detach_helperEv@Base 4:15.12.0
+ (optional=templinst)_ZN4QMapI7QString14QSharedPointerIN6Marble12GeoDataStyleEEED1Ev@Base 4:15.12.0
+ (optional=templinst)_ZN4QMapI7QString14QSharedPointerIN6Marble12GeoDataStyleEEED2Ev@Base 4:15.12.0
  (optional=templinst)_ZN4QMapI7QString5QPairI9QDateTimeyEE13detach_helperEv@Base 4:15.08.0
  (optional=templinst)_ZN4QMapI7QString5QPairI9QDateTimeyEED1Ev@Base 4:15.08.0
  (optional=templinst)_ZN4QMapI7QString5QPairI9QDateTimeyEED2Ev@Base 4:15.08.0
- (optional=templinst|arch=!ppc64el)_ZN4QMapI7QStringN6Marble12GeoDataStyleEE13detach_helperEv@Base 4:15.08.0
- (optional=templinst)_ZN4QMapI7QStringN6Marble12GeoDataStyleEED1Ev@Base 4:15.08.0
- (optional=templinst)_ZN4QMapI7QStringN6Marble12GeoDataStyleEED2Ev@Base 4:15.08.0
+#MISSING: 4:15.12.0# (optional=templinst|arch=!ppc64el)_ZN4QMapI7QStringN6Marble12GeoDataStyleEE13detach_helperEv@Base 4:15.08.0
+#MISSING: 4:15.12.0# (optional=templinst)_ZN4QMapI7QStringN6Marble12GeoDataStyleEED1Ev@Base 4:15.08.0
+#MISSING: 4:15.12.0# (optional=templinst)_ZN4QMapI7QStringN6Marble12GeoDataStyleEED2Ev@Base 4:15.08.0
  (optional=templinst|arch=!ppc64el)_ZN4QMapI7QStringN6Marble13GeoDataSchemaEE13detach_helperEv@Base 4:15.08.0
  (optional=templinst)_ZN4QMapI7QStringN6Marble13GeoDataSchemaEED1Ev@Base 4:15.08.0
  (optional=templinst)_ZN4QMapI7QStringN6Marble13GeoDataSchemaEED2Ev@Base 4:15.08.0
@@ -323,6 +333,11 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  (optional=templinst)_ZN4QMapIi21QPersistentModelIndexE5eraseENS1_8iteratorE@Base 4:15.08.0
  (optional=templinst)_ZN4QMapIi21QPersistentModelIndexE6removeERKi@Base 4:15.08.0
  (optional=templinst|arch=!ppc64el)_ZN4QMapIiiE13detach_helperEv@Base 4:15.08.0
+ (optional=templinst)_ZN4QMapIx5QListIPKN6Marble16GeoDataPlacemarkEEE13detach_helperEv@Base 4:15.12.0
+ (optional=templinst)_ZN4QMapIx5QListIPKN6Marble16GeoDataPlacemarkEEED1Ev@Base 4:15.12.0
+ (optional=templinst)_ZN4QMapIx5QListIPKN6Marble16GeoDataPlacemarkEEED2Ev@Base 4:15.12.0
+ (optional=templinst)_ZN4QSetI7QStringED1Ev@Base 4:15.12.0
+ (optional=templinst)_ZN4QSetI7QStringED2Ev@Base 4:15.12.0
  (optional=templinst)_ZN5QHashI21QPersistentModelIndexiE11deleteNode2EPN9QHashData4NodeE@Base 4:15.08.0
  (optional=templinst|arch=!ppc64el)_ZN5QHashI21QPersistentModelIndexiE13detach_helperEv@Base 4:15.08.0
  (optional=templinst)_ZN5QHashI21QPersistentModelIndexiE13duplicateNodeEPN9QHashData4NodeEPv@Base 4:15.08.0
@@ -342,7 +357,7 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  (optional=templinst)_ZN5QHashI7QString15QHashDummyValueE11deleteNode2EPN9QHashData4NodeE@Base 4:15.08.0
  (optional=templinst|arch=!ppc64el)_ZN5QHashI7QString15QHashDummyValueE13detach_helperEv@Base 4:15.08.0
  (optional=templinst)_ZN5QHashI7QString15QHashDummyValueE13duplicateNodeEPN9QHashData4NodeEPv@Base 4:15.08.0
- (optional=templinst|arch=ppc64el)_ZN5QHashI7QString15QHashDummyValueE6insertERKS0_RKS1_@Base 4:15.08.0
+ (optional=templinst)_ZN5QHashI7QString15QHashDummyValueE6insertERKS0_RKS1_@Base 4:15.08.0
  (optional=templinst)_ZN5QHashI7QString15QHashDummyValueE6removeERKS0_@Base 4:15.08.0
  (optional=templinst)_ZN5QHashI7QString15QHashDummyValueED1Ev@Base 4:15.08.0
  (optional=templinst)_ZN5QHashI7QString15QHashDummyValueED2Ev@Base 4:15.08.0
@@ -393,6 +408,11 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  (optional=templinst|arch=arm64 powerpc ppc64el)_ZN5QHashI7QStringS_IS0_8QVariantEE6removeERKS0_@Base 4:15.08.0
  (optional=templinst)_ZN5QHashI7QStringS_IS0_8QVariantEED1Ev@Base 4:15.08.0
  (optional=templinst)_ZN5QHashI7QStringS_IS0_8QVariantEED2Ev@Base 4:15.08.0
+ (optional=templinst)_ZN5QHashIN6Marble14GeoDataFeature21GeoDataVisualCategoryE15QHashDummyValueE11deleteNode2EPN9QHashData4NodeE@Base 4:15.12.0
+ (optional=templinst)_ZN5QHashIN6Marble14GeoDataFeature21GeoDataVisualCategoryE15QHashDummyValueE13duplicateNodeEPN9QHashData4NodeEPv@Base 4:15.12.0
+ (optional=templinst)_ZN5QHashIN6Marble14GeoDataFeature21GeoDataVisualCategoryE15QHashDummyValueE6insertERKS2_RKS3_@Base 4:15.12.0
+ (optional=templinst)_ZN5QHashIN6Marble14GeoDataFeature21GeoDataVisualCategoryE15QHashDummyValueED1Ev@Base 4:15.12.0
+ (optional=templinst)_ZN5QHashIN6Marble14GeoDataFeature21GeoDataVisualCategoryE15QHashDummyValueED2Ev@Base 4:15.12.0
  (optional=templinst)_ZN5QHashIN6Marble18GeoDataCoordinatesENS0_16OsmPlacemarkDataEE11deleteNode2EPN9QHashData4NodeE@Base 4:15.08.0
  (optional=templinst|arch=!ppc64el)_ZN5QHashIN6Marble18GeoDataCoordinatesENS0_16OsmPlacemarkDataEE13detach_helperEv@Base 4:15.08.0
  (optional=templinst)_ZN5QHashIN6Marble18GeoDataCoordinatesENS0_16OsmPlacemarkDataEE13duplicateNodeEPN9QHashData4NodeEPv@Base 4:15.08.0
@@ -402,8 +422,8 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  (optional=templinst)_ZN5QHashIN6Marble6TileIdE15QHashDummyValueE11deleteNode2EPN9QHashData4NodeE@Base 4:15.08.0
  (optional=templinst|arch=!ppc64el)_ZN5QHashIN6Marble6TileIdE15QHashDummyValueE13detach_helperEv@Base 4:15.08.0
  (optional=templinst)_ZN5QHashIN6Marble6TileIdE15QHashDummyValueE13duplicateNodeEPN9QHashData4NodeEPv@Base 4:15.08.0
- (optional=templinst|arch=powerpc ppc64el)_ZN5QHashIN6Marble6TileIdE15QHashDummyValueED1Ev@Base 4:15.08.0
- (optional=templinst|arch=powerpc ppc64el)_ZN5QHashIN6Marble6TileIdE15QHashDummyValueED2Ev@Base 4:15.08.0
+ (optional=templinst)_ZN5QHashIN6Marble6TileIdE15QHashDummyValueED1Ev@Base 4:15.08.0
+ (optional=templinst)_ZN5QHashIN6Marble6TileIdE15QHashDummyValueED2Ev@Base 4:15.08.0
  (optional=templinst)_ZN5QHashIN6Marble6TileIdEN6QCacheIS1_K6QImageE4NodeEE11deleteNode2EPN9QHashData4NodeE@Base 4:15.08.0
  (optional=templinst|arch=!ppc64el)_ZN5QHashIN6Marble6TileIdEN6QCacheIS1_K6QImageE4NodeEE13detach_helperEv@Base 4:15.08.0
  (optional=templinst)_ZN5QHashIN6Marble6TileIdEN6QCacheIS1_K6QImageE4NodeEE13duplicateNodeEPN9QHashData4NodeEPv@Base 4:15.08.0
@@ -456,6 +476,9 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  (optional=templinst)_ZN5QHashIiiE11deleteNode2EPN9QHashData4NodeE@Base 4:15.08.0
  (optional=templinst)_ZN5QHashIiiE13duplicateNodeEPN9QHashData4NodeEPv@Base 4:15.08.0
  (optional=templinst)_ZN5QHashIiiE6insertERKiS2_@Base 4:15.08.0
+ (optional=templinst)_ZN5QHashIx15QHashDummyValueE11deleteNode2EPN9QHashData4NodeE@Base 4:15.12.0
+ (optional=templinst)_ZN5QHashIx15QHashDummyValueE13detach_helperEv@Base 4:15.12.0
+ (optional=templinst)_ZN5QHashIx15QHashDummyValueE13duplicateNodeEPN9QHashData4NodeEPv@Base 4:15.12.0
  (optional=templinst)_ZN5QHashIx7QStringE11deleteNode2EPN9QHashData4NodeE@Base 4:15.11.80+git20150924.0815
  (optional=templinst)_ZN5QHashIx7QStringE13detach_helperEv@Base 4:15.11.80+git20150924.0815
  (optional=templinst)_ZN5QHashIx7QStringE13duplicateNodeEPN9QHashData4NodeEPv@Base 4:15.11.80+git20150924.0815
@@ -469,6 +492,19 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  (optional=templinst)_ZN5QListI11QModelIndexEC2ERKS1_@Base 4:15.08.0
  (optional=templinst)_ZN5QListI11QModelIndexED1Ev@Base 4:15.08.0
  (optional=templinst)_ZN5QListI11QModelIndexED2Ev@Base 4:15.08.0
+ (optional=templinst)_ZN5QListI14QSharedPointerIKN6Marble12GeoDataStyleEEE18detach_helper_growEii@Base 4:15.12.0
+ (optional=templinst)_ZN5QListI14QSharedPointerIKN6Marble12GeoDataStyleEEE6appendERKS4_@Base 4:15.12.0
+ (optional=templinst)_ZN5QListI14QSharedPointerIKN6Marble12GeoDataStyleEEEC1ERKS5_@Base 4:15.12.0
+ (optional=templinst)_ZN5QListI14QSharedPointerIKN6Marble12GeoDataStyleEEEC2ERKS5_@Base 4:15.12.0
+ (optional=templinst)_ZN5QListI14QSharedPointerIKN6Marble12GeoDataStyleEEED1Ev@Base 4:15.12.0
+ (optional=templinst)_ZN5QListI14QSharedPointerIKN6Marble12GeoDataStyleEEED2Ev@Base 4:15.12.0
+ (optional=templinst)_ZN5QListI14QSharedPointerIN6Marble12GeoDataStyleEEE13detach_helperEi@Base 4:15.12.0
+ (optional=templinst)_ZN5QListI14QSharedPointerIN6Marble12GeoDataStyleEEE18detach_helper_growEii@Base 4:15.12.0
+ (optional=templinst)_ZN5QListI14QSharedPointerIN6Marble12GeoDataStyleEEE6appendERKS3_@Base 4:15.12.0
+ (optional=templinst)_ZN5QListI14QSharedPointerIN6Marble12GeoDataStyleEEEC1ERKS4_@Base 4:15.12.0
+ (optional=templinst)_ZN5QListI14QSharedPointerIN6Marble12GeoDataStyleEEEC2ERKS4_@Base 4:15.12.0
+ (optional=templinst)_ZN5QListI14QSharedPointerIN6Marble12GeoDataStyleEEED1Ev@Base 4:15.12.0
+ (optional=templinst)_ZN5QListI14QSharedPointerIN6Marble12GeoDataStyleEEED2Ev@Base 4:15.12.0
  (optional=templinst)_ZN5QListI19QItemSelectionRangeED1Ev@Base 4:15.08.0
  (optional=templinst)_ZN5QListI19QItemSelectionRangeED2Ev@Base 4:15.08.0
  (optional=templinst)_ZN5QListI21QPersistentModelIndexE13detach_helperEi@Base 4:15.08.0
@@ -551,6 +587,8 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  (optional=templinst)_ZN5QListI9QFileInfoEC2ERKS1_@Base 4:15.08.0
  (optional=templinst)_ZN5QListI9QFileInfoED1Ev@Base 4:15.08.0
  (optional=templinst)_ZN5QListI9QFileInfoED2Ev@Base 4:15.08.0
+ (optional=templinst)_ZN5QListIN6Marble10FileHeaderEE18detach_helper_growEii@Base 4:15.12.0
+ (optional=templinst)_ZN5QListIN6Marble10FileHeaderEE6appendERKS1_@Base 4:15.12.0
  (optional=templinst)_ZN5QListIN6Marble11MovieFormatEE13detach_helperEi@Base 4:15.08.0
  (optional=templinst)_ZN5QListIN6Marble11MovieFormatEE18detach_helper_growEii@Base 4:15.08.0
  (optional=templinst)_ZN5QListIN6Marble11MovieFormatEE6appendERKS1_@Base 4:15.08.0
@@ -564,13 +602,13 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  (optional=templinst)_ZN5QListIN6Marble11RenderStateEEC2ERKS2_@Base 4:15.08.0
  (optional=templinst)_ZN5QListIN6Marble11RenderStateEED1Ev@Base 4:15.08.0
  (optional=templinst)_ZN5QListIN6Marble11RenderStateEED2Ev@Base 4:15.08.0
- (optional=templinst)_ZN5QListIN6Marble12GeoDataStyleEE13detach_helperEi@Base 4:15.08.0
- (optional=templinst)_ZN5QListIN6Marble12GeoDataStyleEE18detach_helper_growEii@Base 4:15.08.0
- (optional=templinst|arch=!ppc64el)_ZN5QListIN6Marble12GeoDataStyleEE6appendERKS1_@Base 4:15.08.0
- (optional=templinst)_ZN5QListIN6Marble12GeoDataStyleEEC1ERKS2_@Base 4:15.08.0
- (optional=templinst)_ZN5QListIN6Marble12GeoDataStyleEEC2ERKS2_@Base 4:15.08.0
- (optional=templinst)_ZN5QListIN6Marble12GeoDataStyleEED1Ev@Base 4:15.08.0
- (optional=templinst)_ZN5QListIN6Marble12GeoDataStyleEED2Ev@Base 4:15.08.0
+#MISSING: 4:15.12.0# (optional=templinst)_ZN5QListIN6Marble12GeoDataStyleEE13detach_helperEi@Base 4:15.08.0
+#MISSING: 4:15.12.0# (optional=templinst)_ZN5QListIN6Marble12GeoDataStyleEE18detach_helper_growEii@Base 4:15.08.0
+#MISSING: 4:15.12.0# (optional=templinst|arch=!ppc64el)_ZN5QListIN6Marble12GeoDataStyleEE6appendERKS1_@Base 4:15.08.0
+#MISSING: 4:15.12.0# (optional=templinst)_ZN5QListIN6Marble12GeoDataStyleEEC1ERKS2_@Base 4:15.08.0
+#MISSING: 4:15.12.0# (optional=templinst)_ZN5QListIN6Marble12GeoDataStyleEEC2ERKS2_@Base 4:15.08.0
+#MISSING: 4:15.12.0# (optional=templinst)_ZN5QListIN6Marble12GeoDataStyleEED1Ev@Base 4:15.08.0
+#MISSING: 4:15.12.0# (optional=templinst)_ZN5QListIN6Marble12GeoDataStyleEED2Ev@Base 4:15.08.0
  (optional=templinst)_ZN5QListIN6Marble12PluginAuthorEE18detach_helper_growEii@Base 4:15.08.0
  (optional=templinst)_ZN5QListIN6Marble12PluginAuthorEE6appendERKS1_@Base 4:15.08.0
  (optional=templinst)_ZN5QListIN6Marble12PluginAuthorEEC1ERKS2_@Base 4:15.08.0
@@ -591,6 +629,8 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  (optional=templinst)_ZN5QListIN6Marble13GeoDataSchemaEEC2ERKS2_@Base 4:15.08.0
  (optional=templinst)_ZN5QListIN6Marble13GeoDataSchemaEED1Ev@Base 4:15.08.0
  (optional=templinst)_ZN5QListIN6Marble13GeoDataSchemaEED2Ev@Base 4:15.08.0
+ (optional=templinst)_ZN5QListIN6Marble14GeoDataFeature21GeoDataVisualCategoryEE18detach_helper_growEii@Base 4:15.12.0
+ (optional=templinst)_ZN5QListIN6Marble14GeoDataFeature21GeoDataVisualCategoryEE6appendERKS2_@Base 4:15.12.0
  (optional=templinst)_ZN5QListIN6Marble14RoutingProfileEE13detach_helperEi@Base 4:15.08.0
  (optional=templinst)_ZN5QListIN6Marble14RoutingProfileEE18detach_helper_growEii@Base 4:15.08.0
  (optional=templinst)_ZN5QListIN6Marble14RoutingProfileEE6appendERKS1_@Base 4:15.08.0
@@ -612,6 +652,12 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  (optional=templinst)_ZN5QListIN6Marble15GeoSceneGeodataEEC2ERKS2_@Base 4:15.08.0
  (optional=templinst|arch=!ppc64el)_ZN5QListIN6Marble15GeoSceneGeodataEED1Ev@Base 4:15.08.0
  (optional=templinst|arch=!ppc64el)_ZN5QListIN6Marble15GeoSceneGeodataEED2Ev@Base 4:15.08.0
+ (optional=templinst)_ZN5QListIN6Marble15MarbleZipReader8FileInfoEE18detach_helper_growEii@Base 4:15.12.0
+ (optional=templinst)_ZN5QListIN6Marble15MarbleZipReader8FileInfoEE6appendERKS2_@Base 4:15.12.0
+ (optional=templinst)_ZN5QListIN6Marble15MarbleZipReader8FileInfoEEC1ERKS3_@Base 4:15.12.0
+ (optional=templinst)_ZN5QListIN6Marble15MarbleZipReader8FileInfoEEC2ERKS3_@Base 4:15.12.0
+ (optional=templinst)_ZN5QListIN6Marble15MarbleZipReader8FileInfoEED1Ev@Base 4:15.12.0
+ (optional=templinst)_ZN5QListIN6Marble15MarbleZipReader8FileInfoEED2Ev@Base 4:15.12.0
  (optional=templinst)_ZN5QListIN6Marble16OsmPlacemarkDataEE13detach_helperEi@Base 4:15.11.80+git20150924.0815
  (optional=templinst)_ZN5QListIN6Marble16OsmPlacemarkDataEE18detach_helper_growEii@Base 4:15.11.80+git20150924.0815
  (optional=templinst)_ZN5QListIN6Marble16OsmPlacemarkDataEE6appendERKS1_@Base 4:15.11.80+git20150924.0815
@@ -698,10 +744,10 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  (optional=templinst|arch=ppc64el)_ZN5QListIP7QActionE6detachEv@Base 4:15.08.0
  (optional=templinst)_ZN5QListIP7QActionED1Ev@Base 4:15.08.0
  (optional=templinst)_ZN5QListIP7QActionED2Ev@Base 4:15.08.0
- (optional=templinst)_ZN5QListIPKN6Marble12GeoDataStyleEE18detach_helper_growEii@Base 4:15.08.0
+#MISSING: 4:15.12.0# (optional=templinst)_ZN5QListIPKN6Marble12GeoDataStyleEE18detach_helper_growEii@Base 4:15.08.0
  (optional=templinst|arch=armhf)_ZN5QListIPKN6Marble12GeoDataStyleEE6appendERKS3_@Base 4:15.08.0
- (optional=templinst|arch=!ppc64el)_ZN5QListIPKN6Marble12GeoDataStyleEED1Ev@Base 4:15.08.0
- (optional=templinst|arch=!ppc64el)_ZN5QListIPKN6Marble12GeoDataStyleEED2Ev@Base 4:15.08.0
+#MISSING: 4:15.12.0# (optional=templinst|arch=!ppc64el)_ZN5QListIPKN6Marble12GeoDataStyleEED1Ev@Base 4:15.08.0
+#MISSING: 4:15.12.0# (optional=templinst|arch=!ppc64el)_ZN5QListIPKN6Marble12GeoDataStyleEED2Ev@Base 4:15.08.0
  (optional=templinst|arch=!ppc64el)_ZN5QListIPKN6Marble12RenderPluginEE18detach_helper_growEii@Base 4:15.08.0
  (optional=templinst|arch=!ppc64el)_ZN5QListIPKN6Marble12RenderPluginEE6appendERKS3_@Base 4:15.08.0
  (optional=templinst|arch=armhf)_ZN5QListIPKN6Marble12RenderPluginEEC1ERKS4_@Base 4:15.08.0
@@ -724,7 +770,8 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  (optional=templinst)_ZN5QListIPKN6Marble15GeoScenePaletteEED2Ev@Base 4:15.08.0
  (optional=templinst|arch=!ppc64el)_ZN5QListIPKN6Marble16GeoDataPlacemarkEE13detach_helperEi@Base 4:15.08.0
  (optional=templinst)_ZN5QListIPKN6Marble16GeoDataPlacemarkEE18detach_helper_growEii@Base 4:15.08.0
- (optional=templinst|arch=armhf)_ZN5QListIPKN6Marble16GeoDataPlacemarkEE6appendERKS3_@Base 4:15.08.0
+ (optional=templinst)_ZN5QListIPKN6Marble16GeoDataPlacemarkEE5beginEv@Base 4:15.12.0
+ (optional=templinst)_ZN5QListIPKN6Marble16GeoDataPlacemarkEE6appendERKS3_@Base 4:15.08.0
  (optional=templinst|arch=powerpc ppc64el)_ZN5QListIPKN6Marble16GeoDataPlacemarkEE6detachEv@Base 4:15.08.0
  (optional=templinst|arch=amd64 armhf i386)_ZN5QListIPKN6Marble16GeoDataPlacemarkEE9removeAllERKS3_@Base 4:15.08.0
  (optional=templinst|arch=!ppc64el)_ZN5QListIPKN6Marble16GeoDataPlacemarkEEC1ERKS4_@Base 4:15.08.0
@@ -778,7 +825,7 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  (optional=templinst|arch=amd64 armhf i386)_ZN5QListIPN6Marble11ParsingTaskEE13detach_helperEi@Base 4:15.08.0
  (optional=templinst)_ZN5QListIPN6Marble11ParsingTaskEE18detach_helper_growEii@Base 4:15.08.0
  (optional=templinst|arch=armhf)_ZN5QListIPN6Marble11ParsingTaskEE6appendERKS2_@Base 4:15.08.0
- (optional=templinst)_ZN5QListIPN6Marble11ParsingTaskEE9removeAllERKS2_@Base 4:15.08.0
+#MISSING: 4:15.12.0# (optional=templinst)_ZN5QListIPN6Marble11ParsingTaskEE9removeAllERKS2_@Base 4:15.08.0
  (optional=templinst|arch=amd64 armhf i386)_ZN5QListIPN6Marble11ParsingTaskEEC1ERKS3_@Base 4:15.08.0
  (optional=templinst|arch=amd64 armhf i386)_ZN5QListIPN6Marble11ParsingTaskEEC2ERKS3_@Base 4:15.08.0
  (optional=templinst)_ZN5QListIPN6Marble11ParsingTaskEED1Ev@Base 4:15.08.0
@@ -907,8 +954,8 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  (optional=templinst|arch=!ppc64el)_ZN5QListIdE13detach_helperEi@Base 4:15.08.0
  (optional=templinst|arch=!ppc64el)_ZN5QListIdE18detach_helper_growEii@Base 4:15.08.0
  (optional=templinst)_ZN5QListIdE6appendERKd@Base 4:15.08.0
- (optional=templinst|arch=!ppc64el)_ZN5QListIdEC1ERKS0_@Base 4:15.08.0
- (optional=templinst|arch=!ppc64el)_ZN5QListIdEC2ERKS0_@Base 4:15.08.0
+ (optional=templinst|arch=!amd64 !ppc64el)_ZN5QListIdEC1ERKS0_@Base 4:15.08.0
+ (optional=templinst|arch=!amd64 !ppc64el)_ZN5QListIdEC2ERKS0_@Base 4:15.08.0
  (optional=templinst|arch=!ppc64el)_ZN5QListIdED1Ev@Base 4:15.08.0
  (optional=templinst|arch=!ppc64el)_ZN5QListIdED2Ev@Base 4:15.08.0
  (optional=templinst)_ZN5QListIiE18detach_helper_growEii@Base 4:15.08.0
@@ -918,6 +965,8 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  (optional=templinst)_ZN5QListIiED1Ev@Base 4:15.08.0
  (optional=templinst)_ZN5QListIiED2Ev@Base 4:15.08.0
  (optional=templinst|arch=armhf)_ZN5QPairI7QStringS0_EC1ERKS0_S3_@Base 4:15.08.0
+ _ZN6Marble10FileHeaderD1Ev@Base 4:15.12.0
+ _ZN6Marble10FileHeaderD2Ev@Base 4:15.12.0
  _ZN6Marble10FileLoader11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:15.08.0
  _ZN6Marble10FileLoader11qt_metacastEPKc@Base 4:15.08.0
  _ZN6Marble10FileLoader14loaderFinishedEPS0_@Base 4:15.08.0
@@ -926,9 +975,11 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble10FileLoader3runEv@Base 4:15.08.0
  _ZN6Marble10FileLoader8documentEv@Base 4:15.08.0
  _ZN6Marble10FileLoaderC1EP7QObjectPKNS_13PluginManagerERK7QStringS8_NS_12DocumentRoleE@Base 4:15.08.0
- _ZN6Marble10FileLoaderC1EP7QObjectPKNS_13PluginManagerEbRK7QStringS8_PKNS_12GeoDataStyleENS_12DocumentRoleE@Base 4:15.08.0
+#MISSING: 4:15.12.0# _ZN6Marble10FileLoaderC1EP7QObjectPKNS_13PluginManagerEbRK7QStringS8_PKNS_12GeoDataStyleENS_12DocumentRoleE@Base 4:15.08.0
+ _ZN6Marble10FileLoaderC1EP7QObjectPKNS_13PluginManagerEbRK7QStringS8_RK14QSharedPointerINS_12GeoDataStyleEENS_12DocumentRoleE@Base 4:15.12.0
  _ZN6Marble10FileLoaderC2EP7QObjectPKNS_13PluginManagerERK7QStringS8_NS_12DocumentRoleE@Base 4:15.08.0
- _ZN6Marble10FileLoaderC2EP7QObjectPKNS_13PluginManagerEbRK7QStringS8_PKNS_12GeoDataStyleENS_12DocumentRoleE@Base 4:15.08.0
+#MISSING: 4:15.12.0# _ZN6Marble10FileLoaderC2EP7QObjectPKNS_13PluginManagerEbRK7QStringS8_PKNS_12GeoDataStyleENS_12DocumentRoleE@Base 4:15.08.0
+ _ZN6Marble10FileLoaderC2EP7QObjectPKNS_13PluginManagerEbRK7QStringS8_RK14QSharedPointerINS_12GeoDataStyleEENS_12DocumentRoleE@Base 4:15.12.0
  _ZN6Marble10FileLoaderD0Ev@Base 4:15.08.0
  _ZN6Marble10FileLoaderD1Ev@Base 4:15.08.0
  _ZN6Marble10FileLoaderD2Ev@Base 4:15.08.0
@@ -1081,13 +1132,15 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble10SunLocatorD2Ev@Base 4:15.08.0
  _ZN6Marble10TileLoader10tileStatusEPKNS_19GeoSceneTileDatasetERKNS_6TileIdE@Base 4:15.11.80+git20150924.0815
  _ZN6Marble10TileLoader10updateTileERK10QByteArrayRK7QString@Base 4:15.08.0
+ _ZN6Marble10TileLoader10updateTileERK7QStringS3_@Base 4:15.12.0
  _ZN6Marble10TileLoader11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:15.08.0
  _ZN6Marble10TileLoader11qt_metacastEPKc@Base 4:15.08.0
  _ZN6Marble10TileLoader12downloadTileEPKNS_19GeoSceneTileDatasetERKNS_6TileIdENS_13DownloadUsageE@Base 4:15.11.80+git20150924.0815
  _ZN6Marble10TileLoader12downloadTileERK4QUrlRK7QStringS6_NS_13DownloadUsageE@Base 4:15.08.0
  _ZN6Marble10TileLoader12tileFileNameEPKNS_19GeoSceneTileDatasetERKNS_6TileIdE@Base 4:15.11.80+git20150924.0815
  _ZN6Marble10TileLoader13loadTileImageEPKNS_26GeoSceneTextureTileDatasetERKNS_6TileIdENS_13DownloadUsageE@Base 4:15.11.80+git20150924.0815
- _ZN6Marble10TileLoader13tileCompletedERKNS_6TileIdEPNS_15GeoDataDocumentERK7QString@Base 4:15.08.0
+ _ZN6Marble10TileLoader13tileCompletedERKNS_6TileIdEPNS_15GeoDataDocumentE@Base 4:15.12.0
+#MISSING: 4:15.12.0# _ZN6Marble10TileLoader13tileCompletedERKNS_6TileIdEPNS_15GeoDataDocumentERK7QString@Base 4:15.08.0
  _ZN6Marble10TileLoader13tileCompletedERKNS_6TileIdERK6QImage@Base 4:15.08.0
  _ZN6Marble10TileLoader15triggerDownloadEPKNS_19GeoSceneTileDatasetERKNS_6TileIdENS_13DownloadUsageE@Base 4:15.11.80+git20150924.0815
  _ZN6Marble10TileLoader16maximumTileLevelERKNS_19GeoSceneTileDatasetE@Base 4:15.11.80+git20150924.0815
@@ -1171,7 +1224,8 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble11FileManager16staticMetaObjectE@Base 4:15.08.0
  _ZN6Marble11FileManager2atERK7QString@Base 4:15.08.0
  _ZN6Marble11FileManager7addDataERK7QStringS3_NS_12DocumentRoleE@Base 4:15.08.0
- _ZN6Marble11FileManager7addFileERK7QStringS3_PKNS_12GeoDataStyleENS_12DocumentRoleEb@Base 4:15.08.0
+#MISSING: 4:15.12.0# _ZN6Marble11FileManager7addFileERK7QStringS3_PKNS_12GeoDataStyleENS_12DocumentRoleEb@Base 4:15.08.0
+ _ZN6Marble11FileManager7addFileERK7QStringS3_RK14QSharedPointerINS_12GeoDataStyleEENS_12DocumentRoleEb@Base 4:15.12.0
  _ZN6Marble11FileManager8saveFileERK7QStringPKNS_15GeoDataDocumentE@Base 4:15.08.0
  _ZN6Marble11FileManager9closeFileEPKNS_15GeoDataDocumentE@Base 4:15.08.0
  _ZN6Marble11FileManager9fileAddedERK7QString@Base 4:15.08.0
@@ -1329,6 +1383,7 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble11ParsingTask11qt_metacastEPKc@Base 4:15.08.0
  _ZN6Marble11ParsingTask16staticMetaObjectE@Base 4:15.08.0
  _ZN6Marble11ParsingTask3runEv@Base 4:15.08.0
+ _ZN6Marble11ParsingTask6parsedEPNS_15GeoDataDocumentERK7QString@Base 4:15.12.0
  _ZN6Marble11ParsingTask8finishedEPS0_@Base 4:15.08.0
  _ZN6Marble11ParsingTaskC1EPNS_13ParsingRunnerEPNS_20ParsingRunnerManagerERK7QStringNS_12DocumentRoleE@Base 4:15.08.0
  _ZN6Marble11ParsingTaskC2EPNS_13ParsingRunnerEPNS_20ParsingRunnerManagerERK7QStringNS_12DocumentRoleE@Base 4:15.08.0
@@ -2014,8 +2069,10 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble12TextureLayer5resetEv@Base 4:15.08.0
  _ZN6Marble12TextureLayer6reloadEv@Base 4:15.08.0
  _ZN6Marble12TextureLayer6renderEPNS_10GeoPainterEPNS_14ViewportParamsERK7QStringPNS_13GeoSceneLayerE@Base 4:15.08.0
- _ZN6Marble12TextureLayerC1EPNS_19HttpDownloadManagerEPKNS_10SunLocatorEP18QAbstractItemModel@Base 4:15.08.0
- _ZN6Marble12TextureLayerC2EPNS_19HttpDownloadManagerEPKNS_10SunLocatorEP18QAbstractItemModel@Base 4:15.08.0
+#MISSING: 4:15.12.0# _ZN6Marble12TextureLayerC1EPNS_19HttpDownloadManagerEPKNS_10SunLocatorEP18QAbstractItemModel@Base 4:15.08.0
+ _ZN6Marble12TextureLayerC1EPNS_19HttpDownloadManagerEPNS_13PluginManagerEPKNS_10SunLocatorEP18QAbstractItemModel@Base 4:15.12.0
+#MISSING: 4:15.12.0# _ZN6Marble12TextureLayerC2EPNS_19HttpDownloadManagerEPKNS_10SunLocatorEP18QAbstractItemModel@Base 4:15.08.0
+ _ZN6Marble12TextureLayerC2EPNS_19HttpDownloadManagerEPNS_13PluginManagerEPKNS_10SunLocatorEP18QAbstractItemModel@Base 4:15.12.0
  _ZN6Marble12TextureLayerD0Ev@Base 4:15.08.0
  _ZN6Marble12TextureLayerD1Ev@Base 4:15.08.0
  _ZN6Marble12TextureLayerD2Ev@Base 4:15.08.0
@@ -2343,7 +2400,7 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble13NewstuffModelD2Ev@Base 4:15.08.0
  _ZN6Marble13ParsingRunner11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:15.08.0
  _ZN6Marble13ParsingRunner11qt_metacastEPKc@Base 4:15.08.0
- _ZN6Marble13ParsingRunner15parsingFinishedEPNS_15GeoDataDocumentERK7QString@Base 4:15.08.0
+#MISSING: 4:15.12.0# _ZN6Marble13ParsingRunner15parsingFinishedEPNS_15GeoDataDocumentERK7QString@Base 4:15.08.0
  _ZN6Marble13ParsingRunner16staticMetaObjectE@Base 4:15.08.0
  _ZN6Marble13ParsingRunnerC1EP7QObject@Base 4:15.08.0
  _ZN6Marble13ParsingRunnerC2EP7QObject@Base 4:15.08.0
@@ -2523,8 +2580,10 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble14ElevationModel11qt_metacastEPKc@Base 4:15.08.0
  _ZN6Marble14ElevationModel15updateAvailableEv@Base 4:15.08.0
  _ZN6Marble14ElevationModel16staticMetaObjectE@Base 4:15.08.0
- _ZN6Marble14ElevationModelC1EPNS_19HttpDownloadManagerEP7QObject@Base 4:15.08.0
- _ZN6Marble14ElevationModelC2EPNS_19HttpDownloadManagerEP7QObject@Base 4:15.08.0
+#MISSING: 4:15.12.0# _ZN6Marble14ElevationModelC1EPNS_19HttpDownloadManagerEP7QObject@Base 4:15.08.0
+ _ZN6Marble14ElevationModelC1EPNS_19HttpDownloadManagerEPNS_13PluginManagerEP7QObject@Base 4:15.12.0
+#MISSING: 4:15.12.0# _ZN6Marble14ElevationModelC2EPNS_19HttpDownloadManagerEP7QObject@Base 4:15.08.0
+ _ZN6Marble14ElevationModelC2EPNS_19HttpDownloadManagerEPNS_13PluginManagerEP7QObject@Base 4:15.12.0
  _ZN6Marble14ElevationModelD0Ev@Base 4:15.08.0
  _ZN6Marble14ElevationModelD1Ev@Base 4:15.08.0
  _ZN6Marble14ElevationModelD2Ev@Base 4:15.08.0
@@ -2572,7 +2631,8 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble14GeoDataFeature6unpackER11QDataStream@Base 4:15.08.0
  _ZN6Marble14GeoDataFeature7setNameERK7QString@Base 4:15.08.0
  _ZN6Marble14GeoDataFeature7setRoleERK7QString@Base 4:15.08.0
- _ZN6Marble14GeoDataFeature8setStyleEPNS_12GeoDataStyleE@Base 4:15.08.0
+#MISSING: 4:15.12.0# _ZN6Marble14GeoDataFeature8setStyleEPNS_12GeoDataStyleE@Base 4:15.08.0
+ _ZN6Marble14GeoDataFeature8setStyleERK14QSharedPointerINS_12GeoDataStyleEE@Base 4:15.12.0
  _ZN6Marble14GeoDataFeature8timeSpanEv@Base 4:15.08.0
  _ZN6Marble14GeoDataFeature9setRegionERKNS_13GeoDataRegionE@Base 4:15.08.0
  _ZN6Marble14GeoDataFeature9timeStampEv@Base 4:15.08.0
@@ -2787,7 +2847,7 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble14WaypointParser22addJunctionTypeMappingERK7QStringNS_15RoutingWaypoint12JunctionTypeE@Base 4:15.08.0
  _ZN6Marble14WaypointParserC1Ev@Base 4:15.08.0
  _ZN6Marble14WaypointParserC2Ev@Base 4:15.08.0
- _ZN6Marble14zValueLessThanEPNS_15GeoGraphicsItemES1_@Base 4:15.08.0
+#MISSING: 4:15.12.0# _ZN6Marble14zValueLessThanEPNS_15GeoGraphicsItemES1_@Base 4:15.08.0
  _ZN6Marble15AllanonBlendingD0Ev@Base 4:15.08.0
  _ZN6Marble15AllanonBlendingD1Ev@Base 4:15.08.0
  _ZN6Marble15AllanonBlendingD2Ev@Base 4:15.08.0
@@ -2870,8 +2930,10 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble15GeoDataDocument21setNetworkLinkControlERKNS_25GeoDataNetworkLinkControlE@Base 4:15.08.0
  _ZN6Marble15GeoDataDocument5styleERK7QString@Base 4:15.08.0
  _ZN6Marble15GeoDataDocument6schemaERK7QString@Base 4:15.08.0
+ _ZN6Marble15GeoDataDocument6stylesEv@Base 4:15.12.0
  _ZN6Marble15GeoDataDocument6unpackER11QDataStream@Base 4:15.08.0
- _ZN6Marble15GeoDataDocument8addStyleERKNS_12GeoDataStyleE@Base 4:15.08.0
+ _ZN6Marble15GeoDataDocument8addStyleERK14QSharedPointerINS_12GeoDataStyleEE@Base 4:15.12.0
+#MISSING: 4:15.12.0# _ZN6Marble15GeoDataDocument8addStyleERKNS_12GeoDataStyleE@Base 4:15.08.0
  _ZN6Marble15GeoDataDocument8styleMapERK7QString@Base 4:15.08.0
  _ZN6Marble15GeoDataDocument9addSchemaERKNS_13GeoDataSchemaE@Base 4:15.08.0
  _ZN6Marble15GeoDataDocumentC1ERKS0_@Base 4:15.08.0
@@ -2959,14 +3021,17 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble15GeoGraphicsItem11decorationsEv@Base 4:15.11.80+git20150924.0815
  _ZN6Marble15GeoGraphicsItem13addDecorationEPS0_@Base 4:15.11.80+git20150924.0815
  _ZN6Marble15GeoGraphicsItem14setHighlightedEb@Base 4:15.08.0
+ _ZN6Marble15GeoGraphicsItem14zValueLessThanEPS0_S1_@Base 4:15.12.0
  _ZN6Marble15GeoGraphicsItem15setLatLonAltBoxERKNS_19GeoDataLatLonAltBoxE@Base 4:15.08.0
  _ZN6Marble15GeoGraphicsItem15setMinZoomLevelEi@Base 4:15.08.0
  _ZN6Marble15GeoGraphicsItem17createDecorationsEv@Base 4:15.11.80+git20150924.0815
- _ZN6Marble15GeoGraphicsItem17setHighlightStyleEPNS_12GeoDataStyleE@Base 4:15.08.0
- _ZN6Marble15GeoGraphicsItem1pEv@Base 4:15.08.0
+#MISSING: 4:15.12.0# _ZN6Marble15GeoGraphicsItem17setHighlightStyleEPNS_12GeoDataStyleE@Base 4:15.08.0
+ _ZN6Marble15GeoGraphicsItem17setHighlightStyleERK14QSharedPointerIKNS_12GeoDataStyleEE@Base 4:15.12.0
+#MISSING: 4:15.12.0# _ZN6Marble15GeoGraphicsItem1pEv@Base 4:15.08.0
  _ZN6Marble15GeoGraphicsItem7setFlagENS0_19GeoGraphicsItemFlagEb@Base 4:15.08.0
  _ZN6Marble15GeoGraphicsItem8setFlagsE6QFlagsINS0_19GeoGraphicsItemFlagEE@Base 4:15.08.0
- _ZN6Marble15GeoGraphicsItem8setStyleEPKNS_12GeoDataStyleE@Base 4:15.08.0
+#MISSING: 4:15.12.0# _ZN6Marble15GeoGraphicsItem8setStyleEPKNS_12GeoDataStyleE@Base 4:15.08.0
+ _ZN6Marble15GeoGraphicsItem8setStyleERK14QSharedPointerIKNS_12GeoDataStyleEE@Base 4:15.12.0
  _ZN6Marble15GeoGraphicsItem9setZValueEd@Base 4:15.08.0
  _ZN6Marble15GeoGraphicsItemC1EPKNS_14GeoDataFeatureE@Base 4:15.08.0
  _ZN6Marble15GeoGraphicsItemC2EPKNS_14GeoDataFeatureE@Base 4:15.08.0
@@ -3069,6 +3134,33 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble15MarbleNavigatorD0Ev@Base 4:15.08.0
  _ZN6Marble15MarbleNavigatorD1Ev@Base 4:15.08.0
  _ZN6Marble15MarbleNavigatorD2Ev@Base 4:15.08.0
+ _ZN6Marble15MarbleZipReader5closeEv@Base 4:15.12.0
+ _ZN6Marble15MarbleZipReader8FileInfoC1ERKS1_@Base 4:15.12.0
+ _ZN6Marble15MarbleZipReader8FileInfoC1Ev@Base 4:15.12.0
+ _ZN6Marble15MarbleZipReader8FileInfoC2ERKS1_@Base 4:15.12.0
+ _ZN6Marble15MarbleZipReader8FileInfoC2Ev@Base 4:15.12.0
+ _ZN6Marble15MarbleZipReader8FileInfoD1Ev@Base 4:15.12.0
+ _ZN6Marble15MarbleZipReader8FileInfoD2Ev@Base 4:15.12.0
+ _ZN6Marble15MarbleZipReader8FileInfoaSERKS1_@Base 4:15.12.0
+ _ZN6Marble15MarbleZipReaderC1EP9QIODevice@Base 4:15.12.0
+ _ZN6Marble15MarbleZipReaderC1ERK7QString6QFlagsIN9QIODevice12OpenModeFlagEE@Base 4:15.12.0
+ _ZN6Marble15MarbleZipReaderC2EP9QIODevice@Base 4:15.12.0
+ _ZN6Marble15MarbleZipReaderC2ERK7QString6QFlagsIN9QIODevice12OpenModeFlagEE@Base 4:15.12.0
+ _ZN6Marble15MarbleZipReaderD1Ev@Base 4:15.12.0
+ _ZN6Marble15MarbleZipReaderD2Ev@Base 4:15.12.0
+ _ZN6Marble15MarbleZipWriter10addSymLinkERK7QStringS3_@Base 4:15.12.0
+ _ZN6Marble15MarbleZipWriter12addDirectoryERK7QString@Base 4:15.12.0
+ _ZN6Marble15MarbleZipWriter20setCompressionPolicyENS0_17CompressionPolicyE@Base 4:15.12.0
+ _ZN6Marble15MarbleZipWriter22setCreationPermissionsE6QFlagsIN11QFileDevice10PermissionEE@Base 4:15.12.0
+ _ZN6Marble15MarbleZipWriter5closeEv@Base 4:15.12.0
+ _ZN6Marble15MarbleZipWriter7addFileERK7QStringP9QIODevice@Base 4:15.12.0
+ _ZN6Marble15MarbleZipWriter7addFileERK7QStringRK10QByteArray@Base 4:15.12.0
+ _ZN6Marble15MarbleZipWriterC1EP9QIODevice@Base 4:15.12.0
+ _ZN6Marble15MarbleZipWriterC1ERK7QString6QFlagsIN9QIODevice12OpenModeFlagEE@Base 4:15.12.0
+ _ZN6Marble15MarbleZipWriterC2EP9QIODevice@Base 4:15.12.0
+ _ZN6Marble15MarbleZipWriterC2ERK7QString6QFlagsIN9QIODevice12OpenModeFlagEE@Base 4:15.12.0
+ _ZN6Marble15MarbleZipWriterD1Ev@Base 4:15.12.0
+ _ZN6Marble15MarbleZipWriterD2Ev@Base 4:15.12.0
  _ZN6Marble15OsmServerLayoutC1EPNS_19GeoSceneTileDatasetE@Base 4:15.11.80+git20150924.0815
  _ZN6Marble15OsmServerLayoutC2EPNS_19GeoSceneTileDatasetE@Base 4:15.11.80+git20150924.0815
  _ZN6Marble15OsmServerLayoutD0Ev@Base 4:15.08.0
@@ -3286,6 +3378,7 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble16GeoDataLineStyle13setBackgroundEb@Base 4:15.08.0
  _ZN6Marble16GeoDataLineStyle14setDashPatternERK7QVectorIdE@Base 4:15.08.0
  _ZN6Marble16GeoDataLineStyle16setPhysicalWidthERKf@Base 4:15.08.0
+ _ZN6Marble16GeoDataLineStyle18setCosmeticOutlineEb@Base 4:15.12.0
  _ZN6Marble16GeoDataLineStyle6unpackER11QDataStream@Base 4:15.08.0
  _ZN6Marble16GeoDataLineStyle8setWidthERKf@Base 4:15.08.0
  _ZN6Marble16GeoDataLineStyleC1ERK6QColor@Base 4:15.08.0
@@ -3327,6 +3420,7 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble16GeoDataPlacemark14setCountryCodeERK7QString@Base 4:15.08.0
  _ZN6Marble16GeoDataPlacemark17setBalloonVisibleEb@Base 4:15.08.0
  _ZN6Marble16GeoDataPlacemark1pEv@Base 4:15.08.0
+ _ZN6Marble16GeoDataPlacemark27placemarkLayoutOrderCompareEPKS0_S2_@Base 4:15.12.0
  _ZN6Marble16GeoDataPlacemark6lookAtEv@Base 4:15.08.0
  _ZN6Marble16GeoDataPlacemark6unpackER11QDataStream@Base 4:15.08.0
  _ZN6Marble16GeoDataPlacemark7osmDataEv@Base 4:15.08.0
@@ -3548,18 +3642,24 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble16OsmPlacemarkDataD0Ev@Base 4:15.11.80+git20150924.0815
  _ZN6Marble16OsmPlacemarkDataD1Ev@Base 4:15.08.0
  _ZN6Marble16OsmPlacemarkDataD2Ev@Base 4:15.08.0
+ _ZN6Marble16OsmPresetLibrary10s_areaTagsE@Base 4:15.12.0
+ _ZN6Marble16OsmPresetLibrary10shopValuesEv@Base 4:15.12.0
  _ZN6Marble16OsmPresetLibrary11presetStyleERK5QPairI7QStringS2_E@Base 4:15.11.80+git20150924.0815
  _ZN6Marble16OsmPresetLibrary14buildingValuesEv@Base 4:15.11.80+git20150924.0815
- _ZN6Marble16OsmPresetLibrary17OsmVisualCategoryERK7QString@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble16OsmPresetLibrary16visualCategoriesERKNS_16OsmPlacemarkDataE@Base 4:15.12.0
+#MISSING: 4:15.12.0# _ZN6Marble16OsmPresetLibrary17OsmVisualCategoryERK7QString@Base 4:15.11.80+git20150924.0815
  _ZN6Marble16OsmPresetLibrary17additionalTagsEndEv@Base 4:15.11.80+git20150924.0815
  _ZN6Marble16OsmPresetLibrary17hasVisualCategoryERK5QPairI7QStringS2_E@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble16OsmPresetLibrary17osmVisualCategoryERK7QString@Base 4:15.12.0
  _ZN6Marble16OsmPresetLibrary18s_visualCategoriesE@Base 4:15.11.80+git20150924.0815
  _ZN6Marble16OsmPresetLibrary19additionalTagsBeginEv@Base 4:15.11.80+git20150924.0815
  _ZN6Marble16OsmPresetLibrary19s_additionalOsmTagsE@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble16OsmPresetLibrary23determineVisualCategoryERKNS_16OsmPlacemarkDataE@Base 4:15.12.0
  _ZN6Marble16OsmPresetLibrary27initializeAdditionalOsmTagsEv@Base 4:15.11.80+git20150924.0815
  _ZN6Marble16OsmPresetLibrary29initializeOsmVisualCategoriesEv@Base 4:15.11.80+git20150924.0815
  _ZN6Marble16OsmPresetLibrary3endEv@Base 4:15.11.80+git20150924.0815
  _ZN6Marble16OsmPresetLibrary5beginEv@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble16OsmPresetLibrary9isAreaTagERK7QString@Base 4:15.12.0
  _ZN6Marble16ParallelBlendingD0Ev@Base 4:15.08.0
  _ZN6Marble16ParallelBlendingD1Ev@Base 4:15.08.0
  _ZN6Marble16ParallelBlendingD2Ev@Base 4:15.08.0
@@ -4475,7 +4575,8 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble18MarbleInputHandlerD0Ev@Base 4:15.08.0
  _ZN6Marble18MarbleInputHandlerD1Ev@Base 4:15.08.0
  _ZN6Marble18MarbleInputHandlerD2Ev@Base 4:15.08.0
- _ZN6Marble18MarbleModelPrivate14assignNewStyleERK7QStringRKNS_12GeoDataStyleE@Base 4:15.08.0
+ _ZN6Marble18MarbleModelPrivate14assignNewStyleERK7QStringRK14QSharedPointerINS_12GeoDataStyleEE@Base 4:15.12.0
+#MISSING: 4:15.12.0# _ZN6Marble18MarbleModelPrivate14assignNewStyleERK7QStringRKNS_12GeoDataStyleE@Base 4:15.08.0
  _ZN6Marble18MarbleModelPrivate16assignFillColorsERK7QString@Base 4:15.08.0
  _ZN6Marble18MarbleModelPrivate17addHighlightStyleEPNS_15GeoDataDocumentE@Base 4:15.08.0
  _ZN6Marble18MarbleServerLayoutC1EPNS_19GeoSceneTileDatasetE@Base 4:15.11.80+git20150924.0815
@@ -4858,6 +4959,7 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble19GeoSceneTileDataset12setSourceDirERK7QString@Base 4:15.11.80+git20150924.0815
  _ZN6Marble19GeoSceneTileDataset13setInstallMapERK7QString@Base 4:15.11.80+git20150924.0815
  _ZN6Marble19GeoSceneTileDataset13setProjectionENS0_10ProjectionE@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble19GeoSceneTileDataset13setTileLevelsERK7QString@Base 4:15.12.0
  _ZN6Marble19GeoSceneTileDataset14addDownloadUrlERK4QUrl@Base 4:15.11.80+git20150924.0815
  _ZN6Marble19GeoSceneTileDataset15setServerLayoutEPKNS_12ServerLayoutE@Base 4:15.11.80+git20150924.0815
  _ZN6Marble19GeoSceneTileDataset16setLevelZeroRowsEi@Base 4:15.11.80+git20150924.0815
@@ -5240,7 +5342,8 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble20GeometryLayerPrivate23initializeDefaultValuesEv@Base 4:15.08.0
  _ZN6Marble20GeometryLayerPrivate26s_defaultValuesInitializedE@Base 4:15.08.0
  _ZN6Marble20GeometryLayerPrivate29createGraphicsItemFromOverlayEPKNS_14GeoDataOverlayE@Base 4:15.08.0
- _ZN6Marble20GeometryLayerPrivate30createGraphicsItemFromGeometryEPKNS_15GeoDataGeometryEPKNS_16GeoDataPlacemarkE@Base 4:15.08.0
+#MISSING: 4:15.12.0# _ZN6Marble20GeometryLayerPrivate30createGraphicsItemFromGeometryEPKNS_15GeoDataGeometryEPKNS_16GeoDataPlacemarkE@Base 4:15.08.0
+ _ZN6Marble20GeometryLayerPrivate30createGraphicsItemFromGeometryEPKNS_15GeoDataGeometryEPKNS_16GeoDataPlacemarkEb@Base 4:15.12.0
  _ZN6Marble20GeometryLayerPrivateC1EPK18QAbstractItemModel@Base 4:15.08.0
  _ZN6Marble20GeometryLayerPrivateC2EPK18QAbstractItemModel@Base 4:15.08.0
  _ZN6Marble20KmlDocumentTagWriterC1Ev@Base 4:15.08.0
@@ -5291,7 +5394,9 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble20NewstuffModelPrivate11updateModelEv@Base 4:15.08.0
  _ZN6Marble20NewstuffModelPrivate12processQueueEv@Base 4:15.08.0
  _ZN6Marble20NewstuffModelPrivate12saveRegistryEv@Base 4:15.08.0
+ _ZN6Marble20NewstuffModelPrivate14updateRegistryERK11QStringList@Base 4:15.12.0
  _ZN6Marble20NewstuffModelPrivate18handleProviderDataEP13QNetworkReply@Base 4:15.08.0
+ _ZN6Marble20NewstuffModelPrivate5unzipEv@Base 4:15.12.0
  _ZN6Marble20NewstuffModelPrivate7previewEi@Base 4:15.08.0
  (optional=templinst)_ZN6Marble20NewstuffModelPrivate9readValueI4QUrlEEvRK8QDomNodeRK7QStringPT_@Base 4:15.08.0
  (optional=templinst)_ZN6Marble20NewstuffModelPrivate9readValueI7QStringEEvRK8QDomNodeRKS2_PT_@Base 4:15.08.0
@@ -5729,6 +5834,7 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble22GeoGraphicsItemPrivateD0Ev@Base 4:15.08.0
  _ZN6Marble22GeoGraphicsItemPrivateD1Ev@Base 4:15.08.0
  _ZN6Marble22GeoGraphicsItemPrivateD2Ev@Base 4:15.08.0
+ _ZN6Marble22GeoPolygonGraphicsItem14screenPolygonsEPKNS_14ViewportParamsEPKNS_14GeoDataPolygonER7QVectorIP9QPolygonFESB_@Base 4:15.12.0
  _ZN6Marble22GeoPolygonGraphicsItem17createDecorationsEv@Base 4:15.11.80+git20150924.0815
  _ZN6Marble22GeoPolygonGraphicsItem18s_decorationZValueE@Base 4:15.11.80+git20150924.0815
  _ZN6Marble22GeoPolygonGraphicsItem5paintEPNS_10GeoPainterEPKNS_14ViewportParamsE@Base 4:15.08.0
@@ -5791,6 +5897,8 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble22MapThemeDownloadDialogD0Ev@Base 4:15.08.0
  _ZN6Marble22MapThemeDownloadDialogD1Ev@Base 4:15.08.0
  _ZN6Marble22MapThemeDownloadDialogD2Ev@Base 4:15.08.0
+ _ZN6Marble22MarbleZipReaderPrivate9scanFilesEv@Base 4:15.12.0
+ _ZN6Marble22MarbleZipWriterPrivate8addEntryENS0_9EntryTypeERK7QStringRK10QByteArray@Base 4:15.12.0
  _ZN6Marble22PositionProviderPlugin11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:15.08.0
  _ZN6Marble22PositionProviderPlugin11qt_metacastEPKc@Base 4:15.08.0
  _ZN6Marble22PositionProviderPlugin16staticMetaObjectE@Base 4:15.08.0
@@ -5826,7 +5934,7 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble22TreeViewDecoratorModelD0Ev@Base 4:15.08.0
  _ZN6Marble22TreeViewDecoratorModelD1Ev@Base 4:15.08.0
  _ZN6Marble22TreeViewDecoratorModelD2Ev@Base 4:15.08.0
- _ZN6Marble22sortedVisualCategoriesEv@Base 4:15.08.0
+#MISSING: 4:15.12.0# _ZN6Marble22sortedVisualCategoriesEv@Base 4:15.08.0
  _ZN6Marble23AbstractDataPluginModel10removeItemEP7QObject@Base 4:15.08.0
  _ZN6Marble23AbstractDataPluginModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:15.08.0
  _ZN6Marble23AbstractDataPluginModel11qt_metacastEPKc@Base 4:15.08.0
@@ -5871,10 +5979,11 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble23GeoDataPlacemarkPrivateD2Ev@Base 4:15.08.0
  _ZN6Marble23GeoDataTimeStampPrivateC1Ev@Base 4:15.08.0
  _ZN6Marble23GeoDataTimeStampPrivateC2Ev@Base 4:15.08.0
- _ZN6Marble23GeoGraphicsScenePrivate10mergeItemsER5QListIPNS_15GeoGraphicsItemEERKS4_i@Base 4:15.08.0
+#MISSING: 4:15.12.0# _ZN6Marble23GeoGraphicsScenePrivate10mergeItemsER5QListIPNS_15GeoGraphicsItemEERKS4_i@Base 4:15.08.0
  _ZN6Marble23GeoGraphicsScenePrivate10selectItemEPNS_15GeoGraphicsItemE@Base 4:15.08.0
  _ZN6Marble23GeoGraphicsScenePrivate14highlightStyleEPKNS_15GeoDataDocumentERKNS_15GeoDataStyleMapE@Base 4:15.08.0
- _ZN6Marble23GeoGraphicsScenePrivate19applyHighlightStyleEPNS_15GeoGraphicsItemEPNS_12GeoDataStyleE@Base 4:15.08.0
+#MISSING: 4:15.12.0# _ZN6Marble23GeoGraphicsScenePrivate19applyHighlightStyleEPNS_15GeoGraphicsItemEPNS_12GeoDataStyleE@Base 4:15.08.0
+ _ZN6Marble23GeoGraphicsScenePrivate19applyHighlightStyleEPNS_15GeoGraphicsItemERK14QSharedPointerINS_12GeoDataStyleEE@Base 4:15.12.0
  _ZN6Marble23GeoSceneAbstractDataset13setFileFormatERK7QString@Base 4:15.08.0
  _ZN6Marble23GeoSceneAbstractDataset9setExpireEi@Base 4:15.08.0
  _ZN6Marble23GeoSceneAbstractDatasetC1ERK7QString@Base 4:15.08.0
@@ -5920,6 +6029,7 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble23MarbleAbstractPresenter8centerOnEddb@Base 4:15.08.0
  _ZN6Marble23MarbleAbstractPresenter8rotateByEddNS_9FlyToModeE@Base 4:15.08.0
  _ZN6Marble23MarbleAbstractPresenter8viewportEv@Base 4:15.08.0
+ _ZN6Marble23MarbleAbstractPresenter8zoomAtByERK6QPointi@Base 4:15.12.0
  _ZN6Marble23MarbleAbstractPresenter8zoomViewEiNS_9FlyToModeE@Base 4:15.08.0
  _ZN6Marble23MarbleAbstractPresenter9setRadiusEi@Base 4:15.08.0
  _ZN6Marble23MarbleAbstractPresenterC1Ev@Base 4:15.08.0
@@ -6074,6 +6184,7 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble24TileScalingTextureMapperD0Ev@Base 4:15.08.0
  _ZN6Marble24TileScalingTextureMapperD1Ev@Base 4:15.08.0
  _ZN6Marble24TileScalingTextureMapperD2Ev@Base 4:15.08.0
+ _ZN6Marble24acceptedVisualCategoriesEv@Base 4:15.12.0
  _ZN6Marble25AbstractProjectionPrivateC1EPNS_18AbstractProjectionE@Base 4:15.08.0
  _ZN6Marble25AbstractProjectionPrivateC2EPNS_18AbstractProjectionE@Base 4:15.08.0
  _ZN6Marble25AbstractProjectionPrivateD0Ev@Base 4:15.08.0
@@ -6188,9 +6299,11 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble25OsmTagEditorWidgetPrivate20m_customTagAdderTextE@Base 4:15.11.80+git20150924.0815
  _ZN6Marble25OsmTagEditorWidgetPrivate22populatePresetTagsListEv@Base 4:15.11.80+git20150924.0815
  _ZN6Marble25OsmTagEditorWidgetPrivate23populateCurrentTagsListEv@Base 4:15.11.80+git20150924.0815
- _ZN6Marble25OsmTagEditorWidgetPrivate4initEP7QWidget@Base 4:15.11.80+git20150924.0815
- _ZN6Marble25OsmTagEditorWidgetPrivateC1EPNS_18OsmTagEditorWidgetE@Base 4:15.11.80+git20150924.0815
- _ZN6Marble25OsmTagEditorWidgetPrivateC2EPNS_18OsmTagEditorWidgetE@Base 4:15.11.80+git20150924.0815
+#MISSING: 4:15.12.0# _ZN6Marble25OsmTagEditorWidgetPrivate4initEP7QWidget@Base 4:15.11.80+git20150924.0815
+#MISSING: 4:15.12.0# _ZN6Marble25OsmTagEditorWidgetPrivateC1EPNS_18OsmTagEditorWidgetE@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble25OsmTagEditorWidgetPrivateC1Ev@Base 4:15.12.0
+#MISSING: 4:15.12.0# _ZN6Marble25OsmTagEditorWidgetPrivateC2EPNS_18OsmTagEditorWidgetE@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble25OsmTagEditorWidgetPrivateC2Ev@Base 4:15.12.0
  _ZN6Marble25OsmTagEditorWidgetPrivateD1Ev@Base 4:15.11.80+git20150924.0815
  _ZN6Marble25OsmTagEditorWidgetPrivateD2Ev@Base 4:15.11.80+git20150924.0815
  _ZN6Marble25RoutingInputWidgetPrivate10adjustTextEv@Base 4:15.08.0
@@ -6513,9 +6626,11 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble31MarbleWidgetInputHandlerPrivate27MarbleWidgetSelectionRubberD2Ev@Base 4:15.08.0
  _ZN6Marble31OsmRelationManagerWidgetPrivate16populateDropMenuEv@Base 4:15.11.80+git20150924.0815
  _ZN6Marble31OsmRelationManagerWidgetPrivate21populateRelationsListEv@Base 4:15.11.80+git20150924.0815
- _ZN6Marble31OsmRelationManagerWidgetPrivate4initEP7QWidget@Base 4:15.11.80+git20150924.0815
- _ZN6Marble31OsmRelationManagerWidgetPrivateC1EPNS_24OsmRelationManagerWidgetE@Base 4:15.11.80+git20150924.0815
- _ZN6Marble31OsmRelationManagerWidgetPrivateC2EPNS_24OsmRelationManagerWidgetE@Base 4:15.11.80+git20150924.0815
+#MISSING: 4:15.12.0# _ZN6Marble31OsmRelationManagerWidgetPrivate4initEP7QWidget@Base 4:15.11.80+git20150924.0815
+#MISSING: 4:15.12.0# _ZN6Marble31OsmRelationManagerWidgetPrivateC1EPNS_24OsmRelationManagerWidgetE@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble31OsmRelationManagerWidgetPrivateC1Ev@Base 4:15.12.0
+#MISSING: 4:15.12.0# _ZN6Marble31OsmRelationManagerWidgetPrivateC2EPNS_24OsmRelationManagerWidgetE@Base 4:15.11.80+git20150924.0815
+ _ZN6Marble31OsmRelationManagerWidgetPrivateC2Ev@Base 4:15.12.0
  _ZN6Marble31OsmRelationManagerWidgetPrivateD1Ev@Base 4:15.11.80+git20150924.0815
  _ZN6Marble31OsmRelationManagerWidgetPrivateD2Ev@Base 4:15.11.80+git20150924.0815
  _ZN6Marble31PlacemarkPositionProviderPlugin10initializeEv@Base 4:15.08.0
@@ -7391,6 +7506,7 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble4dgml19DgmlValueTagHandlerD1Ev@Base 4:15.08.0
  _ZN6Marble4dgml19DgmlValueTagHandlerD2Ev@Base 4:15.08.0
  _ZN6Marble4dgml19dgmlAttr_labelColorE@Base 4:15.08.0
+ _ZN6Marble4dgml19dgmlAttr_tileLevelsE@Base 4:15.12.0
  _ZN6Marble4dgml19dgmlTag_DescriptionE@Base 4:15.08.0
  _ZN6Marble4dgml19dgmlTag_DownloadUrlE@Base 4:15.08.0
  _ZN6Marble4dgml19dgmlTag_nameSpace20E@Base 4:15.08.0
@@ -7500,6 +7616,7 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZN6Marble5RouteC2Ev@Base 4:15.08.0
  _ZN6Marble5RouteD1Ev@Base 4:15.08.0
  _ZN6Marble5RouteD2Ev@Base 4:15.08.0
+ _ZN6Marble5qHashERKNS_18GeoDataCoordinatesE@Base 4:15.12.0
  _ZN6Marble6ImageF6pixelFERK6QImagedd@Base 4:15.08.0
  _ZN6Marble6ImageFC1Ev@Base 4:15.08.0
  _ZN6Marble6ImageFC2Ev@Base 4:15.08.0
@@ -7946,10 +8063,10 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  (optional=templinst)_ZN7QVectorIN6Marble12RoutingPointEE6insertEPS1_iRKS1_@Base 4:15.08.0
  (optional=templinst)_ZN7QVectorIN6Marble12RoutingPointEED1Ev@Base 4:15.08.0
  (optional=templinst)_ZN7QVectorIN6Marble12RoutingPointEED2Ev@Base 4:15.08.0
- (optional=templinst)_ZN7QVectorIN6Marble14GeoDataFeature21GeoDataVisualCategoryEE11reallocDataEii6QFlagsIN10QArrayData16AllocationOptionEE@Base 4:15.08.0
- (optional=templinst)_ZN7QVectorIN6Marble14GeoDataFeature21GeoDataVisualCategoryEE6appendERKS2_@Base 4:15.08.0
- (optional=templinst)_ZN7QVectorIN6Marble14GeoDataFeature21GeoDataVisualCategoryEED1Ev@Base 4:15.08.0
- (optional=templinst)_ZN7QVectorIN6Marble14GeoDataFeature21GeoDataVisualCategoryEED2Ev@Base 4:15.08.0
+#MISSING: 4:15.12.0# (optional=templinst)_ZN7QVectorIN6Marble14GeoDataFeature21GeoDataVisualCategoryEE11reallocDataEii6QFlagsIN10QArrayData16AllocationOptionEE@Base 4:15.08.0
+#MISSING: 4:15.12.0# (optional=templinst)_ZN7QVectorIN6Marble14GeoDataFeature21GeoDataVisualCategoryEE6appendERKS2_@Base 4:15.08.0
+#MISSING: 4:15.12.0# (optional=templinst)_ZN7QVectorIN6Marble14GeoDataFeature21GeoDataVisualCategoryEED1Ev@Base 4:15.08.0
+#MISSING: 4:15.12.0# (optional=templinst)_ZN7QVectorIN6Marble14GeoDataFeature21GeoDataVisualCategoryEED2Ev@Base 4:15.08.0
  (optional=templinst)_ZN7QVectorIN6Marble15GeoDataGeometryEE11reallocDataEii6QFlagsIN10QArrayData16AllocationOptionEE@Base 4:15.08.0
  (optional=templinst|arch=!ppc64el)_ZN7QVectorIN6Marble15GeoDataGeometryEE6appendERKS1_@Base 4:15.08.0
  (optional=templinst|arch=ppc64el)_ZN7QVectorIN6Marble15GeoDataGeometryEED1Ev@Base 4:15.08.0
@@ -8017,6 +8134,8 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  (optional=templinst)_ZN7QVectorIPKN6Marble26GeoSceneTextureTileDatasetEED2Ev@Base 4:15.11.80+git20150924.0815
  (optional=templinst)_ZN7QVectorIPN6Marble12GeoDataTrackEE11reallocDataEii6QFlagsIN10QArrayData16AllocationOptionEE@Base 4:15.08.0
  (optional=templinst|arch=!ppc64el)_ZN7QVectorIPN6Marble12GeoDataTrackEE6appendERKS2_@Base 4:15.08.0
+ (optional=templinst)_ZN7QVectorIPN6Marble12GeoDataTrackEED1Ev@Base 4:15.12.0
+ (optional=templinst)_ZN7QVectorIPN6Marble12GeoDataTrackEED2Ev@Base 4:15.12.0
  (optional=templinst)_ZN7QVectorIPN6Marble12GeoSceneItemEE11reallocDataEii6QFlagsIN10QArrayData16AllocationOptionEE@Base 4:15.08.0
  (optional=templinst|arch=arm64 powerpc)_ZN7QVectorIPN6Marble12GeoSceneItemEE6appendERKS2_@Base 4:15.08.0
  (optional=templinst)_ZN7QVectorIPN6Marble13GeoDataFolderEE11reallocDataEii6QFlagsIN10QArrayData16AllocationOptionEE@Base 4:15.08.0
@@ -8041,8 +8160,12 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  (optional=templinst)_ZN7QVectorIPN6Marble15GeoDataDocumentEED2Ev@Base 4:15.08.0
  (optional=templinst)_ZN7QVectorIPN6Marble15GeoDataGeometryEE11reallocDataEii6QFlagsIN10QArrayData16AllocationOptionEE@Base 4:15.08.0
  (optional=templinst|arch=!ppc64el)_ZN7QVectorIPN6Marble15GeoDataGeometryEE6appendERKS2_@Base 4:15.08.0
+ (optional=templinst)_ZN7QVectorIPN6Marble15GeoDataGeometryEED1Ev@Base 4:15.12.0
+ (optional=templinst)_ZN7QVectorIPN6Marble15GeoDataGeometryEED2Ev@Base 4:15.12.0
  (optional=templinst)_ZN7QVectorIPN6Marble15GeoDataItemIconEE11reallocDataEii6QFlagsIN10QArrayData16AllocationOptionEE@Base 4:15.08.0
  (optional=templinst|arch=!ppc64el)_ZN7QVectorIPN6Marble15GeoDataItemIconEE6appendERKS2_@Base 4:15.08.0
+ (optional=templinst)_ZN7QVectorIPN6Marble15GeoDataItemIconEED1Ev@Base 4:15.12.0
+ (optional=templinst)_ZN7QVectorIPN6Marble15GeoDataItemIconEED2Ev@Base 4:15.12.0
  (optional=templinst)_ZN7QVectorIPN6Marble15VectorTileModelEE11reallocDataEii6QFlagsIN10QArrayData16AllocationOptionEE@Base 4:15.08.0
  (optional=templinst|arch=!ppc64el)_ZN7QVectorIPN6Marble15VectorTileModelEE6appendERKS2_@Base 4:15.08.0
  (optional=templinst)_ZN7QVectorIPN6Marble15VectorTileModelEED1Ev@Base 4:15.08.0
@@ -8074,8 +8197,8 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  (optional=templinst|arch=arm64 powerpc)_ZN7QVectorIPN6Marble7HttpJobEE6appendERKS2_@Base 4:15.08.0
  (optional=templinst)_ZN7QVectorIS_IPN6Marble16VisiblePlacemarkEEE11reallocDataEii6QFlagsIN10QArrayData16AllocationOptionEE@Base 4:15.08.0
  (optional=templinst|arch=powerpc ppc64el)_ZN7QVectorIS_IPN6Marble16VisiblePlacemarkEEE5clearEv@Base 4:15.08.0
- (optional=templinst|arch=ppc64el)_ZN7QVectorIS_IPN6Marble16VisiblePlacemarkEEED1Ev@Base 4:15.08.0
- (optional=templinst|arch=ppc64el)_ZN7QVectorIS_IPN6Marble16VisiblePlacemarkEEED2Ev@Base 4:15.08.0
+ (optional=templinst)_ZN7QVectorIS_IPN6Marble16VisiblePlacemarkEEED1Ev@Base 4:15.08.0
+ (optional=templinst)_ZN7QVectorIS_IPN6Marble16VisiblePlacemarkEEED2Ev@Base 4:15.08.0
  (optional=templinst)_ZN7QVectorIdE11reallocDataEii6QFlagsIN10QArrayData16AllocationOptionEE@Base 4:15.08.0
  (optional=templinst)_ZN7QVectorIdE6appendERKd@Base 4:15.08.0
  (optional=templinst|arch=!ppc64el)_ZN7QVectorIdEC1Ei@Base 4:15.08.0
@@ -8094,9 +8217,10 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  (optional=templinst)_ZN7QVectorIjED2Ev@Base 4:15.08.0
  _ZN7Ui_GoTo7setupUiEP7QDialog@Base 4:15.08.0
  (optional=templinst)_ZN8QMapNodeI5QPairI7QStringS1_EN6Marble14GeoDataFeature21GeoDataVisualCategoryEE14destroySubTreeEv@Base 4:15.11.80+git20150924.0815
+ (optional=templinst)_ZN8QMapNodeI7QString14QSharedPointerIN6Marble12GeoDataStyleEEE14destroySubTreeEv@Base 4:15.12.0
  (optional=templinst)_ZN8QMapNodeI7QString5QPairI9QDateTimeyEE14destroySubTreeEv@Base 4:15.08.0
  (optional=templinst)_ZN8QMapNodeI7QString7QPixmapE14destroySubTreeEv@Base 4:15.08.0
- (optional=templinst)_ZN8QMapNodeI7QStringN6Marble12GeoDataStyleEE14destroySubTreeEv@Base 4:15.08.0
+#MISSING: 4:15.12.0# (optional=templinst)_ZN8QMapNodeI7QStringN6Marble12GeoDataStyleEE14destroySubTreeEv@Base 4:15.08.0
  (optional=templinst)_ZN8QMapNodeI7QStringN6Marble13GeoDataSchemaEE14destroySubTreeEv@Base 4:15.08.0
  (optional=templinst)_ZN8QMapNodeI7QStringN6Marble15GeoDataStyleMapEE14destroySubTreeEv@Base 4:15.08.0
  (optional=templinst)_ZN8QMapNodeI7QStringN6Marble15RoutingWaypoint12JunctionTypeEE14destroySubTreeEv@Base 4:15.08.0
@@ -8112,6 +8236,7 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  (optional=templinst)_ZN8QMapNodeIN6Marble6TileIdE5QListIPNS0_15GeoGraphicsItemEEE14destroySubTreeEv@Base 4:15.08.0
  (optional=templinst)_ZN8QMapNodeIN6Marble8Maneuver9DirectionE7QStringE14destroySubTreeEv@Base 4:15.08.0
  (optional=templinst)_ZN8QMapNodeIi21QPersistentModelIndexE14destroySubTreeEv@Base 4:15.08.0
+ (optional=templinst)_ZN8QMapNodeIx5QListIPKN6Marble16GeoDataPlacemarkEEE14destroySubTreeEv@Base 4:15.12.0
  (optional=templinst)_ZN9QtPrivate16ConverterFunctorI5QListIdEN17QtMetaTypePrivate23QSequentialIterableImplENS3_33QSequentialIterableConvertFunctorIS2_EEE7convertEPKNS_25AbstractConverterFunctionEPKvPv@Base 4:15.08.0
  (optional=templinst)_ZN9QtPrivate16ConverterFunctorI5QListIdEN17QtMetaTypePrivate23QSequentialIterableImplENS3_33QSequentialIterableConvertFunctorIS2_EEED1Ev@Base 4:15.08.0
  (optional=templinst)_ZN9QtPrivate16ConverterFunctorI5QListIdEN17QtMetaTypePrivate23QSequentialIterableImplENS3_33QSequentialIterableConvertFunctorIS2_EEED2Ev@Base 4:15.08.0
@@ -8145,7 +8270,8 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZNK22KDescendantsProxyModel8rowCountERK11QModelIndex@Base 4:15.08.0
  _ZNK22KDescendantsProxyModel9mimeTypesEv@Base 4:15.08.0
  _ZNK29KDescendantsProxyModelPrivate29scheduleProcessPendingParentsEv@Base 4:15.08.0
- (optional=templinst)_ZNK4QMapI7QStringN6Marble12GeoDataStyleEEeqERKS3_@Base 4:15.08.0
+ (optional=templinst)_ZNK4QMapI7QString14QSharedPointerIN6Marble12GeoDataStyleEEE6valuesEv@Base 4:15.12.0
+#MISSING: 4:15.12.0# (optional=templinst)_ZNK4QMapI7QStringN6Marble12GeoDataStyleEEeqERKS3_@Base 4:15.08.0
  (optional=templinst)_ZNK4QMapI7QStringN6Marble13GeoDataSchemaEEeqERKS3_@Base 4:15.08.0
  (optional=templinst)_ZNK4QMapI7QStringN6Marble15GeoDataStyleMapEEeqERKS3_@Base 4:15.08.0
  (optional=templinst)_ZNK4QMapI7QStringS0_E3keyERKS0_S3_@Base 4:15.08.0
@@ -8175,6 +8301,7 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  (optional=templinst|arch=!ppc64el)_ZNK5QHashI7QStringS0_E8findNodeERKS0_Pj@Base 4:15.08.0
  (optional=templinst|arch=!ppc64el)_ZNK5QHashI7QStringS_IS0_8QVariantEE8findNodeERKS0_Pj@Base 4:15.08.0
  (optional=templinst)_ZNK5QHashI7QStringS_IS0_8QVariantEEeqERKS3_@Base 4:15.08.0
+ (optional=templinst)_ZNK5QHashIN6Marble14GeoDataFeature21GeoDataVisualCategoryE15QHashDummyValueE8findNodeERKS2_Pj@Base 4:15.12.0
  (optional=templinst)_ZNK5QHashIN6Marble18GeoDataCoordinatesENS0_16OsmPlacemarkDataEE8findNodeERKS1_Pj@Base 4:15.08.0
  (optional=templinst|arch=!ppc64el)_ZNK5QHashIN6Marble6TileIdE15QHashDummyValueE8findNodeERKS1_Pj@Base 4:15.08.0
  (optional=templinst)_ZNK5QHashIN6Marble6TileIdEN6QCacheIS1_K6QImageE4NodeEE8findNodeERKS1_Pj@Base 4:15.08.0
@@ -8191,12 +8318,14 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  (optional=templinst|arch=!ppc64el)_ZNK5QHashIi21QPersistentModelIndexE8findNodeERKiPj@Base 4:15.08.0
  (optional=templinst)_ZNK5QHashIiN6Marble16OsmPlacemarkDataEE8findNodeERKiPj@Base 4:15.11.80+git20150924.0815
  (optional=templinst|arch=!ppc64el)_ZNK5QHashIiiE8findNodeERKiPj@Base 4:15.08.0
+ (optional=templinst)_ZNK5QHashIx15QHashDummyValueE8findNodeERKxPj@Base 4:15.12.0
  (optional=templinst)_ZNK5QHashIx7QStringE8findNodeERKxPj@Base 4:15.11.80+git20150924.0815
  (optional=templinst)_ZNK5QHashIxN6Marble16OsmPlacemarkDataEE8findNodeERKxPj@Base 4:15.11.80+git20150924.0815
- (optional=templinst|arch=!ppc64el)_ZNK5QListI21QPersistentModelIndexE8containsERKS0_@Base 4:15.08.0
- (optional=templinst|arch=!ppc64el)_ZNK5QListI5QPairIiN6Marble20NewstuffModelPrivate10UserActionEEE8containsERKS4_@Base 4:15.08.0
+#MISSING: 4:15.12.0# (optional=templinst|arch=!ppc64el)_ZNK5QListI21QPersistentModelIndexE8containsERKS0_@Base 4:15.08.0
+#MISSING: 4:15.12.0# (optional=templinst|arch=!ppc64el)_ZNK5QListI5QPairIiN6Marble20NewstuffModelPrivate10UserActionEEE8containsERKS4_@Base 4:15.08.0
  (optional=templinst)_ZNK5QListI7QStringE5toSetEv@Base 4:15.08.0
- (optional=templinst|arch=!ppc64el)_ZNK5QListI7QStringE8containsERKS0_@Base 4:15.08.0
+#MISSING: 4:15.12.0# (optional=templinst|arch=!ppc64el)_ZNK5QListI7QStringE8containsERKS0_@Base 4:15.08.0
+ (optional=templinst)_ZNK5QListIPN6Marble25ScreenOverlayGraphicsItemEE7indexOfERKS2_i@Base 4:15.12.0
  _ZNK6Marble10FileLoader10metaObjectEv@Base 4:15.08.0
  _ZNK6Marble10FileLoader4pathEv@Base 4:15.08.0
  _ZNK6Marble10FileLoader5errorEv@Base 4:15.08.0
@@ -8250,6 +8379,7 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZNK6Marble10SunLocator6getLonEv@Base 4:15.08.0
  _ZNK6Marble10SunLocator7shadingEddd@Base 4:15.08.0
  _ZNK6Marble10TileLoader10metaObjectEv@Base 4:15.08.0
+ _ZNK6Marble10TileLoader14openVectorFileERK7QString@Base 4:15.12.0
  _ZNK6Marble10TileRunner10metaObjectEv@Base 4:15.08.0
  _ZNK6Marble10TourWidget10metaObjectEv@Base 4:15.08.0
  _ZNK6Marble10TourWidget9isPlayingEv@Base 4:15.08.0
@@ -8342,6 +8472,7 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZNK6Marble11MarbleModel8planetIdEv@Base 4:15.08.0
  _ZNK6Marble11MarbleModel9treeModelEv@Base 4:15.08.0
  _ZNK6Marble11ParsingTask10metaObjectEv@Base 4:15.08.0
+ _ZNK6Marble11QZipPrivate12fillFileInfoEiRNS_15MarbleZipReader8FileInfoE@Base 4:15.12.0
  _ZNK6Marble11RenderState4nameEv@Base 4:15.08.0
  _ZNK6Marble11RenderState6statusEv@Base 4:15.08.0
  _ZNK6Marble11RenderState7childAtEi@Base 4:15.08.0
@@ -8883,9 +9014,11 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZNK6Marble14ViewportParams6radiusEv@Base 4:15.08.0
  _ZNK6Marble14ViewportParams8mapShapeEv@Base 4:15.08.0
  _ZNK6Marble14ViewportParams8polarityEv@Base 4:15.08.0
- _ZNK6Marble14ViewportParams8resolvesERKNS_16GeoDataLatLonBoxE@Base 4:15.08.0
+#MISSING: 4:15.12.0# _ZNK6Marble14ViewportParams8resolvesERKNS_16GeoDataLatLonBoxE@Base 4:15.08.0
+ _ZNK6Marble14ViewportParams8resolvesERKNS_16GeoDataLatLonBoxEd@Base 4:15.12.0
  _ZNK6Marble14ViewportParams8resolvesERKNS_18GeoDataCoordinatesES3_@Base 4:15.08.0
- _ZNK6Marble14ViewportParams8resolvesERKNS_19GeoDataLatLonAltBoxE@Base 4:15.08.0
+#MISSING: 4:15.12.0# _ZNK6Marble14ViewportParams8resolvesERKNS_19GeoDataLatLonAltBoxE@Base 4:15.08.0
+ _ZNK6Marble14ViewportParams8resolvesERKNS_19GeoDataLatLonAltBoxEdd@Base 4:15.12.0
  _ZNK6Marble14ViewportParams9mapRegionEv@Base 4:15.08.0
  _ZNK6Marble14WaitEditWidget10metaObjectEv@Base 4:15.08.0
  _ZNK6Marble14WaitEditWidget8editableEv@Base 4:15.08.0
@@ -8974,7 +9107,7 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZNK6Marble15GeoGraphicsItem12latLonAltBoxEv@Base 4:15.08.0
  _ZNK6Marble15GeoGraphicsItem12minZoomLevelEv@Base 4:15.08.0
  _ZNK6Marble15GeoGraphicsItem13isHighlightedEv@Base 4:15.08.0
- _ZNK6Marble15GeoGraphicsItem1pEv@Base 4:15.08.0
+#MISSING: 4:15.12.0# _ZNK6Marble15GeoGraphicsItem1pEv@Base 4:15.08.0
  _ZNK6Marble15GeoGraphicsItem5flagsEv@Base 4:15.08.0
  _ZNK6Marble15GeoGraphicsItem5styleEv@Base 4:15.08.0
  _ZNK6Marble15GeoGraphicsItem6zValueEv@Base 4:15.08.0
@@ -9016,11 +9149,28 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZNK6Marble15MapThemeManager11mapThemeIdsEv@Base 4:15.08.0
  _ZNK6Marble15MarbleNavigator10metaObjectEv@Base 4:15.08.0
  _ZNK6Marble15MarbleNavigator11minimumZoomEv@Base 4:15.08.0
+ _ZNK6Marble15MarbleZipReader10extractAllERK7QString@Base 4:15.12.0
+ _ZNK6Marble15MarbleZipReader10isReadableEv@Base 4:15.12.0
+ _ZNK6Marble15MarbleZipReader11entryInfoAtEi@Base 4:15.12.0
+ _ZNK6Marble15MarbleZipReader12fileInfoListEv@Base 4:15.12.0
+ _ZNK6Marble15MarbleZipReader5countEv@Base 4:15.12.0
+ _ZNK6Marble15MarbleZipReader6deviceEv@Base 4:15.12.0
+ _ZNK6Marble15MarbleZipReader6existsEv@Base 4:15.12.0
+ _ZNK6Marble15MarbleZipReader6statusEv@Base 4:15.12.0
+ _ZNK6Marble15MarbleZipReader8FileInfo7isValidEv@Base 4:15.12.0
+ _ZNK6Marble15MarbleZipReader8fileDataERK7QString@Base 4:15.12.0
+ _ZNK6Marble15MarbleZipWriter10isWritableEv@Base 4:15.12.0
+ _ZNK6Marble15MarbleZipWriter17compressionPolicyEv@Base 4:15.12.0
+ _ZNK6Marble15MarbleZipWriter19creationPermissionsEv@Base 4:15.12.0
+ _ZNK6Marble15MarbleZipWriter6deviceEv@Base 4:15.12.0
+ _ZNK6Marble15MarbleZipWriter6existsEv@Base 4:15.12.0
+ _ZNK6Marble15MarbleZipWriter6statusEv@Base 4:15.12.0
  _ZNK6Marble15OsmServerLayout11downloadUrlERK4QUrlRKNS_6TileIdE@Base 4:15.08.0
  _ZNK6Marble15OsmServerLayout4nameEv@Base 4:15.08.0
  _ZNK6Marble15OverlayBlending12blendChannelEdd@Base 4:15.08.0
  _ZNK6Marble15PlacemarkLayout10metaObjectEv@Base 4:15.08.0
- _ZNK6Marble15PlacemarkLayout12roomForLabelEPKNS_12GeoDataStyleEddRK7QString@Base 4:15.08.0
+#MISSING: 4:15.12.0# _ZNK6Marble15PlacemarkLayout12roomForLabelEPKNS_12GeoDataStyleEddRK7QString@Base 4:15.08.0
+ _ZNK6Marble15PlacemarkLayout12roomForLabelERK14QSharedPointerIKNS_12GeoDataStyleEEddRK7QString@Base 4:15.12.0
  _ZNK6Marble15PlacemarkLayout12runtimeTraceEv@Base 4:15.08.0
  _ZNK6Marble15PlacemarkLayout14maxLabelHeightEv@Base 4:15.08.0
  _ZNK6Marble15PlacemarkLayout23placemarksOnScreenLimitERK5QSize@Base 4:15.08.0
@@ -9119,6 +9269,7 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZNK6Marble16GeoDataLineStyle10backgroundEv@Base 4:15.08.0
  _ZNK6Marble16GeoDataLineStyle11dashPatternEv@Base 4:15.08.0
  _ZNK6Marble16GeoDataLineStyle13physicalWidthEv@Base 4:15.08.0
+ _ZNK6Marble16GeoDataLineStyle15cosmeticOutlineEv@Base 4:15.12.0
  _ZNK6Marble16GeoDataLineStyle4packER11QDataStream@Base 4:15.08.0
  _ZNK6Marble16GeoDataLineStyle5widthEv@Base 4:15.08.0
  _ZNK6Marble16GeoDataLineStyle8capStyleEv@Base 4:15.08.0
@@ -9292,6 +9443,7 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZNK6Marble17AbstractFloatItem4fontEv@Base 4:15.08.0
  _ZNK6Marble17AbstractFloatItem7visibleEv@Base 4:15.08.0
  _ZNK6Marble17AbstractFloatItem8settingsEv@Base 4:15.08.0
+ _ZNK6Marble17CentralFileHeader13toLocalHeaderEv@Base 4:15.12.0
  _ZNK6Marble17CloudRoutesDialog10metaObjectEv@Base 4:15.08.0
  _ZNK6Marble17ColorBurnBlending12blendChannelEdd@Base 4:15.08.0
  _ZNK6Marble17DgmlHeadTagWriter5writeEPKNS_7GeoNodeERNS_9GeoWriterE@Base 4:15.08.0
@@ -9370,6 +9522,7 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZNK6Marble17GeoDataLineString7isEmptyEv@Base 4:15.08.0
  _ZNK6Marble17GeoDataLineString8constEndEv@Base 4:15.08.0
  _ZNK6Marble17GeoDataLineString8isClosedEv@Base 4:15.08.0
+ _ZNK6Marble17GeoDataLineString9optimizedEv@Base 4:15.12.0
  _ZNK6Marble17GeoDataLineStringeqERKS0_@Base 4:15.08.0
  _ZNK6Marble17GeoDataLineStringixEi@Base 4:15.08.0
  _ZNK6Marble17GeoDataLineStringneERKS0_@Base 4:15.08.0
@@ -9751,6 +9904,7 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZNK6Marble19GeoDataTrackPrivate8nodeTypeEv@Base 4:15.08.0
  _ZNK6Marble19GeoSceneTileDataset10installMapEv@Base 4:15.11.80+git20150924.0815
  _ZNK6Marble19GeoSceneTileDataset10projectionEv@Base 4:15.11.80+git20150924.0815
+ _ZNK6Marble19GeoSceneTileDataset10tileLevelsEv@Base 4:15.12.0
  _ZNK6Marble19GeoSceneTileDataset11downloadUrlERKNS_6TileIdE@Base 4:15.11.80+git20150924.0815
  _ZNK6Marble19GeoSceneTileDataset12downloadUrlsEv@Base 4:15.11.80+git20150924.0815
  _ZNK6Marble19GeoSceneTileDataset12serverLayoutEv@Base 4:15.11.80+git20150924.0815
@@ -9885,6 +10039,7 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZNK6Marble20MergedLayerDecorator14showCityLightsEv@Base 4:15.08.0
  _ZNK6Marble20MergedLayerDecorator14showSunShadingEv@Base 4:15.08.0
  _ZNK6Marble20MergedLayerDecorator14tileProjectionEv@Base 4:15.08.0
+ _ZNK6Marble20MergedLayerDecorator15hasTextureLayerEv@Base 4:15.12.0
  _ZNK6Marble20MergedLayerDecorator15tileColumnCountEi@Base 4:15.08.0
  _ZNK6Marble20MergedLayerDecorator16maximumTileLevelEv@Base 4:15.08.0
  _ZNK6Marble20MergedLayerDecorator17textureLayersSizeEv@Base 4:15.08.0
@@ -10105,9 +10260,12 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZNK6Marble24GeoDataLineStringPrivate10geometryIdEv@Base 4:15.08.0
  _ZNK6Marble24GeoDataLineStringPrivate12findDateLineERKNS_18GeoDataCoordinatesES3_i@Base 4:15.08.0
  _ZNK6Marble24GeoDataLineStringPrivate15toPoleCorrectedERKNS_17GeoDataLineStringERS1_@Base 4:15.08.0
+ _ZNK6Marble24GeoDataLineStringPrivate18levelForResolutionEd@Base 4:15.12.0
+ _ZNK6Marble24GeoDataLineStringPrivate18resolutionForLevelEi@Base 4:15.12.0
  _ZNK6Marble24GeoDataLineStringPrivate19interpolateDateLineERKNS_18GeoDataCoordinatesES3_RS1_S4_6QFlagsINS_16TessellationFlagEE@Base 4:15.08.0
  _ZNK6Marble24GeoDataLineStringPrivate19toDateLineCorrectedERKNS_17GeoDataLineStringER7QVectorIPS1_E@Base 4:15.08.0
  _ZNK6Marble24GeoDataLineStringPrivate8nodeTypeEv@Base 4:15.08.0
+ _ZNK6Marble24GeoDataLineStringPrivate8optimizeERNS_17GeoDataLineStringE@Base 4:15.12.0
  _ZNK6Marble24GeoDataLinearRingPrivate10geometryIdEv@Base 4:15.08.0
  _ZNK6Marble24GeoDataLinearRingPrivate8nodeTypeEv@Base 4:15.08.0
  _ZNK6Marble24GeoDataMultiTrackPrivate10geometryIdEv@Base 4:15.08.0
@@ -10120,6 +10278,7 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZNK6Marble24MarbleWidgetInputHandler10metaObjectEv@Base 4:15.08.0
  _ZNK6Marble24OsmRelationManagerWidget10metaObjectEv@Base 4:15.11.80+git20150924.0815
  _ZNK6Marble24TileScalingTextureMapper10metaObjectEv@Base 4:15.08.0
+ _ZNK6Marble25AbstractProjectionPrivate18levelForResolutionEd@Base 4:15.12.0
  _ZNK6Marble25GeoDataNetworkLinkControl11linkSnippetEv@Base 4:15.08.0
  _ZNK6Marble25GeoDataNetworkLinkControl12abstractViewEv@Base 4:15.08.0
  _ZNK6Marble25GeoDataNetworkLinkControl15linkDescriptionEv@Base 4:15.08.0
@@ -10560,6 +10719,7 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZNK6Marble9MarbleMap11showTerrainEv@Base 4:15.08.0
  _ZNK6Marble9MarbleMap11viewContextEv@Base 4:15.08.0
  _ZNK6Marble9MarbleMap11whichItemAtERK6QPoint@Base 4:15.08.0
+ _ZNK6Marble9MarbleMap12discreteZoomEv@Base 4:15.12.0
  _ZNK6Marble9MarbleMap12renderStatusEv@Base 4:15.08.0
  _ZNK6Marble9MarbleMap12showIceLayerEv@Base 4:15.08.0
  _ZNK6Marble9MarbleMap12showScaleBarEv@Base 4:15.08.0
@@ -10623,9 +10783,11 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZNK6Marble9RouteItemeqERKS0_@Base 4:15.08.0
  _ZNK7QPointF7toPointEv@Base 4:15.08.0
  _ZNK7QStringeqEPKc@Base 4:15.08.0
+ (optional=templinst)_ZNK7QVectorIPN6Marble18RoutingInputWidgetEE8containsERKS2_@Base 4:15.12.0
  (optional=templinst)_ZNK8QMapDataI5QPairI7QStringS1_EN6Marble14GeoDataFeature21GeoDataVisualCategoryEE8findNodeERKS2_@Base 4:15.11.80+git20150924.0815
+ (optional=templinst)_ZNK8QMapDataI7QString14QSharedPointerIN6Marble12GeoDataStyleEEE8findNodeERKS0_@Base 4:15.12.0
  (optional=templinst|arch=!ppc64el)_ZNK8QMapDataI7QString5QPairI9QDateTimeyEE8findNodeERKS0_@Base 4:15.08.0
- (optional=templinst|arch=!ppc64el)_ZNK8QMapDataI7QStringN6Marble12GeoDataStyleEE8findNodeERKS0_@Base 4:15.08.0
+#MISSING: 4:15.12.0# (optional=templinst|arch=!ppc64el)_ZNK8QMapDataI7QStringN6Marble12GeoDataStyleEE8findNodeERKS0_@Base 4:15.08.0
  (optional=templinst|arch=!ppc64el)_ZNK8QMapDataI7QStringN6Marble13GeoDataSchemaEE8findNodeERKS0_@Base 4:15.08.0
  (optional=templinst|arch=!ppc64el)_ZNK8QMapDataI7QStringN6Marble15GeoDataStyleMapEE8findNodeERKS0_@Base 4:15.08.0
  (optional=templinst|arch=!ppc64el)_ZNK8QMapDataI7QStringN6Marble15RoutingWaypoint12JunctionTypeEE8findNodeERKS0_@Base 4:15.08.0
@@ -10637,8 +10799,9 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  (optional=templinst|arch=!ppc64el)_ZNK8QMapDataIN6Marble6TileIdE5QListIPKNS0_16GeoDataPlacemarkEEE8findNodeERKS1_@Base 4:15.08.0
  (optional=templinst)_ZNK8QMapDataIN6Marble6TileIdE5QListIPNS0_15GeoGraphicsItemEEE8findNodeERKS1_@Base 4:15.08.0
  (optional=templinst)_ZNK8QMapNodeI5QPairI7QStringS1_EN6Marble14GeoDataFeature21GeoDataVisualCategoryEE4copyEP8QMapDataIS2_S5_E@Base 4:15.11.80+git20150924.0815
+ (optional=templinst)_ZNK8QMapNodeI7QString14QSharedPointerIN6Marble12GeoDataStyleEEE4copyEP8QMapDataIS0_S4_E@Base 4:15.12.0
  (optional=templinst)_ZNK8QMapNodeI7QString5QPairI9QDateTimeyEE4copyEP8QMapDataIS0_S3_E@Base 4:15.08.0
- (optional=templinst)_ZNK8QMapNodeI7QStringN6Marble12GeoDataStyleEE4copyEP8QMapDataIS0_S2_E@Base 4:15.08.0
+#MISSING: 4:15.12.0# (optional=templinst)_ZNK8QMapNodeI7QStringN6Marble12GeoDataStyleEE4copyEP8QMapDataIS0_S2_E@Base 4:15.08.0
  (optional=templinst)_ZNK8QMapNodeI7QStringN6Marble13GeoDataSchemaEE4copyEP8QMapDataIS0_S2_E@Base 4:15.08.0
  (optional=templinst)_ZNK8QMapNodeI7QStringN6Marble15GeoDataStyleMapEE4copyEP8QMapDataIS0_S2_E@Base 4:15.08.0
  (optional=templinst)_ZNK8QMapNodeI7QStringN6Marble15RoutingWaypoint12JunctionTypeEE4copyEP8QMapDataIS0_S3_E@Base 4:15.08.0
@@ -10660,6 +10823,11 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  (optional=templinst)_ZNK8QMapNodeIPN6Marble22AbstractDataPluginItemEP10QQuickItemE4copyEP8QMapDataIS2_S4_E@Base 4:15.08.0
  (optional=templinst)_ZNK8QMapNodeIi21QPersistentModelIndexE4copyEP8QMapDataIiS0_E@Base 4:15.08.0
  (optional=templinst)_ZNK8QMapNodeIiiE4copyEP8QMapDataIiiE@Base 4:15.08.0
+ (optional=templinst)_ZNK8QMapNodeIx5QListIPKN6Marble16GeoDataPlacemarkEEE4copyEP8QMapDataIxS5_E@Base 4:15.12.0
+ (optional=templinst)_ZSt9__find_ifIPK11QModelIndexN9__gnu_cxx5__ops16_Iter_equals_valIS1_EEET_S7_S7_T0_St26random_access_iterator_tag@Base 4:15.12.0
+ (optional=templinst)_ZSt9__find_ifIPK21QPersistentModelIndexN9__gnu_cxx5__ops16_Iter_equals_valIS1_EEET_S7_S7_T0_St26random_access_iterator_tag@Base 4:15.12.0
+ (optional=templinst)_ZSt9__find_ifIPK7QStringN9__gnu_cxx5__ops16_Iter_equals_valIS1_EEET_S7_S7_T0_St26random_access_iterator_tag@Base 4:15.12.0
+ (optional=templinst)_ZSt9__find_ifIPK9QDateTimeN9__gnu_cxx5__ops16_Iter_equals_valIS1_EEET_S7_S7_T0_St26random_access_iterator_tag@Base 4:15.12.0
  _ZTI12KineticModel@Base 4:15.08.0
  _ZTI13MarbleWebView@Base 4:15.08.0
  _ZTI14QFutureWatcherIvE@Base 4:15.08.0
@@ -12726,15 +12894,24 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  (optional=templinst)_ZZN11QMetaTypeIdIPN6Marble13GeoDataObjectEE14qt_metatype_idEvE11metatype_id@Base 4:15.08.0
  (optional=templinst)_ZZN11QMetaTypeIdIPN6Marble15GeoDataDocumentEE14qt_metatype_idEvE11metatype_id@Base 4:15.08.0
  (optional=templinst)_ZZN11QMetaTypeIdIPN6Marble15GeoDataGeometryEE14qt_metatype_idEvE11metatype_id@Base 4:15.08.0
- (optional=templinst)_ZZN18QMetaTypeIdQObjectIP13QNetworkReplyLb1EE14qt_metatype_idEvE11metatype_id@Base 4:15.08.0
- (optional=templinst)_ZZN18QMetaTypeIdQObjectIPN6Marble10FileLoaderELb1EE14qt_metatype_idEvE11metatype_id@Base 4:15.08.0
- (optional=templinst)_ZZN18QMetaTypeIdQObjectIPN6Marble10SearchTaskELb1EE14qt_metatype_idEvE11metatype_id@Base 4:15.08.0
- (optional=templinst)_ZZN18QMetaTypeIdQObjectIPN6Marble11ParsingTaskELb1EE14qt_metatype_idEvE11metatype_id@Base 4:15.08.0
- (optional=templinst)_ZZN18QMetaTypeIdQObjectIPN6Marble11RoutingTaskELb1EE14qt_metatype_idEvE11metatype_id@Base 4:15.08.0
- (optional=templinst)_ZZN18QMetaTypeIdQObjectIPN6Marble18RoutingInputWidgetELb1EE14qt_metatype_idEvE11metatype_id@Base 4:15.08.0
- (optional=templinst)_ZZN18QMetaTypeIdQObjectIPN6Marble20ReverseGeocodingTaskELb1EE14qt_metatype_idEvE11metatype_id@Base 4:15.08.0
- (optional=templinst)_ZZN18QMetaTypeIdQObjectIPN6Marble7HttpJobELb1EE14qt_metatype_idEvE11metatype_id@Base 4:15.08.0
- (optional=templinst)_ZZN18QMetaTypeIdQObjectIPN6Marble9MergeItemELb1EE14qt_metatype_idEvE11metatype_id@Base 4:15.08.0
+#MISSING: 4:15.12.0# (optional=templinst)_ZZN18QMetaTypeIdQObjectIP13QNetworkReplyLb1EE14qt_metatype_idEvE11metatype_id@Base 4:15.08.0
+ (optional=templinst)_ZZN18QMetaTypeIdQObjectIP13QNetworkReplyLi8EE14qt_metatype_idEvE11metatype_id@Base 4:15.12.0
+#MISSING: 4:15.12.0# (optional=templinst)_ZZN18QMetaTypeIdQObjectIPN6Marble10FileLoaderELb1EE14qt_metatype_idEvE11metatype_id@Base 4:15.08.0
+ (optional=templinst)_ZZN18QMetaTypeIdQObjectIPN6Marble10FileLoaderELi8EE14qt_metatype_idEvE11metatype_id@Base 4:15.12.0
+#MISSING: 4:15.12.0# (optional=templinst)_ZZN18QMetaTypeIdQObjectIPN6Marble10SearchTaskELb1EE14qt_metatype_idEvE11metatype_id@Base 4:15.08.0
+ (optional=templinst)_ZZN18QMetaTypeIdQObjectIPN6Marble10SearchTaskELi8EE14qt_metatype_idEvE11metatype_id@Base 4:15.12.0
+#MISSING: 4:15.12.0# (optional=templinst)_ZZN18QMetaTypeIdQObjectIPN6Marble11ParsingTaskELb1EE14qt_metatype_idEvE11metatype_id@Base 4:15.08.0
+ (optional=templinst)_ZZN18QMetaTypeIdQObjectIPN6Marble11ParsingTaskELi8EE14qt_metatype_idEvE11metatype_id@Base 4:15.12.0
+#MISSING: 4:15.12.0# (optional=templinst)_ZZN18QMetaTypeIdQObjectIPN6Marble11RoutingTaskELb1EE14qt_metatype_idEvE11metatype_id@Base 4:15.08.0
+ (optional=templinst)_ZZN18QMetaTypeIdQObjectIPN6Marble11RoutingTaskELi8EE14qt_metatype_idEvE11metatype_id@Base 4:15.12.0
+#MISSING: 4:15.12.0# (optional=templinst)_ZZN18QMetaTypeIdQObjectIPN6Marble18RoutingInputWidgetELb1EE14qt_metatype_idEvE11metatype_id@Base 4:15.08.0
+ (optional=templinst)_ZZN18QMetaTypeIdQObjectIPN6Marble18RoutingInputWidgetELi8EE14qt_metatype_idEvE11metatype_id@Base 4:15.12.0
+#MISSING: 4:15.12.0# (optional=templinst)_ZZN18QMetaTypeIdQObjectIPN6Marble20ReverseGeocodingTaskELb1EE14qt_metatype_idEvE11metatype_id@Base 4:15.08.0
+ (optional=templinst)_ZZN18QMetaTypeIdQObjectIPN6Marble20ReverseGeocodingTaskELi8EE14qt_metatype_idEvE11metatype_id@Base 4:15.12.0
+#MISSING: 4:15.12.0# (optional=templinst)_ZZN18QMetaTypeIdQObjectIPN6Marble7HttpJobELb1EE14qt_metatype_idEvE11metatype_id@Base 4:15.08.0
+ (optional=templinst)_ZZN18QMetaTypeIdQObjectIPN6Marble7HttpJobELi8EE14qt_metatype_idEvE11metatype_id@Base 4:15.12.0
+#MISSING: 4:15.12.0# (optional=templinst)_ZZN18QMetaTypeIdQObjectIPN6Marble9MergeItemELb1EE14qt_metatype_idEvE11metatype_id@Base 4:15.08.0
+ (optional=templinst)_ZZN18QMetaTypeIdQObjectIPN6Marble9MergeItemELi8EE14qt_metatype_idEvE11metatype_id@Base 4:15.12.0
  (optional=templinst)_ZZN9QtPrivate19ValueTypeIsMetaTypeI5QListIdELb1EE17registerConverterEiE1f@Base 4:15.08.0
  _ZZNK6Marble23GeoDataIconStylePrivate16remoteIconLoaderEvE16remoteIconLoader@Base 4:15.08.0
  _ZZZN12Ui_MapWizard7setupUiEP7QWizardENKUlvE0_clEvE15qstring_literal@Base 4:15.08.0
@@ -13381,8 +13558,8 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  _ZZZN34Ui_OsmRelationManagerWidgetPrivate7setupUiEP7QWidgetENKUlvE4_clEvE15qstring_literal@Base 4:15.11.80+git20150924.0815
  _ZZZN34Ui_OsmRelationManagerWidgetPrivate7setupUiEP7QWidgetENKUlvE5_clEvE15qstring_literal@Base 4:15.11.80+git20150924.0815
  _ZZZN34Ui_OsmRelationManagerWidgetPrivate7setupUiEP7QWidgetENKUlvE_clEvE15qstring_literal@Base 4:15.11.80+git20150924.0815
- _ZZZN6Marble10GeoPainter12drawPolylineERKNS_17GeoDataLineStringERK7QString6QFlagsINS_17LabelPositionFlagEERK6QColorRK5QFontEd_NKUlvE_clEvE15qstring_literal@Base 4:15.11.80+git20150924.0815
- _ZZZN6Marble21GeoDataFeaturePrivate11createStyleEddRK6QColorS3_bbN2Qt10BrushStyleENS4_8PenStyleENS4_11PenCapStyleEbRK7QVectorIdERK5QFontS3_RK7QStringEd1_NKUlvE_clEvE15qstring_literal@Base 4:15.11.80+git20150924.0815
+#MISSING: 4:15.12.0# _ZZZN6Marble10GeoPainter12drawPolylineERKNS_17GeoDataLineStringERK7QString6QFlagsINS_17LabelPositionFlagEERK6QColorRK5QFontEd_NKUlvE_clEvE15qstring_literal@Base 4:15.11.80+git20150924.0815
+#MISSING: 4:15.12.0# _ZZZN6Marble21GeoDataFeaturePrivate11createStyleEddRK6QColorS3_bbN2Qt10BrushStyleENS4_8PenStyleENS4_11PenCapStyleEbRK7QVectorIdERK5QFontS3_RK7QStringEd1_NKUlvE_clEvE15qstring_literal@Base 4:15.11.80+git20150924.0815
  _ZZZN6Marble24GeoDataLabelStylePrivateC4EvENKUlvE_clEvE15qstring_literal@Base 4:15.11.80+git20150924.0815
  _ZZZN7Ui_GoTo7setupUiEP7QDialogENKUlvE0_clEvE15qstring_literal@Base 4:15.08.0
  _ZZZN7Ui_GoTo7setupUiEP7QDialogENKUlvE1_clEvE15qstring_literal@Base 4:15.08.0

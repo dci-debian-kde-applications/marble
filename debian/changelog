@@ -9,6 +9,9 @@ marble (4:15.12.0-0ubuntu1) UNRELEASED; urgency=medium
   [ Philip Muškovac ]
   * New upstream release 
 
+  [ Clive Johnston ]
+  * Updating symbols
+
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 14 Sep 2015 13:20:57 +0100
 
 marble (4:15.08.2-0ubuntu2) xenial; urgency=medium
