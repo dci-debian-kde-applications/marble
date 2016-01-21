@@ -450,6 +450,7 @@ libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
  (optional=templinst)_ZN5QHashIi10QByteArrayE13duplicateNodeEPN9QHashData4NodeEPv@Base 4:15.08.0
  (optional=templinst)_ZN5QHashIi10QByteArrayED1Ev@Base 4:15.08.0
  (optional=templinst)_ZN5QHashIi10QByteArrayED2Ev@Base 4:15.08.0
+ (optional=templinst)_ZN5QHashIi10QByteArrayEixERKi@Base 4:15.12.0
  (optional=templinst)_ZN5QHashIi21QPersistentModelIndexE11deleteNode2EPN9QHashData4NodeE@Base 4:15.08.0
  (optional=templinst)_ZN5QHashIi21QPersistentModelIndexE13duplicateNodeEPN9QHashData4NodeEPv@Base 4:15.08.0
  (optional=templinst)_ZN5QHashIiN6Marble16OsmPlacemarkDataEE11deleteNode2EPN9QHashData4NodeE@Base 4:15.12.0

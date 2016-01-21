@@ -4,6 +4,7 @@ marble (4:15.12.0-1~) UNRELEASED; urgency=medium
   * Change libquazip-qt5-dev build dep to libquazip5-dev. (Closes:
     #811203) Thanks to Sebastiaan Couwenberg.
   * Drop patch: fix_qmake_fallback.diff
+  * Update symbols files.
 
  -- Maximiliano Curia <maxy@debian.org>  Wed, 16 Dec 2015 16:15:07 +0100
 
