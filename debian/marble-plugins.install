@@ -1,4 +1,1 @@
-usr/lib/*/marble/plugins/lib*
-usr/lib/*/marble/plugins/org/kde/edu/marble/MarbleSettings.qml
-usr/lib/*/marble/plugins/org/kde/edu/marble/libMarbleDeclarativePlugin.so
-usr/lib/*/marble/plugins/org/kde/edu/marble/qmldir
+usr/lib/*/marble/plugins/
