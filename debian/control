@@ -144,7 +144,7 @@ Depends: libastro-dev (= ${binary:Version}),
          libqt5webkit5-dev (>= 5.4),
          qtdeclarative5-dev (>= 5.4),
          ${misc:Depends},
-         ${sameVersionDep:qtbase5-dev:libmarblewidget-qt5-22},
+         ${sameVersionDep:qtbase5-dev:libmarblewidget-qt5-23},
          ${shlibs:Depends}
 Description: development files for the Marble globe widget library
  Marble is a generic geographical map widget and framework for KDE
