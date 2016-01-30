@@ -9,6 +9,16 @@ marble (4:15.12.1-1~) UNRELEASED; urgency=medium
 
  -- Maximiliano Curia <maxy@debian.org>  Fri, 29 Jan 2016 11:16:49 +0100
 
+marble (4:15.08.3-1.1) unstable; urgency=medium
+
+  * Non-maintainer upload.
+
+  [ Bas Couwenberg ]
+  * Update libquazip build dependency to libquazip5-dev.
+    Closes: #800785, #811203
+
+ -- Mattia Rizzolo <mattia@debian.org>  Wed, 27 Jan 2016 19:11:50 +0000
+
 marble (4:15.08.3-1) unstable; urgency=medium
 
   * New upstream release (15.08.3).
