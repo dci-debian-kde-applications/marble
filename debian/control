@@ -10,8 +10,8 @@ Build-Depends: cmake (>= 2.8.12~),
                kio-dev,
                libgps-dev (>= 2.90),
                libkf5config-dev,
-               libkf5crash-dev,
                libkf5coreaddons-dev,
+               libkf5crash-dev,
                libkf5i18n-dev,
                libkf5newstuff-dev,
                libkf5parts-dev,
@@ -24,6 +24,7 @@ Build-Depends: cmake (>= 2.8.12~),
                libphonon4qt5-dev,
                libprotobuf-dev,
                libqt5opengl5-dev,
+               libqt5serialport5-dev,
                libqt5svg5-dev (>= 5.4),
                libqt5webkit5-dev (>= 5.4),
                libquazip5-dev,
@@ -34,7 +35,6 @@ Build-Depends: cmake (>= 2.8.12~),
                qtbase5-dev (>= 5.4),
                qtdeclarative5-dev (>= 5.4),
                qtlocation5-dev,
-               libqt5serialport5-dev,
                qtmultimedia5-dev,
                qtpositioning5-dev,
                qtscript5-dev (>= 5.4),
@@ -189,17 +189,3 @@ Description: development files for the Marble astrononmy library
  Marble astronomy library
  .
  This package is part of the KDE education module.
-
-Package: marble-dbg
-Architecture: any
-Section: debug
-Priority: extra
-Depends: marble (= ${binary:Version}), ${misc:Depends}
-Description: debugging symbols for the KDE education module
- Marble is a generic geographical map widget and framework for KDE
- applications. The Marble widget shows the earth as a sphere but does not
- require hardware acceleration.  A minimal set of geographical data is
- included, so it can be used without an internet connection.
- .
- This package contains debugging files used to investigate problems with
- binaries included in the KDE education module.

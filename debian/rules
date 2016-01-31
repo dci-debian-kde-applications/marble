@@ -19,7 +19,7 @@ override_dh_auto_configure:
 				 $(conf_args)
 
 override_dh_strip:
-	$(overridden_command) --dbg-package=marble-dbg
+	$(overridden_command) --ddeb-migration='marble-dbg (<= 4:15.12.1-1~~)'
 
 override_dh_auto_test:
 	# Disable the auto tests at build time
