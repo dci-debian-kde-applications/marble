@@ -4,11 +4,6 @@ include /usr/share/pkg-kde-tools/qt-kde-team/3/debian-qt-kde.mk
 libpkgs_gen_strict_local_shlibs = $(libpkgs_all_packages)
 include /usr/share/pkg-kde-tools/qt-kde-team/3/library-packages.mk
 
-# Move plugins to a soversion specific directory to ease transitions
-# https://bugs.kde.org/show_bug.cgi?id=353078
-marble_soversion := $(shell dh_listpackages | sed -n '/^libmarblewidget-qt5-/{s/^libmarblewidget-qt5-//p}')
-marble_plugin_path = /usr/lib/${DEB_HOST_MULTIARCH}/marble/plugins/$(marble_soversion)
-
 vendor := $(shell dpkg-vendor --query Vendor)
 
 ifeq ($(vendor),Ubuntu)
@@ -18,35 +13,17 @@ ifeq ($(vendor),Ubuntu)
 endif
 
 override_dh_auto_configure:
-	$(overridden_command) -- \
-		-DWITH_DESIGNER_PLUGIN=ON \
-		-DWITH_KF5=TRUE \
-		-DMARBLE_INSTALL_ANDROID_APPS=ON \
-		-DMARBLE_PLUGIN_PATH=$(marble_plugin_path) \
-		$(conf_args)
-
-override_dh_auto_build:
-	$(overridden_command)
-
-override_dh_installdirs:
-	$(overridden_command) -plibmarblewidget$(marble_soversion) $(marble_plugin_path)
-	$(overridden_command) --remaining-packages
-
-pkgs_with_install_linux = $(patsubst debian/%.install.linux,%,$(wildcard debian/*.install.linux))
-override_dh_install:
-ifeq ($(DEB_HOST_ARCH_OS),linux)
-	# Also install common files in place of debian/*.install.linux variants
-	dh_install $(foreach p,$(pkgs_with_install_linux),-p$p --ignore=debian/$p.install.linux)
-endif
-
-override_dh_makeshlibs:
-	$(overridden_command) -V
+	$(overridden_command) -- -DWITH_DESIGNER_PLUGIN=ON \
+				 -DWITH_KF5=TRUE \
+				 -DMARBLE_INSTALL_ANDROID_APPS=ON \
+				 $(conf_args)
 
 override_dh_strip:
-	$(overridden_command) --dbg-package=marble-dbg
+	$(overridden_command) --ddeb-migration='marble-dbg (<= 4:15.12.1-1~~)'
 
 override_dh_auto_test:
-	true # test suite is kind of broken. needs the package installed
+	# Disable the auto tests at build time
+	:
 
 override_dh_clean:
 	$(overridden_command) -Xdata/mwdbii/PISLAND.PNT.orig -Xdata/mwdbii/PLAKE.PNT.orig
