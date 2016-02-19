@@ -11,7 +11,8 @@ marble (4:15.12.1-1ubuntu1) UNRELEASED; urgency=medium
 
   [ Clive Johnston ]
   * Merged with Debian
-  * New upstream release 
+  * New upstream release
+  * Updating symbols and removing MISSING 
 
  -- Clive Johnston <clivejo@aol.com>  Wed, 17 Feb 2016 15:28:41 +0000
 
