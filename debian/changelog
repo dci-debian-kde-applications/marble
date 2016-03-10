@@ -1,4 +1,4 @@
-marble (4:15.12.1-1ubuntu1) UNRELEASED; urgency=medium
+marble (4:15.12.1-1ubuntu1) xenial; urgency=medium
 
   [ Jonathan Riddell ]
   * Build with MARBLE_INSTALL_ANDROID_APPS
@@ -15,7 +15,7 @@ marble (4:15.12.1-1ubuntu1) UNRELEASED; urgency=medium
   * Updating symbols and removing MISSING
   * Fixing error in copyright file
 
- -- Clive Johnston <clivejo@aol.com>  Wed, 17 Feb 2016 15:28:41 +0000
+ -- Clive Johnston <clivejo@aol.com>  Wed, 09 Mar 2016 11:31:12 +0100
 
 marble (4:15.12.1-1) experimental; urgency=medium
 
@@ -46,12 +46,11 @@ marble (4:15.08.3-1) unstable; urgency=medium
 
  -- Maximiliano Curia <maxy@debian.org>  Wed, 02 Dec 2015 12:39:40 +0100
 
-<<<<<<< HEAD
+unknown (unknown1) unknown; urgency=unknown
   [ Bhushan Shah ]
   * Depend on libquazip5-dev or libquazip-qt5-dev, fixes on xenial
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 14 Sep 2015 13:20:57 +0100
-=======
 marble (4:15.08.2-1) unstable; urgency=medium
 
   * New upstream release (15.08.2).
@@ -64,7 +63,6 @@ marble (4:15.08.2-1) unstable; urgency=medium
   * Update symbols files from buildds logs (4:15.08.1+dfsg-2).
 
  -- Maximiliano Curia <maxy@debian.org>  Fri, 16 Oct 2015 08:07:24 +0200
->>>>>>> kubuntu_stable
 
 marble (4:15.08.2-0ubuntu2) xenial; urgency=medium
 
