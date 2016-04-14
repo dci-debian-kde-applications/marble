@@ -1,3 +1,13 @@
+marble (4:15.12.3-1~1.gbpfa4ee0) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @fa4ee080cfd5fac5cb098de461af380c76435772 **
+
+  * Bump Standards-Version to 3.9.8
+  * Refresh patches
+  * Update symbols files with the logs from the buildds
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 14 Apr 2016 09:12:15 +0200
+
 marble (4:15.12.1-1) experimental; urgency=medium
 
   * New upstream release (15.12.0).
