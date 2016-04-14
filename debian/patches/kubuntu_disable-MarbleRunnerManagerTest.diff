@@ -1,15 +1,16 @@
-Description: disable failing test
-Author: doko
-Origin: ubuntu
-Forwarded: no, upstream wants to keep the test but says it doesn't always work
-Last-Update: 2015-03-17
+From: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Date: Thu, 14 Apr 2016 05:52:13 +0200
+Subject: kubuntu_disable-MarbleRunnerManagerTest
+
 ---
-This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
-Index: marble/tests/CMakeLists.txt
-===================================================================
---- marble.orig/tests/CMakeLists.txt
-+++ marble/tests/CMakeLists.txt
-@@ -65,7 +65,9 @@ marble_add_test( QuaternionTest )
+ tests/CMakeLists.txt | 4 +++-
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+diff --git a/tests/CMakeLists.txt b/tests/CMakeLists.txt
+index d0db4d6..37a9e6e 100644
+--- a/tests/CMakeLists.txt
++++ b/tests/CMakeLists.txt
+@@ -65,7 +65,9 @@ marble_add_test( QuaternionTest )           # Check Quaternion arithmetic
  marble_add_test( TileIdTest )               # Check TileId arithmetic
  marble_add_test( ViewportParamsTest )
  marble_add_test( PluginManagerTest )        # Check plugin loading

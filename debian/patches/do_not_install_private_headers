@@ -1,8 +1,17 @@
-Index: marble/src/lib/marble/CMakeLists.txt
+From: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Date: Thu, 14 Apr 2016 05:52:13 +0200
+Subject: do_not_install_private_headers
+
 ===================================================================
---- marble.orig/src/lib/marble/CMakeLists.txt	2016-01-20 21:25:04.783396432 +0100
-+++ marble/src/lib/marble/CMakeLists.txt	2016-01-20 21:25:04.779396600 +0100
-@@ -469,7 +469,6 @@
+---
+ src/lib/marble/CMakeLists.txt | 3 ---
+ 1 file changed, 3 deletions(-)
+
+diff --git a/src/lib/marble/CMakeLists.txt b/src/lib/marble/CMakeLists.txt
+index 42fe56f..8d81e57 100644
+--- a/src/lib/marble/CMakeLists.txt
++++ b/src/lib/marble/CMakeLists.txt
+@@ -469,7 +469,6 @@ install( FILES
      MarbleInputHandler.h
      MarbleWidgetInputHandler.h
      MarbleWidgetPopupMenu.h
@@ -10,7 +19,7 @@ Index: marble/src/lib/marble/CMakeLists.txt
      TileCoordsPyramid.h
      TileLevelRangeWidget.h
      QtMarbleConfigDialog.h
-@@ -551,10 +550,8 @@
+@@ -551,10 +550,8 @@ install( FILES
      ParsingRunner.h
      SearchRunner.h
      ReverseGeocodingRunner.h
