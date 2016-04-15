@@ -1,2 +1,3 @@
 do_not_install_private_headers
 kubuntu_disable-MarbleRunnerManagerTest.diff
+upstream_fix_isnan_libc6.patch
