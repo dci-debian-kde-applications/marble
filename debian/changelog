@@ -2,6 +2,7 @@ marble (4:15.12.3-0ubuntu2) xenial; urgency=medium
 
   * Add uptream patch to fix isnan with new libc6.
   * Release to archive. 
+  * Add patch.
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 15 Apr 2016 07:09:11 -0700
 
