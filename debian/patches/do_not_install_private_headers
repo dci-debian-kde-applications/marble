@@ -8,10 +8,10 @@ Subject: do_not_install_private_headers
  1 file changed, 3 deletions(-)
 
 diff --git a/src/lib/marble/CMakeLists.txt b/src/lib/marble/CMakeLists.txt
-index 42fe56f..8d81e57 100644
+index 2b539df..523dcd9 100644
 --- a/src/lib/marble/CMakeLists.txt
 +++ b/src/lib/marble/CMakeLists.txt
-@@ -469,7 +469,6 @@ install( FILES
+@@ -464,7 +464,6 @@ install( FILES
      MarbleInputHandler.h
      MarbleWidgetInputHandler.h
      MarbleWidgetPopupMenu.h
@@ -19,7 +19,7 @@ index 42fe56f..8d81e57 100644
      TileCoordsPyramid.h
      TileLevelRangeWidget.h
      QtMarbleConfigDialog.h
-@@ -551,10 +550,8 @@ install( FILES
+@@ -546,10 +545,8 @@ install( FILES
      ParsingRunner.h
      SearchRunner.h
      ReverseGeocodingRunner.h
