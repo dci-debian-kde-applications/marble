@@ -1,5 +1,5 @@
 # SymbolsHelper-Confirmed: 4:15.12.3 amd64
-libmarblewidget-qt5.so.23 libmarblewidget-qt5-23 #MINVER#
+libmarblewidget-qt5.so.24 libmarblewidget-qt5-24 #MINVER#
  (optional=templinst|arch=amd64 i386 kfreebsd-amd64 kfreebsd-i386)_Z17qRegisterMetaTypeIN13QNetworkReply12NetworkErrorEEiPKcPT_N9QtPrivate21MetaTypeDefinedHelperIS4_Xaasr12QMetaTypeId2IS4_E7DefinedntsrS9_9IsBuiltInEE11DefinedTypeE@Base 4:15.08.3
  (optional=templinst)_Z17qRegisterMetaTypeIN6Marble13DownloadUsageEEiPKcPT_N9QtPrivate21MetaTypeDefinedHelperIS4_Xaasr12QMetaTypeId2IS4_E7DefinedntsrS9_9IsBuiltInEE11DefinedTypeE@Base 4:15.08.0
  (optional=templinst)_Z17qRegisterMetaTypeIN6Marble18GeoDataCoordinatesEEiPKcPT_N9QtPrivate21MetaTypeDefinedHelperIS4_Xaasr12QMetaTypeId2IS4_E7DefinedntsrS9_9IsBuiltInEE11DefinedTypeE@Base 4:15.08.0
