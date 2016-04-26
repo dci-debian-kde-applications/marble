@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:15.12.3 amd64
+# SymbolsHelper-Confirmed: 4:16.04.0 amd64
 libmarblewidget-qt5.so.24 libmarblewidget-qt5-24 #MINVER#
  (optional=templinst|arch=amd64 i386 kfreebsd-amd64 kfreebsd-i386)_Z17qRegisterMetaTypeIN13QNetworkReply12NetworkErrorEEiPKcPT_N9QtPrivate21MetaTypeDefinedHelperIS4_Xaasr12QMetaTypeId2IS4_E7DefinedntsrS9_9IsBuiltInEE11DefinedTypeE@Base 4:15.08.3
  (optional=templinst)_Z17qRegisterMetaTypeIN6Marble13DownloadUsageEEiPKcPT_N9QtPrivate21MetaTypeDefinedHelperIS4_Xaasr12QMetaTypeId2IS4_E7DefinedntsrS9_9IsBuiltInEE11DefinedTypeE@Base 4:15.08.0
@@ -115,8 +115,6 @@ libmarblewidget-qt5.so.24 libmarblewidget-qt5-24 #MINVER#
  (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIPN6Marble10FileLoaderELb1EE9ConstructEPvPKv@Base 4:15.08.0
  (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIPN6Marble10SearchTaskELb1EE8DestructEPv@Base 4:15.08.0
  (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIPN6Marble10SearchTaskELb1EE9ConstructEPvPKv@Base 4:15.08.0
- (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIPN6Marble11ParsingTaskELb1EE8DestructEPv@Base 4:15.08.0
- (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIPN6Marble11ParsingTaskELb1EE9ConstructEPvPKv@Base 4:15.08.0
  (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIPN6Marble11RoutingTaskELb1EE8DestructEPv@Base 4:15.08.0
  (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIPN6Marble11RoutingTaskELb1EE9ConstructEPvPKv@Base 4:15.08.0
  (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIPN6Marble13GeoDataFolderELb1EE8DestructEPv@Base 4:15.08.0
@@ -160,8 +158,6 @@ libmarblewidget-qt5.so.24 libmarblewidget-qt5-24 #MINVER#
  _ZN18Ui_MarbleNavigator7setupUiEP7QWidget@Base 4:15.08.0
  _ZN19KineticModelPrivateC1Ev@Base 4:15.08.0
  _ZN19KineticModelPrivateC2Ev@Base 4:15.08.0
- _ZN19Ui_NavigationWidget13retranslateUiEP7QWidget@Base 4:15.08.0
- _ZN19Ui_NavigationWidget7setupUiEP7QWidget@Base 4:15.08.0
  _ZN19Ui_SunControlWidget7setupUiEP7QDialog@Base 4:15.08.0
  _ZN20QStyleOptionViewItemD1Ev@Base 4:15.08.0
  _ZN20QStyleOptionViewItemD2Ev@Base 4:15.08.0
@@ -745,13 +741,7 @@ libmarblewidget-qt5.so.24 libmarblewidget-qt5-24 #MINVER#
  (optional=templinst)_ZN5QListIPN6Marble10SoundTrackEE6appendERKS2_@Base 4:15.08.0
  (optional=templinst)_ZN5QListIPN6Marble10SoundTrackEED1Ev@Base 4:15.08.0
  (optional=templinst)_ZN5QListIPN6Marble10SoundTrackEED2Ev@Base 4:15.08.0
- (optional=templinst)_ZN5QListIPN6Marble11ParsingTaskEE13detach_helperEi@Base 4:15.08.0
- (optional=templinst)_ZN5QListIPN6Marble11ParsingTaskEE18detach_helper_growEii@Base 4:15.08.0
  (optional=templinst|arch=alpha armel armhf hppa mips mips64el mipsel)_ZN5QListIPN6Marble11ParsingTaskEE6appendERKS2_@Base 4:15.08.0
- (optional=templinst|arch=amd64 armhf i386 kfreebsd-amd64 kfreebsd-i386)_ZN5QListIPN6Marble11ParsingTaskEEC1ERKS3_@Base 4:15.08.0
- (optional=templinst|arch=amd64 armhf i386 kfreebsd-amd64 kfreebsd-i386)_ZN5QListIPN6Marble11ParsingTaskEEC2ERKS3_@Base 4:15.08.0
- (optional=templinst)_ZN5QListIPN6Marble11ParsingTaskEED1Ev@Base 4:15.08.0
- (optional=templinst)_ZN5QListIPN6Marble11ParsingTaskEED2Ev@Base 4:15.08.0
  (optional=templinst|arch=amd64 armhf i386 kfreebsd-amd64 kfreebsd-i386)_ZN5QListIPN6Marble11RoutingTaskEE13detach_helperEi@Base 4:15.08.0
  (optional=templinst)_ZN5QListIPN6Marble11RoutingTaskEE18detach_helper_growEii@Base 4:15.08.0
  (optional=templinst|arch=alpha armel armhf hppa mips mips64el mipsel)_ZN5QListIPN6Marble11RoutingTaskEE6appendERKS2_@Base 4:15.08.0
@@ -1302,7 +1292,7 @@ libmarblewidget-qt5.so.24 libmarblewidget-qt5-24 #MINVER#
  _ZN6Marble11ParsingTask16staticMetaObjectE@Base 4:15.08.0
  _ZN6Marble11ParsingTask3runEv@Base 4:15.08.0
  _ZN6Marble11ParsingTask6parsedEPNS_15GeoDataDocumentERK7QString@Base 4:15.12.0
- _ZN6Marble11ParsingTask8finishedEPS0_@Base 4:15.08.0
+ _ZN6Marble11ParsingTask8finishedEv@Base 4:16.04.0
  _ZN6Marble11ParsingTaskC1EPNS_13ParsingRunnerEPNS_20ParsingRunnerManagerERK7QStringNS_12DocumentRoleE@Base 4:15.08.0
  _ZN6Marble11ParsingTaskC2EPNS_13ParsingRunnerEPNS_20ParsingRunnerManagerERK7QStringNS_12DocumentRoleE@Base 4:15.08.0
  _ZN6Marble11ParsingTaskD0Ev@Base 4:15.08.0
@@ -3463,29 +3453,6 @@ libmarblewidget-qt5.so.24 libmarblewidget-qt5-24 #MINVER#
  _ZN6Marble16KmlTourTagWriterD1Ev@Base 4:15.08.0
  _ZN6Marble16KmlTourTagWriterD2Ev@Base 4:15.08.0
  _ZN6Marble16MapWizardPrivate11pageEnteredEi@Base 4:15.08.0
- _ZN6Marble16MarbleControlBox11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:15.08.0
- _ZN6Marble16MarbleControlBox11qt_metacastEPKc@Base 4:15.08.0
- _ZN6Marble16MarbleControlBox11selectThemeERK7QString@Base 4:15.08.0
- _ZN6Marble16MarbleControlBox13showMapWizardEv@Base 4:15.08.0
- _ZN6Marble16MarbleControlBox14searchFinishedEv@Base 4:15.08.0
- _ZN6Marble16MarbleControlBox14setWorkOfflineEb@Base 4:15.08.0
- _ZN6Marble16MarbleControlBox15setMarbleWidgetEPNS_12MarbleWidgetE@Base 4:15.08.0
- _ZN6Marble16MarbleControlBox16showUploadDialogEv@Base 4:15.08.0
- _ZN6Marble16MarbleControlBox16staticMetaObjectE@Base 4:15.08.0
- _ZN6Marble16MarbleControlBox17setLegendTabShownEb@Base 4:15.08.0
- _ZN6Marble16MarbleControlBox17setWidgetTabShownEP7QWidgetibR7QString@Base 4:15.08.0
- _ZN6Marble16MarbleControlBox18setMapViewTabShownEb@Base 4:15.08.0
- _ZN6Marble16MarbleControlBox18setRoutingTabShownEb@Base 4:15.08.0
- _ZN6Marble16MarbleControlBox19setFileViewTabShownEb@Base 4:15.08.0
- _ZN6Marble16MarbleControlBox21currentLocationWidgetEv@Base 4:15.08.0
- _ZN6Marble16MarbleControlBox21setNavigationTabShownEb@Base 4:15.08.0
- _ZN6Marble16MarbleControlBox26setCurrentLocationTabShownEb@Base 4:15.08.0
- _ZN6Marble16MarbleControlBox6searchERK7QStringNS_10SearchModeE@Base 4:15.08.0
- _ZN6Marble16MarbleControlBoxC1EP7QWidget@Base 4:15.08.0
- _ZN6Marble16MarbleControlBoxC2EP7QWidget@Base 4:15.08.0
- _ZN6Marble16MarbleControlBoxD0Ev@Base 4:15.08.0
- _ZN6Marble16MarbleControlBoxD1Ev@Base 4:15.08.0
- _ZN6Marble16MarbleControlBoxD2Ev@Base 4:15.08.0
  _ZN6Marble16MarbleMapPrivate11setDocumentE7QString@Base 4:15.08.0
  _ZN6Marble16MarbleMapPrivate14updateMapThemeEv@Base 4:15.08.0
  _ZN6Marble16MarbleMapPrivate14updatePropertyERK7QStringb@Base 4:15.08.0
@@ -3495,29 +3462,6 @@ libmarblewidget-qt5.so.24 libmarblewidget-qt5-24 #MINVER#
  _ZN6Marble16MultiplyBlendingD0Ev@Base 4:15.08.0
  _ZN6Marble16MultiplyBlendingD1Ev@Base 4:15.08.0
  _ZN6Marble16MultiplyBlendingD2Ev@Base 4:15.08.0
- _ZN6Marble16NavigationWidget10changeZoomEi@Base 4:15.08.0
- _ZN6Marble16NavigationWidget11clearSearchEv@Base 4:15.08.0
- _ZN6Marble16NavigationWidget11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:15.08.0
- _ZN6Marble16NavigationWidget11qt_metacastEPKc@Base 4:15.08.0
- _ZN6Marble16NavigationWidget11resizeEventEP12QResizeEvent@Base 4:15.08.0
- _ZN6Marble16NavigationWidget11selectThemeERK7QString@Base 4:15.08.0
- _ZN6Marble16NavigationWidget11zoomChangedEi@Base 4:15.08.0
- _ZN6Marble16NavigationWidget14searchFinishedEv@Base 4:15.08.0
- _ZN6Marble16NavigationWidget15setMarbleWidgetEPNS_12MarbleWidgetE@Base 4:15.08.0
- _ZN6Marble16NavigationWidget16staticMetaObjectE@Base 4:15.08.0
- _ZN6Marble16NavigationWidget6goHomeEv@Base 4:15.08.0
- _ZN6Marble16NavigationWidget6moveUpEv@Base 4:15.08.0
- _ZN6Marble16NavigationWidget6searchERK7QStringNS_10SearchModeE@Base 4:15.08.0
- _ZN6Marble16NavigationWidget6zoomInEv@Base 4:15.08.0
- _ZN6Marble16NavigationWidget7zoomOutEv@Base 4:15.08.0
- _ZN6Marble16NavigationWidget8moveDownEv@Base 4:15.08.0
- _ZN6Marble16NavigationWidget8moveLeftEv@Base 4:15.08.0
- _ZN6Marble16NavigationWidget9moveRightEv@Base 4:15.08.0
- _ZN6Marble16NavigationWidgetC1EP7QWidget6QFlagsIN2Qt10WindowTypeEE@Base 4:15.08.0
- _ZN6Marble16NavigationWidgetC2EP7QWidget6QFlagsIN2Qt10WindowTypeEE@Base 4:15.08.0
- _ZN6Marble16NavigationWidgetD0Ev@Base 4:15.08.0
- _ZN6Marble16NavigationWidgetD1Ev@Base 4:15.08.0
- _ZN6Marble16NavigationWidgetD2Ev@Base 4:15.08.0
  _ZN6Marble16OsmObjectManager10registerIdEx@Base 4:15.12.0
  _ZN6Marble16OsmObjectManager17initializeOsmDataEPNS_16GeoDataPlacemarkE@Base 4:15.12.0
  _ZN6Marble16OsmObjectManager7m_minIdE@Base 4:15.12.0
@@ -4973,9 +4917,6 @@ libmarblewidget-qt5.so.24 libmarblewidget-qt5-24 #MINVER#
  _ZN6Marble19MarbleWidgetPrivate15setInputHandlerEv@Base 4:15.08.0
  _ZN6Marble19MarbleWidgetPrivate31updateSystemBackgroundAttributeEv@Base 4:15.08.0
  _ZN6Marble19MarbleWidgetPrivate9constructEv@Base 4:15.08.0
- _ZN6Marble19MarbleWidgetPrivateD0Ev@Base 4:15.08.0
- _ZN6Marble19MarbleWidgetPrivateD1Ev@Base 4:15.08.0
- _ZN6Marble19MarbleWidgetPrivateD2Ev@Base 4:15.08.0
  _ZN6Marble19OwncloudSyncBackend11deleteRouteERK7QString@Base 4:15.08.0
  _ZN6Marble19OwncloudSyncBackend11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:15.08.0
  _ZN6Marble19OwncloudSyncBackend11qt_metacastEPKc@Base 4:15.08.0
@@ -5909,7 +5850,6 @@ libmarblewidget-qt5.so.24 libmarblewidget-qt5-24 #MINVER#
  _ZN6Marble23MarbleAbstractPresenter12setSelectionERK5QRect@Base 4:15.08.0
  _ZN6Marble23MarbleAbstractPresenter14regionSelectedERK5QListIdE@Base 4:15.08.0
  _ZN6Marble23MarbleAbstractPresenter14setViewContextENS_11ViewContextE@Base 4:15.08.0
- _ZN6Marble23MarbleAbstractPresenter14updateRequiredEv@Base 4:15.08.0
  _ZN6Marble23MarbleAbstractPresenter15distanceChangedERK7QString@Base 4:15.08.0
  _ZN6Marble23MarbleAbstractPresenter16staticMetaObjectE@Base 4:15.08.0
  _ZN6Marble23MarbleAbstractPresenter17setCenterLatitudeEdNS_9FlyToModeE@Base 4:15.08.0
@@ -5933,20 +5873,11 @@ libmarblewidget-qt5.so.24 libmarblewidget-qt5-24 #MINVER#
  _ZN6Marble23MarbleAbstractPresenter8zoomAtByERK6QPointi@Base 4:15.12.0
  _ZN6Marble23MarbleAbstractPresenter8zoomViewEiNS_9FlyToModeE@Base 4:15.08.0
  _ZN6Marble23MarbleAbstractPresenter9setRadiusEi@Base 4:15.08.0
- _ZN6Marble23MarbleAbstractPresenterC1Ev@Base 4:15.08.0
- _ZN6Marble23MarbleAbstractPresenterC2Ev@Base 4:15.08.0
+ _ZN6Marble23MarbleAbstractPresenterC1EPNS_9MarbleMapEP7QObject@Base 4:16.04.0
+ _ZN6Marble23MarbleAbstractPresenterC2EPNS_9MarbleMapEP7QObject@Base 4:16.04.0
  _ZN6Marble23MarbleAbstractPresenterD0Ev@Base 4:15.08.0
  _ZN6Marble23MarbleAbstractPresenterD1Ev@Base 4:15.08.0
  _ZN6Marble23MarbleAbstractPresenterD2Ev@Base 4:15.08.0
- _ZN6Marble23MarbleControlBoxPrivateC1Ev@Base 4:15.08.0
- _ZN6Marble23MarbleControlBoxPrivateC2Ev@Base 4:15.08.0
- _ZN6Marble23NavigationWidgetPrivate13updateButtonsEi@Base 4:15.08.0
- _ZN6Marble23NavigationWidgetPrivate14adjustForStillEv@Base 4:15.08.0
- _ZN6Marble23NavigationWidgetPrivate15setSearchResultE7QVectorIPNS_16GeoDataPlacemarkEE@Base 4:15.08.0
- _ZN6Marble23NavigationWidgetPrivate17mapCenterOnSignalERK11QModelIndex@Base 4:15.08.0
- _ZN6Marble23NavigationWidgetPrivate18adjustForAnimationEv@Base 4:15.08.0
- _ZN6Marble23NavigationWidgetPrivateC1Ev@Base 4:15.08.0
- _ZN6Marble23NavigationWidgetPrivateC2Ev@Base 4:15.08.0
  _ZN6Marble23NewBookmarkFolderDialog11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:15.08.0
  _ZN6Marble23NewBookmarkFolderDialog11qt_metacastEPKc@Base 4:15.08.0
  _ZN6Marble23NewBookmarkFolderDialog13setFolderNameERK7QString@Base 4:15.08.0
@@ -8608,6 +8539,7 @@ libmarblewidget-qt5.so.24 libmarblewidget-qt5-24 #MINVER#
  _ZNK6Marble12SearchRunner10metaObjectEv@Base 4:15.08.0
  _ZNK6Marble12SearchRunner5modelEv@Base 4:15.08.0
  _ZNK6Marble12SearchWidget10metaObjectEv@Base 4:15.08.0
+ _ZNK6Marble12ServerLayout9sourceDirEv@Base 4:16.04.0
  _ZNK6Marble12TextureLayer10metaObjectEv@Base 4:15.08.0
  _ZNK6Marble12TextureLayer11renderStateEv@Base 4:15.08.0
  _ZNK6Marble12TextureLayer12runtimeTraceEv@Base 4:15.08.0
@@ -9160,6 +9092,7 @@ libmarblewidget-qt5.so.24 libmarblewidget-qt5-24 #MINVER#
  _ZNK6Marble16GeoDataPlacemark10hasOsmDataEv@Base 4:15.08.0
  _ZNK6Marble16GeoDataPlacemark10populationEv@Base 4:15.08.0
  _ZNK6Marble16GeoDataPlacemark11countryCodeEv@Base 4:15.08.0
+ _ZNK6Marble16GeoDataPlacemark11displayNameEv@Base 4:16.04.0
  _ZNK6Marble16GeoDataPlacemark16isBalloonVisibleEv@Base 4:15.08.0
  _ZNK6Marble16GeoDataPlacemark1pEv@Base 4:15.08.0
  _ZNK6Marble16GeoDataPlacemark4areaEv@Base 4:15.08.0
@@ -9224,9 +9157,7 @@ libmarblewidget-qt5.so.24 libmarblewidget-qt5-24 #MINVER#
  _ZNK6Marble16KmlDataTagWriter5writeEPKNS_7GeoNodeERNS_9GeoWriterE@Base 4:15.08.0
  _ZNK6Marble16KmlLinkTagWriter5writeEPKNS_7GeoNodeERNS_9GeoWriterE@Base 4:15.08.0
  _ZNK6Marble16KmlTourTagWriter8writeMidEPKNS_7GeoNodeERNS_9GeoWriterE@Base 4:15.08.0
- _ZNK6Marble16MarbleControlBox10metaObjectEv@Base 4:15.08.0
  _ZNK6Marble16MultiplyBlending12blendChannelEdd@Base 4:15.08.0
- _ZNK6Marble16NavigationWidget10metaObjectEv@Base 4:15.08.0
  _ZNK6Marble16OsmPlacemarkData11containsTagERK7QStringS3_@Base 4:15.12.0
  _ZNK6Marble16OsmPlacemarkData13nodeReferenceERKNS_18GeoDataCoordinatesE@Base 4:15.12.0
  _ZNK6Marble16OsmPlacemarkData14containsTagKeyERK7QString@Base 4:15.12.0
@@ -10285,6 +10216,8 @@ libmarblewidget-qt5.so.24 libmarblewidget-qt5-24 #MINVER#
  _ZNK6Marble37RouteSimulationPositionProviderPlugin6statusEv@Base 4:15.08.0
  _ZNK6Marble37RouteSimulationPositionProviderPlugin7versionEv@Base 4:15.08.0
  _ZNK6Marble37RouteSimulationPositionProviderPlugin8accuracyEv@Base 4:15.08.0
+ _ZNK6Marble37RouteSimulationPositionProviderPlugin8addNoiseERKNS_18GeoDataCoordinatesERKNS_15GeoDataAccuracyE@Base 4:16.04.0
+ _ZNK6Marble37RouteSimulationPositionProviderPlugin8addNoiseEd@Base 4:16.04.0
  _ZNK6Marble37RouteSimulationPositionProviderPlugin8positionEv@Base 4:15.08.0
  _ZNK6Marble37RouteSimulationPositionProviderPlugin9directionEv@Base 4:15.08.0
  _ZNK6Marble37RouteSimulationPositionProviderPlugin9guiStringEv@Base 4:15.08.0
@@ -10877,9 +10810,7 @@ libmarblewidget-qt5.so.24 libmarblewidget-qt5-24 #MINVER#
  _ZTIN6Marble16KmlDataTagWriterE@Base 4:15.08.0
  _ZTIN6Marble16KmlLinkTagWriterE@Base 4:15.08.0
  _ZTIN6Marble16KmlTourTagWriterE@Base 4:15.08.0
- _ZTIN6Marble16MarbleControlBoxE@Base 4:15.08.0
  _ZTIN6Marble16MultiplyBlendingE@Base 4:15.08.0
- _ZTIN6Marble16NavigationWidgetE@Base 4:15.08.0
  _ZTIN6Marble16OsmPlacemarkDataE@Base 4:15.12.0
  _ZTIN6Marble16ParallelBlendingE@Base 4:15.08.0
  _ZTIN6Marble16PinLightBlendingE@Base 4:15.08.0
@@ -11003,7 +10934,6 @@ libmarblewidget-qt5.so.24 libmarblewidget-qt5-24 #MINVER#
  _ZTIN6Marble19MarbleGlobalPrivateE@Base 4:15.08.0
  _ZTIN6Marble19MarbleLegendBrowserE@Base 4:15.08.0
  _ZTIN6Marble19MarbleLocalePrivateE@Base 4:15.08.0
- _ZTIN6Marble19MarbleWidgetPrivateE@Base 4:15.08.0
  _ZTIN6Marble19OwncloudSyncBackendE@Base 4:15.08.0
  _ZTIN6Marble19PlacemarkEditHeaderE@Base 4:15.08.0
  _ZTIN6Marble19RoutingRunnerPluginE@Base 4:15.08.0
@@ -11568,9 +11498,7 @@ libmarblewidget-qt5.so.24 libmarblewidget-qt5-24 #MINVER#
  _ZTSN6Marble16KmlDataTagWriterE@Base 4:15.08.0
  _ZTSN6Marble16KmlLinkTagWriterE@Base 4:15.08.0
  _ZTSN6Marble16KmlTourTagWriterE@Base 4:15.08.0
- _ZTSN6Marble16MarbleControlBoxE@Base 4:15.08.0
  _ZTSN6Marble16MultiplyBlendingE@Base 4:15.08.0
- _ZTSN6Marble16NavigationWidgetE@Base 4:15.08.0
  _ZTSN6Marble16OsmPlacemarkDataE@Base 4:15.12.0
  _ZTSN6Marble16ParallelBlendingE@Base 4:15.08.0
  _ZTSN6Marble16PinLightBlendingE@Base 4:15.08.0
@@ -11694,7 +11622,6 @@ libmarblewidget-qt5.so.24 libmarblewidget-qt5-24 #MINVER#
  _ZTSN6Marble19MarbleGlobalPrivateE@Base 4:15.08.0
  _ZTSN6Marble19MarbleLegendBrowserE@Base 4:15.08.0
  _ZTSN6Marble19MarbleLocalePrivateE@Base 4:15.08.0
- _ZTSN6Marble19MarbleWidgetPrivateE@Base 4:15.08.0
  _ZTSN6Marble19OwncloudSyncBackendE@Base 4:15.08.0
  _ZTSN6Marble19PlacemarkEditHeaderE@Base 4:15.08.0
  _ZTSN6Marble19RoutingRunnerPluginE@Base 4:15.08.0
@@ -12245,9 +12172,7 @@ libmarblewidget-qt5.so.24 libmarblewidget-qt5-24 #MINVER#
  _ZTVN6Marble16KmlDataTagWriterE@Base 4:15.08.0
  _ZTVN6Marble16KmlLinkTagWriterE@Base 4:15.08.0
  _ZTVN6Marble16KmlTourTagWriterE@Base 4:15.08.0
- _ZTVN6Marble16MarbleControlBoxE@Base 4:15.08.0
  _ZTVN6Marble16MultiplyBlendingE@Base 4:15.08.0
- _ZTVN6Marble16NavigationWidgetE@Base 4:15.08.0
  _ZTVN6Marble16OsmPlacemarkDataE@Base 4:15.12.0
  _ZTVN6Marble16ParallelBlendingE@Base 4:15.08.0
  _ZTVN6Marble16PinLightBlendingE@Base 4:15.08.0
@@ -12370,7 +12295,6 @@ libmarblewidget-qt5.so.24 libmarblewidget-qt5-24 #MINVER#
  _ZTVN6Marble19MarbleGlobalPrivateE@Base 4:15.08.0
  _ZTVN6Marble19MarbleLegendBrowserE@Base 4:15.08.0
  _ZTVN6Marble19MarbleLocalePrivateE@Base 4:15.08.0
- _ZTVN6Marble19MarbleWidgetPrivateE@Base 4:15.08.0
  _ZTVN6Marble19OwncloudSyncBackendE@Base 4:15.08.0
  _ZTVN6Marble19PlacemarkEditHeaderE@Base 4:15.08.0
  _ZTVN6Marble19RoutingRunnerPluginE@Base 4:15.08.0
@@ -12758,7 +12682,6 @@ libmarblewidget-qt5.so.24 libmarblewidget-qt5-24 #MINVER#
  (optional=templinst)_ZZN18QMetaTypeIdQObjectIP13QNetworkReplyLi8EE14qt_metatype_idEvE11metatype_id@Base 4:15.08.3
  (optional=templinst)_ZZN18QMetaTypeIdQObjectIPN6Marble10FileLoaderELi8EE14qt_metatype_idEvE11metatype_id@Base 4:15.08.3
  (optional=templinst)_ZZN18QMetaTypeIdQObjectIPN6Marble10SearchTaskELi8EE14qt_metatype_idEvE11metatype_id@Base 4:15.08.3
- (optional=templinst)_ZZN18QMetaTypeIdQObjectIPN6Marble11ParsingTaskELi8EE14qt_metatype_idEvE11metatype_id@Base 4:15.08.3
  (optional=templinst)_ZZN18QMetaTypeIdQObjectIPN6Marble11RoutingTaskELi8EE14qt_metatype_idEvE11metatype_id@Base 4:15.08.3
  (optional=templinst)_ZZN18QMetaTypeIdQObjectIPN6Marble18RoutingInputWidgetELi8EE14qt_metatype_idEvE11metatype_id@Base 4:15.08.3
  (optional=templinst)_ZZN18QMetaTypeIdQObjectIPN6Marble20ReverseGeocodingTaskELi8EE14qt_metatype_idEvE11metatype_id@Base 4:15.08.3
@@ -12974,31 +12897,6 @@ libmarblewidget-qt5.so.24 libmarblewidget-qt5-24 #MINVER#
  _ZZZN18Ui_UiAddLinkDialog7setupUiEP7QDialogENKUlvE5_clEvE15qstring_literal@Base 4:15.08.0
  _ZZZN18Ui_UiAddLinkDialog7setupUiEP7QDialogENKUlvE6_clEvE15qstring_literal@Base 4:15.08.0
  _ZZZN18Ui_UiAddLinkDialog7setupUiEP7QDialogENKUlvE_clEvE15qstring_literal@Base 4:15.08.0
- _ZZZN19Ui_NavigationWidget7setupUiEP7QWidgetENKUlvE0_clEvE15qstring_literal@Base 4:15.08.0
- _ZZZN19Ui_NavigationWidget7setupUiEP7QWidgetENKUlvE10_clEvE15qstring_literal@Base 4:15.08.0
- _ZZZN19Ui_NavigationWidget7setupUiEP7QWidgetENKUlvE11_clEvE15qstring_literal@Base 4:15.08.0
- _ZZZN19Ui_NavigationWidget7setupUiEP7QWidgetENKUlvE12_clEvE15qstring_literal@Base 4:15.08.0
- _ZZZN19Ui_NavigationWidget7setupUiEP7QWidgetENKUlvE13_clEvE15qstring_literal@Base 4:15.08.0
- _ZZZN19Ui_NavigationWidget7setupUiEP7QWidgetENKUlvE14_clEvE15qstring_literal@Base 4:15.08.0
- _ZZZN19Ui_NavigationWidget7setupUiEP7QWidgetENKUlvE15_clEvE15qstring_literal@Base 4:15.08.0
- _ZZZN19Ui_NavigationWidget7setupUiEP7QWidgetENKUlvE16_clEvE15qstring_literal@Base 4:15.08.0
- _ZZZN19Ui_NavigationWidget7setupUiEP7QWidgetENKUlvE17_clEvE15qstring_literal@Base 4:15.08.0
- _ZZZN19Ui_NavigationWidget7setupUiEP7QWidgetENKUlvE18_clEvE15qstring_literal@Base 4:15.08.0
- _ZZZN19Ui_NavigationWidget7setupUiEP7QWidgetENKUlvE19_clEvE15qstring_literal@Base 4:15.08.0
- _ZZZN19Ui_NavigationWidget7setupUiEP7QWidgetENKUlvE1_clEvE15qstring_literal@Base 4:15.08.0
- _ZZZN19Ui_NavigationWidget7setupUiEP7QWidgetENKUlvE20_clEvE15qstring_literal@Base 4:15.08.0
- _ZZZN19Ui_NavigationWidget7setupUiEP7QWidgetENKUlvE21_clEvE15qstring_literal@Base 4:15.08.0
- _ZZZN19Ui_NavigationWidget7setupUiEP7QWidgetENKUlvE22_clEvE15qstring_literal@Base 4:15.08.0
- _ZZZN19Ui_NavigationWidget7setupUiEP7QWidgetENKUlvE23_clEvE15qstring_literal@Base 4:15.08.0
- _ZZZN19Ui_NavigationWidget7setupUiEP7QWidgetENKUlvE2_clEvE15qstring_literal@Base 4:15.08.0
- _ZZZN19Ui_NavigationWidget7setupUiEP7QWidgetENKUlvE3_clEvE15qstring_literal@Base 4:15.08.0
- _ZZZN19Ui_NavigationWidget7setupUiEP7QWidgetENKUlvE4_clEvE15qstring_literal@Base 4:15.08.0
- _ZZZN19Ui_NavigationWidget7setupUiEP7QWidgetENKUlvE5_clEvE15qstring_literal@Base 4:15.08.0
- _ZZZN19Ui_NavigationWidget7setupUiEP7QWidgetENKUlvE6_clEvE15qstring_literal@Base 4:15.08.0
- _ZZZN19Ui_NavigationWidget7setupUiEP7QWidgetENKUlvE7_clEvE15qstring_literal@Base 4:15.08.0
- _ZZZN19Ui_NavigationWidget7setupUiEP7QWidgetENKUlvE8_clEvE15qstring_literal@Base 4:15.08.0
- _ZZZN19Ui_NavigationWidget7setupUiEP7QWidgetENKUlvE9_clEvE15qstring_literal@Base 4:15.08.0
- _ZZZN19Ui_NavigationWidget7setupUiEP7QWidgetENKUlvE_clEvE15qstring_literal@Base 4:15.08.0
  _ZZZN19Ui_SunControlWidget7setupUiEP7QDialogENKUlvE0_clEvE15qstring_literal@Base 4:15.08.0
  _ZZZN19Ui_SunControlWidget7setupUiEP7QDialogENKUlvE10_clEvE15qstring_literal@Base 4:15.08.0
  _ZZZN19Ui_SunControlWidget7setupUiEP7QDialogENKUlvE11_clEvE15qstring_literal@Base 4:15.08.0
@@ -13611,14 +13509,12 @@ libmarblewidget-qt5.so.24 libmarblewidget-qt5-24 #MINVER#
  (c++)"non-virtual thunk to Marble::MapViewWidget::~MapViewWidget()@Base" 4:15.08.0
  (c++)"non-virtual thunk to Marble::MapWizard::~MapWizard()@Base" 4:15.08.0
  (c++)"non-virtual thunk to Marble::MarbleAboutDialog::~MarbleAboutDialog()@Base" 4:15.08.0
- (c++)"non-virtual thunk to Marble::MarbleControlBox::~MarbleControlBox()@Base" 4:15.08.0
  (c++)"non-virtual thunk to Marble::MarbleLegendBrowser::~MarbleLegendBrowser()@Base" 4:15.08.0
  (c++)"non-virtual thunk to Marble::MarbleLineEdit::~MarbleLineEdit()@Base" 4:15.08.0
  (c++)"non-virtual thunk to Marble::MarbleNavigator::~MarbleNavigator()@Base" 4:15.08.0
  (c++)"non-virtual thunk to Marble::MarblePluginSettingsWidget::~MarblePluginSettingsWidget()@Base" 4:15.08.0
  (c++)"non-virtual thunk to Marble::MarbleWidget::~MarbleWidget()@Base" 4:15.08.0
  (c++)"non-virtual thunk to Marble::MovieCaptureDialog::~MovieCaptureDialog()@Base" 4:15.08.0
- (c++)"non-virtual thunk to Marble::NavigationWidget::~NavigationWidget()@Base" 4:15.08.0
  (c++)"non-virtual thunk to Marble::NewBookmarkFolderDialog::~NewBookmarkFolderDialog()@Base" 4:15.08.0
  (c++)"non-virtual thunk to Marble::OsmRelationEditorDialog::~OsmRelationEditorDialog()@Base" 4:15.12.0
  (c++)"non-virtual thunk to Marble::OsmRelationManagerWidget::~OsmRelationManagerWidget()@Base" 4:15.12.0
