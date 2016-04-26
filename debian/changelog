@@ -1,5 +1,8 @@
-marble (4:16.04.0-1~1.gbpfcb780) UNRELEASED; urgency=medium
+marble (4:16.04.0-1~2.gbp59049e) UNRELEASED; urgency=medium
 
+  ** SNAPSHOT build @59049e71e540ca609e562198eb1ea610175b6db7 **
+
+  [ Automatic packaging ]
   ** SNAPSHOT build @fcb7800de3724a908437f9eb85ec67f0b351cf7a **
 
   * Bump Standards-Version to 3.9.8
@@ -8,7 +11,18 @@ marble (4:16.04.0-1~1.gbpfcb780) UNRELEASED; urgency=medium
   * Update symbols files
   * Refresh patches
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 21 Apr 2016 05:53:16 +0200
+  [ Maximiliano Curia ]
+  * New upstream release (15.12.2).
+  * Hacky use of xephyr
+  * No curly brackets in the trap call
+  * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
+  * Add upstream metadata (DEP-12)
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+  * Follow upstream soversion bump
+  * Update symbols files
+  * Update lintian override for libmarbledeclarative.so
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Tue, 26 Apr 2016 19:01:58 +0200
 
 marble (4:15.12.1-1) experimental; urgency=medium
 
