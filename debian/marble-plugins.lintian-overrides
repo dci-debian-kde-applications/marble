@@ -1,1 +1,2 @@
-marble-plugins: postinst-must-call-ldconfig usr/lib/x86_64-linux-gnu/libmarbledeclarative.so
+marble-plugins: postinst-must-call-ldconfig usr/lib/*/libmarbledeclarative.so
+marble-plugins: package-must-activate-ldconfig-trigger usr/lib/*/libmarbledeclarative.so
