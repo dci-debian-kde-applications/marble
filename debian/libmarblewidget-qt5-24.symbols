@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:16.04.0 amd64
+# SymbolsHelper-Confirmed: 4:16.04.0 amd64 armhf i386
 libmarblewidget-qt5.so.24 libmarblewidget-qt5-24 #MINVER#
  (optional=templinst|arch=amd64 i386 kfreebsd-amd64 kfreebsd-i386)_Z17qRegisterMetaTypeIN13QNetworkReply12NetworkErrorEEiPKcPT_N9QtPrivate21MetaTypeDefinedHelperIS4_Xaasr12QMetaTypeId2IS4_E7DefinedntsrS9_9IsBuiltInEE11DefinedTypeE@Base 4:15.08.3
  (optional=templinst)_Z17qRegisterMetaTypeIN6Marble13DownloadUsageEEiPKcPT_N9QtPrivate21MetaTypeDefinedHelperIS4_Xaasr12QMetaTypeId2IS4_E7DefinedntsrS9_9IsBuiltInEE11DefinedTypeE@Base 4:15.08.0
@@ -415,6 +415,7 @@ libmarblewidget-qt5.so.24 libmarblewidget-qt5-24 #MINVER#
  (optional=templinst)_ZN5QHashIx7QStringE11deleteNode2EPN9QHashData4NodeE@Base 4:15.12.0
  (optional=templinst)_ZN5QHashIx7QStringE13detach_helperEv@Base 4:15.12.0
  (optional=templinst)_ZN5QHashIx7QStringE13duplicateNodeEPN9QHashData4NodeEPv@Base 4:15.12.0
+ (optional=templinst|arch=!amd64)_ZN5QHashIx7QStringE6removeERKx@Base 4:16.04.0
  (optional=templinst)_ZN5QListI10QByteArrayED1Ev@Base 4:15.08.0
  (optional=templinst)_ZN5QListI10QByteArrayED2Ev@Base 4:15.08.0
  (optional=templinst)_ZN5QListI11QModelIndexE13detach_helperEi@Base 4:15.08.0
@@ -741,7 +742,7 @@ libmarblewidget-qt5.so.24 libmarblewidget-qt5-24 #MINVER#
  (optional=templinst)_ZN5QListIPN6Marble10SoundTrackEE6appendERKS2_@Base 4:15.08.0
  (optional=templinst)_ZN5QListIPN6Marble10SoundTrackEED1Ev@Base 4:15.08.0
  (optional=templinst)_ZN5QListIPN6Marble10SoundTrackEED2Ev@Base 4:15.08.0
- (optional=templinst|arch=alpha armel armhf hppa mips mips64el mipsel)_ZN5QListIPN6Marble11ParsingTaskEE6appendERKS2_@Base 4:15.08.0
+ (optional=templinst|arch=alpha armel hppa mips mips64el mipsel)_ZN5QListIPN6Marble11ParsingTaskEE6appendERKS2_@Base 4:15.08.0
  (optional=templinst|arch=amd64 armhf i386 kfreebsd-amd64 kfreebsd-i386)_ZN5QListIPN6Marble11RoutingTaskEE13detach_helperEi@Base 4:15.08.0
  (optional=templinst)_ZN5QListIPN6Marble11RoutingTaskEE18detach_helper_growEii@Base 4:15.08.0
  (optional=templinst|arch=alpha armel armhf hppa mips mips64el mipsel)_ZN5QListIPN6Marble11RoutingTaskEE6appendERKS2_@Base 4:15.08.0
@@ -7828,6 +7829,8 @@ libmarblewidget-qt5.so.24 libmarblewidget-qt5-24 #MINVER#
  (optional=templinst)_ZN7QVectorI14QSharedPointerIN6Marble11TextureTileEEE6appendERKS3_@Base 4:15.08.0
  (optional=templinst)_ZN7QVectorI14QSharedPointerIN6Marble11TextureTileEEED1Ev@Base 4:15.08.0
  (optional=templinst)_ZN7QVectorI14QSharedPointerIN6Marble11TextureTileEEED2Ev@Base 4:15.08.0
+ (optional=templinst|arch=armhf)_ZN7QVectorI19QXmlStreamAttributeED1Ev@Base 4:16.04.0
+ (optional=templinst|arch=armhf)_ZN7QVectorI19QXmlStreamAttributeED2Ev@Base 4:16.04.0
  (optional=templinst)_ZN7QVectorI21QPersistentModelIndexE11reallocDataEii6QFlagsIN10QArrayData16AllocationOptionEE@Base 4:15.08.0
  (optional=templinst)_ZN7QVectorI21QPersistentModelIndexE5eraseEPS0_S2_@Base 4:15.08.0
  (optional=templinst)_ZN7QVectorI21QPersistentModelIndexE6appendERKS0_@Base 4:15.08.0
