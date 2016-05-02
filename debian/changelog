@@ -3,8 +3,6 @@ marble (4:16.04.0-1~2.gbp59049e) UNRELEASED; urgency=medium
   ** SNAPSHOT build @59049e71e540ca609e562198eb1ea610175b6db7 **
 
   [ Automatic packaging ]
-  ** SNAPSHOT build @fcb7800de3724a908437f9eb85ec67f0b351cf7a **
-
   * Bump Standards-Version to 3.9.8
   * Refresh patches
   * Update symbols files with the logs from the buildds
