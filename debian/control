@@ -68,6 +68,7 @@ Architecture: any
 Section: misc
 Depends: marble-data (>= ${source:Version}),
          marble-plugins (= ${binary:Version}),
+         qml-module-qtmultimedia,
          ${misc:Depends},
          ${shlibs:Depends}
 Suggests: gosmore, monav-routing-daemon, routino
