@@ -1,6 +1,6 @@
-marble (4:16.04.1-1~1.gbpa3a88b) UNRELEASED; urgency=medium
+marble (4:16.04.1-1~2.gbpf1367d) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @a3a88ba43036c3fdcaad6ffe4f3d33d4c6a344f1 **
+  ** SNAPSHOT build @f1367d9e916fe7458aca5f18f8743e0e32d87e94 **
 
   [ Automatic packaging ]
   * Bump Standards-Version to 3.9.8
@@ -24,8 +24,9 @@ marble (4:16.04.1-1~1.gbpa3a88b) UNRELEASED; urgency=medium
   * Add missing maps dependency.
     Thanks to Ritesh Raj Sarraf for reporting and suggesting the dependency
     (Closes: #823059)
+  * Update install files
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Tue, 10 May 2016 23:53:37 +0200
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Wed, 11 May 2016 14:06:11 +0200
 
 marble (4:15.12.1-1) experimental; urgency=medium
 
