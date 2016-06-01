@@ -1,3 +1,12 @@
+marble (4:16.04.1-2~1.gbp0e944d) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @0e944d5c2baff31303bad5e6087a5514013969e4 **
+
+  * Update copyright information
+  * Update changelog for 4:16.04.1-1 release
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Wed, 01 Jun 2016 18:52:28 +0200
+
 marble (4:16.04.1-1) experimental; urgency=medium
 
   [ Automatic packaging ]
