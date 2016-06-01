@@ -20,6 +20,7 @@ marble (4:16.04.1-1) experimental; urgency=medium
     (Closes: #823059)
   * Update install files
   * Add missing Breaks/Replaces
+  * Update copyright information
 
  -- Maximiliano Curia <maxy@debian.org>  Tue, 31 May 2016 19:30:46 +0200
 
