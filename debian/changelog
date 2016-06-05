@@ -1,11 +1,9 @@
-marble (4:16.04.1-2~1.gbp0e944d) UNRELEASED; urgency=medium
+marble (4:16.04.1-2) unstable; urgency=medium
 
-  ** SNAPSHOT build @0e944d5c2baff31303bad5e6087a5514013969e4 **
+  * Releaese to unstable.
+  * Update symbols files with the buildds logs.
 
-  * Update copyright information
-  * Update changelog for 4:16.04.1-1 release
-
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Wed, 01 Jun 2016 18:52:28 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 05 Jun 2016 14:13:35 +0200
 
 marble (4:16.04.1-1) experimental; urgency=medium
 
