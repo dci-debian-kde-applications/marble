@@ -2330,6 +2330,7 @@ Files: data/bitmaps/osmcarto/patterns/allotments.png
        data/bitmaps/osmcarto/symbols/48/transportation/subway_entrance.png
        data/bitmaps/osmcarto/symbols/48/transportation/taxi.16.png
 License: CC0
+Copyright: no copyright claimed
 Comment: No explicit license found, using license(s) from:
  data/bitmaps/osmcarto/LICENSE.txt
 
@@ -2712,6 +2713,7 @@ Files: data/placemarks/HOWTO-cities.txt
        data/placemarks/otherplacemarks.kml
        data/placemarks/statecodes.txt
        data/placemarks/timeZones.txt
+Copyright: No copyright holders listed
 License: CC-BY-3.0
 Comment: No explicit license found, using license(s) from:
  data/placemarks/COPYRIGHT
@@ -2797,11 +2799,25 @@ Files: tools/osm-addresses/pbf/fileformat.proto
        tools/osm-addresses/pbf/osmformat.proto
 Copyright: 2010, Scott A. Crosby <scott@sacrosby.com>
 License: LGPL-3+
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU Lesser General Public License as 
+ published by the Free Software Foundation, either version 3 of the 
+ License, or (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU Lesser General Public License for more details.
+ .
+ The full text of the GNU Lesser General Public License version 3 can be found
+ in the file `/usr/share/common-licenses/LGPL-3'.
 
 Files: data/mwdbii/MWDBPOLY.TXT
        data/mwdbii/contents.txt
 Copyright: no copyright claimed
 License: public-domain
+ The MICRO WORLD DATA BANK II Database was was produced and placed in the 
+ Public Domain by Fred Pospeschil and Antonio Rivera. 
 
 Files: data/maps/earth/openstreetmap/tour.kml
        data/placemarks/COPYRIGHT
@@ -2810,6 +2826,8 @@ License: CC-BY-3.0
 Files: src/lib/marble/htmlfeatures/bootstrap.min.css
 Copyright: 2012, Twitter, Inc
 License: Apache-2.0
+ Licensed under the Apache License v2.0
+ http://www.apache.org/licenses/LICENSE-2.0
 
 Files: debian/*
 Copyright: 2011 Kubuntu Developers <kubuntu-devel@lists.launchpad.net>
