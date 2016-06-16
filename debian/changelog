@@ -1,3 +1,9 @@
+marble (4:16.04.2-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Thu, 16 Jun 2016 11:09:23 +0000
+
 marble (4:16.04.0-1~2.gbp59049e) UNRELEASED; urgency=medium
 
   ** SNAPSHOT build @59049e71e540ca609e562198eb1ea610175b6db7 **
