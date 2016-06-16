@@ -4,19 +4,28 @@ marble (4:16.04.2-0neon) xenial; urgency=medium
 
  -- Neon CI <neon@kde.org>  Thu, 16 Jun 2016 11:09:23 +0000
 
-marble (4:16.04.0-1~2.gbp59049e) UNRELEASED; urgency=medium
+marble (4:16.04.1-3) unstable; urgency=medium
 
-  ** SNAPSHOT build @59049e71e540ca609e562198eb1ea610175b6db7 **
+  * Update symbols files with the buildds logs.
+
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 05 Jun 2016 23:48:43 +0200
+
+marble (4:16.04.1-2) unstable; urgency=medium
+
+  * Release to unstable.
+  * Update symbols files with the buildds logs.
+
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 05 Jun 2016 14:13:35 +0200
+
+marble (4:16.04.1-1) experimental; urgency=medium
 
   [ Automatic packaging ]
   * Bump Standards-Version to 3.9.8
   * Refresh patches
   * Update symbols files with the logs from the buildds
   * Update symbols files
-  * Refresh patches
 
   [ Maximiliano Curia ]
-  * New upstream release (15.12.2).
   * Hacky use of xephyr
   * No curly brackets in the trap call
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
@@ -25,8 +34,14 @@ marble (4:16.04.0-1~2.gbp59049e) UNRELEASED; urgency=medium
   * Follow upstream soversion bump
   * Update symbols files
   * Update lintian override for libmarbledeclarative.so
+  * Add missing maps dependency.
+    Thanks to Ritesh Raj Sarraf for reporting and suggesting the dependency
+    (Closes: #823059)
+  * Update install files
+  * Add missing Breaks/Replaces
+  * Update copyright information
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Tue, 26 Apr 2016 19:01:58 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 31 May 2016 19:30:46 +0200
 
 marble (4:15.12.1-1) experimental; urgency=medium
 

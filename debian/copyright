@@ -20,8 +20,9 @@ Copyright: 2012, Ander Pijoan <ander.pijoan@deusto.es>
            2009-2010, Thibaut GRIDEL <tgridel@free.fr>
            2011, Bernhard Beschow <bbeschow@cs.tu-berlin.de>
            2011, Daniel Marth <danielmarth@gmx.at>
-           2010, Dennis Nienhüser <earthwings@gentoo.org>
+           2010, Dennis Nienhüser <nienhueser@kde.org>
            1991-1999, Free Software Foundation, Inc
+           1995-2013, Jean-loup Gailly <jloup@gzip.org>
            2012, Mohammed Nafees <nafees.technocool@gmail.com>
            2007, Tim Sutton
 License: LGPL-2.1+
@@ -30,6 +31,18 @@ Files: data/ciasource/cia2kml.py
        data/lang/download-translations.bash
        data/lang/merge_ts_po.cpp
        data/lang/routing-instructions_i18n.bash
+       data/maps/earth/bluemarble/bluemarble.dgml
+       data/maps/earth/citylights/citylights.dgml
+       data/maps/earth/plain/plain.dgml
+       data/maps/earth/political/political.dgml
+       data/maps/earth/precip-dec/precip-dec.dgml
+       data/maps/earth/precip-july/precip-july.dgml
+       data/maps/earth/schagen1689/schagen1689.dgml
+       data/maps/earth/srtm/srtm.dgml
+       data/maps/earth/srtm2/srtm2.dgml
+       data/maps/earth/temp-dec/temp-dec.dgml
+       data/maps/earth/temp-july/temp-july.dgml
+       data/maps/sky/nightsky/nightsky.dgml
        examples/cpp/animation-video/main.cpp
        examples/cpp/basic-routing/main.cpp
        examples/cpp/custom-layers/main.cpp
@@ -53,6 +66,7 @@ Files: data/ciasource/cia2kml.py
        examples/cpp/marble-game/GameMainWindow.h
        examples/cpp/marble-game/GameOptions.qml
        examples/cpp/marble-game/GamesView.qml
+       examples/cpp/marble-game/InitialMenu.qml
        examples/cpp/marble-game/Window.qml
        examples/cpp/marble-game/gamemain.cpp
        examples/cpp/marbleQuick2/main.cpp
@@ -68,7 +82,6 @@ Files: data/ciasource/cia2kml.py
        examples/qml/cloud-sync/cloudsync.qml
        examples/qml/data-layers/DynamicLayer.qml
        examples/qml/data-layers/EarthquakesModel.qml
-       examples/qml/data-layers/SevenWondersOfTheAncientWorld.qml
        examples/qml/data-layers/SevenWondersOfTheAncientWorldModel.qml
        examples/qml/data-layers/StaticLayer.qml
        examples/qml/explore/FloatButton.qml
@@ -79,12 +92,45 @@ Files: data/ciasource/cia2kml.py
        examples/qml/position-tracking/position-tracking.qml
        examples/qml/where-is-that/FloatButton.qml
        examples/qml/where-is-that/where-is-that.qml
-       marble.appdata.xml
+       src/apps/behaim/Legend.qml
+       src/apps/behaim/MainScreen.qml
+       src/apps/behaim/create-apk.py
+       src/apps/behaim/main.cpp
        src/apps/marble-kde/KdeMainWindow.cpp
        src/apps/marble-kde/KdeMainWindow.h
        src/apps/marble-kde/kdemain.cpp
        src/apps/marble-kde/marble_part.cpp
        src/apps/marble-kde/marble_part.h
+       src/apps/marble-maps/BoxedText.qml
+       src/apps/marble-maps/CircularButton.qml
+       src/apps/marble-maps/Completion.qml
+       src/apps/marble-maps/DeveloperDialog.qml
+       src/apps/marble-maps/FlatButton.qml
+       src/apps/marble-maps/FloatingMenuButton.qml
+       src/apps/marble-maps/ImageButton.qml
+       src/apps/marble-maps/MainScreen.qml
+       src/apps/marble-maps/MarbleMaps.cpp
+       src/apps/marble-maps/MarbleMaps.h
+       src/apps/marble-maps/NavigationInfoBar.qml
+       src/apps/marble-maps/NavigationManager.qml
+       src/apps/marble-maps/PlacemarkDialog.qml
+       src/apps/marble-maps/PositionButton.qml
+       src/apps/marble-maps/PositionMarker.qml
+       src/apps/marble-maps/ProfileSelectorMenu.qml
+       src/apps/marble-maps/RouteEditor.qml
+       src/apps/marble-maps/RouteProfileRadioButton.qml
+       src/apps/marble-maps/RoutingManager.qml
+       src/apps/marble-maps/ScrollBar.qml
+       src/apps/marble-maps/Search.qml
+       src/apps/marble-maps/SearchField.qml
+       src/apps/marble-maps/SearchResults.qml
+       src/apps/marble-maps/TextToSpeechClient.cpp
+       src/apps/marble-maps/TextToSpeechClient.h
+       src/apps/marble-maps/Waypoint.qml
+       src/apps/marble-maps/WaypointImage.qml
+       src/apps/marble-maps/create-apk.py
+       src/apps/marble-maps/main.cpp
+       src/apps/marble-maps/package/src/org/kde/marble/maps/TextToSpeechClient.java
        src/apps/marble-mobile/MobileMainWindow.cpp
        src/apps/marble-mobile/MobileMainWindow.h
        src/apps/marble-mobile/StackableWindow.cpp
@@ -96,12 +142,10 @@ Files: data/ciasource/cia2kml.py
        src/apps/marble-touch/AboutMarblePage.qml
        src/apps/marble-touch/ActivitySelectionView.qml
        src/apps/marble-touch/CloudSyncPage.qml
-       src/apps/marble-touch/FileDialog.qml
-       src/apps/marble-touch/FileOpenDialog.qml
-       src/apps/marble-touch/FileSaveDialog.qml
        src/apps/marble-touch/MainWidget.qml
        src/apps/marble-touch/MapThemePage.qml
        src/apps/marble-touch/MapThemeSelectionPage.qml
+       src/apps/marble-touch/MarbleSettings.qml
        src/apps/marble-touch/MarbleTouch.qml
        src/apps/marble-touch/OfflineDataPage.qml
        src/apps/marble-touch/PlacemarkEditor.qml
@@ -121,15 +165,8 @@ Files: data/ciasource/cia2kml.py
        src/apps/marble-touch/activities/Tracking.qml
        src/apps/marble-touch/activities/VirtualGlobe.qml
        src/apps/marble-touch/activities/Weather.qml
-       src/apps/marble-touch/harmattan/MarbleMenuLayout.qml
-       src/apps/marble-touch/harmattan/MarbleToolIcon.qml
-       src/apps/marble-touch/harmattan/MarbleWindow.qml
        src/apps/marble-touch/main.cpp
        src/apps/marble-touch/main.qml
-       src/apps/marble-touch/plasma/MarbleMenuLayout.qml
-       src/apps/marble-touch/plasma/MarbleToolIcon.qml
-       src/apps/marble-touch/plasma/MarbleWindow.qml
-       src/apps/marble-touch/plasma/MenuItemSwitch.qml
        src/apps/marble-ui/ControlView.cpp
        src/apps/marble-ui/ControlView.h
        src/apps/marble-ui/MarbleTest.cpp
@@ -172,6 +209,8 @@ Files: data/ciasource/cia2kml.py
        src/lib/marble/BranchFilterProxyModel.h
        src/lib/marble/CacheStoragePolicy.cpp
        src/lib/marble/CacheStoragePolicy.h
+       src/lib/marble/CelestialSortFilterProxyModel.cpp
+       src/lib/marble/CelestialSortFilterProxyModel.h
        src/lib/marble/ClipPainter.cpp
        src/lib/marble/ClipPainter.h
        src/lib/marble/CurrentLocationWidget.cpp
@@ -209,6 +248,8 @@ Files: data/ciasource/cia2kml.py
        src/lib/marble/FileViewWidget.h
        src/lib/marble/FlyToEditWidget.cpp
        src/lib/marble/FlyToEditWidget.h
+       src/lib/marble/FormattedTextWidget.cpp
+       src/lib/marble/FormattedTextWidget.h
        src/lib/marble/GenericScanlineTextureMapper.cpp
        src/lib/marble/GenericScanlineTextureMapper.h
        src/lib/marble/GeoDataTreeModel.cpp
@@ -243,6 +284,8 @@ Files: data/ciasource/cia2kml.py
        src/lib/marble/MapThemeManager.h
        src/lib/marble/MapThemeSortFilterProxyModel.cpp
        src/lib/marble/MapThemeSortFilterProxyModel.h
+       src/lib/marble/MapViewItemDelegate.cpp
+       src/lib/marble/MapViewItemDelegate.h
        src/lib/marble/MapViewWidget.cpp
        src/lib/marble/MapViewWidget.h
        src/lib/marble/MapWizard.cpp
@@ -254,7 +297,7 @@ Files: data/ciasource/cia2kml.py
        src/lib/marble/MarbleClock.h
        src/lib/marble/MarbleColors.cpp
        src/lib/marble/MarbleColors.h
-       src/lib/marble/MarbleControlBox.h
+       src/lib/marble/MarbleDBusInterface.h
        src/lib/marble/MarbleDebug.cpp
        src/lib/marble/MarbleDebug.h
        src/lib/marble/MarbleDirs.cpp
@@ -285,8 +328,6 @@ Files: data/ciasource/cia2kml.py
        src/lib/marble/MarblePlacemarkModel_P.h
        src/lib/marble/MarblePluginSettingsWidget.cpp
        src/lib/marble/MarblePluginSettingsWidget.h
-       src/lib/marble/MarbleQuickItem.cpp
-       src/lib/marble/MarbleQuickItem.h
        src/lib/marble/MarbleWebView.cpp
        src/lib/marble/MarbleWebView.h
        src/lib/marble/MarbleWidget.cpp
@@ -301,12 +342,14 @@ Files: data/ciasource/cia2kml.py
        src/lib/marble/MovieCapture.h
        src/lib/marble/MovieCaptureDialog.cpp
        src/lib/marble/MovieCaptureDialog.h
-       src/lib/marble/NavigationWidget.cpp
-       src/lib/marble/NavigationWidget.h
        src/lib/marble/NewBookmarkFolderDialog.cpp
        src/lib/marble/NewBookmarkFolderDialog.h
        src/lib/marble/NewstuffModel.cpp
        src/lib/marble/NewstuffModel.h
+       src/lib/marble/NullMarbleWebView.cpp
+       src/lib/marble/NullMarbleWebView.h
+       src/lib/marble/NullTinyWebBrowser.cpp
+       src/lib/marble/NullTinyWebBrowser.h
        src/lib/marble/ParseRunnerPlugin.cpp
        src/lib/marble/ParseRunnerPlugin.h
        src/lib/marble/ParsingRunner.cpp
@@ -471,6 +514,51 @@ Files: data/ciasource/cia2kml.py
        src/lib/marble/cloudsync/RouteItem.h
        src/lib/marble/cloudsync/RouteSyncManager.cpp
        src/lib/marble/cloudsync/RouteSyncManager.h
+       src/lib/marble/declarative/Bookmarks.cpp
+       src/lib/marble/declarative/Bookmarks.h
+       src/lib/marble/declarative/CloudSync.cpp
+       src/lib/marble/declarative/CloudSync.h
+       src/lib/marble/declarative/Coordinate.cpp
+       src/lib/marble/declarative/Coordinate.h
+       src/lib/marble/declarative/DeclarativeDataPlugin.cpp
+       src/lib/marble/declarative/DeclarativeDataPlugin.h
+       src/lib/marble/declarative/DeclarativeDataPluginItem.cpp
+       src/lib/marble/declarative/DeclarativeDataPluginItem.h
+       src/lib/marble/declarative/DeclarativeDataPluginModel.cpp
+       src/lib/marble/declarative/DeclarativeDataPluginModel.h
+       src/lib/marble/declarative/DeclarativeMapThemeManager.cpp
+       src/lib/marble/declarative/DeclarativeMapThemeManager.h
+       src/lib/marble/declarative/MapThemeModel.cpp
+       src/lib/marble/declarative/MapThemeModel.h
+       src/lib/marble/declarative/MarbleDeclarativeObject.cpp
+       src/lib/marble/declarative/MarbleDeclarativeObject.h
+       src/lib/marble/declarative/MarbleDeclarativePlugin.cpp
+       src/lib/marble/declarative/MarbleDeclarativePlugin.h
+       src/lib/marble/declarative/MarbleDeclarativeWidget.cpp
+       src/lib/marble/declarative/MarbleDeclarativeWidget.h
+       src/lib/marble/declarative/MarbleQuickItem.cpp
+       src/lib/marble/declarative/MarbleQuickItem.h
+       src/lib/marble/declarative/Navigation.cpp
+       src/lib/marble/declarative/Navigation.h
+       src/lib/marble/declarative/OfflineDataModel.cpp
+       src/lib/marble/declarative/OfflineDataModel.h
+       src/lib/marble/declarative/Placemark.cpp
+       src/lib/marble/declarative/Placemark.h
+       src/lib/marble/declarative/PositionSource.cpp
+       src/lib/marble/declarative/PositionSource.h
+       src/lib/marble/declarative/RouteRequestModel.cpp
+       src/lib/marble/declarative/RouteRequestModel.h
+       src/lib/marble/declarative/Routing.cpp
+       src/lib/marble/declarative/Routing.h
+       src/lib/marble/declarative/Search.cpp
+       src/lib/marble/declarative/Search.h
+       src/lib/marble/declarative/SearchBackend.cpp
+       src/lib/marble/declarative/SearchBackend.h
+       src/lib/marble/declarative/Settings.cpp
+       src/lib/marble/declarative/Settings.h
+       src/lib/marble/declarative/Tracking.cpp
+       src/lib/marble/declarative/Tracking.h
+       src/lib/marble/declarative/marble_declarative_export.h
        src/lib/marble/geodata/data/GeoDataAbstractView.cpp
        src/lib/marble/geodata/data/GeoDataAbstractView.h
        src/lib/marble/geodata/data/GeoDataAccuracy.cpp
@@ -763,6 +851,8 @@ Files: data/ciasource/cia2kml.py
        src/lib/marble/geodata/handlers/kml/KmlMaxSessionLengthTagHandler.h
        src/lib/marble/geodata/handlers/kml/KmlMaxWidthTagHandler.cpp
        src/lib/marble/geodata/handlers/kml/KmlMaxWidthTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlMemberTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlMemberTagHandler.h
        src/lib/marble/geodata/handlers/kml/KmlMessageTagHandler.cpp
        src/lib/marble/geodata/handlers/kml/KmlMessageTagHandler.h
        src/lib/marble/geodata/handlers/kml/KmlMinAltitudeTagHandler.cpp
@@ -777,6 +867,8 @@ Files: data/ciasource/cia2kml.py
        src/lib/marble/geodata/handlers/kml/KmlModelTagHandler.h
        src/lib/marble/geodata/handlers/kml/KmlMultiTrackTagHandler.cpp
        src/lib/marble/geodata/handlers/kml/KmlMultiTrackTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlNdTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlNdTagHandler.h
        src/lib/marble/geodata/handlers/kml/KmlNearTagHandler.cpp
        src/lib/marble/geodata/handlers/kml/KmlNearTagHandler.h
        src/lib/marble/geodata/handlers/kml/KmlNetworkLinkControlTagHandler.cpp
@@ -789,6 +881,8 @@ Files: data/ciasource/cia2kml.py
        src/lib/marble/geodata/handlers/kml/KmlObjectTagHandler.h
        src/lib/marble/geodata/handlers/kml/KmlOrientationTagHandler.cpp
        src/lib/marble/geodata/handlers/kml/KmlOrientationTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlOsmPlacemarkDataTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlOsmPlacemarkDataTagHandler.h
        src/lib/marble/geodata/handlers/kml/KmlOverlayXYTagHandler.cpp
        src/lib/marble/geodata/handlers/kml/KmlOverlayXYTagHandler.h
        src/lib/marble/geodata/handlers/kml/KmlPhotoOverlayTagHandler.cpp
@@ -837,6 +931,8 @@ Files: data/ciasource/cia2kml.py
        src/lib/marble/geodata/handlers/kml/KmlSouthTagHandler.h
        src/lib/marble/geodata/handlers/kml/KmlStateTagHandler.cpp
        src/lib/marble/geodata/handlers/kml/KmlStateTagHandler.h
+       src/lib/marble/geodata/handlers/kml/KmlTagTagHandler.cpp
+       src/lib/marble/geodata/handlers/kml/KmlTagTagHandler.h
        src/lib/marble/geodata/handlers/kml/KmlTargetHrefTagHandler.cpp
        src/lib/marble/geodata/handlers/kml/KmlTargetHrefTagHandler.h
        src/lib/marble/geodata/handlers/kml/KmlTextColorTagHandler.cpp
@@ -897,12 +993,12 @@ Files: data/ciasource/cia2kml.py
        src/lib/marble/geodata/scene/GeoSceneGeodata.h
        src/lib/marble/geodata/scene/GeoSceneLicense.cpp
        src/lib/marble/geodata/scene/GeoSceneLicense.h
-       src/lib/marble/geodata/scene/GeoSceneTextureTile.cpp
-       src/lib/marble/geodata/scene/GeoSceneTextureTile.h
-       src/lib/marble/geodata/scene/GeoSceneTiled.cpp
-       src/lib/marble/geodata/scene/GeoSceneTiled.h
-       src/lib/marble/geodata/scene/GeoSceneVectorTile.cpp
-       src/lib/marble/geodata/scene/GeoSceneVectorTile.h
+       src/lib/marble/geodata/scene/GeoSceneTextureTileDataset.cpp
+       src/lib/marble/geodata/scene/GeoSceneTextureTileDataset.h
+       src/lib/marble/geodata/scene/GeoSceneTileDataset.cpp
+       src/lib/marble/geodata/scene/GeoSceneTileDataset.h
+       src/lib/marble/geodata/scene/GeoSceneVectorTileDataset.cpp
+       src/lib/marble/geodata/scene/GeoSceneVectorTileDataset.h
        src/lib/marble/geodata/writer/GeoTagWriter.cpp
        src/lib/marble/geodata/writer/GeoTagWriter.h
        src/lib/marble/geodata/writer/GeoWriter.cpp
@@ -955,6 +1051,8 @@ Files: data/ciasource/cia2kml.py
        src/lib/marble/geodata/writers/kml/KmlGroundOverlayWriter.h
        src/lib/marble/geodata/writers/kml/KmlIconStyleTagWriter.cpp
        src/lib/marble/geodata/writers/kml/KmlIconStyleTagWriter.h
+       src/lib/marble/geodata/writers/kml/KmlLabelStyleTagWriter.cpp
+       src/lib/marble/geodata/writers/kml/KmlLabelStyleTagWriter.h
        src/lib/marble/geodata/writers/kml/KmlLatLonAltBoxWriter.cpp
        src/lib/marble/geodata/writers/kml/KmlLatLonAltBoxWriter.h
        src/lib/marble/geodata/writers/kml/KmlLatLonBoxWriter.cpp
@@ -987,6 +1085,8 @@ Files: data/ciasource/cia2kml.py
        src/lib/marble/geodata/writers/kml/KmlNetworkLinkTagWriter.h
        src/lib/marble/geodata/writers/kml/KmlObjectTagWriter.cpp
        src/lib/marble/geodata/writers/kml/KmlObjectTagWriter.h
+       src/lib/marble/geodata/writers/kml/KmlOsmPlacemarkDataTagWriter.cpp
+       src/lib/marble/geodata/writers/kml/KmlOsmPlacemarkDataTagWriter.h
        src/lib/marble/geodata/writers/kml/KmlOverlayTagWriter.cpp
        src/lib/marble/geodata/writers/kml/KmlOverlayTagWriter.h
        src/lib/marble/geodata/writers/kml/KmlPhotoOverlayWriter.cpp
@@ -1072,6 +1172,22 @@ Files: data/ciasource/cia2kml.py
        src/lib/marble/layers/VectorTileLayer.cpp
        src/lib/marble/layers/VectorTileLayer.h
        src/lib/marble/marble_export.h
+       src/lib/marble/osm/OsmObjectManager.cpp
+       src/lib/marble/osm/OsmObjectManager.h
+       src/lib/marble/osm/OsmPlacemarkData.cpp
+       src/lib/marble/osm/OsmPlacemarkData.h
+       src/lib/marble/osm/OsmPresetLibrary.cpp
+       src/lib/marble/osm/OsmPresetLibrary.h
+       src/lib/marble/osm/OsmRelationEditorDialog.cpp
+       src/lib/marble/osm/OsmRelationEditorDialog.h
+       src/lib/marble/osm/OsmRelationManagerWidget.cpp
+       src/lib/marble/osm/OsmRelationManagerWidget.h
+       src/lib/marble/osm/OsmRelationManagerWidget_p.cpp
+       src/lib/marble/osm/OsmRelationManagerWidget_p.h
+       src/lib/marble/osm/OsmTagEditorWidget.cpp
+       src/lib/marble/osm/OsmTagEditorWidget.h
+       src/lib/marble/osm/OsmTagEditorWidget_p.cpp
+       src/lib/marble/osm/OsmTagEditorWidget_p.h
        src/lib/marble/projections/AbstractProjection.cpp
        src/lib/marble/projections/AbstractProjection.h
        src/lib/marble/projections/AbstractProjection_p.h
@@ -1141,49 +1257,6 @@ Files: data/ciasource/cia2kml.py
        src/lib/marble/routing/instructions/WaypointParser.h
        src/plasmarunner/plasma-runner-marble.desktop
        src/plasmoid/plasma-applet-kworldclock.desktop
-       src/plugins/declarative/Bookmarks.cpp
-       src/plugins/declarative/Bookmarks.h
-       src/plugins/declarative/CloudSync.cpp
-       src/plugins/declarative/CloudSync.h
-       src/plugins/declarative/Coordinate.cpp
-       src/plugins/declarative/Coordinate.h
-       src/plugins/declarative/DeclarativeDataPlugin.cpp
-       src/plugins/declarative/DeclarativeDataPlugin.h
-       src/plugins/declarative/DeclarativeDataPluginItem.cpp
-       src/plugins/declarative/DeclarativeDataPluginItem.h
-       src/plugins/declarative/DeclarativeDataPluginModel.cpp
-       src/plugins/declarative/DeclarativeDataPluginModel.h
-       src/plugins/declarative/DeclarativeMapThemeManager.cpp
-       src/plugins/declarative/DeclarativeMapThemeManager.h
-       src/plugins/declarative/MapThemeModel.cpp
-       src/plugins/declarative/MapThemeModel.h
-       src/plugins/declarative/MarbleDeclarativeObject.cpp
-       src/plugins/declarative/MarbleDeclarativeObject.h
-       src/plugins/declarative/MarbleDeclarativePlugin.cpp
-       src/plugins/declarative/MarbleDeclarativePlugin.h
-       src/plugins/declarative/MarbleDeclarativeWidget.cpp
-       src/plugins/declarative/MarbleDeclarativeWidget.h
-       src/plugins/declarative/MarbleSettings.qml
-       src/plugins/declarative/Navigation.cpp
-       src/plugins/declarative/Navigation.h
-       src/plugins/declarative/OfflineDataModel.cpp
-       src/plugins/declarative/OfflineDataModel.h
-       src/plugins/declarative/Placemark.cpp
-       src/plugins/declarative/Placemark.h
-       src/plugins/declarative/PositionSource.cpp
-       src/plugins/declarative/PositionSource.h
-       src/plugins/declarative/RouteRequestModel.cpp
-       src/plugins/declarative/RouteRequestModel.h
-       src/plugins/declarative/Routing.cpp
-       src/plugins/declarative/Routing.h
-       src/plugins/declarative/Search.cpp
-       src/plugins/declarative/Search.h
-       src/plugins/declarative/Settings.cpp
-       src/plugins/declarative/Settings.h
-       src/plugins/declarative/Tracking.cpp
-       src/plugins/declarative/Tracking.h
-       src/plugins/declarative/ZoomButtonInterceptor.cpp
-       src/plugins/declarative/ZoomButtonInterceptor.h
        src/plugins/designer/latloneditwidget/LatLonEditPlugin.cpp
        src/plugins/designer/latloneditwidget/LatLonEditPlugin.h
        src/plugins/designer/marblewidget/MarbleWidgetPlugin.cpp
@@ -1222,8 +1295,8 @@ Files: data/ciasource/cia2kml.py
        src/plugins/positionprovider/gpsd/GpsdThread.h
        src/plugins/positionprovider/maemo/MaemoPositionProviderPlugin.cpp
        src/plugins/positionprovider/maemo/MaemoPositionProviderPlugin.h
-       src/plugins/positionprovider/qtmobility/QtMobilityPositionProviderPlugin.cpp
-       src/plugins/positionprovider/qtmobility/QtMobilityPositionProviderPlugin.h
+       src/plugins/positionprovider/qtpositioning/QtPositioningPositionProviderPlugin.cpp
+       src/plugins/positionprovider/qtpositioning/QtPositioningPositionProviderPlugin.h
        src/plugins/positionprovider/wlocate/WlocatePositionProviderPlugin.cpp
        src/plugins/positionprovider/wlocate/WlocatePositionProviderPlugin.h
        src/plugins/render/annotate/AnnotatePlugin.cpp
@@ -1236,16 +1309,14 @@ Files: data/ciasource/cia2kml.py
        src/plugins/render/annotate/EditPolygonDialog.h
        src/plugins/render/annotate/EditPolylineDialog.cpp
        src/plugins/render/annotate/EditPolylineDialog.h
-       src/plugins/render/annotate/EditTextAnnotationDialog.cpp
-       src/plugins/render/annotate/EditTextAnnotationDialog.h
-       src/plugins/render/annotate/GeoWidgetBubble.cpp
-       src/plugins/render/annotate/GeoWidgetBubble.h
        src/plugins/render/annotate/GroundOverlayFrame.cpp
        src/plugins/render/annotate/GroundOverlayFrame.h
        src/plugins/render/annotate/MergingPolygonNodesAnimation.cpp
        src/plugins/render/annotate/MergingPolygonNodesAnimation.h
        src/plugins/render/annotate/MergingPolylineNodesAnimation.cpp
        src/plugins/render/annotate/MergingPolylineNodesAnimation.h
+       src/plugins/render/annotate/NodeItemDelegate.cpp
+       src/plugins/render/annotate/NodeItemDelegate.h
        src/plugins/render/annotate/NodeModel.cpp
        src/plugins/render/annotate/NodeModel.h
        src/plugins/render/annotate/PlacemarkTextAnnotation.cpp
@@ -1258,14 +1329,11 @@ Files: data/ciasource/cia2kml.py
        src/plugins/render/annotate/SceneGraphicsItem.h
        src/plugins/render/annotate/SceneGraphicsTypes.cpp
        src/plugins/render/annotate/SceneGraphicsTypes.h
-       src/plugins/render/annotate/TextEditor.cpp
-       src/plugins/render/annotate/TextEditor.h
        src/plugins/render/aprs/AprsFile.cpp
        src/plugins/render/aprs/AprsFile.h
        src/plugins/render/aprs/AprsGatherGen.pl
        src/plugins/render/aprs/AprsGatherer.cpp
        src/plugins/render/aprs/AprsGatherer.h
-       src/plugins/render/aprs/AprsGatherer_mic_e.h
        src/plugins/render/aprs/AprsObject.cpp
        src/plugins/render/aprs/AprsObject.h
        src/plugins/render/aprs/AprsPlugin.cpp
@@ -1589,36 +1657,46 @@ Files: data/ciasource/cia2kml.py
        src/plugins/runner/open-source-routing-machine/OSRMPlugin.h
        src/plugins/runner/open-source-routing-machine/OSRMRunner.cpp
        src/plugins/runner/open-source-routing-machine/OSRMRunner.h
+       src/plugins/runner/openlocation-code-search/OpenLocationCodeSearchPlugin.cpp
+       src/plugins/runner/openlocation-code-search/OpenLocationCodeSearchPlugin.h
+       src/plugins/runner/openlocation-code-search/OpenLocationCodeSearchRunner.cpp
+       src/plugins/runner/openlocation-code-search/OpenLocationCodeSearchRunner.h
        src/plugins/runner/openrouteservice/OpenRouteServicePlugin.cpp
        src/plugins/runner/openrouteservice/OpenRouteServicePlugin.h
        src/plugins/runner/openrouteservice/OpenRouteServiceRunner.cpp
        src/plugins/runner/openrouteservice/OpenRouteServiceRunner.h
+       src/plugins/runner/osm/OsmElementDictionary.cpp
+       src/plugins/runner/osm/OsmElementDictionary.h
+       src/plugins/runner/osm/OsmNode.cpp
+       src/plugins/runner/osm/OsmNode.h
        src/plugins/runner/osm/OsmParser.cpp
        src/plugins/runner/osm/OsmParser.h
        src/plugins/runner/osm/OsmPlugin.cpp
        src/plugins/runner/osm/OsmPlugin.h
+       src/plugins/runner/osm/OsmRelation.cpp
+       src/plugins/runner/osm/OsmRelation.h
        src/plugins/runner/osm/OsmRunner.cpp
        src/plugins/runner/osm/OsmRunner.h
-       src/plugins/runner/osm/handlers/OsmBoundTagHandler.cpp
-       src/plugins/runner/osm/handlers/OsmBoundTagHandler.h
-       src/plugins/runner/osm/handlers/OsmBoundsTagHandler.cpp
-       src/plugins/runner/osm/handlers/OsmBoundsTagHandler.h
-       src/plugins/runner/osm/handlers/OsmElementDictionary.cpp
-       src/plugins/runner/osm/handlers/OsmElementDictionary.h
-       src/plugins/runner/osm/handlers/OsmMemberTagHandler.cpp
-       src/plugins/runner/osm/handlers/OsmMemberTagHandler.h
-       src/plugins/runner/osm/handlers/OsmNdTagHandler.cpp
-       src/plugins/runner/osm/handlers/OsmNdTagHandler.h
-       src/plugins/runner/osm/handlers/OsmNodeTagHandler.cpp
-       src/plugins/runner/osm/handlers/OsmNodeTagHandler.h
-       src/plugins/runner/osm/handlers/OsmOsmTagHandler.cpp
-       src/plugins/runner/osm/handlers/OsmOsmTagHandler.h
-       src/plugins/runner/osm/handlers/OsmRelationTagHandler.cpp
-       src/plugins/runner/osm/handlers/OsmRelationTagHandler.h
-       src/plugins/runner/osm/handlers/OsmTagTagHandler.cpp
-       src/plugins/runner/osm/handlers/OsmTagTagHandler.h
-       src/plugins/runner/osm/handlers/OsmWayTagHandler.cpp
-       src/plugins/runner/osm/handlers/OsmWayTagHandler.h
+       src/plugins/runner/osm/OsmWay.cpp
+       src/plugins/runner/osm/OsmWay.h
+       src/plugins/runner/osm/translators/OsmDocumentTagTranslator.cpp
+       src/plugins/runner/osm/translators/OsmDocumentTagTranslator.h
+       src/plugins/runner/osm/translators/OsmFeatureTagTranslator.cpp
+       src/plugins/runner/osm/translators/OsmFeatureTagTranslator.h
+       src/plugins/runner/osm/translators/OsmPlacemarkTagTranslator.cpp
+       src/plugins/runner/osm/translators/OsmPlacemarkTagTranslator.h
+       src/plugins/runner/osm/writers/OsmNodeTagWriter.cpp
+       src/plugins/runner/osm/writers/OsmNodeTagWriter.h
+       src/plugins/runner/osm/writers/OsmObjectAttributeWriter.cpp
+       src/plugins/runner/osm/writers/OsmObjectAttributeWriter.h
+       src/plugins/runner/osm/writers/OsmRelationTagWriter.cpp
+       src/plugins/runner/osm/writers/OsmRelationTagWriter.h
+       src/plugins/runner/osm/writers/OsmTagTagWriter.cpp
+       src/plugins/runner/osm/writers/OsmTagTagWriter.h
+       src/plugins/runner/osm/writers/OsmTagWriter.cpp
+       src/plugins/runner/osm/writers/OsmTagWriter.h
+       src/plugins/runner/osm/writers/OsmWayTagWriter.cpp
+       src/plugins/runner/osm/writers/OsmWayTagWriter.h
        src/plugins/runner/pn2/Pn2Plugin.cpp
        src/plugins/runner/pn2/Pn2Plugin.h
        src/plugins/runner/pn2/Pn2Runner.cpp
@@ -1762,12 +1840,17 @@ Files: data/ciasource/cia2kml.py
        tools/tilecreator/main.cpp
        tools/tilecreator/tccore.cpp
        tools/tilecreator/tccore.h
+       tools/vectortilecreator/vectortilecreator.py
        tools/version/update-version-number.py
-       src/plugins/render/photo/PhotoPlugin.cpp
+       data/maps/earth/behaim1492/behaim1492.dgml
        tools/speaker-files/main.cpp
-Copyright: 2014, Abhinav Gangwar <abhgang@gmail.com>
+       data/maps/earth/openstreetmap/openstreetmap.dgml
+       data/maps/earth/vectorosm/vectorosm.dgml
+       src/plugins/render/photo/PhotoPlugin.cpp
+Copyright: 2014-2015, Abhinav Gangwar <abhgang@gmail.com>
            2014, Adam Dabrowski <adamdbrw@gmail.com>
            2013, Adrian Draghici <draghici.adrian.b@gmail.com>
+           2015, Alejandro Garcia Montoro <alejandro.garciamontoro@gmail.com>
            2012-2013, Ander Pijoan <ander.pijoan@deusto.es>
            2009-2012, Anders Lund <anders@alweb.dk>
            2013, Andrei Duma <andrei.duma.dorian@gmail.com>
@@ -1782,24 +1865,26 @@ Copyright: 2014, Abhinav Gangwar <abhgang@gmail.com>
            2010-2012, Cezar Mocan <mocancezar@gmail.com>
            2007, Christian Ehrlicher <ch.ehrlicher@gmx.de>
            2008, Claudiu Covaci <claudiu.covaci@gmail.com>
+           2015, Constantin Mihalache <mihalache.c94@gmail.com>
            2010-2011, Daniel Marth <danielmarth@gmx.at>
            2007-2009, David Roberts <dvdr18@gmail.com>
-           2008-2015, Dennis Nienhüser <earthwings@gentoo.org>
+           2008-2015, Dennis Nienhüser <nienhueser@kde.org>
            2009, Eckhart Wörner <ewoerner@kde.org>
            2011-2012, Florian Eßer <f.esser@rwth-aachen.de>
            2011, Friedrich W. H. Kossebau <kossebau@kde.org>
            2009-2010, Gaurav Gupta <1989.gaurav@googlemail.com>
            2012, Gerhard HOLTKAMP
            2028, Gerhard HOLTKAMP-JAN-2013
-           2021, Gerhard HOLTKAMP-MAY-2000 18:00
-           2021, Gerhard HOLTKAMP-SEP-2004 18:00
-           2013, Gerhard Holtkamp
+           2025-2026, Gerhard HOLTKAMP-MAR-2014
+           2014-2015, Gerhard Holtkamp
            2011, Guillaume Martres <smarter@ubuntu.com>
-           2014, Gábor Péterffy <peterffy95@gmail.com>
+           2015, Gábor Péterffy <gabor.peterffy@gmail.com>
+           2014-2015, Gábor Péterffy <peterffy95@gmail.com>
            2014, Gábor Péterffy <peterffy95@gmail.org>
            2010, Harshit Jain <hjain.itbhu@gmail.com>
            2008-2009, Henry de Valence <hdevalence@gmail.com>
            2012-2015, Ilya Kowalewski <illya.kovalevskyy@gmail.com>
+           2015, Imran Tatriev <itatriev@gmail.com>
            2007-2008, Inge Wallin <inge@lysator.liu.se>
            2007-2008, Inge Wallin <ingwa@kde.org>
            2011, Javier Becerra <javier@auva.es>
@@ -1810,11 +1895,12 @@ Copyright: 2014, Abhinav Gangwar <abhgang@gmail.com>
            2012, LOTES TM" LLC <lotes.sis@gmail.com>
            2013-2014, Levente Kurusa <levex@linux.com>
            2013-2014, Marek Hakala <hakala.marek@gmail.com>
+           2015, Marius-Valeriu Stanciu <stanciumarius94@gmail.com>
            2010, Matias Kallio <matias.kallio@gmail.com>
            2012-2013, Mayank Madan <maddiemadan@gmail.com>
            2011, Michael Henning <mikehenning@eclipse.net>
+           2013-2015, Mihail Ivchenko <ematirov@gmail.com>
            2013, Mihail Ivchenko <ematirov@gmail>
-           2013-2015, Mikhail Ivchenko <ematirov@gmail.com>
            2012-2013, Mohammed Nafees <nafees.technocool@gmail.com>
            2007, Murad Tagirov <tmurad@gmail.com>
            2010-2011, Niko Sams <niko.sams@gmail.com>
@@ -1841,7 +1927,10 @@ Copyright: 2014, Abhinav Gangwar <abhgang@gmail.com>
            2010, Wes Hardaker <hardaker@users.sourceforge.net>
            2010, Wes Hardaker <marble@ws6z.com>
            2013, Yazeed Zoabi <yazeedz.zoabi@gmail.com>
-License: LGPL-2.1
+           2011, Dennis Nienhüser <nienhueser@kde.org>
+           2009, Bastian Holst <bastianholst@gmx.de>
+           2012, Mohammed Nafees <nafees.technocool@gmail.com>
+License: LGPL
  This program is free software licensed under the GNU LGPL. You can
  find a copy of this license in LICENSE.txt in the top directory of
  the source code.
@@ -1849,8 +1938,401 @@ License: LGPL-2.1
  On Debian systems, the full text of the GNU Lesser General Public License
  version 2.1 can be found in the file `/usr/share/common-licenses/LGPL-2.1'
 Comment: LICENSE.txt is copy of LGPL-2.1
-License: LGPL
 
+Files: data/bitmaps/osmcarto/patterns/allotments.png
+       data/bitmaps/osmcarto/patterns/beach.png
+       data/bitmaps/osmcarto/patterns/cliff.png
+       data/bitmaps/osmcarto/patterns/cliff2.png
+       data/bitmaps/osmcarto/patterns/danger.png
+       data/bitmaps/osmcarto/patterns/embankment.png
+       data/bitmaps/osmcarto/patterns/forest.png
+       data/bitmaps/osmcarto/patterns/glacier.png
+       data/bitmaps/osmcarto/patterns/grave_yard_christian.png
+       data/bitmaps/osmcarto/patterns/grave_yard_generic.png
+       data/bitmaps/osmcarto/patterns/grave_yard_jewish.png
+       data/bitmaps/osmcarto/patterns/grey_vertical_hatch.png
+       data/bitmaps/osmcarto/patterns/military_red_hatch.png
+       data/bitmaps/osmcarto/patterns/orchard.png
+       data/bitmaps/osmcarto/patterns/quarry.png
+       data/bitmaps/osmcarto/patterns/rock_overlay.png
+       data/bitmaps/osmcarto/patterns/scree_overlay.png
+       data/bitmaps/osmcarto/patterns/scrub.png
+       data/bitmaps/osmcarto/patterns/vineyard.png
+       data/bitmaps/osmcarto/patterns/wetland.png
+       data/bitmaps/osmcarto/patterns/wetland_bog.png
+       data/bitmaps/osmcarto/patterns/wetland_mangrove.png
+       data/bitmaps/osmcarto/patterns/wetland_marsh.png
+       data/bitmaps/osmcarto/patterns/wetland_reed.png
+       data/bitmaps/osmcarto/patterns/wetland_swamp.png
+       data/bitmaps/osmcarto/shields/svg/motorway_10x1.svg
+       data/bitmaps/osmcarto/shields/svg/motorway_10x2.svg
+       data/bitmaps/osmcarto/shields/svg/motorway_10x3.svg
+       data/bitmaps/osmcarto/shields/svg/motorway_10x4.svg
+       data/bitmaps/osmcarto/shields/svg/motorway_11x1.svg
+       data/bitmaps/osmcarto/shields/svg/motorway_11x2.svg
+       data/bitmaps/osmcarto/shields/svg/motorway_11x3.svg
+       data/bitmaps/osmcarto/shields/svg/motorway_11x4.svg
+       data/bitmaps/osmcarto/shields/svg/motorway_1x1.svg
+       data/bitmaps/osmcarto/shields/svg/motorway_1x2.svg
+       data/bitmaps/osmcarto/shields/svg/motorway_1x3.svg
+       data/bitmaps/osmcarto/shields/svg/motorway_1x4.svg
+       data/bitmaps/osmcarto/shields/svg/motorway_2x1.svg
+       data/bitmaps/osmcarto/shields/svg/motorway_2x2.svg
+       data/bitmaps/osmcarto/shields/svg/motorway_2x3.svg
+       data/bitmaps/osmcarto/shields/svg/motorway_2x4.svg
+       data/bitmaps/osmcarto/shields/svg/motorway_3x1.svg
+       data/bitmaps/osmcarto/shields/svg/motorway_3x2.svg
+       data/bitmaps/osmcarto/shields/svg/motorway_3x3.svg
+       data/bitmaps/osmcarto/shields/svg/motorway_3x4.svg
+       data/bitmaps/osmcarto/shields/svg/motorway_4x1.svg
+       data/bitmaps/osmcarto/shields/svg/motorway_4x2.svg
+       data/bitmaps/osmcarto/shields/svg/motorway_4x3.svg
+       data/bitmaps/osmcarto/shields/svg/motorway_4x4.svg
+       data/bitmaps/osmcarto/shields/svg/motorway_5x1.svg
+       data/bitmaps/osmcarto/shields/svg/motorway_5x2.svg
+       data/bitmaps/osmcarto/shields/svg/motorway_5x3.svg
+       data/bitmaps/osmcarto/shields/svg/motorway_5x4.svg
+       data/bitmaps/osmcarto/shields/svg/motorway_6x1.svg
+       data/bitmaps/osmcarto/shields/svg/motorway_6x2.svg
+       data/bitmaps/osmcarto/shields/svg/motorway_6x3.svg
+       data/bitmaps/osmcarto/shields/svg/motorway_6x4.svg
+       data/bitmaps/osmcarto/shields/svg/motorway_7x1.svg
+       data/bitmaps/osmcarto/shields/svg/motorway_7x2.svg
+       data/bitmaps/osmcarto/shields/svg/motorway_7x3.svg
+       data/bitmaps/osmcarto/shields/svg/motorway_7x4.svg
+       data/bitmaps/osmcarto/shields/svg/motorway_8x1.svg
+       data/bitmaps/osmcarto/shields/svg/motorway_8x2.svg
+       data/bitmaps/osmcarto/shields/svg/motorway_8x3.svg
+       data/bitmaps/osmcarto/shields/svg/motorway_8x4.svg
+       data/bitmaps/osmcarto/shields/svg/motorway_9x1.svg
+       data/bitmaps/osmcarto/shields/svg/motorway_9x2.svg
+       data/bitmaps/osmcarto/shields/svg/motorway_9x3.svg
+       data/bitmaps/osmcarto/shields/svg/motorway_9x4.svg
+       data/bitmaps/osmcarto/shields/svg/primary_10x1.svg
+       data/bitmaps/osmcarto/shields/svg/primary_10x2.svg
+       data/bitmaps/osmcarto/shields/svg/primary_10x3.svg
+       data/bitmaps/osmcarto/shields/svg/primary_10x4.svg
+       data/bitmaps/osmcarto/shields/svg/primary_11x1.svg
+       data/bitmaps/osmcarto/shields/svg/primary_11x2.svg
+       data/bitmaps/osmcarto/shields/svg/primary_11x3.svg
+       data/bitmaps/osmcarto/shields/svg/primary_11x4.svg
+       data/bitmaps/osmcarto/shields/svg/primary_1x1.svg
+       data/bitmaps/osmcarto/shields/svg/primary_1x2.svg
+       data/bitmaps/osmcarto/shields/svg/primary_1x3.svg
+       data/bitmaps/osmcarto/shields/svg/primary_1x4.svg
+       data/bitmaps/osmcarto/shields/svg/primary_2x1.svg
+       data/bitmaps/osmcarto/shields/svg/primary_2x2.svg
+       data/bitmaps/osmcarto/shields/svg/primary_2x3.svg
+       data/bitmaps/osmcarto/shields/svg/primary_2x4.svg
+       data/bitmaps/osmcarto/shields/svg/primary_3x1.svg
+       data/bitmaps/osmcarto/shields/svg/primary_3x2.svg
+       data/bitmaps/osmcarto/shields/svg/primary_3x3.svg
+       data/bitmaps/osmcarto/shields/svg/primary_3x4.svg
+       data/bitmaps/osmcarto/shields/svg/primary_4x1.svg
+       data/bitmaps/osmcarto/shields/svg/primary_4x2.svg
+       data/bitmaps/osmcarto/shields/svg/primary_4x3.svg
+       data/bitmaps/osmcarto/shields/svg/primary_4x4.svg
+       data/bitmaps/osmcarto/shields/svg/primary_5x1.svg
+       data/bitmaps/osmcarto/shields/svg/primary_5x2.svg
+       data/bitmaps/osmcarto/shields/svg/primary_5x3.svg
+       data/bitmaps/osmcarto/shields/svg/primary_5x4.svg
+       data/bitmaps/osmcarto/shields/svg/primary_6x1.svg
+       data/bitmaps/osmcarto/shields/svg/primary_6x2.svg
+       data/bitmaps/osmcarto/shields/svg/primary_6x3.svg
+       data/bitmaps/osmcarto/shields/svg/primary_6x4.svg
+       data/bitmaps/osmcarto/shields/svg/primary_7x1.svg
+       data/bitmaps/osmcarto/shields/svg/primary_7x2.svg
+       data/bitmaps/osmcarto/shields/svg/primary_7x3.svg
+       data/bitmaps/osmcarto/shields/svg/primary_7x4.svg
+       data/bitmaps/osmcarto/shields/svg/primary_8x1.svg
+       data/bitmaps/osmcarto/shields/svg/primary_8x2.svg
+       data/bitmaps/osmcarto/shields/svg/primary_8x3.svg
+       data/bitmaps/osmcarto/shields/svg/primary_8x4.svg
+       data/bitmaps/osmcarto/shields/svg/primary_9x1.svg
+       data/bitmaps/osmcarto/shields/svg/primary_9x2.svg
+       data/bitmaps/osmcarto/shields/svg/primary_9x3.svg
+       data/bitmaps/osmcarto/shields/svg/primary_9x4.svg
+       data/bitmaps/osmcarto/shields/svg/secondary_10x1.svg
+       data/bitmaps/osmcarto/shields/svg/secondary_10x2.svg
+       data/bitmaps/osmcarto/shields/svg/secondary_10x3.svg
+       data/bitmaps/osmcarto/shields/svg/secondary_10x4.svg
+       data/bitmaps/osmcarto/shields/svg/secondary_11x1.svg
+       data/bitmaps/osmcarto/shields/svg/secondary_11x2.svg
+       data/bitmaps/osmcarto/shields/svg/secondary_11x3.svg
+       data/bitmaps/osmcarto/shields/svg/secondary_11x4.svg
+       data/bitmaps/osmcarto/shields/svg/secondary_1x1.svg
+       data/bitmaps/osmcarto/shields/svg/secondary_1x2.svg
+       data/bitmaps/osmcarto/shields/svg/secondary_1x3.svg
+       data/bitmaps/osmcarto/shields/svg/secondary_1x4.svg
+       data/bitmaps/osmcarto/shields/svg/secondary_2x1.svg
+       data/bitmaps/osmcarto/shields/svg/secondary_2x2.svg
+       data/bitmaps/osmcarto/shields/svg/secondary_2x3.svg
+       data/bitmaps/osmcarto/shields/svg/secondary_2x4.svg
+       data/bitmaps/osmcarto/shields/svg/secondary_3x1.svg
+       data/bitmaps/osmcarto/shields/svg/secondary_3x2.svg
+       data/bitmaps/osmcarto/shields/svg/secondary_3x3.svg
+       data/bitmaps/osmcarto/shields/svg/secondary_3x4.svg
+       data/bitmaps/osmcarto/shields/svg/secondary_4x1.svg
+       data/bitmaps/osmcarto/shields/svg/secondary_4x2.svg
+       data/bitmaps/osmcarto/shields/svg/secondary_4x3.svg
+       data/bitmaps/osmcarto/shields/svg/secondary_4x4.svg
+       data/bitmaps/osmcarto/shields/svg/secondary_5x1.svg
+       data/bitmaps/osmcarto/shields/svg/secondary_5x2.svg
+       data/bitmaps/osmcarto/shields/svg/secondary_5x3.svg
+       data/bitmaps/osmcarto/shields/svg/secondary_5x4.svg
+       data/bitmaps/osmcarto/shields/svg/secondary_6x1.svg
+       data/bitmaps/osmcarto/shields/svg/secondary_6x2.svg
+       data/bitmaps/osmcarto/shields/svg/secondary_6x3.svg
+       data/bitmaps/osmcarto/shields/svg/secondary_6x4.svg
+       data/bitmaps/osmcarto/shields/svg/secondary_7x1.svg
+       data/bitmaps/osmcarto/shields/svg/secondary_7x2.svg
+       data/bitmaps/osmcarto/shields/svg/secondary_7x3.svg
+       data/bitmaps/osmcarto/shields/svg/secondary_7x4.svg
+       data/bitmaps/osmcarto/shields/svg/secondary_8x1.svg
+       data/bitmaps/osmcarto/shields/svg/secondary_8x2.svg
+       data/bitmaps/osmcarto/shields/svg/secondary_8x3.svg
+       data/bitmaps/osmcarto/shields/svg/secondary_8x4.svg
+       data/bitmaps/osmcarto/shields/svg/secondary_9x1.svg
+       data/bitmaps/osmcarto/shields/svg/secondary_9x2.svg
+       data/bitmaps/osmcarto/shields/svg/secondary_9x3.svg
+       data/bitmaps/osmcarto/shields/svg/secondary_9x4.svg
+       data/bitmaps/osmcarto/shields/svg/tertiary_10x1.svg
+       data/bitmaps/osmcarto/shields/svg/tertiary_10x2.svg
+       data/bitmaps/osmcarto/shields/svg/tertiary_10x3.svg
+       data/bitmaps/osmcarto/shields/svg/tertiary_10x4.svg
+       data/bitmaps/osmcarto/shields/svg/tertiary_11x1.svg
+       data/bitmaps/osmcarto/shields/svg/tertiary_11x2.svg
+       data/bitmaps/osmcarto/shields/svg/tertiary_11x3.svg
+       data/bitmaps/osmcarto/shields/svg/tertiary_11x4.svg
+       data/bitmaps/osmcarto/shields/svg/tertiary_1x1.svg
+       data/bitmaps/osmcarto/shields/svg/tertiary_1x2.svg
+       data/bitmaps/osmcarto/shields/svg/tertiary_1x3.svg
+       data/bitmaps/osmcarto/shields/svg/tertiary_1x4.svg
+       data/bitmaps/osmcarto/shields/svg/tertiary_2x1.svg
+       data/bitmaps/osmcarto/shields/svg/tertiary_2x2.svg
+       data/bitmaps/osmcarto/shields/svg/tertiary_2x3.svg
+       data/bitmaps/osmcarto/shields/svg/tertiary_2x4.svg
+       data/bitmaps/osmcarto/shields/svg/tertiary_3x1.svg
+       data/bitmaps/osmcarto/shields/svg/tertiary_3x2.svg
+       data/bitmaps/osmcarto/shields/svg/tertiary_3x3.svg
+       data/bitmaps/osmcarto/shields/svg/tertiary_3x4.svg
+       data/bitmaps/osmcarto/shields/svg/tertiary_4x1.svg
+       data/bitmaps/osmcarto/shields/svg/tertiary_4x2.svg
+       data/bitmaps/osmcarto/shields/svg/tertiary_4x3.svg
+       data/bitmaps/osmcarto/shields/svg/tertiary_4x4.svg
+       data/bitmaps/osmcarto/shields/svg/tertiary_5x1.svg
+       data/bitmaps/osmcarto/shields/svg/tertiary_5x2.svg
+       data/bitmaps/osmcarto/shields/svg/tertiary_5x3.svg
+       data/bitmaps/osmcarto/shields/svg/tertiary_5x4.svg
+       data/bitmaps/osmcarto/shields/svg/tertiary_6x1.svg
+       data/bitmaps/osmcarto/shields/svg/tertiary_6x2.svg
+       data/bitmaps/osmcarto/shields/svg/tertiary_6x3.svg
+       data/bitmaps/osmcarto/shields/svg/tertiary_6x4.svg
+       data/bitmaps/osmcarto/shields/svg/tertiary_7x1.svg
+       data/bitmaps/osmcarto/shields/svg/tertiary_7x2.svg
+       data/bitmaps/osmcarto/shields/svg/tertiary_7x3.svg
+       data/bitmaps/osmcarto/shields/svg/tertiary_7x4.svg
+       data/bitmaps/osmcarto/shields/svg/tertiary_8x1.svg
+       data/bitmaps/osmcarto/shields/svg/tertiary_8x2.svg
+       data/bitmaps/osmcarto/shields/svg/tertiary_8x3.svg
+       data/bitmaps/osmcarto/shields/svg/tertiary_8x4.svg
+       data/bitmaps/osmcarto/shields/svg/tertiary_9x1.svg
+       data/bitmaps/osmcarto/shields/svg/tertiary_9x2.svg
+       data/bitmaps/osmcarto/shields/svg/tertiary_9x3.svg
+       data/bitmaps/osmcarto/shields/svg/tertiary_9x4.svg
+       data/bitmaps/osmcarto/shields/svg/trunk_10x1.svg
+       data/bitmaps/osmcarto/shields/svg/trunk_10x2.svg
+       data/bitmaps/osmcarto/shields/svg/trunk_10x3.svg
+       data/bitmaps/osmcarto/shields/svg/trunk_10x4.svg
+       data/bitmaps/osmcarto/shields/svg/trunk_11x1.svg
+       data/bitmaps/osmcarto/shields/svg/trunk_11x2.svg
+       data/bitmaps/osmcarto/shields/svg/trunk_11x3.svg
+       data/bitmaps/osmcarto/shields/svg/trunk_11x4.svg
+       data/bitmaps/osmcarto/shields/svg/trunk_1x1.svg
+       data/bitmaps/osmcarto/shields/svg/trunk_1x2.svg
+       data/bitmaps/osmcarto/shields/svg/trunk_1x3.svg
+       data/bitmaps/osmcarto/shields/svg/trunk_1x4.svg
+       data/bitmaps/osmcarto/shields/svg/trunk_2x1.svg
+       data/bitmaps/osmcarto/shields/svg/trunk_2x2.svg
+       data/bitmaps/osmcarto/shields/svg/trunk_2x3.svg
+       data/bitmaps/osmcarto/shields/svg/trunk_2x4.svg
+       data/bitmaps/osmcarto/shields/svg/trunk_3x1.svg
+       data/bitmaps/osmcarto/shields/svg/trunk_3x2.svg
+       data/bitmaps/osmcarto/shields/svg/trunk_3x3.svg
+       data/bitmaps/osmcarto/shields/svg/trunk_3x4.svg
+       data/bitmaps/osmcarto/shields/svg/trunk_4x1.svg
+       data/bitmaps/osmcarto/shields/svg/trunk_4x2.svg
+       data/bitmaps/osmcarto/shields/svg/trunk_4x3.svg
+       data/bitmaps/osmcarto/shields/svg/trunk_4x4.svg
+       data/bitmaps/osmcarto/shields/svg/trunk_5x1.svg
+       data/bitmaps/osmcarto/shields/svg/trunk_5x2.svg
+       data/bitmaps/osmcarto/shields/svg/trunk_5x3.svg
+       data/bitmaps/osmcarto/shields/svg/trunk_5x4.svg
+       data/bitmaps/osmcarto/shields/svg/trunk_6x1.svg
+       data/bitmaps/osmcarto/shields/svg/trunk_6x2.svg
+       data/bitmaps/osmcarto/shields/svg/trunk_6x3.svg
+       data/bitmaps/osmcarto/shields/svg/trunk_6x4.svg
+       data/bitmaps/osmcarto/shields/svg/trunk_7x1.svg
+       data/bitmaps/osmcarto/shields/svg/trunk_7x2.svg
+       data/bitmaps/osmcarto/shields/svg/trunk_7x3.svg
+       data/bitmaps/osmcarto/shields/svg/trunk_7x4.svg
+       data/bitmaps/osmcarto/shields/svg/trunk_8x1.svg
+       data/bitmaps/osmcarto/shields/svg/trunk_8x2.svg
+       data/bitmaps/osmcarto/shields/svg/trunk_8x3.svg
+       data/bitmaps/osmcarto/shields/svg/trunk_8x4.svg
+       data/bitmaps/osmcarto/shields/svg/trunk_9x1.svg
+       data/bitmaps/osmcarto/shields/svg/trunk_9x2.svg
+       data/bitmaps/osmcarto/shields/svg/trunk_9x3.svg
+       data/bitmaps/osmcarto/shields/svg/trunk_9x4.svg
+       data/bitmaps/osmcarto/symbols/48/airtransport/aerodrome.png
+       data/bitmaps/osmcarto/symbols/48/airtransport/helipad.png
+       data/bitmaps/osmcarto/symbols/48/amenity/archaeological_site.16.png
+       data/bitmaps/osmcarto/symbols/48/amenity/atm.16.png
+       data/bitmaps/osmcarto/symbols/48/amenity/bank.16.png
+       data/bitmaps/osmcarto/symbols/48/amenity/bar.16.png
+       data/bitmaps/osmcarto/symbols/48/amenity/biergarten.16.png
+       data/bitmaps/osmcarto/symbols/48/amenity/cafe.16.png
+       data/bitmaps/osmcarto/symbols/48/amenity/cinema.16.png
+       data/bitmaps/osmcarto/symbols/48/amenity/community_centre-14.png
+       data/bitmaps/osmcarto/symbols/48/amenity/courthouse-16.png
+       data/bitmaps/osmcarto/symbols/48/amenity/drinking_water.16.png
+       data/bitmaps/osmcarto/symbols/48/amenity/emergency_phone.16.png
+       data/bitmaps/osmcarto/symbols/48/amenity/fast_food.16.png
+       data/bitmaps/osmcarto/symbols/48/amenity/firestation.16.png
+       data/bitmaps/osmcarto/symbols/48/amenity/fountain-14.png
+       data/bitmaps/osmcarto/symbols/48/amenity/information.16.png
+       data/bitmaps/osmcarto/symbols/48/amenity/library.20.png
+       data/bitmaps/osmcarto/symbols/48/amenity/monument.16.png
+       data/bitmaps/osmcarto/symbols/48/amenity/museum.16.png
+       data/bitmaps/osmcarto/symbols/48/amenity/nightclub.18.png
+       data/bitmaps/osmcarto/symbols/48/amenity/picnic.16.png
+       data/bitmaps/osmcarto/symbols/48/amenity/playground.16.png
+       data/bitmaps/osmcarto/symbols/48/amenity/police.16.png
+       data/bitmaps/osmcarto/symbols/48/amenity/post_box-12.png
+       data/bitmaps/osmcarto/symbols/48/amenity/post_office-14.png
+       data/bitmaps/osmcarto/symbols/48/amenity/prison.16.png
+       data/bitmaps/osmcarto/symbols/48/amenity/pub.16.png
+       data/bitmaps/osmcarto/symbols/48/amenity/recycling.16.png
+       data/bitmaps/osmcarto/symbols/48/amenity/restaurant.16.png
+       data/bitmaps/osmcarto/symbols/48/amenity/telephone.16.png
+       data/bitmaps/osmcarto/symbols/48/amenity/theatre.16.png
+       data/bitmaps/osmcarto/symbols/48/amenity/toilets.16.png
+       data/bitmaps/osmcarto/symbols/48/amenity/tourist_memorial.16.png
+       data/bitmaps/osmcarto/symbols/48/amenity/town_hall.16.png
+       data/bitmaps/osmcarto/symbols/48/amenity/viewpoint.16.png
+       data/bitmaps/osmcarto/symbols/48/amenity/water_park.16.png
+       data/bitmaps/osmcarto/symbols/48/amenity/water_tower.16.png
+       data/bitmaps/osmcarto/symbols/48/amenity/windmill.16.png
+       data/bitmaps/osmcarto/symbols/48/black/buddhist.16.png
+       data/bitmaps/osmcarto/symbols/48/black/christian.16.png
+       data/bitmaps/osmcarto/symbols/48/black/hinduist.16.png
+       data/bitmaps/osmcarto/symbols/48/black/jewish.16.png
+       data/bitmaps/osmcarto/symbols/48/black/muslim.16.png
+       data/bitmaps/osmcarto/symbols/48/black/place_of_worship.16.png
+       data/bitmaps/osmcarto/symbols/48/black/power_wind-16.png
+       data/bitmaps/osmcarto/symbols/48/black/shintoist.16.png
+       data/bitmaps/osmcarto/symbols/48/black/sikhist.16.png
+       data/bitmaps/osmcarto/symbols/48/black/taoist.16.png
+       data/bitmaps/osmcarto/symbols/48/health/dentist.16.png
+       data/bitmaps/osmcarto/symbols/48/health/doctors.16.png
+       data/bitmaps/osmcarto/symbols/48/health/hospital.16.png
+       data/bitmaps/osmcarto/symbols/48/health/pharmacy.16.png
+       data/bitmaps/osmcarto/symbols/48/health/veterinary-14.png
+       data/bitmaps/osmcarto/symbols/48/individual/bench.16.png
+       data/bitmaps/osmcarto/symbols/48/individual/entrance.10.png
+       data/bitmaps/osmcarto/symbols/48/individual/gate.png
+       data/bitmaps/osmcarto/symbols/48/individual/level_crossing.png
+       data/bitmaps/osmcarto/symbols/48/individual/level_crossing2.png
+       data/bitmaps/osmcarto/symbols/48/individual/liftgate.png
+       data/bitmaps/osmcarto/symbols/48/individual/mini_roundabout.png
+       data/bitmaps/osmcarto/symbols/48/individual/peak.png
+       data/bitmaps/osmcarto/symbols/48/individual/power_tower.png
+       data/bitmaps/osmcarto/symbols/48/individual/power_tower_small.png
+       data/bitmaps/osmcarto/symbols/48/individual/railway_station.png
+       data/bitmaps/osmcarto/symbols/48/individual/saddle.png
+       data/bitmaps/osmcarto/symbols/48/individual/spring.png
+       data/bitmaps/osmcarto/symbols/48/individual/square.png
+       data/bitmaps/osmcarto/symbols/48/individual/traffic_light.png
+       data/bitmaps/osmcarto/symbols/48/individual/tree-16.png
+       data/bitmaps/osmcarto/symbols/48/individual/tree-29-autumn.png
+       data/bitmaps/osmcarto/symbols/48/individual/tree-29-winter.png
+       data/bitmaps/osmcarto/symbols/48/individual/tree-29.png
+       data/bitmaps/osmcarto/symbols/48/individual/waste_basket.10.png
+       data/bitmaps/osmcarto/symbols/48/manmade/communications.16.png
+       data/bitmaps/osmcarto/symbols/48/manmade/hunting-stand.16.png
+       data/bitmaps/osmcarto/symbols/48/shop/bag-14.png
+       data/bitmaps/osmcarto/symbols/48/shop/beauty-14.png
+       data/bitmaps/osmcarto/symbols/48/shop/beverages-14.png
+       data/bitmaps/osmcarto/symbols/48/shop/butcher-14.png
+       data/bitmaps/osmcarto/symbols/48/shop/car_parts-14.png
+       data/bitmaps/osmcarto/symbols/48/shop/chemist-14.png
+       data/bitmaps/osmcarto/symbols/48/shop/computer-14.png
+       data/bitmaps/osmcarto/symbols/48/shop/confectionery-14.png
+       data/bitmaps/osmcarto/symbols/48/shop/department_store-16.png
+       data/bitmaps/osmcarto/symbols/48/shop/florist.16.png
+       data/bitmaps/osmcarto/symbols/48/shop/garden_centre-14.png
+       data/bitmaps/osmcarto/symbols/48/shop/greengrocer-14.png
+       data/bitmaps/osmcarto/symbols/48/shop/hifi-14.png
+       data/bitmaps/osmcarto/symbols/48/shop/ice-cream-14.png
+       data/bitmaps/osmcarto/symbols/48/shop/kiosk-14.png
+       data/bitmaps/osmcarto/symbols/48/shop/laundry-14.png
+       data/bitmaps/osmcarto/symbols/48/shop/motorcycle-14.png
+       data/bitmaps/osmcarto/symbols/48/shop/musical_instrument-14.png
+       data/bitmaps/osmcarto/symbols/48/shop/newsagent-14.png
+       data/bitmaps/osmcarto/symbols/48/shop/outdoor-14.png
+       data/bitmaps/osmcarto/symbols/48/shop/perfumery-14.png
+       data/bitmaps/osmcarto/symbols/48/shop/photo-14.png
+       data/bitmaps/osmcarto/symbols/48/shop/seafood-14.png
+       data/bitmaps/osmcarto/symbols/48/shop/shop-14.png
+       data/bitmaps/osmcarto/symbols/48/shop/shop_alcohol.16.png
+       data/bitmaps/osmcarto/symbols/48/shop/shop_bakery.16.png
+       data/bitmaps/osmcarto/symbols/48/shop/shop_bicycle.16.png
+       data/bitmaps/osmcarto/symbols/48/shop/shop_books.16.png
+       data/bitmaps/osmcarto/symbols/48/shop/shop_car.png
+       data/bitmaps/osmcarto/symbols/48/shop/shop_clothes.16.png
+       data/bitmaps/osmcarto/symbols/48/shop/shop_convenience.png
+       data/bitmaps/osmcarto/symbols/48/shop/shop_diy.16.png
+       data/bitmaps/osmcarto/symbols/48/shop/shop_electronics.16.png
+       data/bitmaps/osmcarto/symbols/48/shop/shop_furniture.16.png
+       data/bitmaps/osmcarto/symbols/48/shop/shop_gift.16.png
+       data/bitmaps/osmcarto/symbols/48/shop/shop_hairdresser.16.png
+       data/bitmaps/osmcarto/symbols/48/shop/shop_jewelry.16.png
+       data/bitmaps/osmcarto/symbols/48/shop/shop_mobile_phone.16.png
+       data/bitmaps/osmcarto/symbols/48/shop/shop_optician.16.png
+       data/bitmaps/osmcarto/symbols/48/shop/shop_pet.16.png
+       data/bitmaps/osmcarto/symbols/48/shop/shop_shoes.16.png
+       data/bitmaps/osmcarto/symbols/48/shop/shop_supermarket.png
+       data/bitmaps/osmcarto/symbols/48/shop/shopping_car_repair.16.png
+       data/bitmaps/osmcarto/symbols/48/shop/stationery-14.png
+       data/bitmaps/osmcarto/symbols/48/shop/toys-14.png
+       data/bitmaps/osmcarto/symbols/48/shop/travel_agency-14.png
+       data/bitmaps/osmcarto/symbols/48/shop/variety_store-14.png
+       data/bitmaps/osmcarto/symbols/48/transportation/alpinehut.16.png
+       data/bitmaps/osmcarto/symbols/48/transportation/bicycle_parking.16.png
+       data/bitmaps/osmcarto/symbols/48/transportation/bus_station.16.png
+       data/bitmaps/osmcarto/symbols/48/transportation/bus_stop.12.png
+       data/bitmaps/osmcarto/symbols/48/transportation/camping.16.png
+       data/bitmaps/osmcarto/symbols/48/transportation/car_share.16.png
+       data/bitmaps/osmcarto/symbols/48/transportation/caravan_park.16.png
+       data/bitmaps/osmcarto/symbols/48/transportation/elevator-12.png
+       data/bitmaps/osmcarto/symbols/48/transportation/embassy.16.png
+       data/bitmaps/osmcarto/symbols/48/transportation/ford.16.png
+       data/bitmaps/osmcarto/symbols/48/transportation/fuel.16.png
+       data/bitmaps/osmcarto/symbols/48/transportation/guest_house.16.png
+       data/bitmaps/osmcarto/symbols/48/transportation/hostel.16.png
+       data/bitmaps/osmcarto/symbols/48/transportation/hotel.16.png
+       data/bitmaps/osmcarto/symbols/48/transportation/lighthouse.16.png
+       data/bitmaps/osmcarto/symbols/48/transportation/motel.16.png
+       data/bitmaps/osmcarto/symbols/48/transportation/motorcycle_parking.16.png
+       data/bitmaps/osmcarto/symbols/48/transportation/parking.png
+       data/bitmaps/osmcarto/symbols/48/transportation/rental_bicycle.16.png
+       data/bitmaps/osmcarto/symbols/48/transportation/rental_car.16.png
+       data/bitmaps/osmcarto/symbols/48/transportation/subway_entrance.png
+       data/bitmaps/osmcarto/symbols/48/transportation/taxi.16.png
+License: CC0
+Copyright: no copyright claimed
+Comment: No explicit license found, using license(s) from:
+ data/bitmaps/osmcarto/LICENSE.txt
 
 Files: docs/bindings/python/html/common/lgpl-license
        examples/python/simple_marble.py
@@ -1924,7 +2406,6 @@ Files: docs/bindings/python/html/common/lgpl-license
        src/bindings/python/sip/WidgetGraphicsItem.sip
        src/bindings/python/sip/WikipediaService.sip
        src/bindings/python/sip/marblemod.sip
-       src/lib/marble/MarbleControlBox.cpp
        src/lib/marble/MathHelper.cpp
        src/lib/marble/MathHelper.h
        src/lib/marble/StackedTileLoader.cpp
@@ -2160,7 +2641,8 @@ Files: docs/bindings/python/html/common/lgpl-license
        src/plugins/runner/gpx/handlers/GPXgpxTagHandler.h
        tools/add_kml/add_kml_tag.py
        src/lib/marble/MarbleAboutDialog.cpp
-Copyright: 2009-2010, Bastian Holst <bastianholst@gmx.de>
+Copyright: 2018, = kin ("(c) 2008 Simon Edwards")
+           2009, Bastian Holst <bastianholst@gmx.de>
            2010-2012, Bernhard Beschow <bbeschow@cs.tu-berlin.de>
            1991-1999, Free Software Foundation, Inc
            2008, Henry de Valence <hdevalence@gmail.com>
@@ -2174,10 +2656,43 @@ Copyright: 2009-2010, Bastian Holst <bastianholst@gmx.de>
            2008-2009, Patrick Spendrin <ps_ml@gmx.de>
            2008-2011, Simon Edwards <simon@simonzone.com>
            2009, Stephen Kelly <steveire@gmail.com>
-           2007, Thomas Zander <zander@kde.org>
            2007-2008, Torsten Rahn <rahn@kde.org>
-           2004-2008, Torsten Rahn <tackat@kde.org>
+           2005-2008, Torsten Rahn <tackat@kde.org>
+           2007, Inge Wallin <ingwa@kde.org>
+           2004-2007, Torsten Rahn <tackat@kde.org>
 License: LGPL-2+
+
+Files: src/3rdparty/zlib/Makefile.in
+       src/3rdparty/zlib/README
+       src/3rdparty/zlib/adler32.c
+       src/3rdparty/zlib/compress.c
+       src/3rdparty/zlib/crc32.c
+       src/3rdparty/zlib/deflate.c
+       src/3rdparty/zlib/deflate.h
+       src/3rdparty/zlib/gzclose.c
+       src/3rdparty/zlib/gzguts.h
+       src/3rdparty/zlib/gzlib.c
+       src/3rdparty/zlib/gzread.c
+       src/3rdparty/zlib/gzwrite.c
+       src/3rdparty/zlib/infback.c
+       src/3rdparty/zlib/inffast.c
+       src/3rdparty/zlib/inffast.h
+       src/3rdparty/zlib/inflate.c
+       src/3rdparty/zlib/inflate.h
+       src/3rdparty/zlib/inftrees.c
+       src/3rdparty/zlib/inftrees.h
+       src/3rdparty/zlib/trees.c
+       src/3rdparty/zlib/uncompr.c
+       src/3rdparty/zlib/zconf.h.cmakein
+       src/3rdparty/zlib/zconf.h.in
+       src/3rdparty/zlib/zlib.h
+       src/3rdparty/zlib/zutil.c
+       src/3rdparty/zlib/zutil.h
+Copyright: 1995-2013, Jean-loup Gailly
+           1995-2013, Jean-loup Gailly and Mark Adler
+           1995-2013, Jean-loup Gailly, Mark Adler
+           1995-2013, Mark Adler
+License: Zlib
 
 Files: data/placemarks/HOWTO-cities.txt
        data/placemarks/baseplacemarks.cache
@@ -2198,35 +2713,13 @@ Files: data/placemarks/HOWTO-cities.txt
        data/placemarks/otherplacemarks.kml
        data/placemarks/statecodes.txt
        data/placemarks/timeZones.txt
-       data/maps/earth/openstreetmap/tour.kml
-       data/placemarks/COPYRIGHT
-Copyright: Albert Astals Cid <tsdgeos@terra.es>
-           Anne-Marie Mahfouf <annma@kde.org>
-           Bastian Holst <bastianholst@gmx.de>
-           Dennis Nienhüser <earthwings@gentoo.org>
-           Eckhart Wörner <ewoerner@kde.org>
-           Henry de Valence <hdevalence@gmail.com>
-           Illya Kovalevskyy <illya.kovalevskyy@gmail.com>
-           Karel Volný <kvolny@redhat.com>
-           Laurent Montel <montel@kde.org>
-           Médéric Boquien <mboquien@free.fr>
-           Patrick Spendrin <ps_ml@gmx.de>
-           Shinjo Park <kde@peremen.name>
-           Thibaut Gridel <tgridel@free.fr>
-           Torsten Rahn <tackat@kde.org>
-           Mikhail Ivchenko <ematirov@gmail.com>
+Copyright: No copyright holders listed
 License: CC-BY-3.0
- This work is licensed under a Creative Commons Attribution 3.0 License,
- see http://creativecommons.org/licenses/by/3.0/
- The Data is provided "as is" without warranty or any representation of
- accuracy, timeliness or completeness.
 Comment: No explicit license found, using license(s) from:
  data/placemarks/COPYRIGHT
- .
- Authors/copyright from the git commit history.
 
 Files: COPYING-CMAKE-SCRIPTS
-       FindMarble.cmake
+       FindMarble.cmake.in
        MarbleMacros.cmake
        cmake/modules/FindPhonon.cmake
        src/kde4uic_qtonly.cmake
@@ -2258,95 +2751,132 @@ Copyright: 2010, Christian Vetter <veaac.fdirct@gmail.com>
            2007, Free Software Foundation, Inc. <http://fsf.org/>
 License: GPL-3+
 
-Files: COPYING.DOC
-       docs/bindings/python/html/common/fdl-license
-       docs/bindings/python/html/common/fdl-license.html
-Copyright: 2000-2002, Free Software Foundation, Inc
-License: GFDL-NIV-1.2
+Files: src/lib/marble/MarbleZip.cpp
+       src/lib/marble/MarbleZipReader.h
+       src/lib/marble/MarbleZipWriter.h
+Copyright: 2015, The Qt Company Ltd
+License: GPL-3_or_LGPL-2.1+3
+ $QT_BEGIN_LICENSE:LGPL$
+ Commercial License Usage
+ Licensees holding valid commercial Qt licenses may use this file in
+ accordance with the commercial license agreement provided with the
+ Software or, alternatively, in accordance with the terms contained in
+ a written agreement between you and The Qt Company. For licensing terms
+ and conditions see http://www.qt.io/terms-conditions. For further
+ information use the contact form at http://www.qt.io/contact-us.
+ .
+ GNU Lesser General Public License Usage
+ Alternatively, this file may be used under the terms of the GNU Lesser
+ General Public License version 2.1 or version 3 as published by the Free
+ Software Foundation and appearing in the file LICENSE.LGPLv21 and
+ LICENSE.LGPLv3 included in the packaging of this file. Please review the
+ following information to ensure the GNU Lesser General Public License
+ requirements will be met: https://www.gnu.org/licenses/lgpl.html and
+ http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html.
+ .
+ As a special exception, The Qt Company gives you certain additional
+ rights. These rights are described in The Qt Company LGPL Exception
+ version 1.1, included in the file LGPL_EXCEPTION.txt in this package.
+ .
+ GNU General Public License Usage
+ Alternatively, this file may be used under the terms of the GNU
+ General Public License version 3.0 as published by the Free Software
+ Foundation and appearing in the file LICENSE.GPL included in the
+ packaging of this file.  Please review the following information to
+ ensure the GNU General Public License version 3.0 requirements will be
+ met: http://www.gnu.org/copyleft/gpl.html.
+ .
+ $QT_END_LICENSE$
+ .
+ The full text of the GNU Lesser General Public License version 2.1 can be
+ found in the file `/usr/share/common-licenses/LGPL-2.1', likewise, the full
+ text of the GNU Lesser General Public version 3 can be found in the file
+ `/usr/share/common-licenses/LGPL-3', also, the full text of the GNU General
+ Public License version 3 can be found in the file
+ `/usr/share/common-licenses/GPL-3'.
 
 Files: tools/osm-addresses/pbf/fileformat.proto
        tools/osm-addresses/pbf/osmformat.proto
 Copyright: 2010, Scott A. Crosby <scott@sacrosby.com>
 License: LGPL-3+
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU Lesser General Public License as
+ published by the Free Software Foundation, either version 3 of the
+ License, or (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU Lesser General Public License for more details.
+ .
+ The full text of the GNU Lesser General Public License version 3 can be found
+ in the file `/usr/share/common-licenses/LGPL-3'.
 
 Files: data/mwdbii/MWDBPOLY.TXT
        data/mwdbii/contents.txt
 Copyright: no copyright claimed
 License: public-domain
+ The MICRO WORLD DATA BANK II Database was was produced and placed in the
+ Public Domain by Fred Pospeschil and Antonio Rivera.
 
-Files: src/apps/marble-touch/harmattan/MenuItemSwitch.qml
-Copyright: 2011, Dennis Nienhüser <earthwings@gentoo.org>
-           2011, Nokia Corporation and/or its subsidiary(-ies)
-License: BSD-3-clause/LGPL-2.1
- This file is part of the Marble Virtual Globe.
- .
- This program is free software licensed under the GNU LGPL. You can
- find a copy of this license in LICENSE.txt in the top directory of
- the source code.
- .
- Copyright 2011      Dennis Nienhüser <earthwings@gentoo.org>
- .
- Large parts of this file are based on the file MenuItem.qml found
- in the Qt Components project with the following disclaimer:
- .
- Copyright (C) 2011 Nokia Corporation and/or its subsidiary(-ies).
- All rights reserved.
- Contact: Nokia Corporation (qt-info@nokia.com)
- .
- This file is part of the Qt Components project.
- .
- You may use this file under the terms of the BSD license as follows:
- .
- "Redistribution and use in source and binary forms, with or without
- modification, are permitted provided that the following conditions are
- met:
-   * Redistributions of source code must retain the above copyright
-     notice, this list of conditions and the following disclaimer.
-   * Redistributions in binary form must reproduce the above copyright
-     notice, this list of conditions and the following disclaimer in
-     the documentation and/or other materials provided with the
-     distribution.
-   * Neither the name of Nokia Corporation and its Subsidiary(-ies) nor
-     the names of its contributors may be used to endorse or promote
-     products derived from this software without specific prior written
-     permission.
- .
- THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
- "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
- LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
- A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
- OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
- SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
- LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
- DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
- THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
- (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
- OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE."
- -
- On Debian systems, the full text of the GNU Lesser General Public License
- version 2.1 can be found in the file `/usr/share/common-licenses/LGPL-2.1'.
-Comment: LICENSE.txt is copy of LGPL-2.1
- The license information of this file is twice the lines of code. :/
+Files: data/maps/earth/openstreetmap/tour.kml
+       data/placemarks/COPYRIGHT
+License: CC-BY-3.0
 
 Files: src/lib/marble/htmlfeatures/bootstrap.min.css
 Copyright: 2012, Twitter, Inc
 License: Apache-2.0
+ Licensed under the Apache License v2.0
+ http://www.apache.org/licenses/LICENSE-2.0
 
 Files: debian/*
 Copyright: 2011 Kubuntu Developers <kubuntu-devel@lists.launchpad.net>
 License: LGPL-2.1+
 
-Files: doc/* docs/*
+Files: doc/* docs/* COPYING.DOC
 Copyright: 2005-2007 Torsten Rahn
            2010 Dennis Nienhüser
+           2000-2002, Free Software Foundation, Inc
 License: GFDL-1.2
 
 Files: docs/bindings/python/html/common/kde-default.css
 Copyright: 2000 Frederik Fouvry
 License: GPL-2+
 
-Files: marble.nsi
-Copyright: 2004-2005 Technicat, LLC
+Files: src/3rdparty/sgp4/*
+Copyright: 2006-2015, David A. Vallado <dvallado at centerforspace.com>
+           2006-2015, Paul Crawford <pcrawford at dundee0.demon.co.uk>
+           2006-2015, Richard Hujsak <rhujsak at agi.com>
+           2006-2015, T. S. Kelso <tskelso at centerforspace.com>
+License: AIAA_2006-6753
+ From the faq: http://www.celestrak.com/publications/AIAA/2006-6753/faq.asp
+ Are there any Licenses required to use the SGP4 code?
+ There is no license associated with the code and you may use it for any
+ purpose—personal or commercial—as you wish. We ask only that you include
+ citations in your documentation and source code to show the source of the code
+ and provide links to the main page, to facilitate communications regarding any
+ questions on the theory or source code.
+ .
+ The project link is: http://www.celestrak.com/publications/AIAA/2006-6753/
+
+License: CC0
+ This software and associated documentation files (the "Software") is
+ released under the CC0 Public Domain Dedication, version 1.0, as
+ published by Creative Commons. To the extent possible under law, the
+ author(s) have dedicated all copyright and related and neighboring
+ rights to the Software to the public domain worldwide. The Software is
+ distributed WITHOUT ANY WARRANTY.
+ .
+ If you did not receive a copy of the CC0 Public Domain Dedication
+ along with the Software, see
+ <http://creativecommons.org/publicdomain/zero/1.0/>
+
+License: CC-BY-3.0
+ This work is licensed under a Creative Commons Attribution 3.0 License,
+ see http://creativecommons.org/licenses/by/3.0/
+ The Data is provided "as is" without warranty or any representation of
+ accuracy, timeliness or completeness.
+
 License: Zlib
  This software is provided 'as-is', without any express or implied warranty.
  In no event will the authors be held liable for any damages arising from the use of this software.
