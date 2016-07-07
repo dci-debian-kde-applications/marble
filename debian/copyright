@@ -2751,6 +2751,7 @@ Copyright: 2010, Christian Vetter <veaac.fdirct@gmail.com>
            2007, Free Software Foundation, Inc. <http://fsf.org/>
 License: GPL-3+
 
+<<<<<<< HEAD
 Files: src/lib/marble/MarbleZip.cpp
        src/lib/marble/MarbleZipReader.h
        src/lib/marble/MarbleZipWriter.h
@@ -2794,30 +2795,56 @@ License: GPL-3_or_LGPL-2.1+3
  `/usr/share/common-licenses/LGPL-3', also, the full text of the GNU General
  Public License version 3 can be found in the file
  `/usr/share/common-licenses/GPL-3'.
+=======
+Files: COPYING.DOC
+       docs/bindings/python/html/common/fdl-license
+       docs/bindings/python/html/common/fdl-license.html
+Copyright: 2000-2002, Free Software Foundation, Inc
+License: GFDL-NIV-1.2
+ This can be found at /usr/share/common-licenses/GFDL-1.2
+>>>>>>> Neon/stable
 
 Files: tools/osm-addresses/pbf/fileformat.proto
        tools/osm-addresses/pbf/osmformat.proto
 Copyright: 2010, Scott A. Crosby <scott@sacrosby.com>
 License: LGPL-3+
+<<<<<<< HEAD
  This program is free software: you can redistribute it and/or modify
  it under the terms of the GNU Lesser General Public License as
  published by the Free Software Foundation, either version 3 of the
  License, or (at your option) any later version.
+=======
+ This program is free software; you can redistribute it and/or
+ modify it under the terms of the GNU General Public License as
+ published by the Free Software Foundation; either version 3 of
+ the License, or (at your option) any later version.
+>>>>>>> Neon/stable
  .
  This program is distributed in the hope that it will be useful,
  but WITHOUT ANY WARRANTY; without even the implied warranty of
  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+<<<<<<< HEAD
  GNU Lesser General Public License for more details.
  .
  The full text of the GNU Lesser General Public License version 3 can be found
  in the file `/usr/share/common-licenses/LGPL-3'.
+=======
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program.  If not, see <http://www.gnu.org/licenses/>.
+>>>>>>> Neon/stable
 
 Files: data/mwdbii/MWDBPOLY.TXT
        data/mwdbii/contents.txt
 Copyright: no copyright claimed
 License: public-domain
+<<<<<<< HEAD
  The MICRO WORLD DATA BANK II Database was was produced and placed in the
  Public Domain by Fred Pospeschil and Antonio Rivera.
+=======
+ The MWDB-POLY database is released to the Public Domain
+>>>>>>> Neon/stable
 
 Files: data/maps/earth/openstreetmap/tour.kml
        data/placemarks/COPYRIGHT
@@ -2826,8 +2853,12 @@ License: CC-BY-3.0
 Files: src/lib/marble/htmlfeatures/bootstrap.min.css
 Copyright: 2012, Twitter, Inc
 License: Apache-2.0
+<<<<<<< HEAD
  Licensed under the Apache License v2.0
  http://www.apache.org/licenses/LICENSE-2.0
+=======
+ This can be found at /usr/share/common-licenses/Apache-2.0
+>>>>>>> Neon/stable
 
 Files: debian/*
 Copyright: 2011 Kubuntu Developers <kubuntu-devel@lists.launchpad.net>
