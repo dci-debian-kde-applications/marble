@@ -2260,16 +2260,30 @@ Files: COPYING.DOC
        docs/bindings/python/html/common/fdl-license.html
 Copyright: 2000-2002, Free Software Foundation, Inc
 License: GFDL-NIV-1.2
+ This can be found at /usr/share/common-licenses/GFDL-1.2
 
 Files: tools/osm-addresses/pbf/fileformat.proto
        tools/osm-addresses/pbf/osmformat.proto
 Copyright: 2010, Scott A. Crosby <scott@sacrosby.com>
 License: LGPL-3+
+ This program is free software; you can redistribute it and/or
+ modify it under the terms of the GNU General Public License as
+ published by the Free Software Foundation; either version 3 of
+ the License, or (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 Files: data/mwdbii/MWDBPOLY.TXT
        data/mwdbii/contents.txt
 Copyright: no copyright claimed
 License: public-domain
+ The MWDB-POLY database is released to the Public Domain
 
 Files: src/apps/marble-touch/harmattan/MenuItemSwitch.qml
 Copyright: 2011, Dennis Nienhüser <earthwings@gentoo.org>
@@ -2328,6 +2342,7 @@ Comment: LICENSE.txt is copy of LGPL-2.1
 Files: src/lib/marble/htmlfeatures/bootstrap.min.css
 Copyright: 2012, Twitter, Inc
 License: Apache-2.0
+ This can be found at /usr/share/common-licenses/Apache-2.0
 
 Files: debian/*
 Copyright: 2011 Kubuntu Developers <kubuntu-devel@lists.launchpad.net>
