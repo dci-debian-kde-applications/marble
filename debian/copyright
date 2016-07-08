@@ -2751,7 +2751,6 @@ Copyright: 2010, Christian Vetter <veaac.fdirct@gmail.com>
            2007, Free Software Foundation, Inc. <http://fsf.org/>
 License: GPL-3+
 
-<<<<<<< HEAD
 Files: src/lib/marble/MarbleZip.cpp
        src/lib/marble/MarbleZipReader.h
        src/lib/marble/MarbleZipWriter.h
