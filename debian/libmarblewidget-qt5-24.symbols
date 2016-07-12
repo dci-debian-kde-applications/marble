@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:16.04.1 alpha amd64 arm64 armel armhf hppa hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips64el mipsel powerpc ppc64 ppc64el s390x sparc64 x32
+# SymbolsHelper-Confirmed: 4:16.04.1 alpha amd64 arm64 armel armhf hppa hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mips64el mipsel powerpc ppc64 ppc64el s390x sparc64 x32
 libmarblewidget-qt5.so.24 libmarblewidget-qt5-24 #MINVER#
  (optional=templinst|arch=amd64 hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 x32)_Z17qRegisterMetaTypeIN13QNetworkReply12NetworkErrorEEiPKcPT_N9QtPrivate21MetaTypeDefinedHelperIS4_Xaasr12QMetaTypeId2IS4_E7DefinedntsrS9_9IsBuiltInEE11DefinedTypeE@Base 4:15.08.3
  (optional=templinst)_Z17qRegisterMetaTypeIN6Marble13DownloadUsageEEiPKcPT_N9QtPrivate21MetaTypeDefinedHelperIS4_Xaasr12QMetaTypeId2IS4_E7DefinedntsrS9_9IsBuiltInEE11DefinedTypeE@Base 4:15.08.0
@@ -7831,8 +7831,8 @@ libmarblewidget-qt5.so.24 libmarblewidget-qt5-24 #MINVER#
  (optional=templinst)_ZN7QVectorI14QSharedPointerIN6Marble11TextureTileEEE6appendERKS3_@Base 4:15.08.0
  (optional=templinst)_ZN7QVectorI14QSharedPointerIN6Marble11TextureTileEEED1Ev@Base 4:15.08.0
  (optional=templinst)_ZN7QVectorI14QSharedPointerIN6Marble11TextureTileEEED2Ev@Base 4:15.08.0
- (optional=templinst|arch=alpha arm64 armel armhf hppa mips64el mipsel powerpc ppc64 ppc64el s390x sparc64)_ZN7QVectorI19QXmlStreamAttributeED1Ev@Base 4:16.04.0
- (optional=templinst|arch=alpha arm64 armel armhf hppa mips64el mipsel powerpc ppc64 ppc64el s390x sparc64)_ZN7QVectorI19QXmlStreamAttributeED2Ev@Base 4:16.04.0
+ (optional=templinst|arch=alpha arm64 armel armhf hppa mips mips64el mipsel powerpc ppc64 ppc64el s390x sparc64)_ZN7QVectorI19QXmlStreamAttributeED1Ev@Base 4:16.04.0
+ (optional=templinst|arch=alpha arm64 armel armhf hppa mips mips64el mipsel powerpc ppc64 ppc64el s390x sparc64)_ZN7QVectorI19QXmlStreamAttributeED2Ev@Base 4:16.04.0
  (optional=templinst)_ZN7QVectorI21QPersistentModelIndexE11reallocDataEii6QFlagsIN10QArrayData16AllocationOptionEE@Base 4:15.08.0
  (optional=templinst)_ZN7QVectorI21QPersistentModelIndexE5eraseEPS0_S2_@Base 4:15.08.0
  (optional=templinst)_ZN7QVectorI21QPersistentModelIndexE6appendERKS0_@Base 4:15.08.0
