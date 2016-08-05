@@ -1,11 +1,18 @@
-marble (4:16.04.3-1~1.gbp62ead3) UNRELEASED; urgency=medium
+marble (4:16.04.3-1~2.gbp01897f) UNRELEASED; urgency=medium
 
+  ** SNAPSHOT build @01897f551f4c2b26389194a7d05cf95315e9423c **
+
+  [ Automatic packaging ]
   ** SNAPSHOT build @62ead3de1066bee106951504cfc80fd71b80c5c1 **
 
   * Refresh patches
   * Update symbols files from buildds logs (4:16.04.1-3).
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Tue, 12 Jul 2016 23:53:58 +0200
+  [ Maximiliano Curia ]
+  * Update symbols files.
+  * Update install files
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Fri, 05 Aug 2016 10:15:15 +0200
 
 marble (4:16.04.1-3) unstable; urgency=medium
 
