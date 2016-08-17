@@ -1,3 +1,4 @@
+usr/share/*/marble.appdata.xml
 usr/share/applications/marble_geojson.desktop
 usr/share/config.kcfg/marble.kcfg
 usr/share/doc/HTML/en/marble/
@@ -23,5 +24,4 @@ usr/share/marble/data/placemarks/
 usr/share/marble/data/stars/
 usr/share/marble/data/svg/
 usr/share/marble/data/weather/
-usr/share/metainfo/org.kde.marble.appdata.xml
 usr/share/mime/packages/geo.xml
