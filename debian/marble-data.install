@@ -1,7 +1,9 @@
 usr/share/*/marble.appdata.xml
+usr/share/applications/marble_geojson.desktop
 usr/share/config.kcfg/marble.kcfg
 usr/share/doc/HTML/en/marble/
 usr/share/icons/hicolor/*/apps/marble.png
+usr/share/kservices5/marble_thumbnail_geojson.desktop
 usr/share/kservices5/marble_thumbnail_gpx.desktop
 usr/share/kservices5/marble_thumbnail_kml.desktop
 usr/share/kservices5/marble_thumbnail_osm.desktop
