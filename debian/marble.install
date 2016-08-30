@@ -2,6 +2,8 @@ usr/bin/marble
 usr/lib/*/qt5/plugins/libmarble_part.so
 usr/lib/*/qt5/plugins/libmarblethumbnail.so
 usr/lib/*/qt5/plugins/plasma_runner_marble.so
+usr/lib/*/qt5/qml/org/kde/marble/private/plasma/libmarblequick.so
+usr/lib/*/qt5/qml/org/kde/marble/private/plasma/qmldir
 usr/share/applications/marble_geo.desktop
 usr/share/applications/marble_gpx.desktop
 usr/share/applications/marble_kml.desktop

@@ -8,6 +8,8 @@ usr/share/kservices5/marble_thumbnail_gpx.desktop
 usr/share/kservices5/marble_thumbnail_kml.desktop
 usr/share/kservices5/marble_thumbnail_osm.desktop
 usr/share/kservices5/marble_thumbnail_shp.desktop
+usr/share/kservices5/plasma-applet-org.kde.plasma.worldclock.desktop
+usr/share/kservices5/plasma-wallpaper-org.kde.plasma.wallpaper.worldmap.desktop
 usr/share/kxmlgui5/marble/marble.knsrc
 usr/share/kxmlgui5/marble/marble_part.rc
 usr/share/kxmlgui5/marble/marbleui.rc
@@ -24,4 +26,15 @@ usr/share/marble/data/placemarks/
 usr/share/marble/data/stars/
 usr/share/marble/data/svg/
 usr/share/marble/data/weather/
+usr/share/metainfo/org.kde.plasma.worldclock.appdata.xml
 usr/share/mime/packages/geo.xml
+usr/share/plasma/plasmoids/org.kde.plasma.worldclock/contents/config/config.qml
+usr/share/plasma/plasmoids/org.kde.plasma.worldclock/contents/config/main.xml
+usr/share/plasma/plasmoids/org.kde.plasma.worldclock/contents/ui/configMapDisplay.qml
+usr/share/plasma/plasmoids/org.kde.plasma.worldclock/contents/ui/configTimeZones.qml
+usr/share/plasma/plasmoids/org.kde.plasma.worldclock/contents/ui/main.qml
+usr/share/plasma/plasmoids/org.kde.plasma.worldclock/metadata.desktop
+usr/share/plasma/wallpapers/org.kde.plasma.wallpaper.worldmap/contents/config/main.xml
+usr/share/plasma/wallpapers/org.kde.plasma.wallpaper.worldmap/contents/ui/config.qml
+usr/share/plasma/wallpapers/org.kde.plasma.wallpaper.worldmap/contents/ui/main.qml
+usr/share/plasma/wallpapers/org.kde.plasma.wallpaper.worldmap/metadata.desktop
