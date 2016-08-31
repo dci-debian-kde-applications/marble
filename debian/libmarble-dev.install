@@ -3,4 +3,4 @@ usr/lib/*/libmarblewidget-qt5.so
 usr/lib/*/plugins/designer/libLatLonEditPlugin.so
 usr/lib/*/plugins/designer/libMarbleNavigatorPlugin.so
 usr/lib/*/plugins/designer/libMarbleWidgetPlugin.so
-usr/share/marble/cmake/FindMarble.cmake
+usr/lib/*/cmake/Marble/
