@@ -1,6 +1,6 @@
-marble (4:16.08.0-1~1.gbp0d53df) UNRELEASED; urgency=medium
+marble (4:16.08.0-1~2.gbp6e3e90) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @0d53df4098c4124be64359527e9e59a55588f389 **
+  ** SNAPSHOT build @6e3e90d48b73ef165458647f75d966103e8bde04 **
 
   [ Automatic packaging ]
   ** SNAPSHOT build @62ead3de1066bee106951504cfc80fd71b80c5c1 **
@@ -13,8 +13,11 @@ marble (4:16.08.0-1~1.gbp0d53df) UNRELEASED; urgency=medium
   [ Maximiliano Curia ]
   * Update symbols files.
   * Update install files
+  * Follow upstream libmarblewidget soversion bump
+  * Update symbols files
+  * Update install files
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Fri, 19 Aug 2016 13:56:26 +0200
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Wed, 31 Aug 2016 14:14:52 +0200
 
 marble (4:16.04.1-3) unstable; urgency=medium
 
