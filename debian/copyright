@@ -2800,8 +2800,8 @@ Files: tools/osm-addresses/pbf/fileformat.proto
 Copyright: 2010, Scott A. Crosby <scott@sacrosby.com>
 License: LGPL-3+
  This program is free software: you can redistribute it and/or modify
- it under the terms of the GNU Lesser General Public License as 
- published by the Free Software Foundation, either version 3 of the 
+ it under the terms of the GNU Lesser General Public License as
+ published by the Free Software Foundation, either version 3 of the
  License, or (at your option) any later version.
  .
  This program is distributed in the hope that it will be useful,
@@ -2816,8 +2816,8 @@ Files: data/mwdbii/MWDBPOLY.TXT
        data/mwdbii/contents.txt
 Copyright: no copyright claimed
 License: public-domain
- The MICRO WORLD DATA BANK II Database was was produced and placed in the 
- Public Domain by Fred Pospeschil and Antonio Rivera. 
+ The MICRO WORLD DATA BANK II Database was was produced and placed in the
+ Public Domain by Fred Pospeschil and Antonio Rivera.
 
 Files: data/maps/earth/openstreetmap/tour.kml
        data/placemarks/COPYRIGHT
