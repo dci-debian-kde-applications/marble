@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:16.08.0 amd64
+# SymbolsHelper-Confirmed: 4:16.08.0 amd64 armhf i386
 libmarblewidget-qt5.so.25 libmarblewidget-qt5-25 #MINVER#
  (optional=templinst|arch=hurd-i386 kfreebsd-amd64 kfreebsd-i386 x32)_Z17qRegisterMetaTypeIN13QNetworkReply12NetworkErrorEEiPKcPT_N9QtPrivate21MetaTypeDefinedHelperIS4_Xaasr12QMetaTypeId2IS4_E7DefinedntsrS9_9IsBuiltInEE11DefinedTypeE@Base 4:15.08.3
  _ZN13MarbleWebView11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:15.08.0
@@ -26,9 +26,8 @@ libmarblewidget-qt5.so.25 libmarblewidget-qt5-25 #MINVER#
  (optional=templinst|arch=kfreebsd-amd64 x32)_ZN5QHashI7QStringPKN6Marble8BlendingEED1Ev@Base 4:15.08.0
  (optional=templinst|arch=kfreebsd-amd64 x32)_ZN5QHashI7QStringPKN6Marble8BlendingEED2Ev@Base 4:15.08.0
  (optional=templinst|arch=!alpha !amd64 !armhf !i386 !mips !mipsel !powerpc !ppc64 !s390x)_ZN5QHashIN6Marble14GeoDataFeature21GeoDataVisualCategoryE15QHashDummyValueE6insertERKS2_RKS3_@Base 4:15.12.0
- (optional=templinst|arch=!amd64)_ZN5QHashIPKN6Marble14GeoDataFeatureENS0_6TileIdEE6removeERKS3_@Base 4:16.04.3
- (optional=templinst|arch=armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 x32)_ZN5QHashIPN6Marble18MarbleGraphicsItemE15QHashDummyValueE6removeERKS2_@Base 4:15.08.0
- (optional=templinst|arch=!alpha !amd64 !arm64 !hppa !kfreebsd-amd64 !mips64el !ppc64 !ppc64el !s390x !sparc64 !x32)_ZN5QHashIx7QStringE6removeERKx@Base 4:16.04.0
+ (optional=templinst|arch=!amd64 !armhf !i386)_ZN5QHashIPKN6Marble14GeoDataFeatureENS0_6TileIdEE6removeERKS3_@Base 4:16.04.3
+ (optional=templinst|arch=hurd-i386 kfreebsd-amd64 kfreebsd-i386 x32)_ZN5QHashIPN6Marble18MarbleGraphicsItemE15QHashDummyValueE6removeERKS2_@Base 4:15.08.0
  (optional=templinst|arch=hurd-i386 kfreebsd-amd64 kfreebsd-i386 x32)_ZN5QListIP10QQuickItemE13detach_helperEi@Base 4:15.08.0
  (optional=templinst|arch=alpha armel hppa mips mips64el mipsel sparc64)_ZN5QListIP10QQuickItemE6appendERKS1_@Base 4:15.08.0
  (optional=templinst|arch=hurd-i386 kfreebsd-amd64 kfreebsd-i386 x32)_ZN5QListIPKN6Marble15GeoScenePaletteEE13detach_helperEi@Base 4:15.08.0
@@ -52,8 +51,8 @@ libmarblewidget-qt5.so.25 libmarblewidget-qt5-25 #MINVER#
  (optional=templinst|arch=hurd-i386 kfreebsd-amd64 kfreebsd-i386 x32)_ZN5QListIPN6Marble20ReverseGeocodingTaskEEC1ERKS3_@Base 4:15.08.0
  (optional=templinst|arch=hurd-i386 kfreebsd-amd64 kfreebsd-i386 x32)_ZN5QListIPN6Marble20ReverseGeocodingTaskEEC2ERKS3_@Base 4:15.08.0
  (optional=templinst|arch=hurd-i386 kfreebsd-amd64 kfreebsd-i386 x32)_ZN5QListIPN6Marble25ScreenOverlayGraphicsItemEE13detach_helperEi@Base 4:15.08.0
- (optional=templinst|arch=!alpha !amd64 !arm64 !kfreebsd-amd64 !mips64el !ppc64 !ppc64el !s390x !sparc64)_ZN5QListIdEC1ERKS0_@Base 4:15.08.1+dfsg
- (optional=templinst|arch=!alpha !amd64 !arm64 !kfreebsd-amd64 !mips64el !ppc64 !ppc64el !s390x !sparc64)_ZN5QListIdEC2ERKS0_@Base 4:15.08.1+dfsg
+ (optional=templinst|arch=!alpha !amd64 !arm64 !armhf !kfreebsd-amd64 !i386 !mips64el !ppc64 !ppc64el !s390x !sparc64)_ZN5QListIdEC1ERKS0_@Base 4:15.08.1+dfsg
+ (optional=templinst|arch=!alpha !amd64 !arm64 !armhf !kfreebsd-amd64 !i386 !mips64el !ppc64 !ppc64el !s390x !sparc64)_ZN5QListIdEC2ERKS0_@Base 4:15.08.1+dfsg
  (optional=templinst|arch=hurd-i386 kfreebsd-amd64 kfreebsd-i386 x32)_ZN5QListIiEC1ERKS0_@Base 4:15.08.0
  (optional=templinst|arch=hurd-i386 kfreebsd-amd64 kfreebsd-i386 x32)_ZN5QListIiEC2ERKS0_@Base 4:15.08.0
  _ZN6Marble10GeoDataLod15setMaxLodPixelsEd@Base 4:15.08.0
@@ -4044,7 +4043,7 @@ libmarblewidget-qt5.so.25 libmarblewidget-qt5-25 #MINVER#
  _ZN6QColorC1EPKc@Base 4:15.08.0
  _ZN6QColorC2EPKc@Base 4:15.08.0
  (optional=templinst|arch=!amd64 !armhf !i386)_ZN7QVectorI21QPersistentModelIndexE6appendERKS0_@Base 4:15.08.0
- (optional=templinst|arch=armhf)_ZN7QVectorI5QIconE6appendEOS0_@Base 4:16.04.3
+ (optional=templinst|arch=!armhf)_ZN7QVectorI5QIconE6appendEOS0_@Base 4:16.04.3
  (optional=templinst|arch=!amd64 !armhf !i386)_ZN7QVectorI5QIconE6appendERKS0_@Base 4:15.08.0
  (optional=templinst|arch=!amd64 !armhf !i386)_ZN7QVectorI7QPixmapE6appendERKS0_@Base 4:15.08.0
  (optional=templinst|arch=hppa mips mips64el mipsel)_ZN7QVectorI7QPointFEaSERKS1_@Base 4:15.12.1
@@ -4054,7 +4053,7 @@ libmarblewidget-qt5.so.25 libmarblewidget-qt5-25 #MINVER#
  (optional=templinst|arch=!amd64 !armhf !i386)_ZN7QVectorIPKN6Marble14GeoDataFeatureEE6appendERKS3_@Base 4:15.08.0
  (optional=templinst|arch=hurd-i386 kfreebsd-amd64 kfreebsd-i386 x32)_ZN7QVectorIPKN6Marble25GeoSceneVectorTileDatasetEED1Ev@Base 4:15.12.0
  (optional=templinst|arch=hurd-i386 kfreebsd-amd64 kfreebsd-i386 x32)_ZN7QVectorIPKN6Marble25GeoSceneVectorTileDatasetEED2Ev@Base 4:15.12.0
- (optional=templinst|arch=armhf)_ZN7QVectorIPN6Marble12GeoDataTrackEE6appendEOS2_@Base 4:16.04.3
+ (optional=templinst|arch=!armhf)_ZN7QVectorIPN6Marble12GeoDataTrackEE6appendEOS2_@Base 4:16.04.3
  (optional=templinst|arch=!amd64 !armhf !i386)_ZN7QVectorIPN6Marble12GeoDataTrackEED1Ev@Base 4:15.08.3
  (optional=templinst|arch=!amd64 !armhf !i386)_ZN7QVectorIPN6Marble12GeoDataTrackEED2Ev@Base 4:15.08.3
  (optional=templinst|arch=!amd64 !armhf !i386)_ZN7QVectorIPN6Marble15GeoDataGeometryEED1Ev@Base 4:15.08.3
@@ -4065,8 +4064,8 @@ libmarblewidget-qt5.so.25 libmarblewidget-qt5-25 #MINVER#
  (optional=templinst|arch=mips mips64el mipsel powerpc ppc64 ppc64el s390x)_ZN7QVectorIS_IPN6Marble16VisiblePlacemarkEEE5clearEv@Base 4:15.08.0
  (optional=templinst|arch=!amd64 !armhf !i386)_ZN7QVectorIS_IPN6Marble16VisiblePlacemarkEEED1Ev@Base 4:15.08.3
  (optional=templinst|arch=!amd64 !armhf !i386)_ZN7QVectorIS_IPN6Marble16VisiblePlacemarkEEED2Ev@Base 4:15.08.3
- (optional=templinst|arch=i386)_ZN8QMapDataI7QStringN6Marble13GeoDataSchemaEE10createNodeERKS0_RKS2_P8QMapNodeIS0_S2_Eb@Base 4:16.04.3
- (optional=templinst|arch=i386)_ZN8QMapDataI7QStringN6Marble15GeoDataStyleMapEE10createNodeERKS0_RKS2_P8QMapNodeIS0_S2_Eb@Base 4:16.04.3
+ (optional=templinst|arch=!i386)_ZN8QMapDataI7QStringN6Marble13GeoDataSchemaEE10createNodeERKS0_RKS2_P8QMapNodeIS0_S2_Eb@Base 4:16.04.3
+ (optional=templinst|arch=!i386)_ZN8QMapDataI7QStringN6Marble15GeoDataStyleMapEE10createNodeERKS0_RKS2_P8QMapNodeIS0_S2_Eb@Base 4:16.04.3
  (optional=templinst|arch=!amd64 !armhf !i386)_ZN8QMapNodeIN6Marble6TileIdE14QSharedPointerINS0_15VectorTileModel13CacheDocumentEEE14destroySubTreeEv@Base 4:15.12.0
  (optional=templinst|arch=!amd64 !armhf !i386)_ZN8QMapNodeIx5QListIPKN6Marble16GeoDataPlacemarkEEE14destroySubTreeEv@Base 4:15.12.0
  _ZNK13MarbleWebView10metaObjectEv@Base 4:15.08.0
@@ -4087,13 +4086,13 @@ libmarblewidget-qt5.so.25 libmarblewidget-qt5-25 #MINVER#
  _ZNK22KDescendantsProxyModel8mimeDataERK5QListI11QModelIndexE@Base 4:15.08.0
  _ZNK22KDescendantsProxyModel8rowCountERK11QModelIndex@Base 4:15.08.0
  _ZNK22KDescendantsProxyModel9mimeTypesEv@Base 4:15.08.0
- (optional=templinst|arch=!amd64)_ZNK5QHashI21QPersistentModelIndexiE8findNodeERKS0_j@Base 4:16.04.3
+ (optional=templinst|arch=!amd64 !armhf !i386)_ZNK5QHashI21QPersistentModelIndexiE8findNodeERKS0_j@Base 4:16.04.3
  (optional=templinst|arch=!amd64 !armhf !i386)_ZNK5QHashIN6Marble14GeoDataFeature21GeoDataVisualCategoryE15QHashDummyValueE8findNodeERKS2_Pj@Base 4:15.12.0
- (optional=templinst|arch=!amd64)_ZNK5QHashIPKN6Marble14GeoDataFeatureENS0_6TileIdEE8findNodeERKS3_j@Base 4:16.04.3
- (optional=templinst|arch=!amd64)_ZNK5QHashIPKN6Marble16GeoDataPlacemarkEPNS0_16VisiblePlacemarkEE8findNodeERKS3_j@Base 4:16.04.3
- (optional=templinst|arch=!amd64)_ZNK5QHashIPN6Marble18MarbleGraphicsItemE15QHashDummyValueE8findNodeERKS2_j@Base 4:16.04.3
- (optional=templinst|arch=!amd64)_ZNK5QHashIPN6Marble18ScreenGraphicsItemE6QFlagsIN2Qt13AlignmentFlagEEE8findNodeERKS2_j@Base 4:16.04.3
- (optional=templinst|arch=!amd64)_ZNK5QHashIPN6Marble19RoutingRunnerPluginEPNS1_12ConfigWidgetEE8findNodeERKS2_j@Base 4:16.04.3
+ (optional=templinst|arch=!amd64 !armhf !i386)_ZNK5QHashIPKN6Marble14GeoDataFeatureENS0_6TileIdEE8findNodeERKS3_j@Base 4:16.04.3
+ (optional=templinst|arch=!amd64 !armhf !i386)_ZNK5QHashIPKN6Marble16GeoDataPlacemarkEPNS0_16VisiblePlacemarkEE8findNodeERKS3_j@Base 4:16.04.3
+ (optional=templinst|arch=!amd64 !armhf !i386)_ZNK5QHashIPN6Marble18MarbleGraphicsItemE15QHashDummyValueE8findNodeERKS2_j@Base 4:16.04.3
+ (optional=templinst|arch=!amd64 !armhf !i386)_ZNK5QHashIPN6Marble18ScreenGraphicsItemE6QFlagsIN2Qt13AlignmentFlagEEE8findNodeERKS2_j@Base 4:16.04.3
+ (optional=templinst|arch=!amd64 !armhf !i386)_ZNK5QHashIPN6Marble19RoutingRunnerPluginEPNS1_12ConfigWidgetEE8findNodeERKS2_j@Base 4:16.04.3
  (optional=templinst|arch=!amd64 !armhf !i386)_ZNK5QHashIi10QByteArrayE8findNodeERKiPj@Base 4:15.08.0
  (optional=templinst|arch=!amd64 !armhf !i386)_ZNK5QHashIi21QPersistentModelIndexE8findNodeERKiPj@Base 4:15.08.0
  (optional=templinst|arch=!amd64 !armhf !i386)_ZNK5QHashIiN6Marble16OsmPlacemarkDataEE8findNodeERKiPj@Base 4:15.12.0
