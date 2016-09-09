@@ -8,7 +8,7 @@ Subject: do_not_install_private_headers
  1 file changed, 3 deletions(-)
 
 diff --git a/src/lib/marble/CMakeLists.txt b/src/lib/marble/CMakeLists.txt
-index b268cb2..8269331 100644
+index 3ed31a8..a2c6ee1 100644
 --- a/src/lib/marble/CMakeLists.txt
 +++ b/src/lib/marble/CMakeLists.txt
 @@ -502,7 +502,6 @@ install( FILES
