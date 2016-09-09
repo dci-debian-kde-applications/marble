@@ -1,12 +1,15 @@
-marble (4:16.08.0-1~2.gbp6e3e90) UNRELEASED; urgency=medium
+marble (4:16.08.1-1~1.gbp8b2ddd) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @6e3e90d48b73ef165458647f75d966103e8bde04 **
+  ** SNAPSHOT build @8b2ddd2ae63cab2494b701dc3bdb16d30ab3d7ba **
 
   [ Automatic packaging ]
   ** SNAPSHOT build @62ead3de1066bee106951504cfc80fd71b80c5c1 **
 
   * Refresh patches
   * Update symbols files from buildds logs (4:16.04.1-3).
+  * Refresh patches
+  * Update symbols files
+  * Update build-deps and deps with the info from cmake
   * Refresh patches
   * Update symbols files
 
@@ -17,7 +20,7 @@ marble (4:16.08.0-1~2.gbp6e3e90) UNRELEASED; urgency=medium
   * Update symbols files
   * Update install files
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Wed, 31 Aug 2016 14:14:52 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Fri, 09 Sep 2016 13:57:54 +0200
 
 marble (4:16.04.1-3) unstable; urgency=medium
 
