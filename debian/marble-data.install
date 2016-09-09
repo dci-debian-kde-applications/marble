@@ -1,4 +1,4 @@
-usr/share/appdata/marble.appdata.xml
+etc/xdg/marble.knsrc
 usr/share/applications/marble_geojson.desktop
 usr/share/config.kcfg/marble.kcfg
 usr/share/doc/HTML/en/marble/
@@ -8,7 +8,6 @@ usr/share/kservices5/marble_thumbnail_gpx.desktop
 usr/share/kservices5/marble_thumbnail_kml.desktop
 usr/share/kservices5/marble_thumbnail_osm.desktop
 usr/share/kservices5/marble_thumbnail_shp.desktop
-usr/share/kxmlgui5/marble/marble.knsrc
 usr/share/kxmlgui5/marble/marble_part.rc
 usr/share/kxmlgui5/marble/marbleui.rc
 usr/share/marble/data/
@@ -25,4 +24,5 @@ usr/share/marble/data/placemarks/
 usr/share/marble/data/stars/
 usr/share/marble/data/svg/
 usr/share/marble/data/weather/
+usr/share/metainfo/marble.appdata.xml
 usr/share/mime/packages/geo.xml
