@@ -8,7 +8,6 @@ usr/share/applications/marble_geo.desktop
 usr/share/applications/marble_gpx.desktop
 usr/share/applications/marble_kml.desktop
 usr/share/applications/marble_kmz.desktop
-usr/share/applications/marble_osm.desktop
 usr/share/applications/marble_shp.desktop
 usr/share/applications/marble_worldwind.desktop
 usr/share/applications/org.kde.marble.desktop

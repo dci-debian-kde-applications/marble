@@ -10,7 +10,6 @@ usr/share/kservices5/marble_thumbnail_osm.desktop
 usr/share/kservices5/marble_thumbnail_shp.desktop
 usr/share/kservices5/plasma-applet-org.kde.plasma.worldclock.desktop
 usr/share/kservices5/plasma-wallpaper-org.kde.plasma.wallpaper.worldmap.desktop
-usr/share/kxmlgui5/marble/marble.knsrc
 usr/share/kxmlgui5/marble/marble_part.rc
 usr/share/kxmlgui5/marble/marbleui.rc
 usr/share/marble/data/*.css
