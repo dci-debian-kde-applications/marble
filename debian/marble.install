@@ -1,3 +1,4 @@
+etc/xdg/marble.knsrc
 usr/bin/marble
 usr/lib/*/qt5/plugins/libmarble_part.so
 usr/lib/*/qt5/plugins/libmarblethumbnail.so
