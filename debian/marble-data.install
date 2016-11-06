@@ -32,8 +32,8 @@ usr/share/plasma/plasmoids/org.kde.plasma.worldclock/contents/config/main.xml
 usr/share/plasma/plasmoids/org.kde.plasma.worldclock/contents/ui/configMapDisplay.qml
 usr/share/plasma/plasmoids/org.kde.plasma.worldclock/contents/ui/configTimeZones.qml
 usr/share/plasma/plasmoids/org.kde.plasma.worldclock/contents/ui/main.qml
-usr/share/plasma/plasmoids/org.kde.plasma.worldclock/metadata.desktop
+usr/share/plasma/plasmoids/org.kde.plasma.worldclock/metadata.json
 usr/share/plasma/wallpapers/org.kde.plasma.wallpaper.worldmap/contents/config/main.xml
 usr/share/plasma/wallpapers/org.kde.plasma.wallpaper.worldmap/contents/ui/config.qml
 usr/share/plasma/wallpapers/org.kde.plasma.wallpaper.worldmap/contents/ui/main.qml
-usr/share/plasma/wallpapers/org.kde.plasma.wallpaper.worldmap/metadata.desktop
+usr/share/plasma/wallpapers/org.kde.plasma.wallpaper.worldmap/metadata.json
