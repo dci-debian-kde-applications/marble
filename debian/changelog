@@ -1,3 +1,12 @@
+marble (4:16.08.2-2~1.gbp12e866) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @12e8665d804952906230b3a6961549f8a69f5618 **
+
+  * Refresh patches
+  * Update symbols files with the buildds logs.
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Fri, 11 Nov 2016 17:22:22 +0100
+
 marble (4:16.08.2-1) unstable; urgency=medium
 
   [ Automatic packaging ]
