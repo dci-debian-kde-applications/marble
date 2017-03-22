@@ -100,7 +100,11 @@ Description: globe and map widget (no KDE dependencies)
 Package: marble-data
 Architecture: all
 Section: misc
-Depends: ${misc:Depends}
+Depends: plasma-framework,
+         qml-module-qtquick-controls,
+         qml-module-qtquick-layouts,
+         qml-module-qtquick2,
+         ${misc:Depends}
 Breaks: marble (<= 4:15.08.0+dfsg-1)
 Replaces: marble (<= 4:15.08.0+dfsg-1)
 Description: data files for Marble
