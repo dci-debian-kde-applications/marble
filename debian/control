@@ -106,8 +106,8 @@ Depends: plasma-framework,
          qml-module-qtquick-layouts,
          qml-module-qtquick2,
          ${misc:Depends}
-Breaks: marble (<= 4:15.08.0+dfsg-1)
-Replaces: marble (<= 4:15.08.0+dfsg-1)
+Breaks: marble (<= 4:15.08.0+dfsg-1), ${kde-l10n:all}
+Replaces: marble (<= 4:15.08.0+dfsg-1), ${kde-l10n:all}
 Description: data files for Marble
  Marble is a generic geographical map widget and framework for KDE
  applications. The Marble widget shows the earth as a sphere but does not
