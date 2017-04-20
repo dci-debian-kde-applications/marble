@@ -26,7 +26,6 @@ usr/share/marble/data/placemarks/
 usr/share/marble/data/stars/
 usr/share/marble/data/svg/
 usr/share/marble/data/weather/
-usr/share/metainfo/org.kde.plasma.wallpaper.worldmap.appdata.xml
 usr/share/metainfo/org.kde.plasma.worldclock.appdata.xml
 usr/share/mime/packages/geo.xml
 usr/share/plasma/plasmoids/org.kde.plasma.worldclock/contents/config/config.qml
