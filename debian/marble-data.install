@@ -13,14 +13,12 @@ usr/share/kservices5/plasma-wallpaper-org.kde.plasma.wallpaper.worldmap.desktop
 usr/share/kxmlgui5/marble/marble_part.rc
 usr/share/kxmlgui5/marble/marbleui.rc
 usr/share/locale/
-usr/share/marble/data/locale/
 usr/share/marble/data/*.css
 usr/share/marble/data/*.html
 usr/share/marble/data/*.leg
 usr/share/marble/data/audio/
 usr/share/marble/data/bitmaps/
 usr/share/marble/data/flags/
-usr/share/marble/data/locale/
 usr/share/marble/data/maps/
 usr/share/marble/data/mwdbii/
 usr/share/marble/data/naturalearth/
