@@ -12,6 +12,7 @@ usr/share/kservices5/plasma-applet-org.kde.plasma.worldclock.desktop
 usr/share/kservices5/plasma-wallpaper-org.kde.plasma.wallpaper.worldmap.desktop
 usr/share/kxmlgui5/marble/marble_part.rc
 usr/share/kxmlgui5/marble/marbleui.rc
+usr/share/locale/
 usr/share/marble/data/*.css
 usr/share/marble/data/*.html
 usr/share/marble/data/*.leg
