@@ -57,6 +57,8 @@ Depends: marble-data (>= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
 Suggests: gosmore, monav-routing-daemon, routino
+Replaces: marble-data (<< ${source:Version}~ciBuild)
+Breaks: marble-data (<< ${source:Version}~ciBuild)
 Description: globe and map widget
  Marble is a generic geographical map widget and framework for KDE
  applications. The Marble widget shows the earth as a sphere but does not
