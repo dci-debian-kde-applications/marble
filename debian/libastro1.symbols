@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:16.08.0 amd64
+# SymbolsHelper-Confirmed: 4:17.08.1 amd64
 libastro.so.1 libastro1 #MINVER#
  _Z11JupCallistodR4Vec3S0_@Base 4:4.12.80
  _Z11JupGanymededR4Vec3S0_@Base 4:4.12.80
@@ -12,7 +12,7 @@ libastro.so.1 libastro1 #MINVER#
  _Z5JupIodR4Vec3S0_@Base 4:4.12.80
  _Z5ellipddddddR4Vec3S0_@Base 4:4.12.80
  _Z5parabdddddR4Vec3S0_@Base 4:4.12.80
- _Z6AppPosdddddi4Vec3RdS0_S0_@Base 4:4.12.80
+ _Z6AppPosdddddiRK4Vec3RdS2_S2_@Base 4:17.08.1
  _Z6EquHordddd4Vec3@Base 4:4.12.80
  _Z6GeoPosddddd@Base 4:4.12.80
  _Z6GeoPosddddddd@Base 4:4.12.80
@@ -140,7 +140,7 @@ libastro.so.1 libastro1 #MINVER#
  _ZN11SolarSystem8getDioneERdS0_@Base 4:15.08.0
  _ZN11SolarSystem8getEarthERdS0_@Base 4:4.12.80
  _ZN11SolarSystem8getMimasERdS0_@Base 4:15.08.0
- _ZN11SolarSystem8getRaDecE4Vec3RdS1_@Base 4:4.12.80
+ _ZN11SolarSystem8getRaDecERK4Vec3RdS3_@Base 4:17.08.1
  _ZN11SolarSystem8getTitanERdS0_@Base 4:15.08.0
  _ZN11SolarSystem8getVenusERdS0_@Base 4:4.12.80
  _ZN11SolarSystem8setEpochEd@Base 4:4.12.80
@@ -305,7 +305,7 @@ libastro.so.1 libastro1 #MINVER#
  _ZN8EclSolar9InitBoundEv@Base 4:4.12.80
  _ZN8EclSolar9getEclTxtEiPc@Base 4:4.12.80
  _ZN8EclSolar9getMaxPosERdS0_@Base 4:4.12.80
- _ZN8EclSolar9getlocmagEddddd4Vec3S0_Ri@Base 4:4.12.80
+ _ZN8EclSolar9getlocmagEdddddRK4Vec3S2_Ri@Base 4:17.08.1
  _ZN8EclSolar9navCourseEdddd@Base 4:4.12.80
  _ZN8EclSolar9navNewPosEddddRdS0_@Base 4:4.12.80
  _ZN8EclSolarC1Ev@Base 4:4.12.80
