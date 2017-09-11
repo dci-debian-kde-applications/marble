@@ -22,6 +22,7 @@ Build-Depends: cmake (>= 2.8.12~),
                libopencv-highgui-dev,
                libopencv-imgproc-dev,
                libphonon4qt5-dev,
+               libphonon4qt5experimental-dev,
                libprotobuf-dev,
                libqt5opengl5-dev,
                libqt5serialport5-dev,
@@ -29,6 +30,7 @@ Build-Depends: cmake (>= 2.8.12~),
                libqt5webkit5-dev (>= 5.4),
                libquazip5-dev,
                libshp-dev,
+               libwlocate-dev,
                pkg-config,
                pkg-kde-tools (>= 0.12),
                python-dev,
@@ -55,6 +57,8 @@ Depends: marble-data (>= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
 Suggests: gosmore, monav-routing-daemon, routino
+Replaces: marble-data (<< 4:17.08.1)
+Breaks: marble-data (<< 4:17.08.1)
 Description: globe and map widget
  Marble is a generic geographical map widget and framework for KDE
  applications. The Marble widget shows the earth as a sphere but does not
@@ -99,9 +103,13 @@ Description: globe and map widget (no KDE dependencies)
 Package: marble-data
 Architecture: all
 Section: misc
-Depends: ${misc:Depends}
-Breaks: marble (<= 4:15.08.0+dfsg-1)
-Replaces: marble (<= 4:15.08.0+dfsg-1)
+Depends: plasma-framework,
+         qml-module-qtquick-controls,
+         qml-module-qtquick-layouts,
+         qml-module-qtquick2,
+         ${misc:Depends}
+Breaks: marble (<= 4:15.08.0+dfsg-1), ${kde-l10n:all}
+Replaces: marble (<= 4:15.08.0+dfsg-1), ${kde-l10n:all}
 Description: data files for Marble
  Marble is a generic geographical map widget and framework for KDE
  applications. The Marble widget shows the earth as a sphere but does not
@@ -128,7 +136,7 @@ Description: plugins for Marble
  .
  This package is part of the KDE education module.
 
-Package: libmarblewidget-qt5-25
+Package: libmarblewidget-qt5-28
 Architecture: any
 Section: libs
 Depends: marble-data (>= ${source:Version}), ${misc:Depends}, ${shlibs:Depends}
@@ -161,11 +169,11 @@ Package: libmarble-dev
 Architecture: any
 Section: libdevel
 Depends: libastro-dev (= ${binary:Version}),
-         libmarblewidget-qt5-25 (= ${binary:Version}),
+         libmarblewidget-qt5-28 (= ${binary:Version}),
          libqt5webkit5-dev (>= 5.4),
          qtdeclarative5-dev (>= 5.4),
          ${misc:Depends},
-         ${sameVersionDep:qtbase5-dev:libmarblewidget-qt5-25},
+         ${sameVersionDep:qtbase5-dev:libmarblewidget-qt5-28},
          ${shlibs:Depends}
 Description: development files for the Marble globe widget library
  Marble is a generic geographical map widget and framework for KDE

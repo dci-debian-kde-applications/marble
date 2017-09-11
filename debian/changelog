@@ -1,3 +1,63 @@
+marble (4:17.08.1-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Tue, 05 Sep 2017 14:06:12 +0000
+
+marble (4:17.08.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Thu, 17 Aug 2017 09:44:53 +0000
+
+marble (4:17.04.3-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 12 Jul 2017 10:25:51 +0000
+
+marble (4:17.04.2-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 07 Jun 2017 12:25:06 +0000
+
+marble (4:17.04.1-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Thu, 11 May 2017 18:27:22 +0000
+
+marble (4:17.04.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 19 Apr 2017 13:07:11 +0000
+
+marble (4:16.12.3-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 08 Mar 2017 13:51:28 +0000
+
+marble (4:16.12.2-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 08 Feb 2017 17:04:24 +0000
+
+marble (4:16.12.1-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 11 Jan 2017 13:26:01 +0000
+
+marble (4:16.12.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 14 Dec 2016 16:33:10 +0000
+
 marble (4:16.08.3-1) unstable; urgency=medium
 
   [ Automatic packaging ]
@@ -8,6 +68,12 @@ marble (4:16.08.3-1) unstable; urgency=medium
   * New upstream release (16.08.3)
 
  -- Maximiliano Curia <maxy@debian.org>  Wed, 23 Nov 2016 22:04:04 +0100
+
+marble (4:16.08.3-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Mon, 21 Nov 2016 13:55:16 +0000
 
 marble (4:16.08.2-1) unstable; urgency=medium
 
@@ -23,6 +89,36 @@ marble (4:16.08.2-1) unstable; urgency=medium
   * Follow upstream libmarblewidget soversion bump
 
  -- Maximiliano Curia <maxy@debian.org>  Tue, 18 Oct 2016 10:57:31 +0200
+
+marble (4:16.08.2-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Fri, 14 Oct 2016 13:41:38 +0000
+
+marble (4:16.08.1-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Fri, 16 Sep 2016 13:08:41 +0000
+
+marble (4:16.08.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Thu, 18 Aug 2016 13:29:49 +0000
+
+marble (4:16.04.3-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Tue, 12 Jul 2016 11:36:48 +0000
+
+marble (4:16.04.2-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Thu, 16 Jun 2016 11:09:23 +0000
 
 marble (4:16.04.1-3) unstable; urgency=medium
 
