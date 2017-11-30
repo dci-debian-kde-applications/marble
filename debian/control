@@ -43,15 +43,15 @@ Build-Depends: cmake (>= 2.8.12~),
                shared-mime-info,
                sip-dev,
                zlib1g-dev,
-Standards-Version: 4.1.0
-Homepage: http://edu.kde.org/
+Standards-Version: 4.1.1
+Homepage: https://marble.kde.org/
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/applications/marble.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/marble.git
 
 Package: libastro-dev
 Architecture: any
 Section: libdevel
-Depends: libastro1 (= ${binary:Version}), ${misc:Depends}, ${shlibs:Depends}
+Depends: libastro1 (= ${binary:Version}), ${misc:Depends}
 Description: development files for the Marble astrononmy library
  Marble is a generic geographical map widget and framework for KDE
  applications. The Marble widget shows the earth as a sphere but does not
