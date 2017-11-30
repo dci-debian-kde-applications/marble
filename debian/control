@@ -43,7 +43,7 @@ Build-Depends: cmake (>= 2.8.12~),
                sip-dev,
                zlib1g-dev
 Standards-Version: 3.9.8
-Homepage: http://edu.kde.org/
+Homepage: https://marble.kde.org/
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/applications/marble.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/marble.git
 
