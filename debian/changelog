@@ -9,6 +9,7 @@ marble (4:17.08.3-0r1) UNRELEASED; urgency=medium
     libopencv-core-dev, libopencv-highgui-dev, libopencv-imgproc-dev,
     libprotobuf-dev, libquazip5-dev, python-dev, qtscript5-dev, and sip-dev
     - explicitly add libkf5plasma-dev
+  * Update symbols file.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 30 Nov 2017 07:55:07 +0100
 
