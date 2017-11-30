@@ -181,7 +181,7 @@ Description: development files for the Marble globe widget library
 Package: libastro-dev
 Architecture: any
 Section: libdevel
-Depends: libastro1 (= ${binary:Version}), ${misc:Depends}, ${shlibs:Depends}
+Depends: libastro1 (= ${binary:Version}), ${misc:Depends}
 Description: development files for the Marble astrononmy library
  Marble is a generic geographical map widget and framework for KDE
  applications. The Marble widget shows the earth as a sphere but does not
