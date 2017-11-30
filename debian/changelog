@@ -2,6 +2,7 @@ marble (4:17.08.3-0r1) UNRELEASED; urgency=medium
 
   [ Pino Toscano ]
   * New upstream release.
+  * Merge changes from 4:16.08.3-2.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 30 Nov 2017 07:55:07 +0100
 
