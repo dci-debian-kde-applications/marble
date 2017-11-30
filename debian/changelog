@@ -1,5 +1,7 @@
 marble (4:16.08.3-2) UNRELEASED; urgency=medium
 
+  [ Pino Toscano ]
+  * Update symbols files. (Closes: #879094)
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 30 Nov 2017 06:53:03 +0100
 
