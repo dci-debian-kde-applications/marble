@@ -1,15 +1,3 @@
 usr/share/icons/hicolor/*/apps/marble.png
 usr/share/locale/*/LC_MESSAGES/marble_qt.qm
-usr/share/marble/data/*.css
-usr/share/marble/data/*.html
-usr/share/marble/data/*.leg
-usr/share/marble/data/audio/
-usr/share/marble/data/bitmaps/
-usr/share/marble/data/flags/
-usr/share/marble/data/maps/
-usr/share/marble/data/mwdbii/
-usr/share/marble/data/naturalearth/
-usr/share/marble/data/placemarks/
-usr/share/marble/data/stars/
-usr/share/marble/data/svg/
-usr/share/marble/data/weather/
+usr/share/marble/

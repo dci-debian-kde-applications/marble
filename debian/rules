@@ -21,6 +21,12 @@ override_dh_auto_configure:
 				 -DMARBLE_INSTALL_ANDROID_APPS=ON \
 				 $(conf_args)
 
+override_dh_auto_install:
+	$(overridden_command)
+	# remove extra license files
+	rm -f debian/tmp/usr/share/marble/data/LICENSE.txt
+	rm -rf debian/tmp/usr/share/marble/data/licenses/
+
 override_dh_strip:
 	$(overridden_command) --dbgsym-migration='marble-dbg (<= 4:15.12.1-1~~)'
 

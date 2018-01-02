@@ -10,6 +10,10 @@ marble (4:17.08.3-3) UNRELEASED; urgency=medium
       depend on it
     - new plasma-marble: contains all the Plasma-related bits; move the Plasma
       dependencies for it from marble-data (Closes: #884027)
+  * Remove in the dh_auto_install override all the files that must not be
+    installed, instead of ignoring them
+    - simplify a bit one install file
+    - drop not-installed, no more needed now
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 02 Jan 2018 18:12:11 +0100
 
