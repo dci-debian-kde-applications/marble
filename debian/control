@@ -92,7 +92,7 @@ Description: development files for the Marble globe widget library
 Package: libmarblewidget-qt5-28
 Architecture: any
 Section: libs
-Depends: marble-data (>= ${source:Version}), ${misc:Depends}, ${shlibs:Depends}
+Depends: marble-qt-data (>= ${source:Version}), ${misc:Depends}, ${shlibs:Depends}
 Recommends: marble-plugins (= ${binary:Version})
 Description: Marble globe widget library
  Marble is a generic geographical map widget and framework for KDE
@@ -125,10 +125,7 @@ Description: globe and map widget
 Package: marble-data
 Architecture: all
 Section: misc
-Depends: plasma-framework,
-         qml-module-qtquick-controls,
-         qml-module-qtquick-layouts,
-         qml-module-qtquick2,
+Depends: marble-qt-data (= ${source:Version}),
          ${misc:Depends},
 Breaks: marble (<= 4:15.08.0+dfsg-1), ${kde-l10n:all}
 Replaces: marble (<= 4:15.08.0+dfsg-1), ${kde-l10n:all}
@@ -188,5 +185,48 @@ Description: globe and map widget (no KDE dependencies)
  applications. The Marble widget shows the earth as a sphere but does not
  require hardware acceleration.  A minimal set of geographical data is
  included, so it can be used without an internet connection.
+ .
+ This package is part of the KDE education module.
+
+Package: marble-qt-data
+Architecture: all
+Section: misc
+Depends: ${misc:Depends},
+Breaks: marble-data (<< 4:17.08.3-3~), ${kde-l10n:all}
+Replaces: marble-data (<< 4:17.08.3-3~), ${kde-l10n:all}
+Description: Qt-only data files for Marble
+ Marble is a generic geographical map widget and framework for KDE
+ applications. The Marble widget shows the earth as a sphere but does not
+ require hardware acceleration.  A minimal set of geographical data is
+ included, so it can be used without an internet connection.
+ .
+ This package contains the architecture-independent data files for the Marble
+ desktop globe.
+ .
+ This package is part of the KDE education module.
+
+Package: plasma-marble
+Architecture: any
+Section: misc
+Depends: marble-data (>= ${source:Version}),
+         marble-plugins (= ${binary:Version}),
+         plasma-framework,
+         qml-module-qtquick-controls,
+         qml-module-qtquick-layouts,
+         qml-module-qtquick2,
+         ${misc:Depends},
+         ${shlibs:Depends},
+Breaks: marble (<< 4:17.08.3-3~), marble-data (<< 4:17.08.3-3~)
+Replaces: marble (<< 4:17.08.3-3~), marble-data (<< 4:17.08.3-3~)
+Description: Plasma integration for Marble
+ Marble is a generic geographical map widget and framework for KDE
+ applications. The Marble widget shows the earth as a sphere but does not
+ require hardware acceleration.  A minimal set of geographical data is
+ included, so it can be used without an internet connection.
+ .
+ This package contains the Marble integration with Plasma:
+  * the Plasma runner
+  * the World Clock widget
+  * the Plasma wallpaper
  .
  This package is part of the KDE education module.
