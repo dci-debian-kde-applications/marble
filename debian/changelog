@@ -1,5 +1,8 @@
 marble (4:17.08.3-3) UNRELEASED; urgency=medium
 
+  [ Pino Toscano ]
+  * Unregister /etc/xdg/marble.knsrc as marble-data conffile (it is a conffile
+    of marble now). (Closes: #885067)
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 02 Jan 2018 18:12:11 +0100
 
