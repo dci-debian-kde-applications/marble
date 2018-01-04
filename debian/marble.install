@@ -5,6 +5,7 @@ usr/lib/*/qt5/plugins/libmarblethumbnail.so
 usr/lib/*/qt5/plugins/plasma_runner_marble.so
 usr/lib/*/qt5/qml/org/kde/marble/private/plasma/libmarblequick.so
 usr/lib/*/qt5/qml/org/kde/marble/private/plasma/qmldir
+usr/share/*/org.kde.marble.appdata.xml
 usr/share/applications/marble_geo.desktop
 usr/share/applications/marble_gpx.desktop
 usr/share/applications/marble_kml.desktop
