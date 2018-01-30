@@ -57,6 +57,8 @@ Depends: marble-data (>= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
 Suggests: gosmore, monav-routing-daemon, routino
+Replaces: marble-data (<< 4:17.08.1)
+Breaks: marble-data (<< 4:17.08.1)
 Description: globe and map widget
  Marble is a generic geographical map widget and framework for KDE
  applications. The Marble widget shows the earth as a sphere but does not
@@ -134,7 +136,7 @@ Description: plugins for Marble
  .
  This package is part of the KDE education module.
 
-Package: libmarblewidget-qt5-27
+Package: libmarblewidget-qt5-28
 Architecture: any
 Section: libs
 Depends: marble-data (>= ${source:Version}), ${misc:Depends}, ${shlibs:Depends}
@@ -167,11 +169,11 @@ Package: libmarble-dev
 Architecture: any
 Section: libdevel
 Depends: libastro-dev (= ${binary:Version}),
-         libmarblewidget-qt5-27 (= ${binary:Version}),
+         libmarblewidget-qt5-28 (= ${binary:Version}),
          libqt5webkit5-dev (>= 5.4),
          qtdeclarative5-dev (>= 5.4),
          ${misc:Depends},
-         ${sameVersionDep:qtbase5-dev:libmarblewidget-qt5-27},
+         ${sameVersionDep:qtbase5-dev:libmarblewidget-qt5-28},
          ${shlibs:Depends}
 Description: development files for the Marble globe widget library
  Marble is a generic geographical map widget and framework for KDE
